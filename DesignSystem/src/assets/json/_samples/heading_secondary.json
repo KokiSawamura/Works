@@ -1,0 +1,13 @@
+{
+	"component": "Heading",
+	"type": "h1",
+	"target": ["designer","developer"],
+	"text": {
+		"en": "h1.Heading",
+		"jp": ""
+	},
+	"secondary": {
+		"en": "Secondary Text",
+		"jp": ""
+	}
+}

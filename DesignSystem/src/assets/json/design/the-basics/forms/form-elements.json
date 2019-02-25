@@ -1,0 +1,1441 @@
+[
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Form elements",
+          "jp": "フォーム要素"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "form-elements-label-example",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Labels",
+          "jp": "ラベル"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "All form elements have labels, explaining the purpose of the element or the option it represents (in the case of radio buttons, checkboxes and selects).\r\nMake sure the language of your labels is positive and friendly. A form is a conversation, not an interrogation. Aggressive wording might put people on edge, and make them give you the answers they think you want to hear, rather than the truth. This is especially valid for surveys and feedback forms.\r\nKeep labels as short and to the point as possible. Make sure they are clear and unambiguous. If your labels’ meanings are obscure, they could be misunderstood by users, and they won’t give you the information you are looking for. It’s always good practice to ask other people to read your labels to make sure they are clear and precise. Best if it’s tested with users, especially if the form has high value and will be used for a long time, like registration or checkout forms. If users are not readily available, showing your form to anybody who hasn’t seen it will be helpful, like colleagues not working on the project, or even friends and family.\r\nFor Western languages, use sentence case for all labels, because it’s easiest to read. Title case should be avoided, because it makes labels longer than two words hard to read. Title case also doesn’t work for labels that contain questions, or any longer labels with punctuation. Never use all caps for form labels – this makes them extremely difficult to read and scan.",
+          "jp": "全てのフォーム要素には、その目的や選択肢（ラジオボタンやチェックボタン、セレクトボックスである場合）を説明するラベルがあります。フォームは尋問ではなく対話なので、ラベルに用いる言葉はポジティブで親しみやすい表現にしてください。攻撃的な言葉遣いはユーザーを緊張させ、事実ではなくこちらが望んでいるような答えをしてしまうバイアスをかけてしまいます。特に、調査や意見を聞く場合に顕著になります。ラベルは可能な限り短く、そして明確にしましょう。ラベルの意味が不明瞭だと、ユーザーに誤解されやすく必要な情報を取得できなくなるかもしれません。ラベルが十分に明瞭で具体的かを、他の人に確認してもらうと良いでしょう。特に登録やチェックアウトのように重要で長期的に使用するものは、ユーザーテストの機会を設けましょう。もしユーザーに見せる機会がない場合は、プロジェクトに関わっていない同僚や家族など、今までそのフォームを見たことがない人に見せることも役に立ちます。可読性を高めるため、西洋語に対してはセンテンスケース（文頭だけを大文字にする）を使用してください。タイトルケース（各単語の頭文字を大文字にする）は、２つ以上の語句のラベルが読みにくくなるので使用しないでください。同様に、タイトルケースは質問を含むラベルや句読点を含む場合にも向いていません。また、オールキャップス（全ての文字を大文字にする）は、可読性が大幅に下がるため避けてください。"
+        }
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "12",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "InputGroup",
+                    "type": "",
+                    "state": "",
+                    "helperText": {
+                      "en": "",
+                      "jp": ""
+                    },
+                    "value": {
+                      "en": "",
+                      "jp": ""
+                    },
+                    "placeHolder": {
+                      "en": "",
+                      "jp": ""
+                    },
+                    "label": {
+                      "en": "Label",
+                      "jp": "ラベル"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "12",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "TextArea",
+                    "type": "textarea-active",
+                    "helperText": {
+                      "en": "",
+                      "jp": ""
+                    },
+                    "placeHolder": {
+                      "en": "",
+                      "jp": ""
+                    },
+                    "label": {
+                      "en": "Label",
+                      "jp": "ラベル"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "12",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "Checkbox",
+                    "id": "rex-checkbox-0",
+                    "text": {
+                      "en": "Checkbox",
+                      "jp": "チェックボックス"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "12",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "RadioButton",
+                    "id": "rex-radio-0",
+                    "text": {
+                      "en": [
+                        "Radio"
+                      ],
+                      "jp": [
+                        "ラジオ"
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "formsImgLabel2@2x.png",
+                  "jp": "formsImgLabel2@2x.png"
+                }
+              },
+              {
+                "component": "Do",
+                "text": {
+                  "en": "Use sentence case for your form labels",
+                  "jp": "ラベルにはセンテンスケースを使用します"
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "formsImgLabel3@2x.png",
+                  "jp": "formsImgLabel3@2x.png"
+                }
+              },
+              {
+                "component": "Dont",
+                "text": {
+                  "en": "Don’t use title case or all caps for labels, because it reduces readability",
+                  "jp": "タイトルケース及びオールキャップスは使用しないでください"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Text inputs",
+          "jp": "テキストインプットフィールド"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Used to capture text input from users. They consist of an input box, input label, Placeholder (optional) and help text (optional).",
+          "jp": "ユーザーの入力したテキスト情報を取得するために使用します。テキストインプットフィールドはインプットボックス、インプットラベル、プレースホルダー（任意）、ヘルプテキスト（任意）から構成されます。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Input boxes",
+          "jp": "インプットボックス"
+        }
+      },
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": [
+            {
+              "text": "According to their "
+            },
+            {
+              "text": "content",
+              "type": "strong"
+            },
+            {
+              "text": ", input boxes can be one of the following types:"
+            }
+          ],
+          "jp": [
+            {
+              "text": "コンテンツ",
+              "type": "strong"
+            },
+            {
+              "text": "に合わせて、インプットボックスは下記のタイプがあります。"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h5",
+        "text": {
+          "en": "Input field",
+          "jp": "インプットフィールド"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Used for a single line of text. If the inputted string is longer than the width of the field, the text scrolls to the left. Use when the inputted text is likely to be short. i.e. Name, phone number, etc.",
+          "jp": "テキスト１行分のインプットフィールドです。入力されたテキストがフィールドに収まらない場合は、テキストは左へスクロールされます。氏名、電話番号など比較的短いテキスト入力に使用してください。"
+        }
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "formImgInputField1@2x.png",
+                  "jp": "formImgInputField1@2x.png"
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "form_form-elements_img2.png",
+                  "jp": "form_form-elements_img2.png"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h5",
+        "text": {
+          "en": "Text area",
+          "jp": "テキストエリア"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Used for multi-line text. If the inputted string is longer than the width of the field, it wraps on two or more lines. A text area also has a fixed height and when the text reaches the bottom of the area, the text scrolls up. The height depends on your layout and the required information, but the minimum height for a text area is 3 lines. Make sure to allocate enough height for the average expected content. For example, a review box would be taller, because people can write quite a lot when it comes to product reviews. Use when the inputted text is likely to be long. i.e. Comment or review body.",
+          "jp": "複数行のインプットフィールドです。入力されたテキストがフィールドの幅を超えた場合はテキストが改行されます。テキストエリアの高さは固定されており、入力したテキストが最下部を超えた場合は、テキストが上へスクロールされます。テキストエリアの高さは、情報またはページのレイアウトによって変化しますが、最低でも３行分を確保してください。また、予想される入力内容に対して十分な高さを設定してください。例えば、レビュー欄はお客様が商品の評価を長く書けるように、高めに設定しましょう。これは、コメントやレビューなど比較的長いテキスト入力に使用してください。"
+        }
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "formImgTextArea1@2x.png",
+                  "jp": "formImgTextArea1@2x.png"
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "form_form-elements_img3.png",
+                  "jp": "form_form-elements_img3.png"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": [
+            {
+              "text": "According to "
+            },
+            {
+              "text": "the type of data",
+              "type": "strong"
+            },
+            {
+              "text": " they accept, text inputs can be one of the following types:"
+            }
+          ],
+          "jp": [
+            {
+              "text": "入力するデータのタイプ",
+              "type": "strong"
+            },
+            {
+              "text": "によって、テキストインプットは下記に分類されます。"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h5",
+        "text": {
+          "en": "Plain",
+          "jp": "プレーン"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Accepts any input. Use for inputs that require text and don’t have any format restrictions.",
+          "jp": "どのような入力にも用いられます。フォーマットに制限がない文字の入力に使用してください。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h5",
+        "text": {
+          "en": "Number",
+          "jp": "数字"
+        }
+      },
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": [
+            {
+              "text": "Accepts only numbers. When specific data format is required, show it using a placeholder or static text. This helps the user to quickly comprehend the required data, rather than having them guess the format.\r\nFor number field requiring specific number format, display it in the placeholder and add any required special characters (hyphens or brackets for phone numbers, etc.) at the appropriate places using static text.\r\nFor number field requiring a specific currency, indicate that currency at the start or before the field using static text. \r\nFor number field, requiring an amount with specific unit (weight, height, etc.), include that unit at the end or after the field using static text.\r\nOn devices with touch keyboard, make sure the number keyboard is shown to the user for these fields, to reduce user entry effort.\r\nNumber fields may have a restricted number of digits they can contain, i.e. Credit card number is always 16 digits. If this is the case, once the user has filled the required number of digits, automatically focus on the next input field. This makes for very fast form completion, especially for forms with a string of such fields, like credit card forms. For more information, see Common form patterns.\r\nThe only time to avoid auto focus is when there’s automatic action or a button associated with the field. This is the case for post code, when part of the address can be filled in automatically or on user action. For more information, see "
+            },
+            {
+              "text": "Common form patterns",
+              "type": "link",
+              "href": "/design/the-basics/forms/common-patterns/"
+            },
+            {
+              "text": "."
+            }
+          ],
+          "jp": [
+            {
+              "text": "数字フィールドでは、入力できる桁数に制限がある場合があります。例えばクレジットカード番号は常に16桁です。この場合、求められる桁数をユーザーが入力したら、自動的に次の入力フィールドをフォーカスするようにしてください。こうすることによりフォームの記入を (クレジットカードフォームなど、こうした入力フィールドが2～3個あるフォームの場合は特に) 非常に迅速に完了させることができます。より詳細な情報を得るには、一般的なフォームパターンを参照してください。\r\n例外として、フィールドに自動入力などのアクションやボタンが存在する時は、自動でフォーカスを移動させることは避けましょう。具体的には、郵便番号入力後、自動的またはユーザーのアクションをきっかけに住所の一部が入力される場合などがそれにあたります。より詳細な情報を得るには、"
+            },
+            {
+              "text": "一般的なフォームパターン",
+              "type": "link",
+              "href": "/design/the-basics/forms/common-patterns/"
+            },
+            {
+              "text": "を参照してください。"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h5",
+        "text": {
+          "en": "Email",
+          "jp": "Eメール"
+        }
+      },
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": [
+            {
+              "text": "Accepts email addresses and is restricted to the characters usually included in them. If only email address from specific provider is required, add it at the end or after the field using static text.\r\nOn devices with touch keyboard, make sure email keyboard is shown to the user for these fields, to reduce user entry effort. Also, make sure to disable autocorrect and auto-capitalization, because most emails are lowercase and might not be standard words.\r\nEmail fields are often the cause of hard bounces - drop offs caused by user input mistake. For more information on how to avoid that, see "
+            },
+            {
+              "text": "Common form patterns",
+              "type": "link",
+              "href": "/design/the-basics/forms/common-patterns/"
+            },
+            {
+              "text": "."
+            }
+          ],
+          "jp": [
+            {
+              "text": "大半のメールアドレスは小文字であり、標準的な単語ではない可能性もあるため、オートコレクト機能や自動で文頭を大文字にする機能を無効にしてください。\r\nEメールフィールドでは、ユーザーの入力ミスに起因するハードバウンス (離脱) がしばしば起こります。それを回避する方法について、より詳細な情報を得るには、"
+            },
+            {
+              "text": "一般的なフォームパターン",
+              "type": "link",
+              "href": "/design/the-basics/forms/common-patterns/"
+            },
+            {
+              "text": "を参照してください。"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Heading",
+                "type": "h5",
+                "text": {
+                  "en": "Password",
+                  "jp": "パスワード"
+                }
+              },
+              {
+                "component": "TextWithAnchor",
+                "type": "",
+                "text": {
+                  "en": [
+                    {
+                      "text": "The input is hidden as it’s typed for security reasons. Could be restricted to accept only characters that abide by the password rules. Since the inputted characters are hidden, this approach is not recommended – users might miss the fact that something didn’t go through. Better to allow all characters, and show an error if forbidden characters were entered.\r\nTo improve the usability on mobile devices, and to avoid a second field for confirming the password, implement a show/hide password button on the right hand side of the field. This will allow users to confirm they entered the correct password without having to type it twice. For more information on password field interactions and validation, see "
+                    },
+                    {
+                      "text": "Common form patterns",
+                      "type": "link",
+                      "href": "/design/the-basics/forms/common-patterns/"
+                    },
+                    {
+                      "text": "."
+                    }
+                  ],
+                  "jp": [
+                    {
+                      "text": "セキュリティ上の理由で入力内容は非表示になります。パスワードのルールに適応した文字のみを入力可能にすることができますが、入力されたテキストが非表示になっており、ユーザーはミスをしたことを見逃しやすいのでこの方法は推奨できません。入力される文字に制限は付けずに、ユーザーがパスワードとして使用できない文字を入力した際にエラーを返すようにしてください。\r\nパスワードフィールドのインタラクションや確認について、より詳細な情報を得るには、"
+                    },
+                    {
+                      "text": "一般的なフォームパターン",
+                      "type": "link",
+                      "href": "/design/the-basics/forms/common-patterns/"
+                    },
+                    {
+                      "text": "を参照してください。"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "InputGroup",
+                    "type": "password",
+                    "helperText": {
+                      "en": "0/60",
+                      "jp": "0/60"
+                    },
+                    "placeHolder": {
+                      "en": "",
+                      "jp": ""
+                    },
+                    "label": {
+                      "en": "Enter your password",
+                      "jp": "パスワードを入力してください"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Heading",
+                "type": "h5",
+                "text": {
+                  "en": "Input labels",
+                  "jp": "インプットラベル"
+                }
+              },
+              {
+                "component": "Text",
+                "type": "",
+                "text": {
+                  "en": "Input labels provide a description of what information needs to be included in the input field. Always use a label to describe the text input’s purpose rather than using a Placeholder, because Placeholders disappear as soon as one starts typing, leading to a loss of context. The only exceptions for this would be a search box and a login form, because they are straightforward and people are accustomed to using them. In this case only Placeholders could be used instead of labels. Keep labels short and to the point. Don’t add requirements or manuals in labels, use Placeholder or help text instead.",
+                  "jp": "インプットラベルは、インプットフィールドにどのような情報を打ち込むべきかを説明する役割を持っています。プレースホルダーは入力時には消えてしまうので、ユーザーは自分が何を入力するべきなのかを見失ってしまう恐れがあります。そのためインプットフィールドの目的を伝える際は常にラベルで表示してください。例外として、目的が明確でユーザーが慣れているため検索フィールドとログインフィールドにはプレースホルダーを使用できます。ラベルは簡潔にし、条件や説明にはプレースホルダーやヘルプテキストを使用してください。"
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "InputGroup",
+                    "type": "",
+                    "helperText": {
+                      "en": "",
+                      "jp": ""
+                    },
+                    "placeHolder": {
+                      "en": "",
+                      "jp": ""
+                    },
+                    "label": {
+                      "en": "label",
+                      "jp": "ラベル"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Heading",
+                "type": "h5",
+                "text": {
+                  "en": "Placeholders",
+                  "jp": "プレースホルダー"
+                }
+              },
+              {
+                "component": "Text",
+                "type": "",
+                "text": {
+                  "en": "Placeholders give additional information and examples of the information required by the user. Don’t use the placeholder instead of a label, because placeholders disappear as soon as one starts typing, leading to a loss of context. The only exceptions for this would be a search box and a login form, because they are straightforward and people are accustomed to using them. In this case only placeholders could be used instead of labels.\r\nDon’t use a placeholder to give information that the user will need while filling in the form, like password rules or character limits – use help text instead. \r\nOnly use placeholders for examples or as a part of a mask to indicate data format – see Number fields for more information.\r\nNot all fields need placeholders, sometimes the format of the field is clear enough from the label (i.e. a field called ‘First name’ doesn’t need any additional explanation). If a placeholder is required keep them short and to the point. Try to give concrete examples for the required information (email or phone number format), rather than give obvious explanation or repeat the label. If there’s no example or useful suggestion that can be given, skip the placeholder altogether.",
+                  "jp": "プレースホルダーは、記入例や追記の情報を提供します。プレースホルダーは入力時には消えてしまうので、ユーザーは自分が何を入力するべきなのかを見失ってしまう恐れがあります。そのためラベルの代わりには使用しないでください。例外として、目的が明確でユーザーが慣れているため検索フィールドとログインフィールドにはプレースホルダーを使用できます。プレースホルダーにはパスワードのルールや文字数制限といった、ユーザーが入力時に必要となる情報を含めず、それらにはヘルプテキストを使用してください。プレースホルダーは例を示すためか、求められるデータフォーマットを示すためにのみ使用してください。より詳細な情報を得るには数字フィールドの項を参照してください。全ての項目がプレースホルダーを持つ必要はなく、ラベルで十分に説明できている時には必要ありません（姓、名に補足の必要はないでしょう）。プレースホルダーが必要な場合は短く適切なものにし、入力される情報（メールアドレスや電話番号の形式）に対して冗長な説明やラベル内容の重複は避け、具体例を提示してください。もし記入例や有効な提案がなければ、プレースホルダーは必要ありません。"
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "InputGroup",
+                    "type": "",
+                    "helperText": {
+                      "en": "",
+                      "jp": ""
+                    },
+                    "placeHolder": {
+                      "en": "Placeholder",
+                      "jp": "プレースホルダー"
+                    },
+                    "label": {
+                      "en": "Label",
+                      "jp": "ラベル"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "formImgPlaceholdersEnglish1@2x.png",
+                  "jp": "formImgPlaceholdersEnglish1@2x-jp.png"
+                }
+              },
+              {
+                "component": "Do",
+                "text": {
+                  "en": "Give a concrete example, using the Placeholder",
+                  "jp": "プレースホルダーで具体的な例を提示"
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "formImgPlaceholdersEnglish2@2x.png",
+                  "jp": "formImgPlaceholdersEnglish2@2x-jp.png"
+                }
+              },
+              {
+                "component": "Dont",
+                "text": {
+                  "en": "Give obvious explanation or repeat the label - in cases like this it’s better to skip the Placeholder",
+                  "jp": "冗長な説明やラベルの内容の重複。この場合、プレースホルダーは必要ありません"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Heading",
+                "type": "h5",
+                "text": {
+                  "en": "Help text",
+                  "jp": "ヘルプテキスト"
+                }
+              },
+              {
+                "component": "Text",
+                "type": "",
+                "text": {
+                  "en": "Help text gives additional information that the user might need while filling the field itself (i.e. Password rules, character limit or warnings). \r\nNot all fields require help text. Don’t write help text just for the sake of it, or repeat the label or/and the Placeholder. If absolutely necessary, keep the help text as short and to the point as possible. Forms already strain the cognitive load of the user enough, without them needing to process long explanations as well. The two most common cases for text inputs needing help text is when there’s a character limit and when users are asked for sensitive information.\r\nIf the help text shows a character limit, only use numbers to indicate what the limit is. Update the typed character count dynamically and show an error when the count is exceeded.",
+                  "jp": "ヘルプテキストは、ユーザーが項目を入力している際に必要とする可能性のある追加情報（パスワードのルール、文字制限、警告等）を提示します。全ての項目にヘルプテキストを付ける必要はなく、形だけのものや、ラベル・プレースホルダーの内容を繰り返すような使い方はしないでください。また、フォームは既にユーザーに負荷をかけているので、ヘルプテキストは可能な限り短く適切な内容を記載してください。ヘルプテキストは、文字数制限がある場合と、個人情報をユーザーに求める場合の２つで多く使用されます。ヘルプテキストが文字数制限を示す場合は、数字のみで提示してください。入力された文字数をリアルタイムに更新して、一定値を超えた場合にエラーを返してください。"
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "InputGroup",
+                    "type": "",
+                    "helperText": {
+                      "en": "Help text",
+                      "jp": "ヘルプテキスト"
+                    },
+                    "placeHolder": {
+                      "en": "Placeholder",
+                      "jp": "プレースホルダー"
+                    },
+                    "label": {
+                      "en": "Label",
+                      "jp": "ラベル"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "form_form-elements_img0.png",
+                  "jp": "form_form-elements_img0.png"
+                }
+              },
+              {
+                "component": "Do",
+                "text": {
+                  "en": "Show clearly the character limit",
+                  "jp": "文字数制限を明確に示します"
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "form_form-elements_img1.png",
+                  "jp": "form_form-elements_img1.png"
+                }
+              },
+              {
+                "component": "Dont",
+                "text": {
+                  "en": "Show the character limit within a long string of text",
+                  "jp": "文字数制限を長いテキストで示さないでください"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "grayed-out-section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "UX value: Transparency",
+          "jp": "UXバリュー:明快な体験"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "If the field asks for sensitive information (phone number, etc.), then include help text to explain why this information is needed and what would it be used for. In cases like that use positive, reassuring language. Never intentionally write explanations that are faulty or misleading. Ask different people to read the copy, to make sure the correct meaning comes across. ",
+          "jp": "ある項目が個人情報（電話番号等）を要求する場合は、なぜこの情報が必要なのか、何に使われるのかをヘルプテキストで説明してください。その際、ポジティブでユーザーを安心させる言葉を選びましょう。ユーザーを意図的に誤解させるような表記は絶対にしないでください。なるべく多くの人にテキストを読んでもらい、正しく意図が伝わるか確認しましょう。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "form-elements-radio",
+    "data": [
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "12",
+            "data": [
+              {
+                "component": "Heading",
+                "type": "h3",
+                "text": {
+                  "en": "Radio buttons",
+                  "jp": "ラジオボタン"
+                }
+              },
+              {
+                "component": "Text",
+                "type": "",
+                "text": {
+                  "en": "Radio buttons are used as a group to allow the user to select one of multiple, sometimes mutually exclusive options. Use radio buttons when the user needs to be able to see all available options. If you have too many options (more than 6), use a select instead. \r\nIf the user can select more than one option, use checkboxes instead.\r\nIf you have only one radio button, use a switch instead. \r\nEvery radio button consists of the radio button itself and a corresponding label. Make sure that clicking the label, as well as the button itself, triggers the corresponding action. This is important both from accessibility and from mobile usability point of view.",
+                  "jp": "ラジオボタンは、ユーザーが複数の選択肢から１項目を選択するために使用され、選択肢は排他的で１つしか選択できません。ラジオボタンはユーザーが全ての選択肢を見る必要があるときに使用し、選択肢が多い場合（６項目より多い）は、セレクトボックスを使用してください。もし、複数選択が可能な場合は、チェックボックスを使用してください。また、ラジオボタンが１つしかない場合は、スイッチを使用してください。\r\nラジオボタンは、ラジオボタン自体とそれに対応するラベルによって構成されています。ラベルとボタン自体のどちらをクリックしても、対応するアクションが確実に起こるようにしてください。これはアクセシビリティとモバイルでのユーザビリティの双方の面から見て重要となります。"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "form_img_radio_specs.png",
+                  "jp": "form_img_radio_specs.png"
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "RadioButton",
+                    "id": "rex-radio-1",
+                    "text": {
+                      "en": [
+                        "Radio"
+                      ],
+                      "jp": [
+                        "Radio"
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "form-elements-checkbox",
+    "data": [
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "12",
+            "data": [
+              {
+                "component": "Heading",
+                "type": "h3",
+                "text": {
+                  "en": "Checkboxes",
+                  "jp": "チェックボックス"
+                }
+              },
+              {
+                "component": "Text",
+                "type": "",
+                "text": {
+                  "en": "Checkboxes are used as a group to allow the user to select several of a multitude of options. A group of checkboxes cannot include mutually exclusive options.\r\nIf the user can select only one option, use radio buttons instead.\r\nIf you have only one checkbox, use a switch instead. Exception to that will be an accept terms checkbox.\r\nEvery checkbox consists of the box itself and a corresponding label. Make sure that clicking the label, as well as the checkbox itself, triggers the corresponding action. This is important both from accessibility and from mobile usability point of view.",
+                  "jp": "チェックボックスは、ユーザーが選択肢から１つか複数を選択するために使用され、相互に排他的にはなりません。もし、ユーザーが選択肢を１つしか選べない場合は、ラジオボタンを使用してください。また、チェックボックスが１つしかない場合は、スイッチを使用してください。例外として、承諾や許可を受ける際の同意にはチェックボックスを使用してください。\r\nチェックボックスはボックス自体とそれに対応するラベルによって構成されています。ラベルとチェックボックス自体のどちらをクリックしても、対応するアクションが確実に起こるようにしてください。これはアクセシビリティとモバイルでのユーザビリティの双方の面から見て重要となります。"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "form_img_stepper_specs.png",
+                  "jp": "form_img_stepper_specs.png"
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "Checkbox",
+                    "id": "rex-checkbox-1",
+                    "text": {
+                      "en": "Checkbox",
+                      "jp": "チェックボックス"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "form-elements-stepper",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Steppers",
+          "jp": "ステッパー"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Steppers are a type of input box with additional controls, used to increase or decrease an incremental value. The control on the left decreases the value, and the one on the right increases it. The user is still able to input a number manually.\r\nUse for numbers that are not likely to change often or much, like quantity of a product. If the number can vary greatly, use a number input box instead.",
+          "jp": "ステッパーは入力値を増減させるためのコントロール機能のついた入力ボックスの一種です。左側のコントロールで入力値を減らし、右側で増やします。またユーザーは数字を直接入力することもできます。\r\n商品の数量など、あまり変えることがなく変える分量も少ない数字の入力フィールドに使用してください。入力値にかなり幅が見られる場合は、代わりに数字入力ボックスを使用してください。"
+        }
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "form_img_stepper_specs1.png",
+                  "jp": "form_img_stepper_specs1.png"
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "Stepper",
+                    "rightIcon": "plus",
+                    "leftIcon": "minus"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Sliders ",
+          "jp": "スライダー"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Sliders allow users to select from a range of options, when accuracy is not paramount.\r\nSliders are very good when adjusting settings that reflect intensity levels, such as volume, brightness or color saturation. \r\nAny slider consists of a track and a thumb. The track shows the range of the value, while moving the thumb adjusts it. Moving the thumb to the right increases the value, while moving it to the left decreases it.\r\nSliders can be one of two types:",
+          "jp": "スライダーは精密さが重要視されない場合に、ユーザーがオプションの範囲の中から選べるようにするものです。\r\nスライダーは音量、明るさ、彩度などの度合いの設定を調整する時にとても役立ちます。 \r\nスライダーはバーとつまみによって構成されています。バーは値の幅を示しており、つまみを動かすことで値を調整します。つまみを右に動かすと値が増加し、左に動かすと減少します。\r\nスライダーは次の2種類のどちらかを選べます:"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "form-elements-continuous-slider",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Continuous",
+          "jp": "無段階"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Continuous sliders don’t allow the user to select a specific numeric value, but rather a relatively high or low value according to a specific range. Such sliders are appropriate when the required adjustment is based on a percentage, rather than an explicit value.\r\nYou can use an icon at the start of the slider to indicate the type of value it controls. Alternatively, you can have icons on both sides of the slider to indicate minimum and maximum value. If the slider controls a value which can be represented by universally understood icon, like volume, it is sufficient to explain the slider’s purpose. In all other cases use a label to explain what value the slider controls.",
+          "jp": "無段階スライダーはユーザーに特定の数値を選ばせるのではなく、決められた範囲において比較的高い値、または低い値を選んでもらうものです。このスライダーは明確な値ではなくパーセンテージに基づく調整が求められる場合に適しています。\r\nスライダーの先頭に調整する値のタイプを示すアイコンを使用してもかまいませんし、スライダーの両側に最小値と最大値を示すアイコンを配置しても結構です。例えば音量のように普遍的に知られているアイコンで表せる値を調整するスライダーの場合は、そのアイコンを配置するだけでそのスライダーの目的を説明するに足ります。それ以外の場合にはすべて、そのスライダーは何の値を調整するものかを説明するラベルを使用してください。"
+        }
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "form_img_continuous_slider_specs.png",
+                  "jp": "form_img_continuous_slider_specs.png"
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "Slider"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "form-elements-discrete-slider",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Discrete",
+          "jp": "段階"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Discrete sliders allow the user to set a specific value out of a set of available values. The value is displayed in a label above the thumb, while the thumb itself snaps to predefined values. They can either be used to pick a specific value or a range of values (i.e. 3-12).\r\nUse discrete sliders only for a small range of values. Sliders in general are not good for setting a specific value from a wide range, because they are usually small and hard to manipulate, especially on touch interfaces. If you need the user to be able to do that (i.e. Set 52% out of 100%) you’d better use an input field with good helper text.",
+          "jp": "段階スライダーはいくつか用意された使用可能な値の中から特定の値をユーザーに選んでもらうものです。つまみが事前に規定された値に飛ぶと同時に、その値がつまみの上のラベルに表示されます。このスライダーはある特定の値を選ぶ時にも使えますし、値の範囲 (3～12など) を選ぶ時にも使えます。\r\n段階スライダーは値の範囲が小さい場合のみに使用してください。一般的にスライダーは広い範囲の中から特定の値を設定する時には適していません。たいていサイズが小さく、特にタッチ式のインターフェースでは操作が難しいからです。ユーザーがそういった操作 (例えば100%中52%きっかりに設定するなど) を行えるようにしたい場合は、スライダーではなくうまく説明文をつけた入力フィールドを使用した方がいいでしょう。"
+        }
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "form_img_discrete_slider_specs.png",
+                  "jp": "form_img_discrete_slider_specs.png"
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "Slider",
+                    "type": "range-tooltip"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "form-elements-switch",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Switches",
+          "jp": "スイッチ"
+        }
+      },
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": [
+            {
+              "text": "Switches toggle a single option between two states: on and off. The option that the switch controls as well as its state should be clear from the corresponding label. \r\nThe state of the switch is evident by the color and location of the switch thumb – colored thumb on the right-hand side for on, and gray on the left-hand side for off. You may add the corresponding label (on or off respectively) inside the switch for clarity. Make sure that the corresponding label makes it clear what the switch is controlling, and that there’s no ambiguity on what will happen if the user interacts with the switch.\r\nJust like with buttons, switches have two options – rounded corners and pills. Choose the type matching your selected main buttons style. For more information, see "
+            },
+            {
+              "text": "Button options",
+              "type": "link",
+              "href": "/design/the-basics/buttons/options/"
+            },
+            {
+              "text": "."
+            }
+          ],
+          "jp": [
+            {
+              "text": "スイッチは2つの状態を切り替えるもので、オプションのオン・オフを設定する時などに使用されます。スイッチがコントロールするオプションの内容と現在の状態は、対応するラベルにより明確にわかるようになっているべきです。 \r\nスイッチの状態は色とスイッチサムの位置から明確に示すことができます。サムが右側にあり色が付いている場合はオン、サムが左側にありグレーになっている場合はオフです。対応するラベルによってそのスイッチが何をコントロールしているのかをはっきりと示し、ユーザーがスイッチを操作すると何か起こるのかについて曖昧な点が残らないように注意してください。\r\nボタンと同様に、スイッチには角丸タイプと楕円タイプの2つのオプションがあります。選択したメインボタンのスタイルに合うものを選んでください。より詳細な情報を得るには"
+            },
+            {
+              "text": "ボタンオプション",
+              "type": "link",
+              "href": "/design/the-basics/buttons/options/"
+            },
+            {
+              "text": "を参照してください。"
+            }
+          ]
+        }
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "form_img_switches_specs.png",
+                  "jp": "form_img_switches_specs.png"
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "Switch",
+                    "type": "rounded"
+                  },
+                  {
+                    "component": "Switch"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Selects",
+          "jp": "セレクトボックス"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Selects are input fields that allow users to select from a multitude of options. Selects can be one of the following types:",
+          "jp": "セレクトボックスは、ユーザーが選択肢から選択するインプットフィールドです。下記のタイプがあります。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "form-elements-selects",
+    "data": [
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Heading",
+                "type": "h4",
+                "text": {
+                  "en": "Single-selects",
+                  "jp": "シングルセレクト"
+                }
+              },
+              {
+                "component": "Text",
+                "type": "",
+                "text": {
+                  "en": "When the user can select only one option. Use as an alternative to radio buttons for a large amount of options or when it’s not necessary for the user to see all the options, or for limited real estate. If you have too many options (over 25) allow the user to search for the one they need as well. This is good for common inputs like country, city, etc. If the single-select asks the user for country or city - information known to us or easily accessible (i.e. Using IP address or device location), pre-fill this information in the input. This will take some of the burden off the user and significantly improve usability and decrease drop-out rate, especially on mobile. For all other cases make sure not to have a default option pre-selected so as to minimize errors. Instead have a Placeholder suggesting a selection should be made.",
+                  "jp": "ユーザーが１項目だけ選択できる時に使います。ラジオボタンの代わりとして、大量の選択肢がある場合や、ユーザーが全ての選択肢を見る必要がない場合や、またはスペースが限られている場合に使用してください。選択肢が多い場合（２５項目以上）、ユーザーが探している項目を検索できるようにしましょう。これは、国や都市などの入力にも有効です。シングルセレクトが国や都市などIPアドレスやデバイスロケーションなどから簡単に取得できる情報の場合は、インプットフィールドにあらかじめ入れ込んでおきます。これにより、ユーザーの負荷を軽減しユーザビリティを大きく改善でき、特にモバイルの離脱率を低下できるでしょう。その他の場合は、エラーを最小限にするために、あらかじめ選択された項目は設けないようにしてください。代わりに選択する必要があることをプレースホルダーで示しましょう。"
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "form_img_single-selects2.png",
+                  "jp": "form_img_single-selects2.png"
+                }
+              },
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "Select",
+                    "type": "single",
+                    "name": "select-2",
+                    "options": {
+                      "en": [
+                        {
+                          "text": "Item 1",
+                          "value": "item-1-en"
+                        },
+                        {
+                          "text": "Item 2",
+                          "value": "item-2-en"
+                        },
+                        {
+                          "text": "Item 3",
+                          "value": "Item-3-en"
+                        }
+                      ],
+                      "jp": [
+                        {
+                          "text": "Item 1",
+                          "value": "item-1-en"
+                        },
+                        {
+                          "text": "Item 2",
+                          "value": "item-2-en"
+                        },
+                        {
+                          "text": "Item 3",
+                          "value": "Item-3-en"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

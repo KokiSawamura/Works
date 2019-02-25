@@ -1,0 +1,43 @@
+[
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "",
+          "jp": "バナー"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "",
+          "jp": "楽天カードでは多くのバナーを使いお客様の目を引くものなので、デザインクオリティの維持と視認性の向上の為、いくつかのルールが設けました。"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "",
+          "jp": "楽天カードで使用するバナーは以下のページのガイドラインを遵守して作成してください。"
+        }
+      },
+      {
+        "component": "List",
+        "type": "unstyled",
+        "list": {
+          "en": {},
+          "jp": [
+            {
+              "htmlText": "<a href='https://confluence.rakuten-it.com/confluence/pages/viewpage.action?pageId=1258293658' target='_blank'>バナーガイドライン</a>"
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

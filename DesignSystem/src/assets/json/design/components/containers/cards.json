@@ -1,0 +1,264 @@
+[
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Cards",
+          "jp": "カード"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "Cards are used for smaller amount of content than panels. Unlike panels, cards can have only one idea at a time placed on them, meaning the contents of the card need to relate to one article, or one product, etc. They usually serve as an entry point to more detailed information and provide only summary. Because of that, cards are usually used in groups.",
+          "jp": "カードはパネルよりも少量のコンテンツ向けに使用されます。パネルとは異なり、カードは一度に1つのコンテンツしか記載することができません。つまり、カードに載せるコンテンツはある単一の記事や製品などに関するものでなければなりません。たいていの場合カードには概要だけが提示され、より詳細な情報へと続く入り口の役割を果たします。そのためカードは通常、複数まとまった形で使用されます。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Types",
+          "jp": "タイプ"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Cards can be one of the following types:",
+          "jp": "カードは以下のタイプから選べます:"
+        }
+      },
+      {
+        "component": "List",
+        "type": "", 
+        "list": {
+          "en": [
+            {
+              "boldedPhrase": "Without border",
+              "text": " - defined by white space alone and are used as part of a list or a grid. They could have background, but do not have a border or drop-shadow"
+            },
+            {
+              "boldedPhrase": "With border",
+              "text": " - have borders and a light drop-shadow to make them stand out"
+            }
+          ],
+          "jp": [
+            {
+              "boldedPhrase": "枠線なし: ",
+              "text": "白いスペースのみで構成されており、リストやグリッドの一部として使用されます。背景を設定することはできますが、枠線やドロップシャドウはありません"
+            },
+            {
+              "boldedPhrase": "枠線あり: ",
+              "text": "目立つように枠線と軽いドロップシャドウがついています"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "containers_cards_img0.png",
+          "jp": "containers_cards_img0.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "containers_cards_img2.png",
+          "jp": "containers_cards_img2.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Usage",
+          "jp": "使用方法"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Cards are clickable in their entirety, but can also contain up to two secondary actions, none of which should duplicate the action, preformed by clicking the whole card. The secondary actions are always represented by buttons – do not use inline links on cards.\r\nIf you have more than two actions, you can add them into a submenu. For more information, see Card submenu below. Group all of your actions together, either at the top or the bottom of the card. This makes it easy for the user to know where to look for them, especially for visually busy cards.",
+          "jp": "カードはその全体がクリック可能となっていますが、さらに二次アクションを2つまで追加することもできます。カード全体をクリックすると実行されるアクションと同じアクションを二次アクションに設定することは避けてください。二次アクションは必ずボタンによって示すようにし、カードにインラインリンクは使わないでください。\r\n2つ以上のアクションがある場合は、サブメニューの中に追加することができます。より詳細な情報を得るには、以下にあるカードサブメニューの項を参照してください。\r\nアクションはすべてグループにまとめ、カードの上部または下部に配置してください。これによりユーザーはどこを探すべきかを理解しやすくなります。これは視覚的情報の多いカードでは特に有効です。"
+        }
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "containers_cards_img3.png",
+                  "jp": "containers_cards_img3.png"
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "containers_cards_img4.png",
+                  "jp": "containers_cards_img4.png"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "front-page-blockquote",
+    "data": [
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "There’s no restriction to the elements a card can contain, but usually it consists of an image, title and some content. You can include tags in your cards as well, which does not replace your actions, but is in addition to them. Keep all tags grouped together.",
+          "jp": "1つのカードに載せられる要素の量に制限はありませんが、画像1枚、タイトル、および多少のコンテンツで構成されているのが一般的です。またカードにタグを加えてもかまいませんが、アクションを置き換えるものではなく、規定のアクションに追加する形のタグにしてください。タグはすべてグループにまとめておいてください。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "containers_cards_img5.png",
+          "jp": "containers_cards_img5.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "containers_cards_img6.png",
+          "jp": "containers_cards_img6.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Card submenu",
+          "jp": "カードサブメニュー"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "This menu is represented by three horizontal dots and is located either at the bottom- or top-right corner of your container. Upon interaction it calls a pop-over menu that expands upward or downward from the point of interaction, depending on the location of the submenu button. The card submenu expands as wide as the longest menu item and as high as the maximum height of your card. The submenu is scrollable and any links that don’t fit are hidden out of sight. Even though this allows you to have as many actions as you like, we recommend to not have more than 7 links in a submenu. More will overwhelm the user, because they’ll need to remember the links out of sight as they scroll.",
+          "jp": "このメニューは平行に3つ並んだドットによって表されるもので、コンテナの右下か右上に配置されます。操作すると、サブメニューボタンの配置場所によって操作点から上方または下方に展開するポップオーバーメニューが呼び出されます。カードサブメニューの最大許容サイズとしては、横幅は最も長いメニューアイテムと同じ幅まで、高さはカードと同じ高さまで展開することができます。サブメニューはスクロール可能で、入りきらないリンクは見えない部分に隠されています。これによりアクションはいくつでも好きなだけ入れることが可能ですが、サブメニュー内に7つ以上のリンクは入れないように推奨しています。7つ以上リンクがあると、ユーザーはスクロール中に見えなくなるリンクを覚えていなければならなくなり、負担になりすぎるからです。"
+        }
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "containers_cards_img1.png",
+                  "jp": "containers_cards_img1.png"
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "containers_cards_img7.png",
+                  "jp": "containers_cards_img7.png"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

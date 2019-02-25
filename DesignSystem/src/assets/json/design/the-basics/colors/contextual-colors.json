@@ -1,0 +1,489 @@
+[
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Contextual colors",
+          "jp": "コンテキストカラー"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "Contextual colors have a widely-accepted meaning, and when used to mark content, a similar meaning is implied on such content.",
+          "jp": "コンテキストカラーは一般的に認知された意味を持っており、それを使用するコンテンツにも同様の意味が付与されます。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Benefits",
+          "jp": "ベネフィット"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "To emphasize or de-emphasize certain content.",
+          "jp": "ある特定のコンテンツを強調、または控えめにすることができます。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Types",
+          "jp": "タイプ"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Contextual colors can be one of the following types:",
+          "jp": "コンテキストカラーには下記のタイプがあります。"
+        }
+      },
+      {
+        "component": "Section",
+        "data": [
+          {
+            "component": "Heading",
+            "type": "h4",
+            "text": {
+              "en": "Muted",
+              "jp": "ミュート"
+            }
+          },
+          {
+            "component": "Row",
+            "data": [
+              {
+                "component": "Column",
+                "cols": "6",
+                "data": [
+                  {
+                    "component": "Text",
+                    "type": "",
+                    "text": {
+                      "en": "Used to de-emphasize information with less importance than the main content. i.e. Notes, captions, etc.",
+                      "jp": "メインのコンテンツに比べて、それほど重要ではない情報（注釈やキャプション）を控えめに表現するのに使用します。"
+                    }
+                  }
+                ]
+              },
+              {
+                "component": "Column",
+                "cols": "6",
+                "data": [
+                  {
+                    "component": "WorkingExample",
+                    "data": [
+                      {
+                        "component": "ContextualText",
+                        "text": {
+                          "en": "This is muted text.\r\n$gray-dark is specified for color.",
+                          "jp": "ミュートカラーの文字列が入ります。$gray-darkが色に指定されています。"
+                        },
+                        "context": "muted"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "component": "Section",
+        "data": [
+          {
+            "component": "Heading",
+            "type": "h4",
+            "text": {
+              "en": "Primary",
+              "jp": "プライマリー"
+            }
+          },
+          {
+            "component": "Row",
+            "data": [
+              {
+                "component": "Column",
+                "cols": "6",
+                "data": [
+                  {
+                    "component": "Text",
+                    "type": "",
+                    "text": {
+                      "en": "This is the service primary color. Used for general-level service-related content.",
+                      "jp": "サービスカラーを示します。サービスに関連する一般的なレベルのコンテンツに使用してください。"
+                    }
+                  }
+                ]
+              },
+              {
+                "component": "Column",
+                "cols": "6",
+                "data": [
+                  {
+                    "component": "WorkingExample",
+                    "data": [
+                      {
+                        "component": "ContextualText",
+                        "text": {
+                          "en": "This is information text.\r\n$brand-info is specified for color.",
+                          "jp": "テキストプライマリーカラーの文字列が入ります。$brand-primaryが色に指定されています。"
+                        },
+                        "context": "primary"
+                      }
+                    ]
+                  },
+                  {
+                    "component": "WorkingExample",
+                    "data": [
+                      {
+                        "component": "ContextualBackground",
+                        "text": {
+                          "en": "This is information background color.\r\n$brand-info: Transparency 8% is specified for color.",
+                          "jp": "プライマリーカラーの背景。$brand-primaryが色に指定されています"
+                        },
+                        "context": "primary"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "component": "Section",
+        "data": [
+          {
+            "component": "Heading",
+            "type": "h4",
+            "text": {
+              "en": "Info",
+              "jp": "インフォ"
+            }
+          },
+          {
+            "component": "Row",
+            "data": [
+              {
+                "component": "Column",
+                "cols": "6",
+                "data": [
+                  {
+                    "component": "Text",
+                    "type": "",
+                    "text": {
+                      "en": "Used for areas that contain important, but not crucial information.",
+                      "jp": "決定的ではないが重要な情報を持つコンテンツに使用します。"
+                    }
+                  }
+                ]
+              },
+              {
+                "component": "Column",
+                "cols": "6",
+                "data": [
+                  {
+                    "component": "WorkingExample",
+                    "data": [
+                      {
+                        "component": "ContextualText",
+                        "text": {
+                          "en": "This is information text.\r\n$brand-info is specified for color.",
+                          "jp": "テキストサクセスカラーの文字列が入ります。$brand-successが色に指定されています。"
+                        },
+                        "context": "info"
+                      }
+                    ]
+                  },
+                  {
+                    "component": "WorkingExample",
+                    "data": [
+                      {
+                        "component": "ContextualBackground",
+                        "text": {
+                          "en": "This is information background color.\r\n$brand-info: Transparency 8% is specified for color.",
+                          "jp": "インフォメーションカラー背景に文字列が入ります。$brand-info:透明8%が色に指定されています"
+                        },
+                        "context": "info"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "component": "Section",
+        "data": [
+          {
+            "component": "Heading",
+            "type": "h4",
+            "text": {
+              "en": "Success",
+              "jp": "サクセス"
+            }
+          },
+          {
+            "component": "Row",
+            "data": [
+              {
+                "component": "Column",
+                "cols": "6",
+                "data": [
+                  {
+                    "component": "Text",
+                    "type": "",
+                    "text": {
+                      "en": "Used to indicate that an action’s been carried out successfully. i.e. After submitting a form or uploading a picture.",
+                      "jp": "フォームの送信や画像のアップロード後など、アクションが成功した時に使用します。"
+                    }
+                  }
+                ]
+              },
+              {
+                "component": "Column",
+                "cols": "6",
+                "data": [
+                  {
+                    "component": "WorkingExample",
+                    "data": [
+                      {
+                        "component": "ContextualText",
+                        "text": {
+                          "en": "This is success text.\r\n$brand-success is specified for color.",
+                          "jp": "テキストインフォメーションカラーの文字列が入ります。$brand-infoが色に指定されています。"
+                        },
+                        "context": "success"
+                      }
+                    ]
+                  },
+                  {
+                    "component": "WorkingExample",
+                    "data": [
+                      {
+                        "component": "ContextualBackground",
+                        "text": {
+                          "en": "This is success background color.\r\n$brand-success Transparency 8% is specified for color.",
+                          "jp": "サクセスカラー背景に文字列が入ります。$brand-success透明8%が色に指定されています"
+                        },
+                        "context": "success"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "component": "Section",
+        "data": [
+          {
+            "component": "Heading",
+            "type": "h4",
+            "text": {
+              "en": "Warning",
+              "jp": "警告"
+            }
+          },
+          {
+            "component": "Row",
+            "data": [
+              {
+                "component": "Column",
+                "cols": "6",
+                "data": [
+                  {
+                    "component": "Text",
+                    "type": "",
+                    "text": {
+                      "en": "Used to warn about important information that might or might not affect the user, like maintenance announcements or providing information about something expiring.",
+                      "jp": "ユーザーへの影響あるなしに関わらず、メンテナンスのアナウンスや期限切れなどに関する情報を知らせるために使用します。"
+                    }
+                  }
+                ]
+              },
+              {
+                "component": "Column",
+                "cols": "6",
+                "data": [
+                  {
+                    "component": "WorkingExample",
+                    "data": [
+                      {
+                        "component": "ContextualText",
+                        "text": {
+                          "en": "This is warning text.\r\n$brand-warning is specified for color.",
+                          "jp": "テキストワーニングカラーの文字列が入ります。$brand-warningが色に指定されています。"
+                        },
+                        "context": "warning"
+                      }
+                    ]
+                  },
+                  {
+                    "component": "WorkingExample",
+                    "data": [
+                      {
+                        "component": "ContextualBackground",
+                        "text": {
+                          "en": "This is warning background color.\r\n$brand-warning Transparency 8% is specified for color.",
+                          "jp": "ワーニングカラー背景に文字列が入ります。$brand-warning透明8%が色に指定されています"
+                        },
+                        "context": "warning"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "component": "Section",
+        "data": [
+          {
+            "component": "Heading",
+            "type": "h4",
+            "text": {
+              "en": "Danger",
+              "jp": "危険"
+            }
+          },
+          {
+            "component": "Row",
+            "data": [
+              {
+                "component": "Column",
+                "cols": "6",
+                "data": [
+                  {
+                    "component": "Text",
+                    "type": "",
+                    "text": {
+                      "en": "Used to emphasize areas with severe importance, like error states or security announcements.",
+                      "jp": "エラーステータスやセキュリティの告知のような深刻で重要な情報を強調するために使用します。"
+                    }
+                  } 
+                ]
+              },
+              {
+                "component": "Column",
+                "cols": "6",
+                "data": [
+                  {
+                    "component": "WorkingExample",
+                    "data": [
+                      {
+                        "component": "ContextualText",
+                        "text": {
+                          "en": "This is danger text.\r\n$brand-danger is specified for color.",
+                          "jp": "テキストデンジャーカラーの文字列が入ります。$brand-dangerが色に指定されています。"
+                        },
+                        "context": "danger"
+                      }
+                    ]
+                  },
+                  {
+                    "component": "WorkingExample",
+                    "data": [
+                      {
+                        "component": "ContextualBackground",
+                        "text": {
+                          "en": "This is danger background color.\r\n$brand-danger Transparency 8% is specified for color.",
+                          "jp": "デンジャーカラー背景に文字列が入ります。$brand-danger透明8%が色に指定されています"
+                        },
+                        "context": "danger"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Usage",
+          "jp": "使用法"
+        }
+      },
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": [
+            {
+              "text": "Contextual colors, especially success and danger are mostly used in forms, to provide feedback. For more information, see "
+            },
+            {
+              "text": " Forms",
+              "type": "link",
+              "href": "/design/the-basics/forms/forms-states-and-validation/"
+            },
+            {
+              "text": "."
+            }
+          ],
+          "jp": [
+            {
+              "text": "多くのコンテキストカラーは、特にサクセスや危険といったフィードバックを返すためにフォームで使用されます。詳細については、"
+            },
+            {
+              "text": "フォーム",
+              "type": "link",
+              "href": "/design/the-basics/forms/forms-states-and-validation/"
+            },
+            {
+              "text": "を確認してください。"
+            }
+          ]
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "With the exception of the muted color, don’t overuse contextual colors, since this defies their purpose. Other than the muted style, contextual colors are supposed emphasize the most important or even critical content. If a lot of elements are emphasized, this leads to visual noise and seriously reduces the effectiveness of the colors. \r\nDon’t assign different meanings to contextual colors, since they have already have established meanings. For example, never use the success state to mark errors, because this will confuse users.\r\nNever rely on color only to convey error messages, in order to accommodate for color blindness. Make sure to use visual cues like symbols and icons as well as color to indicate success and failure states.",
+          "jp": "ミュートカラーを除いて、コンテキストカラーは、使いすぎると目的を損なうため使用は控えめにしましょう。ミュートを除いて、コンテキストカラーは、致命的、重要なコンテンツが強調されるようにします。ただし、多くの要素が強調されすぎるとそれが視覚的ノイズになり、効果が失われてしまいます。コンテキストカラーは、すでに確立した意味を持っているので、異なった意味で使用しないでください。例えば、サクセスカラーでエラーステータスを示すなどをするとユーザーの混乱を招いてしまいます。色覚異常のユーザーのために、決してカラーだけでエラーを伝えないようにします。成功と失敗のステータスカラーと共に、シンボルのような視覚的手がかりも併用しましょう。"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,155 @@
+[
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Brand overview",
+          "jp": "ブランド概要"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "The Rakuten brand guideline offers a set of important usage rules for the brand assets such as the logo, colors and typeface. When creating design deliverables including websites, mobile applications, posters, TV commercials etc., it is vital that the rules stipulated in this guideline are adhered to in order to prevent any potential damage to the image of the Rakuten brand.",
+          "jp": "本ガイドラインには、ロゴ、カラー、フォントなど楽天のブランドアセットを使用する上で重要なルールが記載されています。ガイドラインに適合しないデザイン・制作物は、楽天ブランドのイメージを損なうだけでなく、誤ったイメージを与えかねません。ブランドアセットを利用して、ウェブ/アプリ/パンフレット/ポスター/POP/CM/その他クリエイティブを制作する際は、このガイドラインを遵守してください。"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Please refrain from releasing creatives that have not been approved by the brand team. In addition, the creation of unauthorized brand assets is strictly prohibited. For requests regarding logo creations, rebranding, brand asset usage, etc., please contact the brand team for more details.",
+          "jp": "ブランドチームによって認可されていないブランドアセットを使用すること、また許可なしにそれらを作成することは禁止されています。新しいブランドの立ち上げやリブランディング、またブランドアセットの使用方法に関して不明な点がある場合はブランドチームにお問い合わせください。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Do",
+          "jp": "Do's"
+        }
+      },
+      {
+        "component": "List",
+        "type": "",
+        "list": {
+          "en": [
+            {
+              "text": "Do follow the rules in this guideline"
+            },
+            {
+              "text": "Do follow intellectual property rules and consult with the intellectual property department for any uncertainties"
+            },
+            {
+              "text": "Do get Brand team’s approval for creatives that use any of the Rakuten brand assets"
+            }
+          ],
+          "jp": [
+            {
+              "text": "本ガイドラインに記載されているルールを遵守すること"
+            },
+            {
+              "text": "商標などの知的財産権の保護と侵害防止に配慮し、知的財産部に相談すること"
+            },
+            {
+              "text": "楽天のブランドアセットを利用したデザイン・制作物はブランド チームのチェックを通すこと"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Don't",
+          "jp": "Dont's"
+        }
+      },
+      {
+        "component": "List",
+        "type": "",
+        "list": {
+          "en": [
+            {
+              "text": "Don’t make modifications to existing brand assets"
+            },
+            {
+              "text": "Don’t create other brand assets without authorization from the brand team"
+            },
+            {
+              "text": "Don’t use the old logos"
+            }
+          ],
+          "jp": [
+            {
+              "text": "デザインや色を変えるなど、勝手にブランドアセットを編集しないこと"
+            },
+            {
+              "text": "ロゴなどのブランドアセットを勝手に作成しないこと"
+            },
+            {
+              "text": "古いロゴを使用しないこと"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Contact the Brand Team",
+          "jp": "ブランドチームへのお問い合わせ"
+        }
+      },
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": [
+            {
+              "text": "For logo creation and approval, or for advice on design production for offline advertisement materials, please contact "
+            },
+            {
+              "text": "brand-order@mail.rakuten.com",
+              "type": "mail",
+              "href": "brand-order@mail.rakuten.com"
+            },
+            {
+              "text": "."
+            }
+          ],
+          "jp": [
+            {
+              "text": "ロゴの作成と承認、またはオフライン広告資料のデザイン制作に関するアドバイスについてのお問い合わせはこちらからお願いします。"
+            },
+            {
+              "text": "brand-order@mail.rakuten.com",
+              "type": "mail",
+              "href": "brand-order@mail.rakuten.com"
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

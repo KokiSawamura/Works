@@ -1,0 +1,53 @@
+[
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Color",
+          "jp": "カラー"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "Colors enhance both the Rakuten ecosystem as well as individual services. Unique and uplifting service colors promote the individuality of each service, while maintaining visual difference from Group functions. Simultaneously, colors are inviting, offering visual cues as to key information, but never getting in the way of experiencing a site's content.",
+          "jp": "カラーは、楽天のエコシステムと個別サービスの両方を強化します。ユニークで魅力的なサービスカラーは、グループ機能との視覚的な違いを保ちながら、各サービスの個性を際立たせます。また、カラーは重要な情報の視覚的手がかりを示しますが、コンテンツ体験の妨げにならないようにします。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "ReX color palette",
+          "jp": "ReXカラーパレット"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "The ReX color palette is based on Sub-brand colors, with the addition of an accompanying brighter and darker tone. Any of the colors, shown below, can be used as the main color of the UI.\r\nIf you choose a lighter tone, be sure to check that the contrast with the background/font is at least 3:1.",
+          "jp": "ReXカラーパレットは、サブブランドカラーを軸に明るいトーンと暗いトーンを加えて構成されています。下記のカラーは、UIのメインカラーとして使用できます。高明度のカラーを選択する場合は、文字と背景のコントラスト比が少なくとも3:1以上確保できていることを確認してください。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "3senses_img_rex-color-palette.png",
+          "jp": "3senses_img_rex-color-palette.png"
+        }
+      }
+    ]
+  }
+]

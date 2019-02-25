@@ -1,0 +1,134 @@
+[
+  {
+    "component": "Section",
+    "className": "",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Body text",
+          "jp": "本文"
+        }
+      },
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Regular body text",
+          "jp": "標準テキスト"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "For the main content of your page, use the basic body style, which could differ according to the platform or language.",
+          "jp": "ページの主なテキストには、標準のボディスタイルを使用してください。プラットフォームや言語によってボディスタイルは異なります。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "typography_img_body-text2.png",
+          "jp": "typography_img_body-text1.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "text-examples",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Lead body text",
+          "jp": "リードテキスト"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Used to emphasize a section of content. Use for short paragraphs only, because overuse will lead to loss of emphasis.",
+          "jp": "コンテンツの一部を強調するためにあります。短い段落に使用します。使いすぎると強調の効果を低下させるので使用は控え目にしてください。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "typography_img_lead-body-tex2.png",
+          "jp": "typography_img_lead-body-text1.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "text-examples",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Caption",
+          "jp": "キャプション"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Used either for important copy, or as an alternative to the regular body text.",
+          "jp": "重要なテキストに使用するか、標準サイズの代わりに使用します。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "typography_img_small-text2.png",
+          "jp": "typography_img_small-text1.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "text-examples",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Overline",
+          "jp": "オーバーライン"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Used for notes and supplementary information. Overline text is very hard to read, so make sure you only ever use it for information that’s unlikely to be of interest to most users, like copyright, date of publishing an article, etc. Never assign the overline text style to copy containing crucial information.",
+          "jp": "オーバーラインは可読性が低いので、著作権表示や記事の公開日時など、必要な情報でも、多くのユーザーが興味を持つとは限らないものに使用してください。重要な情報を含む文章には使用しないでください。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "typography_img_extra-small-text2.png",
+          "jp": "typography_img_extra-small-text1.png"
+        }
+      }
+    ]
+  }
+]

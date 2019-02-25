@@ -1,0 +1,79 @@
+[
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Headings",
+          "jp": "見出し"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "Headings are used to create hierarchy in your content and set the expectations for the content that follows. They can be used for heading an article, as well as a section or a subsection. ",
+          "jp": "見出しはコンテンツに階層を持たせ、またコンテンツの内容をユーザーが予想できるようにします。記事、セクション、サブセクション全ての見出しに使用できます。"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Different types of headings are available, depending on the importance of the information and platform. The headings for mobile are smaller than for desktop, and their scales for both CJK and Western can be found below.",
+          "jp": "情報の重要さやプラットフォームに合わせて違う種類の見出しを使用できます。モバイル用の見出しはデスクトップよりも小さく、CJKと西洋語それぞれのスケールは下を参考にしてください。"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Keep headings short and concise – try to get your point across with as few words as possible. Ideally headings should stay on one row – even on mobile.",
+          "jp": "端的かつ簡潔な表現を心がけ、可能な限り短いテキストで簡潔に伝えましょう。モバイルの場合でも、一行に収まる見出しが理想的です。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "typography_img_heading_Western.png",
+          "jp": "typography_img_heading_CJK.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "headings-examples",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Secondary text",
+          "jp": "補足的な見出し"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "If you need additional text with your title, like a subtitle, use the specifications below.",
+          "jp": "サブタイトルのように見出しに補足をする必要がある場合は、下記の仕様に従って使用してください。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "typography_img_secondary-text2.png",
+          "jp": "typography_img_secondary-text1.png"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,48 @@
+.working-example {
+  // box-shadow: 0px 8px 36px 0px rgba(0,0,0,0.1);
+  div.row {
+    > div { // col-md-12 etc
+      margin-bottom: 64px;
+      pre {
+        display: inline-block;
+        width: 100%;
+        margin-top: 24px;
+        margin-bottom: 0;
+      }
+    }
+    > div:last-child {
+      margin-bottom: 0px;
+    }
+  }
+}
+
+
+.headings-examples {
+  div.working-example {
+    padding-top: 40px;
+    h1, h2, h3, h4, h5, h6 {
+      margin-bottom: 24px !important;
+    }
+  }
+}
+
+.text-examples {
+  pre {
+    margin: 0 !important;
+  }
+}
+
+.icons-examples {
+  .working-example {
+    text-align: center;
+    .rex-icon {
+      font-size: 32px;
+    }
+  }
+}
+
+.buttons-examples {
+  .working-example {
+    text-align: center;
+  }
+}

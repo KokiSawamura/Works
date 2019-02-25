@@ -1,0 +1,15 @@
+#logo {
+	margin-left: $sidebar-left-margin;
+	height: 44px;
+	width: 84px;
+	position: relative;
+	i {
+		font-size: 44px;
+	}
+	.ex {
+		position: absolute;
+		width: 40px;
+		left: 46px;
+		top: 2px;
+	}
+}

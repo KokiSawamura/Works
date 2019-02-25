@@ -1,0 +1,146 @@
+[
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "target": [
+          "designer",
+          "developer"
+        ],
+        "text": {
+          "en": "Colors",
+          "jp": "カラー"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "target": [
+          "designer",
+          "developer"
+        ],
+        "text": {
+          "en": "Release notes",
+          "jp": "リリースノート"
+        }
+      },
+      {
+        "component": "Heading",
+        "type": "h4",
+        "target": [
+          "designer",
+          "developer"
+        ],
+        "text": {
+          "en": "2018/07/12",
+          "jp": "2018/07/12"
+        }
+      },
+      {
+        "component": "List",
+        "type": "",
+        "target": [
+          "designer",
+          "developer"
+        ],
+        "list": {
+          "en": [
+            {
+              "text": "Updated color palettes according to the new Brand guidelines"
+            }
+          ],
+          "jp": [
+            {
+              "text": "新しいブランドガイドラインに従い、カラーパレットを更新"
+            }
+          ]
+        }
+      },
+      {
+        "component": "Heading",
+        "type": "h4",
+        "target": [
+          "designer",
+          "developer"
+        ],
+        "text": {
+          "en": "2017/07/12",
+          "jp": "2017/07/12"
+        }
+      },
+      {
+        "component": "List",
+        "type": "",
+        "target": [
+          "designer",
+          "developer"
+        ],
+        "list": {
+          "en": [
+            {
+              "text": "Added .ase and .sketch files of v0.1.0 of the Rakuten color palette, containing corporate and sub-brand colors and their hues"
+            }
+          ],
+          "jp": [
+            {
+              "text": "コーポレート、サブブランドカラーを含んだadobe、sketchスウォッチファイルv0.1.0oftheRakutencolorpaletteを追加"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "target": [
+          "designer",
+          "developer"
+        ],
+        "text": {
+          "en": "Downloads",
+          "jp": "ダウンロード"
+        }
+      },
+      {
+        "component": "Download",
+        "type": "",
+        "icon": "folder-l",
+        "name": "Rakuten color palette",
+        "date": "2018/07/12",
+        "size": "XX.XMB",
+        "url": "https://rak.box.com/s/4p4uksj99wo28avn9s9bd6zutfzqu3t2",
+        "target": [
+          "designer",
+          "developer"
+        ],
+        "text": {
+          "en": "Downloads",
+          "jp": ""
+        }
+      }
+    ]
+  }
+]

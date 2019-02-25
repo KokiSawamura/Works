@@ -1,0 +1,248 @@
+[
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Conditional fields",
+          "jp": "条件フィールド"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "This refers to fields that become available based on certain options in a form. For example, in a user satisfaction survey, a comment field may be available only if the user says they are dissatisfied with the service.",
+          "jp": "これはフォーム内のある特定の選択肢に基づいて使用できるようになるフィールドのことです。例えばユーザー満足度調査において、ユーザーがサービスに不満があると回答した場合のみに使用可能になるコメントフィールドなどです。"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "There are two approaches to presenting those fields to the user – progressive disclosure and disabled fields. The two approaches are not mutually exclusive and can be combined.",
+          "jp": "こうしたフィールドをユーザーに提示するにあたっては、ダイナミックフィールドとグレーアウトフィールドの2つのアプローチがあります。この2つのアプローチはどちらか一方しか使用できないわけではなく、組み合わせることも可能です。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Progressive disclosure of fields",
+          "jp": "ダイナミックフィールド"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "The conditional fields are hidden until the appropriate option is selected. This approach allows for simpler forms, that only have the basic options available. Using progressive disclosure allows the user to see which are the most important actions and makes it easier to fill in on mobile.",
+          "jp": "この条件フィールドは適切な選択肢が選ばれるまでは隠されています。このアプローチを使えば、基本的な選択肢のみが表示されたシンプルな見た目のフォームにすることができます。ダイナミックフィールドを使うことで、ユーザーは最も重要なアクションはどれなのかを見て取ることができ、またモバイル上での記入も楽になります。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Use for",
+          "jp": "使用すべき場合"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Fields in which only a few of the users would be interested. In this case hiding the conditional fields simplifies the form and makes it easy to comprehend and fill, especially on mobile. ",
+          "jp": "少数のユーザーのみが興味を示すであろうフィールド。この場合、条件フィールドを隠すことでフォームがシンプルになり、特にモバイル上での把握と記入がしやすくなります。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "forms_img_conditional_fields_do.png",
+                  "jp": "forms_img_conditional_fields_do.png"
+                }
+              },
+              {
+                "component": "Do",
+                "text": {
+                  "en": "Use a checkbox that hides the billing address because most people have the same shipping and billing address",
+                  "jp": "ほとんどのユーザーは送付先住所と請求先住所は同じなので、請求先住所を隠すチェックボックスを使う"
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "forms_img_conditional_fields_dont.png",
+                  "jp": "forms_img_conditional_fields_dont.png"
+                }
+              },
+              {
+                "component": "Dont",
+                "text": {
+                  "en": "Show both shipping and billing addresses",
+                  "jp": "送付先住所と請求先住所を両方表示する"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Avoid using for",
+          "jp": "使用を避けるべき場合"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Conditional fields which might allow the user to make a decision which option to choose – in this case use disabled fields instead.",
+          "jp": "ユーザーがどの選択肢を選ぶかの決定を左右する場合がある条件フィールド。この場合は代わりにグレーアウトフィールドを使用してください。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Disabled fields",
+          "jp": "グレーアウトフィールド"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "The conditional fields are all shown to the user in a disabled state. If the user selects the corresponding option, the field is enabled and the user can interact with it as normal.",
+          "jp": "この条件フィールドはすべて、グレーアウト状態でユーザーに表示されます。ユーザーが対応する選択肢を選んだ時、フィールドのグレーアウト状態が解除され、ユーザーが普通に操作することができるようになります。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Use for",
+          "jp": "使用すべき場合"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Forms in which seeing the available options is important for clarity or to help users make the choice.",
+          "jp": "明解さのため、またはユーザーが決定を下すのに役立つため、選択可能なオプションを見られることが重要性を持つフォーム。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Avoid using for",
+          "jp": "使用を避けるべき場合"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Conditional fields, in which only a few of the users would be interested. In this case showing disabled fields will only increase the visual noise and make it very hard to fill, especially on mobile.",
+          "jp": "少数のユーザーのみが興味を示すであろう条件フィールド。この場合はグレーアウトフィールドを見せても視覚的ノイズを増やすだけであり、特にモバイル上での記入が非常にしにくくなります。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": [
+            {
+              "text": "If a user has entered information in a previously disabled field, and then changes the options, don’t clear the data, but assign a read-only state to the field instead. For more information, please see "
+            },
+            {
+              "text": "Form states",
+              "type": "link",
+              "href": "/design/the-basics/forms/forms-states-and-validation/"
+            },
+            {
+              "text": "."
+            }
+          ],
+          "jp": [
+            {
+              "text": "ユーザーが当初グレーアウトされていたフィールドに情報を入力した後で選択肢を変更した場合には、入力されたデータを消去するのではなく、そのフィールドを読み取り専用状態に設定するようにしてください。より詳細な情報を得るには“"
+            },
+            {
+              "text": "フォームの状態",
+              "type": "link",
+              "href": "/design/the-basics/forms/form-elements/"
+            },
+            {
+              "text": "”を参照してください。"
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

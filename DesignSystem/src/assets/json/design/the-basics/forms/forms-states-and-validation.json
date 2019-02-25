@@ -1,0 +1,906 @@
+[
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Form states and validation",
+          "jp": "フォームステータスとバリデーション"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "States",
+          "jp": "ステータス"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "All form elements can be in one of the states described below.",
+          "jp": "全てのフォーム要素は下記のステータスのうちのどれかになります。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Focus",
+          "jp": "フォーカス"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "When an input is selected.",
+          "jp": "入力項目が選択されている状態です。"
+        }
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "InputGroup",
+                    "type": "",
+                    "state": "focus",
+                    "helperText": {
+                      "en": "ヘルプテキスト",
+                      "jp": "ヘルプテキスト"
+                    },
+                    "placeHolder": {
+                      "en": "プレースホルダー",
+                      "jp": "プレースホルダー"
+                    },
+                    "label": {
+                      "en": "レーブル",
+                      "jp": "レーブル"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "InputGroup",
+                    "type": "",
+                    "state": "focus",
+                    "helperText": {
+                      "en": "Help text",
+                      "jp": "Helptext"
+                    },
+                    "placeHolder": {
+                      "en": "Placeholder",
+                      "jp": "Placeholder"
+                    },
+                    "label": {
+                      "en": "Label",
+                      "jp": "Label"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "TextArea",
+                    "type": "",
+                    "state": "focus",
+                    "helperText": {
+                      "en": "ヘルプテキスト",
+                      "jp": "ヘルプテキスト"
+                    },
+                    "placeHolder": {
+                      "en": "プレースホルダー",
+                      "jp": "プレースホルダー"
+                    },
+                    "label": {
+                      "en": "レーブル",
+                      "jp": "レーブル"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "TextArea",
+                    "type": "",
+                    "state": "focus",
+                    "helperText": {
+                      "en": "Helper text",
+                      "jp": "Helpertext"
+                    },
+                    "placeHolder": {
+                      "en": "Placeholder",
+                      "jp": "Placeholder"
+                    },
+                    "label": {
+                      "en": "Label",
+                      "jp": "Label"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Disabled",
+          "jp": "無効"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "This state shows the input cannot be modified or selected at this moment, but could become available based on user action. Disabled inputs are always empty. Never show disabled inputs if there’s nothing the user can to to enable them. If you have such fields, remove them altogether.\r\nFor recommendations on how and when to disable fields, please see conditional fields.",
+          "jp": "入力項目の変更や選択ができない状態です、ユーザーアクションによって有効にできるようにします。無効な入力項目は常に空にしましょう。もしユーザーが無効な入力項目を有効にできなければ、それらを全て取り除いてください。いつどのようにフィールドを無効にするかの推奨については条件フィールドを見てください。"
+        }
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "InputGroup",
+                    "type": "",
+                    "state": "disabled",
+                    "helperText": {
+                      "en": "ヘルプテキスト",
+                      "jp": "ヘルプテキスト"
+                    },
+                    "placeHolder": {
+                      "en": "プレースホルダー",
+                      "jp": "プレースホルダー"
+                    },
+                    "label": {
+                      "en": "レーブル",
+                      "jp": "レーブル"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "InputGroup",
+                    "type": "",
+                    "state": "disabled",
+                    "helperText": {
+                      "en": "Help text",
+                      "jp": "Helptext"
+                    },
+                    "placeHolder": {
+                      "en": "Placeholder",
+                      "jp": "Placeholder"
+                    },
+                    "label": {
+                      "en": "Label",
+                      "jp": "Label"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "TextArea",
+                    "type": "",
+                    "state": "disabled",
+                    "helperText": {
+                      "en": "ヘルプテキスト",
+                      "jp": "ヘルプテキスト"
+                    },
+                    "placeHolder": {
+                      "en": "プレースホルダー",
+                      "jp": "プレースホルダー"
+                    },
+                    "label": {
+                      "en": "レーブル",
+                      "jp": "レーブル"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "TextArea",
+                    "type": "",
+                    "state": "disabled",
+                    "helperText": {
+                      "en": "Helper text",
+                      "jp": "Helpertext"
+                    },
+                    "placeHolder": {
+                      "en": "Placeholder",
+                      "jp": "Placeholder"
+                    },
+                    "label": {
+                      "en": "Label",
+                      "jp": "Label"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "Select",
+                    "type": "",
+                    "name": "select-1",
+                    "state": "disabled",
+                    "options": {
+                      "en": [
+                        {
+                          "text": "アイテム 1",
+                          "value": "item-1-jp"
+                        },
+                        {
+                          "text": "アイテム 2",
+                          "value": "item-2-jp"
+                        },
+                        {
+                          "text": "アイテム 3",
+                          "value": "item-3-jp"
+                        }
+                      ],
+                      "jp": [
+                        {
+                          "text": "アイテム 1",
+                          "value": "item-1-jp"
+                        },
+                        {
+                          "text": "アイテム 2",
+                          "value": "item-2-jp"
+                        },
+                        {
+                          "text": "アイテム 3",
+                          "value": "item-3-jp"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "Select",
+                    "type": "",
+                    "name": "select-1",
+                    "state": "disabled",
+                    "options": {
+                      "en": [
+                        {
+                          "text": "Item 1",
+                          "value": "item-1-jp"
+                        },
+                        {
+                          "text": "Item 2",
+                          "value": "item-2-jp"
+                        },
+                        {
+                          "text": "Item 3",
+                          "value": "item-3-jp"
+                        }
+                      ],
+                      "jp": [
+                        {
+                          "text": "Item 1",
+                          "value": "item-1-jp"
+                        },
+                        {
+                          "text": "Item 2",
+                          "value": "item-2-jp"
+                        },
+                        {
+                          "text": "Item 3",
+                          "value": "item-3-jp"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Read-only",
+          "jp": "読み取り専用"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Use this state for fields that cannot be modified by the user, but contain information that will be submitted with the rest of the form. Read-only fields can be in a form, even if the user cannot do anything to make them editable, if it gives the user needed context.",
+          "jp": "このステータスは、ユーザーによって変更はできないが、他のフォームとまとめて送られる情報を含んだ入力項目に使用されます。読み取り専用フィールドは、ユーザーにその内容を伝える必要がある場合、たとえ編集ができなくてもフォーム内で扱います。"
+        }
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "InputGroup",
+                    "type": "",
+                    "state": "readOnly",
+                    "helperText": {
+                      "en": "",
+                      "jp": ""
+                    },
+                    "placeHolder": {
+                      "en": "プレースホルダー",
+                      "jp": "プレースホルダー"
+                    },
+                    "label": {
+                      "en": "レーブル",
+                      "jp": "レーブル"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "InputGroup",
+                    "type": "",
+                    "state": "readOnly",
+                    "helperText": {
+                      "en": "",
+                      "jp": ""
+                    },
+                    "placeHolder": {
+                      "en": "Placeholder",
+                      "jp": "Placeholder"
+                    },
+                    "label": {
+                      "en": "Label",
+                      "jp": "Label"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Error",
+          "jp": "エラー"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "When a problem arises with a field, it takes on an error state. For more information, see Validation below.",
+          "jp": "フィールド上で問題が起きたときにエラーステータスを使用します。詳細は下記のバリデーションを確認ください。"
+        }
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "InputGroup",
+                    "type": "",
+                    "state": "error",
+                    "helperText": {
+                      "en": "エラー：エラー内容の説明",
+                      "jp": "エラー：エラー内容の説明"
+                    },
+                    "placeHolder": {
+                      "en": "",
+                      "jp": ""
+                    },
+                    "label": {
+                      "en": "レーブル",
+                      "jp": "レーブル"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "InputGroup",
+                    "type": "",
+                    "state": "error",
+                    "helperText": {
+                      "en": "Error: Text explaining the error",
+                      "jp": "Error:Textexplainingtheerror"
+                    },
+                    "placeHolder": {
+                      "en": "",
+                      "jp": ""
+                    },
+                    "label": {
+                      "en": "Label",
+                      "jp": "Label"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Success",
+          "jp": "サクセス"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "When a field is filled successfully, it takes on a success state. Inputs usually take this state when a form has inline validation. For more information, see Validation below.",
+          "jp": "サクセスステータスはフィールドが適切に入力された時に使用します。フォームのインラインバリデーションが有効な時にこのステータスになります。詳細は下記のバリデーションを確認ください。"
+        }
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "InputGroup",
+                    "type": "",
+                    "state": "success",
+                    "helperText": {
+                      "en": "成功！",
+                      "jp": "成功！"
+                    },
+                    "placeHolder": {
+                      "en": "",
+                      "jp": ""
+                    },
+                    "label": {
+                      "en": "レーブル",
+                      "jp": "レーブル"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "InputGroup",
+                    "type": "",
+                    "state": "success",
+                    "helperText": {
+                      "en": "Success!",
+                      "jp": "Success!"
+                    },
+                    "placeHolder": {
+                      "en": "",
+                      "jp": ""
+                    },
+                    "label": {
+                      "en": "Label",
+                      "jp": "Label"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Validation",
+          "jp": "バリデーション"
+        }
+      },
+      {
+        "component": "Text",
+        "text": {
+          "en": "All form elements can be in one of the following states:",
+          "jp": ""
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Types of validation",
+          "jp": "バリデーションのタイプ"
+        }
+      },
+      {
+        "component": "Heading",
+        "type": "h5",
+        "text": {
+          "en": "Inline",
+          "jp": "インラインバリデーション"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "This is always the preferred method of form validation. It’s better to give feedback and point out errors as they occur, rather than all at once. Make sure not to show error messages before the user has even started typing - give them a chance to fill the field first. The best way to do this is to give the error when focus is lost.\r\nIf a field’s been successfully filled, mark that clearly too. This gives feedback to the user on their overall progress and gives them a positive feeling.",
+          "jp": "これはフォームのバリデーションに最適な方法です。フィードバックをまとめて一度には返すのではなく、エラーが起きる毎にエラーを返しましょう。ユーザーが入力を始める前にエラーメッセージを表示しないようにしてください。まずはフィールドに入力してもらうようにします。エラーを返す一番良いタイミングは、フォーカスが失われた時です。フィールドが適切に入力された時も、そのことを分かりやすく表示します。進む毎にフィードバックを受けることで、ユーザーはポジティブな気持ちになるでしょう。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h5",
+        "text": {
+          "en": "On submission",
+          "jp": "送信時のバリデーション"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "If inline validation is unavailable, use full form validation on submission. Make sure to mark clearly the mistaken fields and to give a specific message for each field, rather than give one generic error message for the whole form. For more information, see Error states.",
+          "jp": "インラインバリデーションが利用できないときは、送信時に全てのフォーム要素にバリデーションをかけてください。全体に対してまとめて一般的なエラーメッセージを表すのではなく、エラーのあるフィールドを明確に示し、それぞれに具体的なメッセージを表してください。詳細は下記のエラーステータスを確認ください。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Giving feedback",
+          "jp": "フィードバックを返す"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Users need to know weather the action they carried out was successful or not. Because of that it’s important to mark successes as well as errors.\r\nNever rely on color only to convey error messages, in order to accommodate for color blindness. Make sure to use visual cues like symbols and icons as well as color to indicate success and failure states.",
+          "jp": "ユーザーはアクションが成功したのかどうかを知る必要があります。従って、エラーと同様に、成功したことを示すのも重要です。アクセシビリティを考慮し、エラーメッセージはカラー単独での表現は避け、アイコンなどの視覚要素も併用してください。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Error states",
+          "jp": "エラーステータス"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "When giving error messages state clearly where the problem is so that the user can easily find and fix it. Give people a chance to fill in the field first however – never show errors before or while the user is still typing.\r\nIf an error occurs, replace the helper text with the error message. In the case of going over the character limit or using forbidden characters in a password, the help text itself already describes the error, so it could be left as it is and highlighted in red. In very rare cases the helper text might be needed after an error has occurred. In cases like this make sure it is included in the error message.\r\nMake sure to give an error message per field. Each error message should include what the problem was and how to fix it. \r\nThere could be an overall error message on the top of the page, giving a summary of the errors or which fields had a problem. This, however, should never be the only error message, because users need help in context, rather than somewhere on the top of the page, where messages can be lost for long forms (especially on mobile).",
+          "jp": "エラーメッセージを出す時は、どこを示しているのかを明確にしてください。それによりユーザーは簡単に問題を見つけられ解決することができます。ユーザーにインプットフィールドをまず埋めてもらうため、入力前または入力中には、エラーメッセージを表示させないでください。エラーが起きた場合は、ヘルプテキストのエリアにエラーメッセージを表示させましょう。パスワード入力の際には、文字数制限を上回った、または使用できない文字を使用した場合などには、ヘルプテキストがすでにエラー内容を表している場合があるので、それを赤くハイライトしましょう。まれに、ヘルプテキストをエラーが起こった後にも必要とする場合があります。その時は、それらをエラーメッセージに含むようにしてください。エラーメッセージはフィールド毎に表示し、エラー内容と解決方法を含めてください。ページトップには、全体のエラーの要約、どのフィールドに問題があるかを表示してください。しかし、長いフォームでは、ページトップのエラーメッセージはスクロールによりスクリーンから消えてしまい、確認がしづらくなるので（特にモバイルの場合）、ページトップだけで伝えることは避けてください。"
+        }
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "InputGroup",
+                    "type": "",
+                    "state": "error",
+                    "helperText": {
+                      "en": "Username not available",
+                      "jp": "ユーザー名が利用できません"
+                    },
+                    "value": {
+                      "en": "",
+                      "jp": ""
+                    },
+                    "placeHolder": {
+                      "en": "",
+                      "jp": ""
+                    },
+                    "label": {
+                      "en": "userID",
+                      "jp": "ユーザーID"
+                    }
+                  }
+                ]
+              },
+              {
+                "component": "Do",
+                "text": {
+                  "en": "Give information on what the problem was",
+                  "jp": "エラー内容を的確に伝えます"
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "InputGroup",
+                    "type": "",
+                    "state": "error",
+                    "helperText": {
+                      "en": "There was a problem",
+                      "jp": "問題が発生しました"
+                    },
+                    "value": {
+                      "en": "",
+                      "jp": ""
+                    },
+                    "placeHolder": {
+                      "en": "",
+                      "jp": ""
+                    },
+                    "label": {
+                      "en": "userID",
+                      "jp": "ユーザーID"
+                    }
+                  }
+                ]
+              },
+              {
+                "component": "Dont",
+                "text": {
+                  "en": "Give generic explanation",
+                  "jp": "曖昧な説明をしないでください"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Success states",
+          "jp": "サクセスステータス"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "It’s important to mark when an action’s been successfully carried out. If success isn’t evident on submission (i.e. Login or search), then a success message is needed to reassure the user.",
+          "jp": "アクションの成功を伝えることは重要です。送信時にログインや検索などがサクセスステータスの表示だけでは明確ではない場合は、テキストで補足し確実に理解できるようにします。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "grayed-out-section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "UX value: Be delightful",
+          "jp": "UXバリュー:嬉しい体験"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "The short period during which users wait for form validation is a very good place for an animation that expresses the personality of your brand that can delight the user.",
+          "jp": "ユーザーがフォームバリデーションを待っている時や、サクセスステータスを表示する時などは、ブランドパーソナリティの表現、またはユーザーを喜ばせるアニメーション表現の良い機会になります。"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,330 @@
+[
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "Front-end framework",
+          "jp": "フロントエンドフレームワーク"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "What's included",
+          "jp": "含まれているもの"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "The ReX framework currently contains the basics for creating a simple, clean website. Dynamic components and Javascript are not yet provided but coming soon.",
+          "jp": "ReXフレームワークは現在、クリーンなサイトを作成するための基本的なものになります。動的なコンポーネントやJavascriptは準備中です。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "Getting started with basic templates",
+          "jp": "基本的なテンプレートで始める"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "We've created some basic HTML and CSS templates to help fellow developers get started.",
+          "jp": "開発を効率化するために基本的なHTML、CSSテンプレートを用意しました。"
+        }
+      },
+      {
+        "component": "TextWithLink",
+        "type": "",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "To view them, check out the git repository at ",
+          "jp": "テンプレートを見るには以下のGITリポジトリを参照ください。"
+        },
+        "linkedText": {
+          "en": "https://git.rakuten-it.com/projects/REX/repos/rex-frontend-framework-samples/browse",
+          "jp": "https://git.rakuten-it.com/projects/REX/repos/rex-frontend-framework-samples/browse"
+        },
+        "url": "https://git.rakuten-it.com/projects/REX/repos/rex-frontend-framework-samples/browse"
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h5",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "PC template",
+          "jp": "PCテンプレート"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "target": [
+          "designer"
+        ],
+        "responsive": true,
+        "src": "template-pc.png"
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h5",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "Smartphone template",
+          "jp": "スマートフォンテンプレート"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "target": [
+          "designer"
+        ],
+        "responsive": true,
+        "src": "template-mobile.png"
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h5",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "Responsive template",
+          "jp": "レスポンシブテンプレート"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "target": [
+          "designer"
+        ],
+        "responsive": true,
+        "src": "template-responsive.png"
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Text",
+        "type": "",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "What's included:",
+          "jp": "含まれているもの"
+        }
+      },
+      {
+        "component": "List",
+        "type": "",
+        "target": [
+          "designer",
+          "developer"
+        ],
+        "list": {
+          "en": [
+            {
+              "boldedPhrase": "Basic HTML files: ",
+              "text": "Starter templates for basic, smartphone, PC, and responsive layouts."
+            },
+            {
+              "boldedPhrase": "Minified CSS files: ",
+              "text": "Rex themed css with Crimson Red, yellow, green, blue, dark blue, purple, and pink primary color variables."
+            },
+            {
+              "boldedPhrase": "Icon files: ",
+              "text": "All icons included on this site (please see Icons > Overview, then click the developer tab)."
+            }
+          ],
+          "jp": [
+            {
+              "boldedPhrase": "基本的なHTMLファイル: ",
+              "text": "ベーシック、スマートフォン、PC、レスポンシブレイアウトの基本的なHTMLテンプレート"
+            },
+            {
+              "boldedPhrase": "縮小されたCSSファイル: ",
+              "text": "クリムゾンレッド、黄色、緑、青、濃紺、紫、ピンクをベースにしたReXテームのCSS"
+            },
+            {
+              "boldedPhrase": "アイコンファイル: ",
+              "text": "このサイトに含まれているすべてのアイコン（Icons>アイコン概要を参照ください）"
+            }
+          ]
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "These templates will grow over time, especially when we add JS components to the framework, so be sure to check back periodically.",
+          "jp": "テンプレートはどんどん開発していくので定期的に確認してください。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "TextWithEmail",
+        "type": "",
+        "target": [
+          "designer",
+          "developer"
+        ],
+        "text": {
+          "en": "If you experience any trouble with git repository permissions, or would like to collaborate etc., feel free to contact us at ",
+          "jp": "リポジトリへのアクセスに問題がある場合やフレームワークへの提案、コラボレーションをご希望の方はお気軽にご連絡ください。"
+        },
+        "address": "cmo-rex-dev@mail.rakuten.com"
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "Repositories",
+          "jp": "リポジトリ"
+        }
+      },
+      {
+        "component": "Download",
+        "type": "",
+        "icon": "download-l",
+        "name": "rex-frontend-framework",
+        "date": "2017/08/29",
+        "url": "https://git.rakuten-it.com/projects/REX/repos/rex-frontend-framework/browse",
+        "size": "XX.XMB",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "Downloads",
+          "jp": ""
+        }
+      },
+      {
+        "component": "Download",
+        "type": "",
+        "icon": "download-l",
+        "name": "rex-frontend-framework-samples",
+        "date": "2017/08/29",
+        "url": "https://git.rakuten-it.com/projects/REX/repos/rex-frontend-framework-samples/browse",
+        "size": "XX.XMB",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "Downloads",
+          "jp": ""
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Display",
+          "jp": "ディスプレイ"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "Display text is basically a set of very large headings, used to grab the attention of the user. Unlike regular headings, which are used to create hierarchy within the main content, display headings are used to highlight a specific concept or feature. They can be used for hero images, carousels, banners, etc.",
+          "jp": "ディスプレイ用見出しは基本的にとても大きい見出しのセットで、ユーザーの注意を惹く時に使用します。コンテンツに階層を持たせるための通常の見出しとは異なり、ディスプレイ用見出しは特定のコンセプトや特徴を強調するために使われます。ヒーロー画像、カルーセル、バナーなどに使用されます。"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Different types of display headings are available, depending on the importance of the information and the platform. The scales for both CJK and Western can be found below.",
+          "jp": "情報の重要性やプラットフォームに合わせて違う種類のディスプレイ用見出しを使用できます。モバイル用の見出しはデスクトップよりも小さく、CJKと西洋語それぞれのスケールは下を参考にしてください。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "typography_img_display_Western.png",
+          "jp": "typography_img_display_CJK.png"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,239 @@
+[
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "Icons",
+          "jp": "アイコン"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "Release notes",
+          "jp": "リリースノート"
+        }
+      },
+      {
+        "component": "Heading",
+        "type": "h4",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "2018/04/12 (v0.1.6)",
+          "jp": "2018/04/12 (v0.1.6)"
+        }
+      },
+      {
+        "component": "List",
+        "type": "",
+        "target": [
+          "designer"
+        ],
+        "list": {
+          "en": [
+            {
+              "text": "Added several icons (close account, chat, cloud, and mypage)."
+            }
+          ],
+          "jp": [
+            {
+              "text": "アイコンを追加しました (close account, chat, cloud, and mypage)"
+            }
+          ]
+        }
+      },
+      {
+        "component": "Heading",
+        "type": "h4",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "2018/03/12 (v0.1.5)",
+          "jp": "2018/03/12 (v0.1.5)"
+        }
+      },
+      {
+        "component": "List",
+        "type": "",
+        "target": [
+          "designer"
+        ],
+        "list": {
+          "en": [
+            {
+              "text": "Updated coupon icon"
+            }
+          ],
+          "jp": [
+            {
+              "text": "クーポンアイコンを更新しました"
+            }
+          ]
+        }
+      },
+      {
+        "component": "Heading",
+        "type": "h4",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "2018/02/22 (v0.1.4)",
+          "jp": "2018/02/22 (v0.1.4)"
+        }
+      },
+      {
+        "component": "List",
+        "type": "",
+        "target": [
+          "designer"
+        ],
+        "list": {
+          "en": [
+            {
+              "text": "Added qrcode icon"
+            }
+          ],
+          "jp": [
+            {
+              "text": "QRコードアイコンを追加しました"
+            }
+          ]
+        }
+      },
+      {
+        "component": "Heading",
+        "type": "h4",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "2017/08/31",
+          "jp": "2017/08/31"
+        }
+      },
+      {
+        "component": "List",
+        "type": "",
+        "target": [
+          "designer"
+        ],
+        "list": {
+          "en": [
+            {
+              "text": "Added .pdf file containing icon creation guidelines"
+            },
+            {
+              "text": "Updated the .zip files, containing the icon font and svg icons, with more icons"
+            }
+          ],
+          "jp": [
+            {
+              "text": "アイコン制作ガイドラインを追加しました"
+            },
+            {
+              "text": "アイコンフォントとsvgアイコンが含まれるzipファイルに、アイコンを追加し更新しました"
+            }
+          ]
+        }
+      },
+      {
+        "component": "Heading",
+        "type": "h4",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "2017/07/12",
+          "jp": "2017/07/12"
+        }
+      },
+      {
+        "component": "List",
+        "type": "",
+        "target": [
+          "designer"
+        ],
+        "list": {
+          "en": [
+            {
+              "text": "Added .zip file containing group and other icons of the Rakuten icon font"
+            },
+            {
+              "text": "Added .zip containing .svg files of group and other icons"
+            }
+          ],
+          "jp": [
+            {
+              "text": "アイコンフォントが含まれるzipファイルを追加しました"
+            },
+            {
+              "text": "svgアイコンが含まれるzipファイルを追加しました"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "Downloads",
+          "jp": "ダウンロード"
+        }
+      },
+      {
+        "component": "Download",
+        "type": "",
+        "name": "Icons",
+        "date": "2018/03/12",
+        "size": "XX.XMB",
+        "url": "https://rak.box.com/s/42ufeqt8jyvtu9q9te2toy5n7mdjxyal",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "Downloads",
+          "jp": "ダウンロード"
+        }
+      }
+    ]
+  }
+]

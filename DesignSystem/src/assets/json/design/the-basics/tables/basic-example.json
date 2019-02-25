@@ -1,0 +1,121 @@
+[
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Basic table",
+          "jp": "標準テーブル"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "The default table style is with no background and only horizontal lines. This style covers 95% of the cases and almost all tables should use this style. If you choose one of the other styles, make sure the data covers ALL of the criteria described for them. If it doesn’t, then always use the basic table style.",
+          "jp": "標準スタイルは、背景なしの横線のみのデザインになります。このスタイルは95％の事例に適応でき、ほぼ全ての場合に使用できます。下記の別スタイルの使用の際には、挿入されるデータがそれぞれの使用基準を満たしていることを確認してください。満たしていない場合は、標準スタイルを使用します。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "tableImgBasicTable1@2x.png",
+          "jp": "tableImgBasicTable1@2x.png"
+        }
+      },
+      {
+        "component": "WorkingExample",
+        "type": "",
+        "data": [
+          {
+            "component": "Table",
+            "type": "basic",
+            "headings": {
+              "en": [
+                "Name",
+                "Type",
+                "Point",
+                "Price"
+              ],
+              "jp": [
+                "商品名",
+                "タイプ",
+                "ポイント",
+                "価格"
+              ]
+            },
+            "rows": {
+              "en": [
+                {
+                  "rowType": "",
+                  "cells": [
+                    "abcdef",
+                    "abcdef",
+                    "1,000",
+                    "$1,000"
+                  ]
+                },
+                {
+                  "rowType": "",
+                  "cells": [
+                    "ghijk",
+                    "ghijk",
+                    "1,000",
+                    "$1,000"
+                  ]
+                },
+                {
+                  "rowType": "",
+                  "cells": [
+                    "lmnop",
+                    "lmnop",
+                    "99",
+                    "$99"
+                  ]
+                }
+              ],
+              "jp": [
+                {
+                  "rowType": "",
+                  "cells": [
+                    "あいうえお",
+                    "あいうえお",
+                    "1,000",
+                    "1,000円"
+                  ]
+                },
+                {
+                  "rowType": "",
+                  "cells": [
+                    "かきくけこ",
+                    "かきくけこ",
+                    "1,000",
+                    "1,000円"
+                  ]
+                },
+                {
+                  "rowType": "",
+                  "cells": [
+                    "さしすせそ",
+                    "さしすせそ",
+                    "99",
+                    "99円"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,290 @@
+[
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Icon usage",
+          "jp": "アイコンの使用方法"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "When using the Rex icons, there are a couple of things to keep in mind. First and foremost, never assign double meaning to icons - when you pick a certain icon, always use it for the same thing, never use it for two or more different items. \r\nNever assign new meanings to the group icons. The general icons are a bit ambiguous and can be used for many different things, but the group icons must always be used with the meaning, specified on the ReX website. For example, the logout icon should always be used for logout, and logout only - nothing else. \r\nAnother thing to keep in mind is when choosing arrows. ReX has two types of arrows - carets and arrows. We recommend to use arrows for navigation within the page hierarchy (i.e. The back arrow on the mobile header), and carets for drilldown menus and lists, which only change the view (i.e. Accordions, lists or tables, etc.).",
+          "jp": "Rexアイコンを使用する場合、念頭に置いておくべきことがいくつかあります。まず何より大事なことは、アイコンに二重の意味を持たせないようにすることです。ある特定のアイコンを選んだら、そのアイコンは常に同じ事柄のために使用するようにし、2つ以上の異なるアイテムに対して同じアイコンを使用することは絶対に避けてください。\r\nグループアイコンに新たな意味を持たせることも決して行わないでください。ジェネラルアイコンには汎用性があり、さまざまな多くの事柄に使用することができますが、グループアイコンは常にReX ウェブサイトで指定されている意味を伴って使用されなければなりません。例えばログアウトアイコンは常にログアウトのためのみに使用されるべきで、他の場面では一切使用されるべきではありません。\r\nもう一つ頭に入れておくべきことは、矢印の選び方です。ReX には矢印とキャレットの2種類が用意されています。矢印は、ページの階層内でナビゲーションを行う時に使用されることが推奨されます (モバイルのヘッダーに置かれた「戻る」の矢印など)。キャレットはメニューやリストを展開する時に使用されることが推奨されます (ツリーやリスト、表など)。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "icons_icon-usage_img0.png",
+          "jp": "icons_icon-usage_img0.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "The ReX icon set also has two types of icons - outlined and filled. One reason for this is to account for cases when the icon is small and the outlined version will be hard to comprehend. The other reason is to account for toggle buttons and bottom navigation/tab bar on mobile - for the active button/selected menu state, the filled version of the icon should be used, while the outlined version is used for the idle state.",
+          "jp": "またReXアイコンセットにも白抜きと塗りつぶしの2種類があります。2種類用意している理由の一つは、アイコンが小さく白抜きバージョンだと判別しづらい場合に備えるためです。別の理由は、モバイルのトグルボタンやボタンナビゲーション/タブバーのためです。有効になっているボタンやメニューが選択されている状態を表す時には塗りつぶしバージョンのアイコンが使用されるべきで、無効状態を表す時には白抜きバージョンが使用されます。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "icons_icon-usage_img1.png",
+          "jp": "icons_icon-usage_img1.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Favorites icon: ☆ vs. ♡",
+          "jp": "お気に入りアイコン: ☆と♡"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "For favorites we recommend to use ‘heart’ rather than ‘star’. There are several reasons for that, first and foremost ‘star’ is already used for rating. Since it’s already globally established icon for that purpose we can’t really change the rating icon to anything else. If we use ‘star’ for both favorites and rating, this might cause serious confusion among the users, since we’re assigning dual meaning to the same icon. Therefore we strongly advise to use ‘heart’ for favorites as it is globally used as icon for favorites.",
+          "jp": "お気に入りには☆ではなく♡を使用することを推奨します。それにはいくつか理由がありますが、☆はすでに評価のアイコンとして使用されているからです。☆は評価を表すものとしてすでに世界的に確立されており、評価アイコンを別のものに変えることはできません。☆をお気に入りと評価の両方に使用すると同じアイコンに2つの意味を持たせることになり、ユーザーの間で深刻な混乱を引き起こす可能性があります。そのため、お気に入りのアイコンは、世界的にも使用されている♡を使用することをおすすめします。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "icons_icon-usage_img1.png",
+          "jp": "icons_icon-usage_img1.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h2",
+        "text": {
+          "en": "Types",
+          "jp": "それぞれのアイコンの使用方法"
+        }
+      },
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Types",
+          "jp": "NEW"
+        }
+      },
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": "",
+          "jp": [
+            {
+              "text": "新しいことを知らせる言葉やアイコンは以下を使用しましょう。また使用後必要以上にこの言葉やアイコンが使用されないように、"
+            },
+            {
+              "text": "最大３カ月",
+              "type": "strong"
+            },
+            {
+              "text": "後に依頼者が削除依頼をし、使用を中止してください。"
+            }
+          ]
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "",
+          "jp": "new.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Types",
+          "jp": "家族カード表示"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "",
+          "jp": "家族カードの表現には以下の２パターンのどちらかを使用してください。"
+        }
+      },
+      {
+        "component": "List",
+        "type": "",
+        "list": {
+          "en": [
+            {
+              "text": ""
+            },
+            {
+              "text": ""
+            }
+          ],
+          "jp": [
+            {
+              "text": "カード券面2枚重ね"
+            },
+            {
+              "text": "アイコン"
+            }
+          ]
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "",
+          "jp": "family-card.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Types",
+          "jp": "閉じる表示"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "",
+          "jp": "閉じるの表現には以下のアイコンを使用してください。\r\nモーダルに関しては、閉じるという補助的テキストは必要ありません。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "",
+          "jp": "close.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Types",
+          "jp": "メニュー表示"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "",
+          "jp": "メニューを表現するアイコンは以下を補助テキストと一緒に使用してください。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "",
+          "jp": "menu.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Types",
+          "jp": "遷移表示"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "",
+          "jp": "ページ遷移するテキストリンクは右シェブロンを使用し、ページ内リンクするテキストリンクは下矢印を使用してください。文中のテキストリンクにはアイコンは必要ありません。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "",
+          "jp": "text-link.png"
+        }
+      }
+    ]
+  }
+]

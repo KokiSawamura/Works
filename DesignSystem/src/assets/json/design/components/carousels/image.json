@@ -1,0 +1,55 @@
+[
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Image carousels",
+          "jp": "イメージカルーセル"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "Used to showcase different views of a product or service. They are great way of showcasing any product, without overloading the page with too many pictures. This type of carousel allows a larger version of the current image to be called by clicking or tapping on it.",
+          "jp": "製品やサービスをさまざまな視点から見せるために使用されます。あまりに多くの画像でページを重くすることなく製品を展示するのにとても優れた方法です。このタイプのカルーセルでは画像をクリックまたはタップすることで、同じ画像のより大きいバージョンを見ることができるようになっています。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "carousels_image-carousels_img0.png",
+          "jp": "carousels_image-carousels_img0.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "carousels_image-carousels_img1.png",
+          "jp": "carousels_image-carousels_img1.png"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "component": "Select",
+  "type": "",
+  "name": "select-1",
+  "state": "disabled",
+  "target": ["designer"],
+  "options": {
+    "en": [
+      {
+        "text": "アイテム 1",
+        "value": "item-1-jp"
+      },
+      {
+        "text": "アイテム 2",
+        "value": "item-2-jp"
+      },
+      {
+        "text": "アイテム 3",
+        "value": "item-3-jp"
+      }
+    ],
+    "jp": [
+    ]
+  }
+}

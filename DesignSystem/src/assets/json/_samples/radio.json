@@ -1,0 +1,28 @@
+{
+  "component": "LabelAndCheckbox",
+  "type": "radio",
+  "target": ["designer"],
+  "name": "radio-example-2",
+  "labels": {
+    "en": [
+      {
+        "text": "Label",
+        "id": "radio-5"
+      },
+      {
+        "text": "Label",
+        "id": "radio-6"
+      },
+      {
+        "text": "Label",
+        "id": "radio-7"
+      },
+      {
+        "text": "Label",
+        "id": "radio-8"
+      }
+    ],
+    "jp": [
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+[
+  {
+    "component": "Section",
+    "className": "tags-section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Overview",
+          "jp": "タグ"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "Tags are interactive elements that represent certain characteristic of a product or service. A tag consists of a string of text on a gray background. They can represent categories, characteristics, promotions, etc.",
+          "jp": "タグは操作性のある要素で、製品やサービスのある特徴を表すものです。タグはグレーの背景に書かれた文字列で構成されており、カテゴリー、特徴、プロモーションなどを表すことができます。タグとラベルの違いは、タグはクリック可能で一種のフィルター機能があるという点です。クリックすると、タグはその特定のカテゴリーや特徴に関連するすべての要素を呼び出します。"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "The difference between tags and labels is that tags are clickable and serve as type of filtering mechanism – on click they call all elements associated with that specific category or characteristic. ",
+          "jp": "タグとラベルの違いは、タグはクリック可能で一種のフィルター機能があるという点です。クリックすると、タグはその特定のカテゴリーや特徴に関連するすべての要素を呼び出します。"
+        }
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "tags_img_specs.png",
+                  "jp": "tags_img_specs.png"
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "tags_overview_img0.png",
+                  "jp": "tags_overview_img0.png"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "If the user has decided to filter by a certain tag, it needs to be clearly displayed. They also should be allowed to change their mid and clear some or all of the tags they have previously selected. To enable that, show an ‘X’ button at the right hand side of the tag.",
+          "jp": "ユーザーがある特定のタグでフィルターをかけた場合、そのことは明確に表示する必要があります。また途中で考えが変わった場合に備えて、ユーザーは選択していたタグの一部またはすべてを消去することができるようにすべきです。それを可能にするために、タグの右側に×ボタンを表示してください。"
+        }
+      }
+    ]
+  }
+]

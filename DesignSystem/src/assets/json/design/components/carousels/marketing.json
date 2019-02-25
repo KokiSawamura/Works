@@ -1,0 +1,81 @@
+[
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Marketing carousels",
+          "jp": "マーケティングカルーセル"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "Usually located at the top of the homepage, they display content that warrants emphasis. They are good when you want to highlight features and offers.",
+          "jp": "ホームページのトップに配置されることが多いこのカルーセルは、強調したいコンテンツを表示するためのものです。特徴やオファーに注目を集めたい場合に適しています。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Make sure that those offers are formatted as part of the site, rather than to make them look like external ads. The carousel should not be the only way to access this content, since it’s likely that users won’t see all the slides.\r\nConsider carefully the slide sequence - first slide will get most exposure, so it should always contain the most important piece of content, for it needs to 'sell' the rest of the slides. You could also allow for auto-rotation on desktop, but never use for mobile, because there’s no way for the user to control it and that causes usability and accessibility issues. If you decide to implement auto-rotation on desktop, make sure there’s sufficient time for the user to read the information on each slide. You can use 3 words per second as a guide to determine how long should each slide be shown for. Always pause the rotation if the user hovers over the carousel. Resume the auto-rotation if they just leave the carousel without interacting with it. If the user interacts with the carousel by changing the slides, stop the auto-rotation, even after their mouse exits the carousel. Since it’s hard for the user to know when a slide will change, adding a bar that shows the progress (either above each thumbnail or at the bottom of the carousel) is ideal.",
+          "jp": "こうしたオファーは外部広告のように見えないよう、サイトの一部として統一感を保つように注意を払ってください。ユーザーはすべてのスライドを見ない可能性が高いので、カルーセル掲載コンテンツへはカルーセル以外からもアクセスできるようにしておいてください。\r\nスライドの並び順も慎重に考慮してください。最も多く見られることになる最初のスライドには残りのスライドを「売り込む」役目もあるので、必ず最も重要なコンテンツを配置するべきです。また、デスクトップでは自動ローテーションを使用してもかまいませんが、モバイルでは決して使用しないでください。モバイルで自動ローテーションを使うと、ユーザーがカルーセルを操作することができなくなり、ユーザビリティとアクセシビリティの点で問題が引き起こされるからです。\r\nデスクトップに自動ローテーションを実装する場合は、ユーザーが各スライドの情報を読むのに十分な時間を割り当てるように注意してください。各スライドの表示時間を決める目安としては、1秒間に3単語という基準を使うことができます。ユーザーがカルーセルにホバーした時には、必ずローテーションを一時停止するようにしてください。ユーザーが何も操作せずにカルーセルを離れたら、自動ローテーションを再開してください。もしユーザーがスライドを変更する操作を行ったら、マウスがカルーセルから離れた後も自動ローテーションを停止してください。\r\nユーザーにとってはいつスライドが変わるかがわかりにくいので、各サムネイルの上かカルーセルの下部のどちらかに残り時間を示すバーを追加すると理想的です。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "carousels_marketing_img0.png",
+          "jp": "carousels_marketing_img0.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Make sure the content of your carousel is of high quality and is relevant to the customer. This, more than anything else, will ensure its effectiveness. Make sure it is easy to comprehend what the carousel contains next, by adding thumbnails with the titles of the other slides. Don’t relay on arrows or dots alone. Don’t overload your carousel with content – it should have maximum 3-5 slides. If you have text together with your images, it shouldn’t be part of the image, to improve scalability and readability across devices. If having text in images is inevitable, test your carousel on different devices to ensure that the content is legible on small screens as well as big screens.",
+          "jp": "カルーセルに掲載するコンテンツはクオリティが高く、かつ顧客に関連性のあるものにしてください。このことが他の何よりも高い効果をもたらします。他のスライドのタイトル付きサムネイルを追加することで、次にカルーセルに出てくるコンテンツは何なのかをわかりやすくしておいてください。矢印やドットのみに頼ることは避けてください。\r\nカルーセルにコンテンツを詰め込みすぎないでください。スライドの数は最大でも3～5枚にしておくべきです。画像と共にテキストも載せる場合は、異なるデバイス間のスケーラビリティと読みやすさを向上させるため、テキストは画像の一部にすべきではありません。どうしてもテキストを画像に含めなければならない場合は、小さいスクリーン上でも大きいスクリーンで読む時と同じように読みやすいかどうかを確かめるため、異なるデバイスでカルーセルをテストしてください。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "carousels_marketing_img1.png",
+          "jp": "carousels_marketing_img1.png"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,180 @@
+[
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Progressive disclosure",
+          "jp": "段階的開示"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "Progressive disclosure is a design pattern that intends to reduce clutter, confusion and cognitive load to the user, so they can remain focused on their task. This pattern is especially useful on mobile, where space is limited and we need to priorities information.",
+          "jp": "段階的開示は、ユーザーに与える乱雑さ、混乱、認知的負荷を減らし、タスクに集中できるようにすることを意図したデザインパターンの1つです。このデザインは、スペースに限りがあり、情報に優先順位を付けることが求められるモバイルで特に役立ちます。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Overview",
+          "jp": "概要"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Progressive disclosure basically means displaying snippets of information, to give the user enough to judge whether they are interested in more or not. An example of this will be any list (product list, search results, etc.), collection of cards, accordions or any expandable elements. ",
+          "jp": "段階的開示とは基本的に、あるトピックについてさらに知りたいかどうかをユーザーが判断するための情報の断片を表示することを意味します。例としてはリスト （製品一覧、検索結果など）、一連のカード、アコーディオン、いずれかの拡張可能な要素などが挙げられます。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Benefit",
+          "jp": "利点"
+        }
+      },
+      {
+        "component": "List",
+        "type": "",
+        "list": {
+          "en": [
+            {
+              "text": "Content is prioritized – by showing the most important content first we help focus the user’s attention and allow them to scan faster"
+            },
+            {
+              "text": "Reduced clutter – using progressive disclosure we can provide simple, more productive interfaces, while keeping the feature amount intact. This also helps reduce the error rate."
+            }
+          ],
+          "jp": [
+            {
+              "text": "コンテンツに優先順位が付けられる: 最も重要なコンテンツを最初に表示することでユーザーの気を引かせ、より迅速に目を通せるようにすることができます"
+            },
+            {
+              "text": "乱雑さの削減: 段階的開示を使用することで、機能の量を損なわずに、シンプルでより生産性の高いインターフェースを提供できます。エラー率を減らすことにも役立ちます"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Usage",
+          "jp": "使用方法"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Progressive disclosure of information is suitable for large lists of varying content, where user’s interest is unclear, i.e. search results, article list, etc. In cases like this we need to give the user enough information to judge whether they want to read more or not.",
+          "jp": "情報の段階的開示は、検索結果や記事一覧など、ユーザーの興味がはっきりしない場合において、幅広いコンテンツからなる大規模なリストに適しています。このようなケースでは、さらに読みたいかどうかを判断するのに十分となる情報をユーザーに提供する必要があります。"
+        }
+      },
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": [
+            {
+              "text": "Once the user finds something they are interested in, they can see more. This can be achieved in one of two ways – by opening a new view (for "
+            },
+            {
+              "text": "lists ",
+              "type": "link",
+              "href": "/design/the-basics/typography/lists/"
+            },
+            {
+              "text": "and "
+            },
+            {
+              "text": "cards",
+              "type": "link",
+              "href": "/design/components/containers/cards/"
+            },
+            {
+              "text": ") or expanding the panel to show the available information ("
+            },
+            {
+              "text": "accordions",
+              "type": "link",
+              "href": "/design/components/accordion/overview/"
+            },
+            {
+              "text": "). What you use depends on the context, but accordions are not appropriate for large quantities of information. For more information, see "
+            },
+            {
+              "text": "accordions",
+              "type": "link",
+              "href": "/design/components/accordion/overview/"
+            },
+            {
+              "text": "."
+            }
+          ],
+          "jp": [
+            {
+              "text": "ユーザーが興味のあるものを見つけたら、それについてさらに見ることができます。さらなる情報を表示するには、新しい表示を開く （"
+            },
+            {
+              "text": "リスト",
+              "type": "link",
+              "href": "/design/the-basics/typography/lists/"
+            },
+            {
+              "text": "や"
+            },
+            {
+              "text": "カード",
+              "type": "link",
+              "href": "/design/components/containers/cards/"
+            },
+            {
+              "text": "の場合） か、パネルを拡張して用意されている情報を表示する（"
+            },
+            {
+              "text": "アコーディオン",
+              "type": "link",
+              "href": "/design/components/accordion/overview/"
+            },
+            {
+              "text": "） かのどちらかの方法を採ることができます。どれを使うかは状況によりますが、アコーディオンは大量の情報には適していません。詳しくは、"
+            },
+            {
+              "text": "アコーディオン",
+              "type": "link",
+              "href": "/design/components/accordion/overview/"
+            },
+            {
+              "text": "を参照してください。"
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

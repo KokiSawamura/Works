@@ -1,0 +1,45 @@
+// form-elements
+%centering-style {
+  display: flex;
+  > div {
+    margin: auto;
+  }
+}
+
+.form-elements-label-example {
+  .working-example {
+    @extend %centering-style;
+    > div {
+      .input-area, .text-area {
+        width: 320px;
+      }
+    }
+
+  }
+}
+.form-elements-radio,
+.form-elements-checkbox,
+.form-elements-stepper,
+.form-elements-continuous-slider,
+.form-elements-discrete-slider,
+.form-elements-switch {
+  .working-example {
+    @extend %centering-style;
+    height: 152px;
+  }
+}
+.form-elements-continuous-slider,
+.form-elements-discrete-slider {
+  .slider-wrapper {
+    width: 200px;
+  }
+}
+.form-elements-selects {
+  .working-example {
+    @extend %centering-style;
+    height: 289px;
+    .select-wrapper {
+      width: 233px;
+    }
+  }
+}

@@ -1,0 +1,300 @@
+[
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Symbol",
+          "jp": "シンボル"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "The Rakuten symbol is another symbolization of the Rakuten brand. The symbol can appear in any of the seven subbrand colors and can be used in certain conditions.",
+          "jp": "楽天シンボルは、楽天ロゴと同じく[Rakuten/楽天]を表象するシンボルです。限られた条件下でシンボルを使用することができます。"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "To strengthen the relationship of the symbol and the Rakuten brand, please follow the rules below. Usage conditions:",
+          "jp": "全てのサブブランドカラーのシンボルに[Rakuten/楽天]という意味を結びつけていくために、下記使用条件に沿ってシンボルを使用してください。使用条件："
+        }
+      },
+      {
+        "component": "List",
+        "type": "ordered",
+        "list": {
+          "en": [
+            {
+              "text": "The brand experience is clearly controlled by Rakuten or the Rakuten groups."
+            },
+            {
+              "text": "The full logo already exists in the experience."
+            }
+          ],
+          "jp": [
+            {
+              "text": "一連のユーザー体験(UX)が楽天および楽天グループによって提供 されていることが明らかであり、かつUXの 中に楽天ロゴが存在して いること"
+            },
+            {
+              "text": "ロゴが入らない限られたスペースでは、楽天表記が近く に存在していること。"
+            }
+          ]
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "As a general rule, the symbol appears in a sub-brand color and placed on a white background. When using the symbol in white, the background color should be black or the same as sub-brand color. When placing the symbol on a image, ensure there is contrast between the symbol and the background.",
+          "jp": "シンボルは、基本的に白背景の上にサブブランドカラーのものを使用してください。白抜きのシンボルを使用する場合は、シンボルと同じ色のサブブランドカラー背景または黒背景の上に配置してください。写真の上に配置する際には、図と地のコントラストに気をつけてください。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "brand_img_symbol.png",
+          "jp": "brand_img_symbol.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h2",
+        "text": {
+          "en": "Clear space and minimum size",
+          "jp": "余白と最小サイズ"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "In order to ensure the greatest visibility of the symbol, follow the Clear Space and Minimum Size requirement rules.",
+          "jp": "シンボルの視認性を担保するために余白と最小サイズ、および下記のルールを守ってください。"
+        }
+      },
+      {
+        "component": "List",
+        "type": "list",
+        "list": {
+          "en": [
+            {
+              "text": "Provide adequate Clear Space around the logo to ensure it is highly visible"
+            },
+            {
+              "text": "Do not place multiple symbols on the same medium (except for media backdrops, billboard in ballparks, etc.)"
+            },
+            {
+              "text": "Respect the Clear Space - refrain from inserting other graphical elements"
+            }
+          ],
+          "jp": [
+            {
+              "text": "周辺に十分なスペースを確保し、独立性をもって配置する"
+            },
+            {
+              "text": "ひとつの媒体の中に、複数のシンボルを使用しない"
+            },
+            {
+              "text": "余白エリアに他のロゴやグラフィック要素を配置しない"
+            }
+          ]
+        }
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "8",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "brand_img_symbol-space-size1.png",
+                  "jp": "brand_img_symbol-space-size1.png"
+                }
+              },
+              {
+                "component": "Text",
+                "type": "Strong",
+                "text": {
+                  "en": "Clear space",
+                  "jp": "余白"
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "4",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "brand_img_symbol-space-size2.png",
+                  "jp": "brand_img_symbol-space-size2.png"
+                }
+              },
+              {
+                "component": "Text",
+                "type": "",
+                "text": {
+                  "en": "Minimum size",
+                  "jp": "最小サイズ"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h2",
+        "text": {
+          "en": "Color usage",
+          "jp": "色"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "The symbols are to be used in it’s original state. The symbol can be placed on a white background or on a light gray background with a color density of less than 5%. The white symbol can be used on a sub-brand color or black background. For monochrome prints, please use the symbol in full black. \r\nPlease be aware of the contrast between the symbol and the background content. When placing the original symbol over an image, it should be layered on top of images with a lighter tone or lighten the tone of the image around the symbol. \r\nWhen visibility becomes a concern, an adjustment layer could be applied on top of the background image. The recommendation is to apply a 70-90% white tinted layer to images with a lighter tone, and a 50-80% sub-brand colored tinted layer to images with a darker tone. Transparency of the tint is subjected to change based on the need for visibility in each design.",
+          "jp": "シンボルを配置する際には、基本的にオリジナルシンボルを使用してください。オリジナルシンボルは白背景及び色濃度5%以下の薄いグレーの上で使用することができます。白抜きシンボルは、クリムゾンレッドまたは黒背景の上で使用することができます。\r\n単色の印刷物には、黒一色のシンボルを使用してください。\r\n シンボルを写真の上に配置する際には、図と地のコントラストに気をつけてください。明るいトーンの写真またはシンボル周辺のトーンを明るく調整した写真にオリジナルシンボルを配置してください。\r\n視認性を担保できない場合は調整レイヤーを配置してください。調整レイヤーは、明るいトーンの写真では透明度70-90%の白色の調整レイヤーを、暗いトーンの写真では透明度50-80%のクリムゾンレッドの調整レイヤーを配置してください。透明度は目安なので、推奨数値で視認性が担保できない場合は適宜透明度を調整してください。シンボルは、ロゴまたは表記と必ずセットで使用しなければいけません。次項以降の詳細ルールを遵守して正しくシンボルを運用してください。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "brand_img_symbol-color-usage.png",
+          "jp": "brand_img_symbol-color-usage_jp.png"
+        }
+      },
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": [
+            {
+              "text": "Note: ",
+              "type": "strong"
+            },
+            {
+              "text": "Fore more usage rules, please see the "
+            },
+            {
+              "text": "Rakuten Brand Guideline",
+              "type": "link",
+              "href": "https://rak.app.box.com/folder/40350551211"
+            },
+            {
+              "text": "."
+            }
+          ],
+          "jp": [
+            {
+              "text": "注: ",
+              "type": "strong"
+            },
+            {
+              "text": "その他の利用例については"
+            },
+            {
+              "text": "楽天ブランドガイドライン",
+              "type": "link",
+              "href": "/design/rex/brand-and-logo-guidelines/overview/"
+            },
+            {
+              "text": "をご確認ください。"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h2",
+        "text": {
+          "en": "Misuse",
+          "jp": "禁則事項"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "In order to maintain a visually consistent look, the symbol must not be modified, changed, or have any other element introduced to it. Always use the symbol data from the logo sheet.",
+          "jp": "シンボルの視覚的な一貫性を担保することはとても重要です。シンボルにはいかなる修正、改変、要素の追加をしてはいけません。常にロゴシートにある正規データを使用し、どの媒体でも同じに見えるように慎重に運用を行ってください。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "brand_img_symbol-misuse.png",
+          "jp": "brand_img_symbol-misuse-cjk.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Sub-brand colors",
+          "jp": "色"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "For sub-brand creatives, the sub-brand color should be used as much as possible. If a different color is required, use a different shade of the sub-brand color by modifying the brightness or saturation, or use grayscale.",
+          "jp": "サブブランドの制作物には基本的にサブブランドカラーをできるだけ使用してください。制作物で他の色が必要な場合は、サブブランドカラーと同じ色相で、明度・彩度を調整したカラーまたはグレースケールを適宜使用してください。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "brand_img_subbrand-colors.png",
+          "jp": "brand_img_subbrand-colors.png"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+#sidebar {
+  padding-top: $site-padding-top;
+  max-width: 288px;
+  padding: 48px;
+  padding-right: 0;
+  #logo {
+    margin-left: -1.6rem;
+    img {
+      width: 128px;
+      height: auto;
+    }
+  }
+  @import "sidebar/menu";
+}

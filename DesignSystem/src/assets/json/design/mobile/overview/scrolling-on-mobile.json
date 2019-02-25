@@ -1,0 +1,120 @@
+[
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Scrolling on mobile",
+          "jp": "スクロール"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "One of the things most feared on mobile has always been scrolling. Quite often there’s a great effort put into cramping everything in the initially visible part of the screen because ‘users don’t scroll’ and all they see is the information ‘above the fold’. Both of those assertions are incorrect – people do scroll and actually pay more attention to the information right below the fold. ",
+          "jp": "スクロールは常にモバイルで最も懸念されるものの1つに数えられてきました。「ユーザーはスクロールしない」ので、ユーザーの目に入るのは「折りたたみ（ファーストビュー）より上にある」情報だけであるため、画面の最初に見える部分にすべてを詰め込むことに多大な労力が費やされているケースがかなりの頻度で見られます。ですが上記の主張はどちらも間違っており、ユーザーはスクロールを行いますし、実際は折りたたみのすぐ下の情報の方により注目しています。"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "‘The fold’ is a term coined by newspapers, which were folded when put in the newsstand, so the information that attracted the reader was what was visible above that fold. This term has been transferred to digital from print and has been persistently pushed as the most visible part of a webpage. But research shows that most users do scroll quite quickly on page load and actually most of the information they see is right above and a little below the fold. More over with the introduction of variety of screen sizes, ‘the fold’ has become so convoluted that is close to none-existent. Instead of thinking about the fold and providing as little scrolling as possible, focus on providing relevant content and CTA at the right location, rather than anything else. Locating the ‘Sign up’ button at the top of the page before even telling the user what they are signing up for will not really improve your conversion, it might even prove harmful. ",
+          "jp": "「折りたたみ（ファーストビュー）」は新聞業界が作り出した用語であり*、新聞は新聞立てに入れる時に折りたたまれるので、読者を引きつける情報はその折り目よりも上の、視界に入る部分のものであったことから来ています。この用語が印刷物からデジタルへと移され、ウェブページの中で最も視界に入る部分を表すものとして長らく押しつけられてきました。しかし調査により、ほとんどのユーザーはページ読み込み時、かなり速やかにスクロールを行っていることと、実際にユーザーが見る情報の大半は、折りたたみのすぐ上と少し下にある情報だということが分かっています。その上、幅広い画面サイズの登場により、「折りたたみ」は非常に複雑なものとなり、ほぼ存在しなくなりました。折りたたみを考慮したり、できる限りスクロールを少なくするのではなく、まず、関連するコンテンツとCTAを適切な場所で提供することに焦点を当ててください。何への登録なのかをユーザーに説明する以前のページ最上部に「登録」ボタンを配置しても、コンバージョンの向上は望めないどころか逆効果にすらなる可能性もあります。"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "This being said, users scroll only if the content suggests there is more to be seen. If the content neatly finishes at the edge of the screen, chances are users might miss the fact there’s more below. To avoid that it’s best to have some of your content cut off by the screen, so that the user has visual indication that more is available. ",
+          "jp": "そうは言っても、ユーザーがスクロールを行うのは、まだ見えていないコンテンツが存在することが示唆されている場合のみです。コンテンツが画面の端できれいに終わっていると、ユーザーはその下にまだコンテンツがあることを見落としてしまいます。それを避けるには、コンテンツの一部が画面の端で途切れるようにすることが良いです。そうすれば、さらに続きがあることをユーザーに視覚的に示唆することができます。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "mobile_scrolling_img0.png",
+          "jp": "mobile_scrolling_img0.png"
+        }
+      },
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": [
+            {
+              "text": "Even though users can and will scroll, that doesn’t mean they will do so indefinitely. Long pages also pose the problem of going back to check something that grabbed the user’s interest, or going back to top. So while having long pages is fine, having them too long may cause problems. A way to counter that is "
+            },
+            {
+              "text": "Progressive disclosure",
+              "type": "link",
+              "href": "/design/mobile/overview/progressive-disclosure/"
+            },
+            {
+              "text": ", another is to implement a  "
+            },
+            {
+              "text": "back to top button ",
+              "type": "link",
+              "href": "/design/the-basics/buttons/back-to-top-button/"
+            },
+            {
+              "text": "when your page gets longer than 5 screens."
+            }
+          ],
+          "jp": [
+            {
+              "text": "しかしユーザーは永遠にスクロールし続けるわけではありません。ページを長くしすぎてしまうと、ユーザーが興味を抱いたものに戻りたい時や、最上部に戻りたい時に大変になってしまいます。これを解決する方法の1つは"
+            },
+            {
+              "text": "段階的開示",
+              "type": "link",
+              "href": "/design/the-basics/typography/lists/"
+            },
+            {
+              "text": "を行うことで、もう1つは、ページが5画面分より長くなった時に「"
+            },
+            {
+              "text": "トップへ戻る",
+              "type": "link",
+              "href": "/design/components/containers/cards/"
+            },
+            {
+              "text": "」ボタンを実装することです。"
+            }
+          ]
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Another way to counter long pages is by adding anchor links, or links that take the user to a specific section on the same page. However anchor links are only useful in very few, very specific cases, and are not recommended at all, most of all on mobile. ",
+          "jp": "長いページに対処するための別の方法は、ユーザーを同一ページ内の特定のセクションに飛ばせることができるアンカーリンクを追加することです。ただしアンカーリンクが役に立つのは非常に数少なく、とても限定的なケースのみであり、特にモバイルにおいてはアンカーリンクの使用はまったく推奨されません。"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Anchor links are not very intuitive – they defy the very essence of links, which is to take the user to a new page. Even so anchor links can be useful when in the form of table of contents, which by itself gives a hint to the user that they wouldn’t be taken to a new page. A table of contents by itself takes a lot of space and should be used sparingly and with caution. Most pages don’t require table of contents, only pages with lengthy content and distinct topics, that cannot be separated into different pages, warrant a table of contents (i.e. FAQ pages). Don’t use for short sections, because that will only make the page even long longer and might prove more harmful then helpful to the users.",
+          "jp": "アンカーリンクはユーザーを新しいページに飛ばすというリンクの本質そのものに逆らう存在です。それでも目次形式の中ではアンカーリンクが役立ちます。目次という形式自体が、新しいページには飛ばないことをユーザーに示唆しているからです。目次自体が多くのスペースを必要とするので、控えめに使用されるべきです。ほとんどのページでは目次は必要とされませんが、目次を使う正当な理由があるのは、別々のページには分けることができない長大なコンテンツとはっきり区別できる話題を擁するページ （「よくある質問」ページなど） のみです。短いセクションに目次を使用してもページがさらに長くなるだけなので使用しないでください。"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "If you have a good reason to use anchor links, make sure they look like links – never make anchor links look like main navigation or tabs – those should always switch the view, because that's the mental model a user has for them. Anchor links should be distinct links with clear titles, that give the user enough information on what to expect from the content, they’ll be taken to.",
+          "jp": "アンカーリンクを使用しなければいけない場合は、リンクらしく見えるように気を配り、絶対にメインナビゲーションやタブのように見えることはないようにしてください。アンカーリンクは、ジャンプ先のコンテンツから何が得られるかについての情報をすぐ分かるようなタイトルを持ち、他とは異なるリンクであるべきです。"
+        }
+      }
+    ]
+  }
+]

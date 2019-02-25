@@ -1,0 +1,242 @@
+[
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "target": [
+          "designer",
+          "developer"
+        ],
+        "text": {
+          "en": "ReX motion",
+          "jp": "ReXモーション"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "The motion for ReX is drawn from a variety of theme park rides from jet coasters to bumper cars, in which real-world physics play an important role. The two physical forces that play a major role in the motion design are Pull & Release and Elasticity.",
+          "jp": "ReXモーションは、ジェットコースターやバンパーカーなどテーマパークの乗り物を元にしています。それらの現実世界の物理特性を利用します。特に重要な２つの物理特性は、引張と解放、そして弾性です。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "target": [
+          "designer",
+          "developer"
+        ],
+        "text": {
+          "en": "Pull and release",
+          "jp": "引張と解放"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "The forces of pull and release are mainly evident on gravitational rides such as jet coasters where the vehicle is pulled up towards a peak, followed by a free-fall descent before the vehicle eases to a standstill. The effects are also evident in any ride that requires a transmission of force.",
+          "jp": "引張と解放は、ジェットコースターなどの重力を利用した乗り物に見られます。頂上に向かってゆっくりと車両が引っ張られ、停止する前に自由落下へと続きます。またこれは、力の伝達を必要とする乗り物にも見られます。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "target": [
+          "designer"
+        ],
+        "responsive": true,
+        "src": {
+          "en": "pull-and-release.gif",
+          "jp": "pull-and-release-jp.gif"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "target": [
+          "designer",
+          "developer"
+        ],
+        "text": {
+          "en": "Elasticity",
+          "jp": "弾性"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "Elasticity too can be observed in a vast majority of rides, primarily the rubber bumper attached to the lower portion of a vehicle. It performs as shock absorbers to reduce impact in the event of either a controlled or accidental collision – when a ride comes to an end with a buildup of previous vehicles, deliberate and extensive collisions such as bumper cars, etc. ",
+          "jp": "弾性も多くの乗り物に見られます、主に乗り物の下部に取り付けられたゴム製のバンパーによるものです。これは偶然または意図的な衝突による衝撃を吸収します。例えば、バンパーカーがぶつかりながら走っている時や、アトラクションの最後に車両が速度を落とすときなどです。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "target": [
+          "designer"
+        ],
+        "responsive": true,
+        "src": {
+          "en": "elasticity-3.gif",
+          "jp": "elasticity-jp.gif"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "target": [
+          "designer",
+          "developer"
+        ],
+        "text": {
+          "en": "Other considerations",
+          "jp": "他に考慮する指針"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "Objects being moved or animated should also abide by the following guiding principles:",
+          "jp": "モーション、アニメーションのあるオブジェクトは、下記を満たしてください。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "target": [
+          "designer",
+          "developer"
+        ],
+        "text": {
+          "en": "Responsiveness",
+          "jp": "反応速度"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "Interactions occur frequently therefore animations must be quick and snappy, which not only makes the interface brisk, but also reduces the need for users to wait a long time for things to happen on the screen.",
+          "jp": "インタラクションは頻繁に発生するため、アニメーションは素早く機敏にします。ユーザーは、インターフェイスがきびきびしていると感じ、また画面上で長い間待つ必要がなくなります。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "target": [
+          "designer"
+        ],
+        "responsive": true,
+        "src": {
+          "en": "responsive.gif",
+          "jp": "responsiveness-jp.gif"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "target": [
+          "designer",
+          "developer"
+        ],
+        "text": {
+          "en": "Clarity",
+          "jp": "明快さ"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "Transitions too, occur frequently therefore they must be both simple and clear. This will prevent users from being confused and feel discomfort as to what is happening on the screen.",
+          "jp": "遷移に関しても頻繁に発生するため、簡潔で明確なものにします。そうすることでユーザーが混乱する、または画面で起こっている事に不快感を感じずに済みます。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "target": [
+          "designer"
+        ],
+        "responsive": true,
+        "src": {
+          "en": "clarity.gif",
+          "jp": "clarity-jp.gif"
+        }
+      }
+    ]
+  }
+]

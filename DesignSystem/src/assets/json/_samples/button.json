@@ -1,0 +1,26 @@
+[
+  {
+    "component": "Button",
+    "target": ["developer"],
+    "type": "default",
+    "size": "sm",
+    "color": "",
+    "option": "",
+    "text": {
+      "en": "Button",
+      "jp": ""
+    }
+  },
+  {
+    "component": "Button",
+    "target": ["developer"],
+    "type": "default",
+    "size": "lg",
+    "option": "circle",
+    "innerIcon": "chevron-left",
+    "text": {
+      "en": "",
+      "jp": ""
+    }
+  }
+]

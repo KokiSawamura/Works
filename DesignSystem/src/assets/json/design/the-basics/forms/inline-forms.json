@@ -1,0 +1,46 @@
+[
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Inline forms",
+          "jp": "インラインフォーム"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "In these forms, all form elements are located side-by-side. This is appropriate for small forms with 2-5 fields. Use for forms that are part of a certain area of a page, like a hero area. For large screens only; not available on mobile.",
+          "jp": "このタイプは、それぞれのフォーム項目が横並びに配置されます。これは、項目の数が２-５個程の短いフォームに対して適切です。ヒーローエリアのような特定のエリアで使用してください。モバイルには使用できません、大きなスクリーンのみに使用してください。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "formImgInlineForms1@2x.png",
+          "jp": "formImgInlineForms1@2x-jp.png"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "formImgInlineForms2@2x.png",
+          "jp": "formImgInlineForms2@2x-jp.png"
+        }
+      }
+    ]
+  }
+]

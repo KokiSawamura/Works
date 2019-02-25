@@ -1,0 +1,236 @@
+[
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Back to top button",
+          "jp": "「トップへ戻る」ボタン"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "Back to top button is a floating button, that on press takes the user back to top. It can be very useful for long pages, especially on mobile.",
+          "jp": "「トップへ戻る」ボタンはフローティングボタンで、押すとユーザーをトップに戻します。これは長いページで非常に便利で、特にモバイル上で効果を発揮します。"
+        }
+      },
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": [
+            {
+              "text": "The back to top button can be either outlined or filled, and has rounded or pills version. Use the one, corresponding to the main button style you’ve chosen. For more information, see "
+            },
+            {
+              "text": "Button options",
+              "type": "link",
+              "href": "/design/the-basics/buttons/options/"
+            },
+            {
+              "text": "."
+            }
+          ],
+          "jp": [
+            {
+              "text": "「トップへ戻る」ボタンは枠線ありバージョンと塗りつぶしバージョン、および角丸バージョンと楕円バージョンがあります。選択したメインボタンのスタイルに合うものを使用してください。より詳細な情報を得るには、"
+            },
+            {
+              "text": "ボタンオプション",
+              "type": "link",
+              "href": "/design/the-basics/buttons/options/"
+            },
+            {
+              "text": "を参照してください。"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "buttons_back-to-top-button_img0.png",
+                  "jp": "buttons_back-to-top-button_img0.png"
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Container",
+                "className": "container-back-to-top-buttons",
+                "data" : [
+                  {
+                    "component": "WorkingExample",
+                    "data": [
+                      {
+                        "component": "Button",
+                        "type": "default",
+                        "size": "normal",
+                        "option": "circle",
+                        "innerIcon": "chevron-top",
+                        "text": {
+                          "en": "",
+                          "jp": ""
+                        }
+                      },
+                      {
+                        "component": "Button",
+                        "type": "",
+                        "size": "normal",
+                        "option": "square",
+                        "innerIcon": "chevron-top",
+                        "text": {
+                          "en": "",
+                          "jp": ""
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Usage",
+          "jp": "使用方法"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "In general back to top is used for pages that are longer than a few screens. When implementing it, make sure that it doesn’t cover any essential content or functionality, especially on mobile.\r\nThe back to top button should be located at the bottom right corner of the page. On desktop it should be outside of your main content container, so that it doesn’t obscure any content. For mobile obscuring content is inevitable due to space limitations. Therefore, ensure that back to top is located high enough, so that it doesn’t cover any interactive elements when the end of the page is reached. ",
+          "jp": "一般的にこのボタンは、そのページの長さが数スクリーン以上にわたる場合に使用されます。これを実装する場合は、重要なコンテンツや機能を覆い隠してしまうことのないように、特にモバイルにおいては十分に注意してください。「トップへ戻る」ボタンはページの右下に配置されるべきです。デスクトップではコンテンツを覆い隠してしまうことのないよう、メインコンテンツコンテナの外側に配置されるべきです。モバイルではスペースが限られているため、コンテンツを覆い隠してしまうことは避けられません。ですので、ページの最後に達した時に操作用の要素を覆い隠してしまわない程度に高い位置に「トップへ戻る」ボタンを配置するようにしてください。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "buttons_back-to-top-button_img2.png",
+                  "jp": "buttons_back-to-top-button_img2.png"
+                }
+              },
+              {
+                "component": "Do",
+                "text": {
+                  "en": "Position the back to top button so that it doesn’t cover any actions when the bottom of the page’s been reached",
+                  "jp": "ページの最下部に達した時、アクションを覆い隠すことのない位置に「トップへ戻る」ボタンを配置すること"
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "buttons_back-to-top-button_img3.png",
+                  "jp": "buttons_back-to-top-button_img3.png"
+                }
+              },
+              {
+                "component": "Dont",
+                "text": {
+                  "en": "Position the back to top button too low so that it covers actions when the bottom of the page’s been reached",
+                  "jp": "ページの最下部に達した時、アクションを覆い隠してしまうほど低い位置に「トップへ戻る」ボタンを配置すること"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Interaction",
+          "jp": "インタラクション"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Since back to top is an obstructive element, especially on mobile, it’s best to keep it hidden until the user needs it. The best way to do this is to only show it when the user starts scrolling up. This will ensure that they have means of getting quickly back to top when needed, and the button isn’t in the way when the user is focused on the content.",
+          "jp": "「トップへ戻る」ボタンはコンテンツやその他の要素の一部に重なって邪魔になる可能性を持つ要素であるため、特にモバイルにおいては、ユーザーがそれを必要としない限り隠しておくのが最善です。そうするための最もよい方法は、ユーザーが上に向けてスクロールを始めた時だけにこのボタンが表示されるようにすることです。これによりユーザーは必要な時に素早くトップに戻る手段を得ることができるでしょうし、またユーザーがコンテンツに集中している時にボタンが邪魔になることもないでしょう。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Accessibility",
+          "jp": "アクセシビリティ"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Since back to top is a floating button and only shows in some cases, it should be excluded from the tab order to improve accessibility.",
+          "jp": "「トップへ戻る」ボタンはフローティングボタンであり、一部の場合にのみ表示されるものなので、アクセシビリティを向上させるためタブオーダーからは除外されるべきです。"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "component": "Milestone",
+  "type": "h4",
+  "target": ["designer"],
+  "complete": true,
+  "period": {
+    "en": "middle of",
+    "jp": ""
+  },
+  "month": {
+    "en": "Jul",
+    "jp": ""
+  },
+  "title": {
+    "en": "Release 0.1.0",
+    "jp": ""
+  },
+  "list": {
+    "en": [
+      {
+        "boldedPhrase": "optional phrase",
+        "text": "Sample A"
+      },
+      {
+        "boldedPhrase": "optional phrase",
+        "text": "Sample B"
+      }
+    ],
+    "jp": []
+  }
+}

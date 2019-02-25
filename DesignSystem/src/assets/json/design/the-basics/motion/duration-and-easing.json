@@ -1,0 +1,406 @@
+[
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Duration and easing",
+          "jp": "持続時間とイージング"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "This section provides information about the duration of animations and easing curve patterns that will assist you in the creation of smooth, responsive, and consistent motion set out by ReX.",
+          "jp": "ここでは、スムーズで反応性の高い一貫したモーションのための継続時間とイージングカーブのパターンを説明します。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Durations",
+          "jp": "持続時間"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Animation durations must be adjusted based on each element to accommodate the amount of distance it must cover.",
+          "jp": "アニメーションの継続時間は、各要素の移動する距離に基づいて調整する必要があります。"
+        }
+      },
+      {
+        "component": "List",
+        "type": "",
+        "list": {
+          "en": [
+            {
+              "text": "For elements that need to travel large distances, use longer durations"
+            },
+            {
+              "text": "For elements that travel short distances, ensure the movement does not appear slow by using short durations"
+            },
+            {
+              "text": "Elements that leave the screen do not require a great deal of attention from the user therefore they could do so faster by shortening the duration."
+            }
+          ],
+          "jp": [
+            {
+              "text": "アニメーションで移動する距離が長い場合は、長めの時間を設定します"
+            },
+            {
+              "text": "アニメーションで移動する距離が短い場合は、短い時間を設定し動きが遅くならないようにします"
+            },
+            {
+              "text": "画面外に消える要素のアニメーションはユーザーの注意をそれほど引く必要がないので、時間を短くし速めることも可能です"
+            }
+          ]
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "The numbers below are a guide to general timings for UI elements only. However, when appropriate, the numbers can be altered to ensure the animation appears smooth and responsive.",
+          "jp": "UI要素の継続時間は下記になります。ただし、アニメーションがよりスムーズで快適にできる場合は、数値を変更しても構いません。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "motionImgDurations@2x.png",
+          "jp": "motion_img_durations-jp.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Easing curves",
+          "jp": "イージングカーブ"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "In order to prevent animations and movements from appearing mechanical, motion curves are introduced to smoothen things out. Acceleration and Deceleration motion curves are introduced because they can make movements appear both natural and delightful.",
+          "jp": "モーションカーブは要素の動きをスムーズにし、モーション、またはアニメーションが機械的にならないように適用されます。加速と減速は、要素のモーションをより自然で楽しくします。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Heading",
+                "type": "h4",
+                "text": {
+                  "en": "Standard Curve",
+                  "jp": "標準カーブ"
+                }
+              },
+              {
+                "component": "TextWithAnchor",
+                "type": "",
+                "text": {
+                  "en": [
+                    {
+                      "text": "Known as ‘"
+                    },
+                    {
+                      "text": "Ease In and Out",
+                      "type": "strong"
+                    },
+                    {
+                      "text": "’, this is the most common easing curve, which allows elements to quickly accelerate and slowly decelerate between screen locations and applies to elements that scale up and/or down."
+                    }
+                  ],
+                  "jp": [
+                    {
+                      "text": "“イーズイン＆イーズアウト”",
+                      "type": "strong"
+                    },
+                    {
+                      "text": "として知られ、最も一般的なイージングカーブです。要素をスクリーン上の始点から終点へと素早く加速させ、ゆっくりと減速させられます。要素の拡大縮小にも適用できます。"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "standardcurve2.gif",
+                  "jp": "standard-curve-jp.gif"
+                }
+              },
+              {
+                "component": "Text",
+                "type": "",
+                "text": {
+                  "en": "$standard-curve: cubic-bezier(0.25, 0, 0.45, 1);",
+                  "jp": "$standard-curve:cubic-bezier(0.25,0,0.45,1);"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Heading",
+                "type": "h4",
+                "text": {
+                  "en": "Deceleration curve",
+                  "jp": "減速カーブ"
+                }
+              },
+              {
+                "component": "TextWithAnchor",
+                "type": "",
+                "text": {
+                  "en": [
+                    {
+                      "text": "Known as ‘"
+                    },
+                    {
+                      "text": "Ease Out",
+                      "type": "strong"
+                    },
+                    {
+                      "text": "’, is used to bring elements onto the screen at full speed and slowly decelerate to a stopping-point."
+                    }
+                  ],
+                  "jp": [
+                    {
+                      "text": "“イーズアウト”",
+                      "type": "strong"
+                    },
+                    {
+                      "text": "として知られ、要素がフルスピードでスクリーンに現れ終点に向かって徐々に減速します。"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "decelerationcurve2.gif",
+                  "jp": "deceleration-curve-jp.gif"
+                }
+              },
+              {
+                "component": "Text",
+                "type": "",
+                "text": {
+                  "en": "$deceleration-curve: cubic-bezier(0, 0, 0.55, 1);",
+                  "jp": "$deceleration-curve:cubic-bezier(0,0,0.55,1);"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Heading",
+                "type": "h4",
+                "text": {
+                  "en": "Acceleration curve",
+                  "jp": "加速カーブ"
+                }
+              },
+              {
+                "component": "TextWithAnchor",
+                "type": "",
+                "text": {
+                  "en": [
+                    {
+                      "text": "Known as ‘"
+                    },
+                    {
+                      "text": "Ease In",
+                      "type": "strong"
+                    },
+                    {
+                      "text": "’, allows elements to leave the screen at full speed (deceleration stops when the element is off-screen). Elements accelerate at the start of the animation and may decrease in size or transparency."
+                    }
+                  ],
+                  "jp": [
+                    {
+                      "text": "“イーズイン”",
+                      "type": "strong"
+                    },
+                    {
+                      "text": "として知られ、要素がフルスピードで画面上から消えるモーションカーブです(画面上から消えると減速は止みます)。アニメーションの開始と同時に加速し、サイズの縮小や透明をしながら展開する場合もあります。"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "accelerationcurve2.gif",
+                  "jp": "acceleration-curve-jp.gif"
+                }
+              },
+              {
+                "component": "Text",
+                "type": "",
+                "text": {
+                  "en": "$acceleration-curve: cubic-bezier(0.45, 0, 1, 1);",
+                  "jp": "$acceleration-curve:cubic-bezier(0.45,0,1,1);"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Heading",
+                "type": "h4",
+                "text": {
+                  "en": "Sharp curve",
+                  "jp": "シャープカーブ"
+                }
+              },
+              {
+                "component": "TextWithAnchor",
+                "type": "",
+                "text": {
+                  "en": [
+                    {
+                      "text": "A type of ‘"
+                    },
+                    {
+                      "text": "Ease In and Out",
+                      "type": "strong"
+                    },
+                    {
+                      "text": "’ curve, where elements quickly accelerate and decelerate. It is primarily used by elements that leave the screen - elements quickly accelerate from a starting point on-screen before quickly decelerating in a symmetrical curve to a stopping-point off-screen."
+                    }
+                  ],
+                  "jp": [
+                    {
+                      "text": "“イーズイン＆イーズアウト”",
+                      "type": "strong"
+                    },
+                    {
+                      "text": "の１つで、素早く加速と減速をします。これは主に画面上から消える要素に対して適用します。要素は、始点から素早く加速して、素早く減速する対称的なモーションカーブを描き画面外の終点に到達します。"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "sharpcurve2.gif",
+                  "jp": "sharp-curve-jp.gif"
+                }
+              },
+              {
+                "component": "Text",
+                "type": "",
+                "text": {
+                  "en": "$sharp-curve: cubic-bezier(0.45, 0, 0.55, 1);",
+                  "jp": "$sharp-curve:cubic-bezier(0.45,0,0.55,1);"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

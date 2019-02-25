@@ -1,0 +1,22 @@
+{
+  "component": "InputGroup",
+  "type": "",
+  "target": ["designer"],
+  "state": "focus",
+  "helperText": {
+    "en": "ヘルプテキスト",
+    "jp": ""
+  },
+  "value": {
+    "en": "入力済",
+    "jp": ""
+  },
+  "placeHolder": {
+    "en": "プレースホルダー",
+    "jp": ""
+  },
+  "label": {
+    "en": "レーブル",
+    "jp": ""
+  }
+}

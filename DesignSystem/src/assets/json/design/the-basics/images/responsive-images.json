@@ -1,0 +1,31 @@
+[
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Responsive images",
+          "jp": "レスポンシブイメージ"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "Images are a primary method of getting complex ideas across. Every site or app uses images. Because of this it’s important that your images are high-quality, in order to achieve their purpose.",
+          "jp": "イメージは複雑な情報を伝える重要な方法です。どのサイトやアプリにおいてもイメージは使用されています。サイトやアプリが目的を達成するためには高品質なイメージが重要になります。"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "When creating your service, always keep in mind that any images it contains will need to look good across many different devices and screen resolutions. Therefore, before you use any images, test them on the display with the highest resolution and on retina displays, to make sure it won’t be blurred.",
+          "jp": "イメージは多くのデバイスと解像度で鮮明に表示されるようにしてください。そのため、イメージを使用する前に、Retinaディスプレイのような高解像度ディスプレイでイメージが不鮮明ではないかを確認しましょう。"
+        }
+      }
+    ]
+  }
+]

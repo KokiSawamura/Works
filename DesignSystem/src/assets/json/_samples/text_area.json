@@ -1,0 +1,17 @@
+{
+  "component": "TextArea",
+  "type": "textarea-active",
+  "target": ["designer"],
+  "helperText": {
+    "en": "Helper text",
+    "jp": ""
+  },
+  "placeHolder": {
+    "en": "Placeholder",
+    "jp": ""
+  },
+  "label": {
+    "en": "Label",
+    "jp": ""
+  }
+}

@@ -1,0 +1,394 @@
+[
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Alert types",
+          "jp": "タイプ"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "front-page-blockquote",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h2",
+        "text": {
+          "en": "Success",
+          "jp": "成功"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Used to indicate an action’s been carried out successfully, i.e. after submitting a form or uploading a picture.",
+          "jp": "これはフォームの送信後や写真のアップデート後などに、アクションの実行に成功したことを示すために使用されます。"
+        }
+      },
+      {
+        "component": "WorkingExample",
+        "cols": "12-12",
+        "data": [
+          {
+            "component": "Container",
+            "data": [
+              {
+                "component": "Alerts",
+                "type": "alert-icon success",
+                "icon": "check",
+                "text": {
+                  "en": ["メッセージ"],
+                  "jp": ["メッセージ"]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "component": "WorkingExample",
+        "cols": "12-12",
+        "data": [
+          {
+            "component": "Container",
+            "data": [
+              {
+                "component": "Alerts",
+                "type": "alert-icon success",
+                "icon": "check",
+                "text": {
+                  "en": ["Message"],
+                  "jp": ["Message"]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "front-page-blockquote",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h2",
+        "text": {
+          "en": "Info",
+          "jp": "お知らせ"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Used for areas that contain important, but not crucial information.",
+          "jp": "重要ではあるものの、決定的に重大ではない情報を示すのに使用されます。"
+        }
+      },
+      {
+        "component": "WorkingExample",
+        "cols": "12-12",
+        "data": [
+          {
+            "component": "Container",
+            "data": [
+              {
+                "component": "Alerts",
+                "type": "alert-icon info",
+                "icon": "sign-info",
+                "iconType": "line",
+                "text": {
+                  "en": ["メッセージ"],
+                  "jp": ["メッセージ"]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "component": "WorkingExample",
+        "cols": "12-12",
+        "data": [
+          {
+            "component": "Container",
+            "data": [
+              {
+                "component": "Alerts",
+                "type": "alert-icon info",
+                "icon": "sign-info",
+                "iconType": "line",
+                "text": {
+                  "en": ["Message"],
+                  "jp": ["Message"]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "front-page-blockquote",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h2",
+        "text": {
+          "en": "Warning",
+          "jp": "警告"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Used to warn about important information that might or might not affect the user, like maintenance announcements or providing information about something expiring.",
+          "jp": "メンテナンスの告知や使用期限の切れるものについての情報など、ユーザーに影響を及ぼす可能性のある重要な情報について警告を行うために使用されます。"
+        }
+      },
+      {
+        "component": "WorkingExample",
+        "cols": "12-12",
+        "data": [
+          {
+            "component": "Container",
+            "data": [
+              {
+                "component": "Alerts",
+                "type": "alert-icon warning",
+                "icon": "sign-info",
+                "iconType": "line",
+                "text": {
+                  "en": ["メッセージ"],
+                  "jp": ["メッセージ"]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "component": "WorkingExample",
+        "cols": "12-12",
+        "data": [
+          {
+            "component": "Container",
+            "data": [
+              {
+                "component": "Alerts",
+                "type": "alert-icon warning",
+                "icon": "sign-info",
+                "iconType": "line",
+                "text": {
+                  "en": ["Message"],
+                  "jp": ["Message"]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "front-page-blockquote",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h2",
+        "text": {
+          "en": "Danger",
+          "jp": "危険"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Used to emphasize areas with severe importance, like error messages or security announcements.",
+          "jp": "エラーメッセージやセキュリティについての告知など、非常に重要性の高い情報を強調するために使用されます。"
+        }
+      },
+      {
+        "component": "WorkingExample",
+        "cols": "12-12",
+        "data": [
+          {
+            "component": "Container",
+            "data": [
+              {
+                "component": "Alerts",
+                "type": "alert-icon danger",
+                "icon": "sign-warning",
+                "iconType": "line",
+                "text": {
+                  "en": ["メッセージ"],
+                  "jp": ["メッセージ"]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "component": "WorkingExample",
+        "cols": "12-12",
+        "data": [
+          {
+            "component": "Container",
+            "data": [
+              {
+                "component": "Alerts",
+                "type": "alert-icon danger",
+                "icon": "sign-warning",
+                "iconType": "line",
+                "text": {
+                  "en": ["Message"],
+                  "jp": ["Message"]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "front-page-blockquote",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Phishing alerts",
+          "jp": "フィッシングアラート"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "This is a special type of alert that warns customers about phishing emails. For it, use the 'danger' contextual color for the background and the text of the alert, with a warning icon in front. The placement of the phishing alert depends on whether it's dismissible or not.",
+          "jp": "これは特別なタイプのアラートで、フィッシングメールについて顧客に警告を発するものです。このアラートには「危険」を表す背景色と文字色を使用し、先頭には警告アイコンを設置してください。フィッシングアラートの設置場所は、そのアラートが解除できるか否かによって変わります。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Heading",
+                "type": "h4",
+                "text": {
+                  "en": "Dismissible",
+                  "jp": "解除可能"
+                }
+              },
+              {
+                "component": "TextWithAnchor",
+                "type": "",
+                "text": {
+                  "en": [
+                    {
+                      "text": "If you allow users to dismiss the alert, place it on top of all of your content, spanning the full width of your website or app, without any margin between it and the boundaries of the site. Once hidden the user won't see the alert for a period of one month and then the alert will be displayed again. If the user hides the alert three times, don't show it to them again.\r\nThe phishing alert is also a link that takes the user to more information. Add an arrow at the end of the text of the alert, to indicate that.\r\nOn mobile, display the alert over the content, similar to a toast."
+                    }
+                  ],
+                  "jp": [
+                    {
+                      "text": "ユーザーがアラートを解除できるようにする場合は、ウェブサイトまたはアプリの横幅いっぱいに、このアラートとサイトの外枠との間にマージンがないようにして、すべてのコンテンツの上に設置してください。非表示にすると1ヶ月間はユーザーから見えなくなり、その後再び表示されます。ユーザーがこのアラートを3回非表示にしたら、二度と表示しないようにしてください。\r\nフィッシングアラートはまた、ユーザーをより詳しい情報へといざなうリンクの役目も果たします。アラートのテキストの最後に矢印を付け加えて、リンクであることを示してください。\r\nモバイルでは、toastに似た感じでコンテンツの上にアラートを表示してください。"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "alerts_alerts-types_img8.png",
+                  "jp": "alerts_alerts-types_img8.png"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "alerts_alerts-types_img9.png",
+          "jp": "alerts_alerts-types_img9.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Permanent",
+          "jp": "常時表示"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "If you don’t allow users to dismiss the alert, place it above your main page content - right below the navigation and/or hero image. The alert should span over the width of your main content, excluding any sidebars or side navigation. There should be a margin of 8px at the top and bottom of the phishing alert. And a padding of 8px top and bottom between the paragraph and the edge of the alert. The content of the alert should be centered.\r\nThe phishing alert is also a link that takes the user to more information. Add an arrow at the end of the text of the alert, to indicate that.",
+          "jp": "ユーザーがアラートを解除できないようにする場合は、メインページのコンテンツの上部、ナビゲーションやヒーローイメージのすぐ下に設置してください。フィッシングアラートは、サイドバーやサイドナビゲーションを除いたメインコンテンツの横幅にわたって設置されるべきで、アラートの上下には8pxのマージンを入れるべきです。またアラートの文章の上と下、文章とアラートの外枠の間には8pxのパディングを入れてください。アラートの内容は中央寄せにしておくべきです。\r\nフィッシングアラートはまた、ユーザーをより詳しい情報へといざなうリンクの役目も果たします。アラートのテキストの最後に矢印を付け加えて、リンクであることを示してください。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "alerts_alerts-types_img10.png",
+          "jp": "alerts_alerts-types_img10.png"
+        }
+      }
+    ]
+  }
+]

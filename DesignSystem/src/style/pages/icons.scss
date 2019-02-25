@@ -1,0 +1,30 @@
+.icons-hero {
+  text-align: center;
+  background: $white;
+  padding: 32px;
+  margin-bottom: 24px;
+  .icons-col {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    .rex-icon {
+      font-size: 64px;   
+    }
+  }
+}
+
+.icons-display {
+  background: $white;
+  padding: 32px;
+  margin-bottom: 24px;
+  .icons-display-col {
+    border-top: solid 1px $gray-light;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    .rex-icon {
+      font-size: 32px;
+    }
+    p {
+      padding: 0;
+    }
+  }
+}

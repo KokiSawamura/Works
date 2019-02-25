@@ -1,0 +1,11 @@
+{
+  "component": "Icon",
+  "target": ["designer", "developer"],
+  "label": {
+    "en": "Label",
+    "jp": ""
+  },
+  "type": "line",
+  "name": "rakuten-account",
+  "small": false
+}

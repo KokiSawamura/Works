@@ -1,0 +1,119 @@
+[
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Overflows",
+          "jp": "オーバーフロー"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "These carousels consist of a few pages of a collection of similar items. Called overflows because as the container’s width changes, the number of items changes with it. Good for highlighting best selling items, ranking, recent items, etc., or for comparing similar items.",
+          "jp": "このカルーセルは似たアイテムを集めたいくつかのページにより構成されたものです。コンテナの幅が変わるとそれに合わせてアイテムの数も変わるため、オーバーフローと呼ばれています。売れ筋アイテム、ランキング、最新アイテムなどを強調したい時や、似たようなアイテムを比較する時に適しています。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Overflows can show only part of the available information, something like a teaser. If this is the case you can add a see more link above it, which would take the user to a page, containing all available items in the respective category or theme.",
+          "jp": "オーバーフローは映画の予告編のように、用意されている情報の一部だけを見せることも可能です。この場合はカルーセルの上に「もっと見る」リンクを追加して、そのカテゴリーまたはテーマ内のすべてのアイテムを含むページにユーザーを案内することができます。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "carousels_carousels-overflows_img0.png",
+          "jp": "carousels_carousels-overflows_img0.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "carousels_carousels-overflows_img1.png",
+          "jp": "carousels_carousels-overflows_img1.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": [
+            {
+              "text": "If an overflow is used to show user-controlled content, like a list of favorites or recommendations, you can allow them to dismiss items they are no longer interested in. To achieve that, you can add an ‘X’ button, which appears on hover at the top-right corner of an item in the overflow. If the user clicks the ‘X’ button, the corresponding item is dismissed and animates out. It is possible that you have a few related topics that could be combined in the same overflow, like ranking of different categories. In this case you can use tabs to display the different topics within the same overflow. For more detailed guidelines, see "
+            },
+            {
+              "text": "Tabs",
+              "type": "link",
+              "href": "/design/components/tabs/overview/"
+            },
+            {
+              "text": "."
+            }
+          ],
+          "jp": [
+            {
+              "text": "お気に入りリストやおすすめリストなどのユーザーがコントロールするコンテンツを表示するのにオーバーフローを使用する場合は、もう興味のないアイテムをユーザー自身で外せるようにすることもできます。これを行うには、オーバーフロー内のアイテムをホバーすると右上に表示されるように×ボタンを追加します。ユーザーがその×ボタンをクリックすると、該当するアイテムがアニメーションと共に外されます。\r\n例えば違うカテゴリーのランキングなど、同じオーバーフロー内で組み合わせることができる関連トピックがいくつかある場合もあるでしょう。この場合は、タブを使用して異なるトピックを同じオーバーフロー内に表示することができます。より詳しいガイドラインを知るには、“"
+            },
+            {
+              "text": "タブ",
+              "type": "link",
+              "href": "/design/components/tabs/overview/"
+            },
+            {
+              "text": "”を参照してください。"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "carousels_carousels-overflows_img2.png",
+          "jp": "carousels_carousels-overflows_img2.png"
+        }
+      }
+    ]
+  }
+]

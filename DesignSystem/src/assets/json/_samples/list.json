@@ -1,0 +1,18 @@
+{
+	"component": "List",
+	"type": "",
+	"target": ["designer","developer"],
+	"list": {
+		"en": [
+			{
+				"boldedPhrase": "optional phrase",
+				"text": "Sample A"
+			},
+			{
+				"boldedPhrase": "optional phrase",
+				"text": "Sample B"
+			}
+		],
+		"jp": []
+	}
+}

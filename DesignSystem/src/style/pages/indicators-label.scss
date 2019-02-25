@@ -1,0 +1,16 @@
+.label-section {
+  .row {
+    margin-top: 40px;
+  }
+  .working-example {
+    text-align: center;
+    div {
+      display: inline-block;
+      margin-right: 1em;
+      margin-left: 1em;
+    }
+    .label:not(.outline) {
+      background-color: #ebebeb;
+    }
+  }
+}

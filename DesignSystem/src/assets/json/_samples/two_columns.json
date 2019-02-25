@@ -1,0 +1,20 @@
+{
+  "component": "TwoColumns",
+  "type": "",
+  "target": ["designer"],
+  "data": [
+    [
+      {
+       
+      },
+      {
+
+      }
+    ],
+    [
+      {
+        
+      }
+    ]
+  ]
+}

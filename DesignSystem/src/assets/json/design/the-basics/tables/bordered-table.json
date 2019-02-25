@@ -1,0 +1,143 @@
+[
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Bordered table",
+          "jp": "ボーダーテーブル"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "In general, avoid using this style. Exceptions would be for tables that are part of a condensed layout, or for tables where reading the columns is more important than reading the rows.",
+          "jp": "原則としてこのスタイルの使用は避けてください。例外として、一部のコンデンスドテーブルの場合、または列の関連性が行よりも重要な場合に使用することができます。"
+        }
+      },
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": [
+            {
+              "text": "In the case of condensed layouts, with little white space between the data in the columns, the borders between columns help separate them. If sufficient white space is available, don’t use bordered tables, since they add visual noise. \r\nIn the case of a table in which reading the rows is more important, the borders help to emphasize that. In such cases, if the number of columns is greater than the number of rows, reversing the table rows and columns is advised. For more information, see Structure in "
+            },
+            {
+              "text": "Overview",
+              "type": "link",
+              "href": "/design/the-basics/tables/overview/"
+            },
+            {
+              "text": "."
+            }
+          ],
+          "jp": [
+            {
+              "text": "コンデンスドテーブルの場合、列内のデータ間の余白が狭く、列間の分離を補強する場合に使用します。十分な余白が取られる場合は、ボーダーは視覚的ノイズになるのでこのテーブルは使用しないでください。行の関連性が重要な場合には、ボーダーによる縦線の強調が効果的です。列数が行数よりも多い場合は、列と行を入れ替えましょう。詳しくは"
+            },
+            {
+              "text": "テーブル概要",
+              "type": "link",
+              "href": ""
+            },
+            {
+              "text": "を参照してください。"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "WorkingExample",
+        "data": [
+          {
+            "component": "Table",
+            "type": "bordered",
+            "headings": {
+              "en": [
+                "Name",
+                "Type",
+                "Point",
+                "Price"
+              ],
+              "jp": [
+                "商品名",
+                "タイプ",
+                "ポイント",
+                "価格"
+              ]
+            },
+            "rows": {
+              "en": [
+                {
+                  "rowType": "",
+                  "cells": [
+                    "abcdef",
+                    "abcdef",
+                    "1,000",
+                    "$1,000"
+                  ]
+                },
+                {
+                  "rowType": "",
+                  "cells": [
+                    "ghijk",
+                    "ghijk",
+                    "1,000",
+                    "$1,000"
+                  ]
+                },
+                {
+                  "rowType": "",
+                  "cells": [
+                    "lmnop",
+                    "lmnop",
+                    "99",
+                    "$99"
+                  ]
+                }
+              ],
+              "jp": [
+                {
+                  "rowType": "",
+                  "cells": [
+                    "あいうえお",
+                    "あいうえお",
+                    "1,000",
+                    "1,000円"
+                  ]
+                },
+                {
+                  "rowType": "",
+                  "cells": [
+                    "かきくけこ",
+                    "かきくけこ",
+                    "1,000",
+                    "1,000円"
+                  ]
+                },
+                {
+                  "rowType": "",
+                  "cells": [
+                    "さしすせそ",
+                    "さしすせそ",
+                    "99",
+                    "99円"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

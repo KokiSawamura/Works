@@ -1,0 +1,280 @@
+[
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Motion",
+          "jp": "モーション"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "Motion shows the organization of a product (desktop & mobile websites, native apps, etc.) and what the product can do. The entire UI is driven by motion - it adds a whole new level of depth to the interaction design that redefines the navigation and creates a more natural experience.",
+          "jp": "モーションは、サイトとアプリの体系と機能を端的に示します。モーションはUI全体をドライブし、インタラクションに新しい次元の深みを加え、ナビゲーションを再定義し、より自然な体験を作り出します。"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Possibly the most important thing that motion can bring is ‘delight’. Injecting subtle motion into design can make users feel like they are interacting with something that has a personality, thus ultimately contributing towards a truly delightful and memorable user experience.",
+          "jp": "モーションの最も重要な側面は、“喜び”をもたらすことです。細かなモーションをデザインに加えると、ユーザーは個性あるものと交流しているイメージを抱き、嬉しく印象に残る体験をしていると思います。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Motion can also:",
+          "jp": "モーションによって、下記を実現できます"
+        }
+      },
+      {
+        "component": "List",
+        "type": "",
+        "list": {
+          "en": [
+            {
+              "text": "Reflect the Rakuten brand personality"
+            },
+            {
+              "text": "Draw attention to a specific area or help to distract from it"
+            },
+            {
+              "text": "Control the transitions of hierarchy at each moment in time"
+            },
+            {
+              "text": "Make the UI more predictable and easier to navigate by putting emphasis on the right elements"
+            },
+            {
+              "text": "Provide clues as to what is about to happen, reinforcing the actions a user is performing, and filling the spatial relationships between screens and elements"
+            }
+          ],
+          "jp": [
+            {
+              "text": "楽天ブランドの個性を反映できます"
+            },
+            {
+              "text": "特定の箇所に注意を引く、または注意をそらすことができます"
+            },
+            {
+              "text": "階層関係のある遷移をコントロールできます"
+            },
+            {
+              "text": "適切な要素を強調することで、UIをより予測可能にナビゲートしやすいものにできます"
+            },
+            {
+              "text": "状況判断を容易にし、ユーザーが実行しているアクションを明確にし、画面と要素の関係を補足します"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Types of motion",
+          "jp": "モーションのタイプ"
+        }
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "className": "motion-img",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Heading",
+                "type": "h4",
+                "text": {
+                  "en": "Transitions",
+                  "jp": "トランジション"
+                }
+              },
+              {
+                "component": "SquareFrame",
+                "data": [
+                  {
+                    "component": "Image",
+                    "type": "",
+                    "responsive": true,
+                    "src": {
+                      "en": "types-transition.gif",
+                      "jp": "types-transition.gif"
+                    }
+                  }
+                ]
+              },
+              {
+                "component": "Text",
+                "type": "",
+                "text": {
+                  "en": "When there is an initial state and a final state, what happens in-between is the transition.",
+                  "jp": "ステータスに変更がある時、その間に起こる変化がトランジションです。"
+                }
+              },
+              {
+                "component": "Text",
+                "type": "",
+                "text": {
+                  "en": "i.e. Popups, overlays, expand/contract, etc.",
+                  "jp": "例:ポップアップ、オーバーレイ、拡大/縮小など"
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "className": "motion-img",
+            "data": [
+              {
+                "component": "Heading",
+                "type": "h4",
+                "text": {
+                  "en": "Feedback",
+                  "jp": "フィードバック"
+                }
+              },
+              {
+                "component": "SquareFrame",
+                "data": [
+                  {
+                    "component": "Image",
+                    "type": "",
+                    "responsive": true,
+                    "src": {
+                      "en": "types-feedback.gif",
+                      "jp": "types-feedback-jp.gif"
+                    }
+                  }
+                ]
+              },
+              {
+                "component": "Text",
+                "type": "",
+                "text": {
+                  "en": "Feedback is used to communicate/verify that an interaction has taken place.",
+                  "jp": "コミュニケーションやインタラクションが起きる場合の変化がフィードバックです。"
+                }
+              },
+              {
+                "component": "Text",
+                "type": "",
+                "text": {
+                  "en": "i.e. Interactions, button states, loaders, etc.",
+                  "jp": "例:インタラクション、ボタンの状態、ローダーなど"
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Heading",
+                "type": "h4",
+                "text": {
+                  "en": "Shifting focus",
+                  "jp": "フォーカスのコントロール"
+                }
+              },
+              {
+                "component": "SquareFrame",
+                "data": [
+                  {
+                    "component": "Image",
+                    "type": "",
+                    "responsive": true,
+                    "src": {
+                      "en": "types-shifting-focus.gif",
+                      "jp": "types-shifting-focus.gif"
+                    }
+                  }
+                ]
+              },
+              {
+                "component": "Text",
+                "type": "",
+                "text": {
+                  "en": "Animation can be applied to draw users' attention to certain elements on the screen.",
+                  "jp": "アニメーションを適用して、特定の要素にユーザーの注意を引くことができます。"
+                }
+              },
+              {
+                "component": "Text",
+                "type": "",
+                "text": {
+                  "en": "i.e. Interactions, button states, loaders, etc.",
+                  "jp": "例:インタラクション、ボタンのステータス、ローダーなどのシフト"
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Heading",
+                "type": "h4",
+                "text": {
+                  "en": "Delighters",
+                  "jp": "フィードバック"
+                }
+              },
+              {
+                "component": "SquareFrame",
+                "data": [
+                  {
+                    "component": "Image",
+                    "type": "",
+                    "responsive": true,
+                    "src": {
+                      "en": "types-delighters.gif",
+                      "jp": "types-delighters-jp.gif"
+                    }
+                  }
+                ]
+              },
+              {
+                "component": "Text",
+                "type": "",
+                "text": {
+                  "en": "Delighters provide emotional value to the product itself and the users.",
+                  "jp": "モーションは、プロダクトやユーザーにエモーショナルな価値を提供できます。"
+                }
+              },
+              {
+                "component": "Text",
+                "type": "",
+                "text": {
+                  "en": "i.e. Loaders, ambient, scroll, parallax, etc.",
+                  "jp": "例:ローダー、アンビエント、スクロール、パララックスなど"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

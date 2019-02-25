@@ -1,0 +1,112 @@
+[
+  {
+    "component": "Section",
+    "className": "badges-section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Badges",
+          "jp": "バッジ"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "A badge is a circle, colored in your service primary color, that could contain a number as needed, corresponding to a specific UI element. Badges show a change in status, associated with that element. They are transient in nature, since their purpose is to draw attention to current information, rather then be available all the time.",
+          "jp": "バッジは丸型でサービスのメインカラーと同じ色をしており、特定のUIにおいて、必要に応じて数字を表示することができます。バッジは関連付けられているUI要素のステータスの変化を表すものです。バッジは常時表示するのではなく現時点の情報に注目を集めることを目的としているため、一時的なものであるという性質を持っています。"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "If the badge is associated with an icon, it slightly covers the icon. If it’s associated with a label or a link, it’s located after it.Badges are most commonly used to indicate there’s something new available. It’s always best to show the number of new items, but if this is not possible due to space restrictions, only display a small circle. If you are displaying the number, show the exact count up to 99. If the number goes over two digits, display 99+, to prevent too big numbers from breaking the interface.",
+          "jp": "もしバッジがアイコンと関連付けられている場合は、バッジはアイコンを少し覆う形で表示されます。ラベルやリンクに関連付けられている場合は、その後ろに配置されます。バッジが最も一般的に使用されるケースは、何か新しいアイテムが登場した時です。どんな時でも新アイテムの数を表示することがベストですが、スペースが限られていてそれができない場合は、小さい丸のみを表示してください。数を表示する時は、99までは厳密な数を表示してください。数が大きすぎることでインターフェースが崩れるのを防ぐため、3桁以上になる場合は99+と表示してください。"
+        }
+      },
+      {
+        "component": "Image",
+        "responsive": true,
+        "src": {
+          "en": "indicators_badges_img0.png",
+          "jp": "indicators_badges_img0.png"
+        }
+      },
+      {
+        "component": "WorkingExample",
+        "data": [
+          {
+            "component": "Badges",
+            "type": "round",
+            "icon": "cart",
+            "iconType": "line",
+            "text": "7"
+          },
+          {
+            "component": "Badges",
+            "type": "pill",
+            "icon": "cart",
+            "iconType": "line",
+            "text": "7"
+          },
+          {
+            "component": "Badges",
+            "type": "round",
+            "text": "7",
+            "linkLabel": "Link"
+          },
+          {
+            "component": "Badges",
+            "type": "pill",
+            "text": "7",
+            "linkLabel": "Link"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": [
+            {
+              "text": "Badges can also be used to indicate the available items in a certain element, like number of items in the shopping cart or number of items in a library. Badges can be either rounded corners or pills. Use the one corresponding to the main button style you’ve chosen. For more information, see "
+            },
+            {
+              "text": "Button options",
+              "type": "link",
+              "href": "/design/the-basics/buttons/options/"
+            },
+            {
+              "text": "."
+            }
+          ],
+          "jp": [
+            {
+              "text": "またバッジは、ショッピングカート内やライブラリー内にあるアイテムの数など、特定の要素の中で利用可能なアイテムの数を表示するためにも使用することができます。バッジは角丸か楕円から選べます。選択したメインボタンのスタイルに合うものを選んでください。より詳細な情報を得るには"
+            },
+            {
+              "text": "ボタンオプション",
+              "type": "link",
+              "href": "/design/the-basics/buttons/options/"
+            },
+            {
+              "text": "を参照してください。"
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

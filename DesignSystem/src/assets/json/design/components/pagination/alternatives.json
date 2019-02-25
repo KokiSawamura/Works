@@ -1,0 +1,56 @@
+[
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Pagination alternatives",
+          "jp": "ページネーションの代替手段"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "Pagination isn’t the only method for progressively loading long lists of content. Alternatives would be infinite scrolling and using a load more button. Both of them only partially load content and once the user reaches the end, more content is loaded. The difference is that infinite scrolling does that automatically, while load more button requires user interaction.",
+          "jp": "コンテンツの長いリストを少しずつロードするための手法はページネーションだけではありません。代替手段には無限スクロールや「さらにロードする」ボタンの使用があります。どちらもコンテンツの一部だけをロードし、ユーザーが最後まで到達したら、さらに多くのコンテンツがロードされます。違うところは、無限スクロールは追加ロードを自動で行いますが、「さらにロードする」ボタンはユーザーの操作を必要とする点です。"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Infinite scrolling is a method coveted by a lot of people, but just like most automatic methods it has its glitches. For one it’s impossible to get to the footer, which is integral part of most Rakuten services. Research also shows that people see more results than with pagination, but don’t focus too much on any product, if the page doesn’t stop. This scrolling method works only for very few cases (like feeds) and should be avoided. It should never be used for sites with a footer or for any search results.\r\nLoad more button provides the smallest cognitive load and simplest interface. Users browse more than on sites with pagination and focus more than on sites with infinite scrolling. On the other hand, once the button’s been pressed many times the page gets really long and it’s very hard for the user to refer back to previous items that they found interesting. It could also break the browser history if implemented incorrectly. This method could be good for categories or ranking, but will be too overwhelming for search results. If you decide to use load more, please follow the pagination guidelines for the number of items showed each time the user presses the button.",
+          "jp": "無限スクロールは多くの人が待ち望んでいた手法ですが、ほとんどの自動機能と同じように不都合な点も存在します。その1つは楽天の大半のサービスにおいて欠かせないパーツであるフッターを使えないという点です。また調査では、ユーザーは無限スクロールの時の方がページネーションの時よりも多くの結果を見るものの、ページの進行が止まらない場合、どの製品にもあまり集中しないという結果が出ています。この無限スクロールの手法が効果的なのは非常に限られたケース (フィードなど) だけなので、使用は避けるべきです。フッターのあるサイトや検索結果には決して使用しないでください。\r\n「さらにロードする」ボタンはユーザー側の認識負荷が最も少なく、最もシンプルなインターフェースを提供できます。「さらにロードする」ボタンを使用したサイトでは、ユーザーはページネーションを使用したサイトよりも多くのコンテンツをブラウズし、無限スクロールを使用したサイトよりも集中するそうです。ですがその一方で、このボタンが何度も押されるとページはとても長くなり、ユーザーが前に見て興味を抱いたアイテムをもう一度見ることが非常に難しくなります。また正しく実装されていない場合、ブラウザー履歴が途切れてしまう可能性もあります。この手法はカテゴリーやランキングには適しているかもしれませんが、検索結果に使うと少し手間がかかりすぎるでしょう。「さらにロードする」ボタンを使用する場合は、ユーザーがボタンを押すごとに表示されるアイテムの数はページネーションのガイドラインに従ってください。"
+        }
+      },
+      {
+        "component": "Image",
+        "responsive": true,
+        "src": {
+          "en": "pagination_alternatives_img0.png",
+          "jp": "pagination_alternatives_img0_jp.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "All three methods (pagination, infinite scrolling and load more button) have pros and cons, but after evaluating them we think that pagination is the best method to use in most Rakuten services, especially for search results. Load more button could be used for categories and rankings – places where people go to mostly browse rather than with a specific task in mind. Infinite scrolling should be avoided for most cases.",
+          "jp": "上記3つの手法 (ページネーション、無限スクロール、「さらにロードする」ボタン) にはそれぞれ長所と短所がありますが、それらを判断した結果、楽天のサービスの大半には (特に検索結果においては)、ページネーションが最善の手法であると考えています。「さらにロードする」ボタンはカテゴリーやランキングには使用してもかまいませんが、ユーザーが特別な目的なくただブラウズするだけのことが多い場所に使用するようにしてください。無限スクロールはほとんどのケースで使用を避けるべきです。"
+        }
+      }
+    ]
+  }
+]

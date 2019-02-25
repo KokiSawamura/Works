@@ -1,0 +1,132 @@
+[
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Text formatting",
+          "jp": "テキストフォーマット"
+        }
+      },
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Inline text elements",
+          "jp": "インラインテキスト要素"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "When additional formatting for a part of the text is needed, you can use one of the following inline text elements: underlined, bold and italic.",
+          "jp": "テキストの中で異なる書式が必要な際には、下線、太字および斜体が利用できます。"
+        }
+      },
+      {
+        "component": "WorkingExample",
+        "type": "",
+        "data": [
+          {
+            "component": "Link",
+            "text": {
+              "en": "",
+              "jp": "Link text: 下線付きテキストはリンクのみで使用されます。"
+            }
+          },
+          {
+            "component": "Small",
+            "type": "",
+            "text": {
+              "en": "Small text: This text is rendered as small.",
+              "jp": "Small text: 小サイズのテキストです。"
+            }
+          },
+          {
+            "component": "Bold",
+            "type": "",
+            "text": {
+              "en": "Bold text: The following snippet of text is rendered as bold text.",
+              "jp": "Bold text: このテキストは、太字のテキストとして表示されます。タイトル以外の本文での使用はできません。"
+            }
+          },
+          {
+            "component": "Italics",
+            "type": "",
+            "text": {
+              "en": "Italicized text: The following snippet of text is rendered as italicized text.",
+              "jp": "Italicized text: このテキストは、斜体のテキストとして表示されます。"
+            }
+          }
+        ]
+      },
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "",
+          "jp": "ハイライト、削除済みテキスト、下線付きテキスト"
+        }
+      },
+      {
+        "component": "Text",
+        "text": {
+          "en": "",
+          "jp": "ハイライト、削除済みテキストは使用できません。\r\n下線付きテキストはリンクのみで使用されます。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Addresses",
+          "jp": "住所"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Format all addresses as per the example below, using the standard body text and adding new lines as appropriate for each country.",
+          "jp": "下記の例を参考にし、標準テキストを使用し、行を追加するなど各国で一般的な体裁に合わせてください。"
+        }
+      },
+      {
+        "component": "WorkingExample",
+        "type": "",
+        "data": [
+          {
+            "component": "Address",
+            "type": "",
+            "title": {
+              "en": "Rakuten, Inc.",
+              "jp": "楽天株式会社"
+            },
+            "address": {
+              "en": [
+                "Rakuten Crimson House,",
+                "1-14-1 Tamagawa,Setagaya-ku, Tokyo",
+                "+81-50-5581-6910 (Main)"
+              ],
+              "jp": [
+                "〒158-0094",
+                "東京都世田谷区玉川一丁目14番1号",
+                "楽天クリムゾンハウス",
+                "TEL. 050-5581-6910（代表）"
+              ]
+            },
+            "email": "first.last@example.com"
+          }
+        ]
+      }
+    ]
+  }
+]

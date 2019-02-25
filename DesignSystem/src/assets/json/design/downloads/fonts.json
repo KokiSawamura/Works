@@ -1,0 +1,107 @@
+[
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "Fonts",
+          "jp": "フォント"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "Release notes",
+          "jp": "リリースノート"
+        }
+      },
+      {
+        "component": "Heading",
+        "type": "h4",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "2017/07/12",
+          "jp": "2017/07/12"
+        }
+      },
+      {
+        "component": "List",
+        "type": "",
+        "target": [
+          "designer"
+        ],
+        "list": {
+          "en": [
+            {
+              "text": "Added .zip files containing Noto Sans JP and EN"
+            }
+          ],
+          "jp": [
+            {
+              "text": "NotoSansJPとENを追加"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "Downloads",
+          "jp": "ダウンロード"
+        }
+      },
+      {
+        "component": "Download",
+        "type": "",
+        "name": "Fonts",
+        "date": "2017/07/12",
+        "size": "XX.XMB",
+        "url": "https://rak.box.com/s/masqrgng36gqins7levbsgej96ashlie",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "Downloads",
+          "jp": ""
+        }
+      }
+    ]
+  }
+]

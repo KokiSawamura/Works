@@ -1,0 +1,149 @@
+[
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Icon vs Illustration",
+          "jp": "アイコン vs イラスト"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "icons-examples",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Icons",
+          "jp": "アイコン"
+        }
+      },
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": [
+            {
+              "text": "An icon is a simplified graphic, that is connected to an interactive element like button, link, attention message, or status display. Icons always represent simple ideas and use only one colour. \r\nIn Rakuten, we use a set of simple pictograms for our icons."
+            }
+          ],
+          "jp": [
+            {
+              "text": "アイコンはボタン、リンク、注意書き、ステータス表示などのインタラクティブな機能を持った要素と使われる、簡潔なグラフィックです。アイコンは常に分かりやすくてシンプルな絵を1色で表現します。\r\n楽天では、シンプルなピクトグラム（絵文字）のセットをアイコンとして使用します。"
+            }
+          ]
+        }
+      },
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": [
+            {
+              "text": "Examples: ",
+              "type": "strong"
+            },
+            {
+              "text": "buttons, links, list icons, warning and error messages, menus, etc."
+            }
+          ],
+          "jp": [
+            {
+              "text": "例: ",
+              "type": "strong"
+            },
+            {
+              "text": "ボタン、リンク、リスト、注意書き、エラーメッセージ、メニュー"
+            }
+          ]
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "icons_img_icons example.png",
+          "jp": "icons_img_icons example.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "icons-examples",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Illustrations",
+          "jp": "イラスト"
+        }
+      },
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": [
+            {
+              "text": "An illustration is a graphic that serves the purpose of supporting content or setting a certain mood.\r\nAlthough it is possible to use ReX icons as illustrations, illustrations are not connected to a specific action.\r\nIllustrations represent rather complex ideas, can use different styles of expression and have many colours."
+            }
+          ],
+          "jp": [
+            {
+              "text": "イラストとは、コンテンツの説明を手伝ったり雰囲気を出すために使うグラフィックです。 ReXアイコンをイラストとして使用することは可能ですが、イラストは特定の機能は待ちません。イラストはアイコンより複雑な絵で表現ができ、様々なスタイルと多くの色で描くことができますが、”"
+            },
+            {
+              "text": "スウォッチ",
+              "type": "link",
+              "href": "/design/the-basics/colors/swatches/"
+            },
+            {
+              "text": "”の色を使用してください。\r\n画像で使用するフォントサイズは本文で使用されるフォントサイズと合わせて、過度に大きくなったり小さくなったりしないように調整してください。"
+            }
+          ]
+        }
+      },
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": [
+            {
+              "text": "Examples: ",
+              "type": "strong"
+            },
+            {
+              "text": "banners, title graphics, explanations and content support, decorations, etc."
+            }
+          ],
+          "jp": [
+            {
+              "text": "例: ",
+              "type": "strong"
+            },
+            {
+              "text": "バナー、見出しのグラフィック、コンテンツの説明や飾り"
+            }
+          ]
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "icons_img_illustrations example.png",
+          "jp": "icons_img_illustrations example.png"
+        }
+      }
+    ]
+  }
+]

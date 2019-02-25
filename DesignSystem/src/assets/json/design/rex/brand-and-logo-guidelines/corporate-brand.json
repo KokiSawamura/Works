@@ -1,0 +1,406 @@
+[
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Corporate brand",
+          "jp": "コーポレートブランド"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "The Rakuten corporate logo is a powerful mark used to represent the Rakuten group and its related services and activities.",
+          "jp": "楽天ロゴは、日本語の漢字の「一」をモチーフにデザインされています。No.1、オンリーワン、ワンチーム、そういった意味が込められています。"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "The Rakuten logo design includes a graphical interpretation of the Japanese kanji character for “ichi” (一). Ichi stands for “No. 1”, “Only One”, and “One Team”.",
+          "jp": "楽天ロゴは、楽天グループ全体の活動、製品・サービスを表象する際に使用します。"
+        }
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "8",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "brand_img_corporate-brand1.png",
+                  "jp": "brand_img_corporate-brand1.png"
+                }
+              },
+              {
+                "component": "TextWithAnchor",
+                "type": "",
+                "text": {
+                  "en": [
+                    {
+                      "text": "The Rakuten logo",
+                      "type": "strong"
+                    },
+                    {
+                      "text": "is a symbolization of the Rakuten brand."
+                    }
+                  ],
+                  "jp": [
+                    {
+                      "text": "楽天ロゴ",
+                      "type": "strong"
+                    },
+                    {
+                      "text": "は、楽天ブランドを表象するロゴタイプです。"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "4",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "brand_img_corporate-brand2.png",
+                  "jp": "brand_img_corporate-brand2.png"
+                }
+              },
+              {
+                "component": "TextWithAnchor",
+                "type": "",
+                "text": {
+                  "en": [
+                    {
+                      "text": "The Rakuten symbol",
+                      "type": "strong"
+                    },
+                    {
+                      "text": " is another symbolization of the Rakuten brand. It is a symbol that may be used under certain conditions."
+                    }
+                  ],
+                  "jp": [
+                    {
+                      "text": "楽天シンボル",
+                      "type": "strong"
+                    },
+                    {
+                      "text": "は、楽天ブランドを表象し、特定条件のもとで使用することができるシンボルです。"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Clear space and minimum size",
+          "jp": "余白と最小サイズ"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "When using the logo with other graphic elements, follow the minimum size and clear space specifications below, to ensure optimal legibility.",
+          "jp": "ロゴの視認性を担保するために余白と最小サイズ、および下記の規定を守ってください。"
+        }
+      },
+      {
+        "component": "List",
+        "type": "",
+        "list": {
+          "en": [
+            {
+              "text": "Provide adequate Clear Space around the logo to ensure it is highly visible"
+            },
+            {
+              "text": "Do not place multiple logos on the same medium (except for media backdrops, billboard in ballparks, etc.)"
+            },
+            {
+              "text": "Respect the Clear Space - refrain from inserting other graphical elements"
+            }
+          ],
+          "jp": [
+            {
+              "text": "周辺に十分なスペースを確保し、独立性をもって配置する"
+            },
+            {
+              "text": "ひとつの媒体の中に、複数のロゴを使用しない (インタビューボード、球場のリボン広告などを除く)"
+            },
+            {
+              "text": "余白エリアに他のロゴやグラフィック要素を配置しない"
+            }
+          ]
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "brand_img_space-size1.png",
+          "jp": "brand_img_space-size1.png"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Clear space",
+          "jp": "余白"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "brand_img_brands-space-size2.png",
+          "jp": "brand_img_brands-space-size2.png"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Minimum size",
+          "jp": "最小サイズ"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Color usage",
+          "jp": "色"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "The Rakuten logo is to be used in it’s original state. The logo can be placed on a white background or on a light gray background with a color density of less than 5%. The white logo can be used on a crimson red or black background. \r\nFor monochrome prints, please use the logo in full black. Please be aware of the contrast between the logo and the background content. When placing the original logo over an image, it should be layered on top of images with a lighter tone or lighten the tone of the image around the logo. \r\nWhen visibility becomes a concern, an adjustment layer could be applied on top of the background image. The recommendation is to apply a 70-90% white tinted layer to images with a lighter tone, and a 50-80% Crimson red tinted layer to images with a darker tone. Transparency of the tint is subjected to change based on the need for visibility in each design.",
+          "jp": "ロゴを配置する際には、基本的にオリジナルロゴを使用してください。オリジナルロゴは白背景及び色濃度5%以下の薄いグレーの上で使用することができます。\r\n白抜きロゴは、クリムゾンレッドまたは黒背景の上で使用することができます。単色の印刷物には、黒一色のロゴを使用してください。ロゴを写真の上に配置する際には、図と地のコントラストに気をつけてください。明るいトーンの写真またはロゴ周辺のトーンを明るく調整した写真にオリジナルロゴを配置してください。\r\n視認性を担保できない場合は調整レイヤーを配置してください。調整レイヤーは、明るいトーンの写真では透明度70-90%の白色の調整レイヤーを、暗いトーンの写真では透明度50-80%のクリムゾンレッドの調整レイヤーを配置してください。透明度は目安なので、推奨数値で視認性が担保できない場合は適宜透明度を調整してください。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "brand_img_color-usage.png",
+          "jp": "brand_img_color-usage_jp.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Misuse",
+          "jp": "禁則項"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "In order to maintain a visually consistent look, the logo must not be modified, changed, or have any other element introduced to it. Always use the original logo data from the logo sheet.",
+          "jp": "ロゴの視覚的な一貫性を担保することはとても重要です。ロゴにはいかなる修正、改変、要素の追加をしてはいけません。常にロゴシートにある正規データを使用し、どの媒体でも同じに見えるように慎重に運用を行ってください。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "brand_img_misuse.png",
+          "jp": "brand_img_misuse_cjk.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Color scheme",
+          "jp": "カラースキーム"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "For Rakuten corporate creatives, crimson red should be used as much as possible. If a different color is required, use a different shade of crimson red by modifying the brightness or saturation, or use grayscale.",
+          "jp": "コーポレートの制作物には基本的にクリムゾンレッドをできるだけ使用してください。制作物で他の色が必要な場合は、クリムゾンレッドと同じ色相で、明度・彩度を調整したカラーまたはグレースケールを適宜使用してください。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "brand_img_color-scheme.png",
+          "jp": "brand_img_color-scheme.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Typeface",
+          "jp": "規定フォント"
+        }
+      },
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "English",
+          "jp": "英語"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Rakuten Global is a unique typeface designed and developed to represent the Rakuten brand.\r\n Rakuten Global amplifies the appealingness of the Rakuten brand through the group's logo and creatives. For corporate creatives, Rakuten Global should be used at all times. Do not, however, use it for body text, or any long lines of text. \r\nThis also applies to sub-brand creatives.",
+          "jp": "Rakuten Globalは楽天ブランドを体現するためにデザインされた独自の 書体です。 \r\nRakuten Globalは主に楽天グループのロゴや制作物で楽天ブランドを 強く訴求したい場合に使用します。 コーポレートブランドの制作物には、Rakuten Globalを使用して ください。本文パートなどには、可読性を向上させるための措置と して別のフォントを適用しても構いません。 \r\nサブブランドの制作物にも、楽天ブランドを強く訴求したい場合 にはRakuten Globalを使用してください。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "brand_img_typeface.png",
+          "jp": "brand_img_typeface.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Japanese",
+          "jp": "日本語"
+        }
+      },
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": [
+            {
+              "text": "UD Shingo NT Pro is the recommended Japanese typeface that embodies the Rakuten brand. \r\nFor Rakuten Group creatives, using UD Shingo NT Pro is recommended. However, a sub-brand may have it’s own unique typeface based on it’s own brand personality. In either case, respective guidelines are on the typeface is required to enable a consistent brand communication. \r\nFor Rakuten Group’s websites and mobile apps, please use the Noto Sans typeface. For more information, see "
+            },
+            {
+              "text": "Typography",
+              "type": "link",
+              "href": "/design/the-basics/typography/overview/"
+            },
+            {
+              "text": "."
+            }
+          ],
+          "jp": [
+            {
+              "text": "UD 新ゴNT Proは楽天ブランドを体現するための日本語推奨書体です。 \r\n楽天グループの制作物にはUD 新ゴNT Proの使用を推奨します。 ただし、サブブランドは、ブランドのパーソナリティにもとづいて 独自の書体を規定することができます。いずれの場合も独自のガイド ラインを制定するなどして一貫した書体によるブランドコミュニ ケーションに努めてください。\r\nウェブ、アプリといったインタラクティブなスクリーン上では、Noto Sansを使用してください。より詳細な情報を得るには、タイポグラフィを参照してください。"
+            },
+            {
+              "text": "サブブランド",
+              "type": "link",
+              "href": "/design/the-basics/typography/overview/"
+            },
+            {
+              "text": "の制作物にも、楽天ブランドを強く訴求したい場合 にはRakuten Globalを使用してください。"
+            }
+          ]
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "brand_img_typeface_cjk.png",
+          "jp": "brand_img_typeface_cjk.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "downloads-with-release-notes",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Downloads",
+          "jp": "ダウンロード"
+        }
+      },
+      {
+        "component": "Download",
+        "type": "no-date",
+        "icon": "new-window-l",
+        "name": "Corporate brand",
+        "date": "",
+        "size": "451KB",
+        "url": "https://global.rakuten.com/corp/brand/logos_temp_visual/",
+        "text": {
+          "en": "Downloads",
+          "jp": ""
+        }
+      }
+    ]
+  }
+]

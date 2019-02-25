@@ -1,0 +1,386 @@
+[
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Forms overview",
+          "jp": "フォーム概要"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "Forms are used to gather user input. They are a combination of different elements, required to gather the needed information.",
+          "jp": "フォームはユーザーが入力した情報を取得するためのものです。フォームは様々な種類の情報を得るため、多様な要素から構成されています。"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Every website has a form of a sort – be it a lone search field, or a complicated registration form. People have been filling forms for decades and are very used to them. Despite this, forms are very tricky to design and very easy to get wrong. Because they are so common, it’s really easy to underestimate their complexity, add too many fields, use the wrong controls for the job, or give obscure titles to the fields. This makes forms time-consuming and tedious to fill, especially on mobile, which leads to drop-outs. Users go to a website to complete a task, and what usually lies right before that task’s completion is a form. Therefore, good form usability and design is very important for all Rakuten services. The guidelines in this section give advice for designing good and easy-to-use forms.",
+          "jp": "サイトには単独の検索フィールドや、複雑な登録フォームなどがあります。フォームは一般的でユーザーはその利用に慣れていますが、フォームのデザインは奥が深く、間違ったデザインをしがちです。フォームは広く利用され、複雑さを過小評価されがちなため、項目を増やされ過ぎたり、タスクに合わないインターフェイスを与えられたり、さらには分かりづらいラベルをつけられるなどが容易に起こってしまいます。これらは特にモバイルにおいて入力に手間や労力を感じさせ、ユーザーの離脱につながります。サイトにアクセスし行うタスクの多くはフォーム入力なので、フォームのユーザビリティとデザインはとても重要です。このセクションでは、使いやすく良いフォームをデザインするためのアドバイスをしていきます。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "General recommendations",
+          "jp": "原則"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "As a general rule keep any form as short as possible. Only ask for information you really need, because every additional field will affect your form conversion.",
+          "jp": "原則として、どのフォームも可能な限り短くしてください。本当に必要な情報のみを取得してください。それ以上の項目は、フォームのコンバージョンに影響します。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Form structure and grouping",
+          "jp": "フォームの構成とグルーピング"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Order information in a way that makes sense to the user, not to the system. For example, on checkout it’s odd to ask somebody for their credit card information before asking for their name or address. It helps to think of a form as a conversation – start with the simple questions first, and keep more involved questions towards the end.\r\nIf your form is longer than 7 fields, group them into logical blocks to improve comprehension.\r\nKeep forms in one column rather than multiple columns. In single-column forms reading direction is only one-way, which increases readability and comprehension speed. \r\nIf you have short, closely-related fields (i.e. Day, time and date), instead of putting them side-by-side, consider combining them into a single input. This not only reduces the number of fields, but also improves usability on mobile. This is valid for most fields, except maybe first and last name, since not all countries have the same order for them. In cases where it’s important knowing which name is first and which is last, keep those fields separate.",
+          "jp": "情報は、システムの都合ではなく、ユーザーにとって意味があるように順序づけます。例えば、商品購入画面で、名前と住所を聞く前にクレジットカード情報を聞くことは不自然に感じます。フォームを会話だと考え、まずは簡単な質問から初めて、徐々に込み入った質問をするようにしましょう。もしフォームが７項目より多い場合は、それらを意味別にグルーピングし、分かりやすくしましょう。フォームは複数列ではなく１列に配置しましょう。そうすれば一方向に読んでいけるので、可読性が高まり理解も早くなります。短い関連した内容の項目が複数ある場合（日付、時間や曜日など）は、それらを隣り合わせて並べるのではなく、１つのインプットフィールドにまとめることを検討しましょう。単に項目の数を減らすだけでなく、モバイル上でのユーザビリティの改善につながります。この方法はほとんどの項目において有効です。しかし、全ての国において姓と名は同じ順番ではないので例外です。名前のどちらが姓でどちらが名なのか知るために、姓名のフィールドはそれぞれ独立させてください。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Split big forms into steps",
+          "jp": "長いフォームをステップに分ける"
+        }
+      },
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": [
+            {
+              "text": "If you have a very big form, asking about different types of information, splitting it into steps is a good practice. This breaks down user input into smaller, easier to comprehend chunks. It’s also better for mobile usability where space, being limited to begin with, becomes even more constricted when the keyboard is up. In this case while scrolling and switching fields, it’s easy to lose the keyboard several times. Because of that it’s better to have few fields on more pages, rather than many fields on the same page.\r\nWhen you split your forms make sure to group fields logically and don’t show too many fields per step. That being said, there’s no need to have one field per step, unless absolutely necessary. Split your form fields into themes and have a step for each theme. If you have a lot of fields per step, then maybe there’s a way to split them yet again into two or more steps, to improve usability and reduce the cognitive load on the user. When adopting this approach make sure to mark clearly how many steps are there and how much has the user completed. You can achieve that by using a "
+            },
+            {
+              "text": "Track",
+              "type": "link",
+              "href": "/design/components/track/overview/"
+            },
+            {
+              "text": "."
+            }
+          ],
+          "jp": [
+            {
+              "text": "項目の多いフォームがあり、その中で多岐に渡る質問をする場合は、ステップに分けることを検討してください。そうすることで、簡潔な情報のグループにできます。これはキーボードが表示されるとさらにスペースが狭くなるモバイルのユーザビリティに対しても有効です。モバイルではページをスクロールしている、またはインプットフィールドを移動していると、キーボード操作を簡単に逸してしまいます。このことから、同一ページに多数の項目を設けるのではなく、複数ページに項目を分けることを検討してください。またその際には、いくつのステップがあり、どこまで完了したのかを示しましょう。\r\nフォームの小分けを行う時には必ず、それぞれのフィールドを論理的にグループ分けし、1つ1つのステップであまり多くのフィールドを見せないようにしてください。とは言え、1ステップ1フィールドにしなければならないというわけではありません (どうしてもそうする必要がある場合は除きます)。フォームフィールドをテーマごとに分け、各テーマごとに1ステップとなるようにしてください。1ステップにたくさんのフィールドがある場合は、ユーザビリティの向上とユーザー側の認識負荷の削減のため、そこからさらに2つまたはそれ以上のステップに分ける方法を探ってください。これは“"
+            },
+            {
+              "text": "トラック",
+              "type": "link",
+              "href": "/design/components/track/overview/"
+            },
+            {
+              "text": "”を使用することで示唆できます。"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Default selections",
+          "jp": "デフォルトの選択項目"
+        }
+      },
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": [
+            {
+              "text": "Avoid having default selections, unless you’re sure that a large portion of users (over 90%) will select that value. The reason for this is that users don’t take the time to process every option and if there is a default selection, chances are users might skip it without checking what other options are available. This is especially valid for inputs with hidden values like selects. That being said when the select contains known information we have access to (Country, City, etc.), then preselecting the known value will improve usability greatly. For more information, see Selects in "
+            },
+            {
+              "text": "Form elements",
+              "type": "link",
+              "href": "/design/the-basics/forms/form-elements/"
+            },
+            {
+              "text": "."
+            }
+          ],
+          "jp": [
+            {
+              "text": "ユーザーの大部分（90%以上）が該当するか定かではない項目は、デフォルトで選択されたステータスにしないでください。ユーザーは全ての項目に時間をかけて答えるわけではないので、すでに選択された項目があった場合、他にどのような選択肢があるのかを確認せずに飛ばしてしまうことがあります。これは、選択肢が見えないセレクトボックスに対して特に起こります。しかし、選択肢があらかじめ明らかな情報（国、都市等）を含む場合は、それを選択されたステータスにしておくことが、ユーザビリティの改善につながります。詳細については“"
+            },
+            {
+              "text": "セレクトボックス",
+              "type": "link",
+              "href": "/design/the-basics/forms/form-elements/"
+            },
+            {
+              "text": "”を参照してください。"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "grayed-out-section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "UX value: Transparency",
+          "jp": "UXバリュー:明快な体験"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Don’t try to trick people into signing up for something they might not necessarily want, by preselecting a value. This will lead into breach of trust and loss of confidence in the service. Such defaults include mailing list subscriptions, agreeing to share data, or selecting defaults that raise the price of an item or service.",
+          "jp": "デフォルトの選択によってユーザーに必要のない登録をさせようとしないでください。サービスへの不信感につながってしまいます。例えば、メルマガの購読、データ共有の同意、また商品やサービスのアップグレード選択などです。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Auto-focus (desktop only)",
+          "jp": "オートフォーカス（デスクトップのみ）"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Focusing on the first field in a form will allow users to start filling it right away and save them time. If a field can only have limited number of characters, move the user automatically to the next one to improve speed and reduce friction.",
+          "jp": "フォームの最初にフォーカスすることで、ユーザーはすぐに入力をはじめられ、時間の節約になります。もし項目に文字数の入力制限がある場合は、制限文字数に達した時点で自動的に次の項目へフォーカスを移動させて、スピードと操作性を改善しましょう。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Keyboard navigation (desktop only)",
+          "jp": "キーボードナビゲーション（デスクトップのみ）"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Allow users to move between fields, and any interactive elements, using the keyboard alone. This is crucial for accessibility compliance, because some users have no other way to navigate through websites. Make sure that navigating through interactive elements on the page, using only the keyboard, is logical to the user, otherwise they will get confused.\r\nThis also greatly improves usability for advanced users, without making any difference for anybody else.",
+          "jp": "フォームの項目間をキーボードのみで移動できるようにしましょう。これは、一部のユーザーは他にサイトの閲覧手段がないため、アクセシビリティの適合に対し極めて重要です。また、キーボードでページ上の操作可能な要素を移動することは、ユーザーにとって自然なので、それを実装しないと混乱の原因になります。さらに、この機能を使わないユーザーに影響を与えることなく、これを習熟した上級者に高度なユーザビリティを提供します。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Show the correct keyboard (mobile only)",
+          "jp": "適したキーボードの表示（モバイルのみ）"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Since typing on mobile is time consuming and prone to mistakes, make it as easy as possible to fill your form by showing the correct keyboard for each field. For example, if a field asks for credit card number, show the number keyboard.\r\nAlso make sure to disable autocorrect for fields for which it will prove a hindrance, like name or email. Disable autosuggest for passwords for security reasons, otherwise the user’s password will be shown front and center in the suggestions for all to see and/or abuse.",
+          "jp": "モバイルの入力は時間がかかり間違いやすいので、それぞれのフィールドに対して適したキーボードを表示し、フォーム入力を可能な限り簡単にしてください。例えば、クレジットカード番号を求めている場合は、数字キーボードを表示させるなどがあたります。また、名前やメールアドレス等を入力する項目に対しては、入力ミスを指摘するオートコレクトを無効にしてください。さらに、セキュリティの理由からパスワードに対するオートサジェストも無効にしてください。さもなければ、ユーザーのパスワードがサジェストに表示され、情報漏洩につながり乱用される恐れがあります。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Preserve user’s work",
+          "jp": "ユーザーの作業の保持"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Filling forms is time-consuming and tedious, therefore take care to preserve user’s hard work. Don’t add form clear buttons, especially next to the submit button. Don’t clear some or part of the fields after an error has occurred. If your form consists of steps, between which the user can freely navigate, preserve the filled data in the not-yet-submitted steps, as well as the submitted ones.",
+          "jp": "フォーム入力はユーザーにとって時間がかかる退屈な作業なので、入力内容は保持されるようにしましょう。クリアボタンは基本的に設置せず、特に送信ボタンの横には絶対に置かないでください。また、エラー発生後に入力内容が削除されないようにも気をつけましょう。もしフォームがランダムな順序で入力でき、複数ステップからなる場合には、送信された内容と同様に入力途中の内容も保持されているようにしてください。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "grayed-out-section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "UX value: Make it personal",
+          "jp": "UXバリュー:自分に合った体験"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "There are inputs like dates and destinations that users are likely to check several times. In cases like this it’s better to preserve the last entered value in those fields. That being said never preserve sensitive data (credit card numbers, passwords, etc.) without the user’s explicit consent.",
+          "jp": "日付や目的地といった情報は、ユーザーが何度も入力することがあります。この場合は、最後に入力された内容を保持しておきましょう。しかし、ユーザーの明確な同意が無い場合は機密情報（クレジットカード番号、パスワード等）を保持しないでください。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Required fields",
+          "jp": "必須項目"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Mark clearly with 'Required' or '必須', even if all fields are required. The reason for that is that required information varies from site to site so the user cannot intuitively know which fields are optional and which are required. Filling forms is time-consuming and marking each field reduces errors and saves time. Even if all fields are optional, and there’s a disclaimer at the top of the page to that effect, it’s very likely for people to miss it and start guessing if fields are required or not.",
+          "jp": "全ての項目が必須項目であっても、“Required”もしくは“必須”と明示してください。なぜなら、必須項目はサイト毎に変わるため、ユーザーはどれが必須でどれが任意なのかを直感的に判断できないからです。それぞれ必須、任意を明記することで間違いを減らし時間を節約できます。たとえ全ての項目が任意で、それをページ上部で記載していてもユーザーはそれを見逃す可能性が高く、必須かどうかを考え出してしまいます。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Optional fields",
+          "jp": "任意項目"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Mark clearly with ‘Optional’ or '任意' at the end of the input label. Try to keep optional fields to a minimum. If a field is optional, you should first reconsider the need for it. The simpler and smaller a form is, the more likely people are to complete it. If you still need the optional fields, make sure they are as few as possible, and group them together if you can.",
+          "jp": "入力ラベルの最後に、“Optional”もしくは“任意”と明記してください。任意項目は可能な限り少なくしてください。項目が任意になる場合は、項目自体が必要かどうか再検討してください。簡潔で短いほどユーザーが最後まで入力する可能性が高まります。それを踏まえ、まだ任意の項目が必要な場合は、可能な限り少なくすること、任意の項目がグルーピングされているようにしてください。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Layout",
+          "jp": "レイアウト"
+        }
+      },
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": [
+            {
+              "text": "Forms can have different layouts, depending on the number of fields they have or their function. In general, forms can be classified into "
+            },
+            {
+              "text": "vertical",
+              "type": "link",
+              "href": "/design/the-basics/forms/vertical-forms/"
+            },
+            {
+              "text": " and "
+            },
+            {
+              "text": "inline",
+              "type": "link",
+              "href": "/design/the-basics/forms/inline-forms/"
+            },
+            {
+              "text": ". Even so, on mobile most inline forms become vertical due to the limited space."
+            }
+          ],
+          "jp": [
+            {
+              "text": "フォームは項目数や機能によって、それぞれ違ったレイアウトにすることができます。一般的にフォームは縦並びと横並びになりますが、モバイルではスペースが狭く、ほとんどの横並びのフォームは縦並びになります。"
+            },
+            {
+              "text": "テーブル概要",
+              "type": "link",
+              "href": ""
+            },
+            {
+              "text": "を参照してください。"
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

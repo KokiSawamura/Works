@@ -1,0 +1,193 @@
+[
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Search suggestions",
+          "jp": "検索サジェスト機能"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "Search suggestions are used to reduce data entry and provide immediate results and it’s recommended to have them. Implementing search suggestions will help your users quickly and easily find what they are looking for, even if they are unsure about the exact search term.",
+          "jp": "検索サジェスト機能はデータ入力の手間を減らし、即座に結果を提供するために使用されるもので、実装することが推奨されます。検索サジェスト機能を実装することにより、ユーザーが探しているものの名前が不確かな場合でも、それを素早く簡単に見つけるための手助けをすることができます。"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "You should provide relevant suggestions as soon as possible, such as after the second or third character, to reduce effort and provide immediate value. \r\nWe have two patterns of search suggestions – query and content suggestions. ",
+          "jp": "入力の手間を省き即座に価値を提供するため、サジェストはできる限り早く (2～3文字入力後など) 提供すべきです。\r\n検索サジェスト機能は、クエリサジェスト機能とコンテンツサジェスト機能の2つのパターンが用意されています。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h2",
+        "text": {
+          "en": "Query suggestions",
+          "jp": "クエリサジェスト機能"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "The most common type of search suggestions, where as the user types, suggestions are provided.",
+          "jp": "これは最も一般的な検索サジェスト機能で、ユーザーが入力するに従ってサジェストが出るものです。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "suggestions-section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Content suggestions",
+          "jp": "コンテンツサジェスト機能"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Content suggestions are suitable for websites that have a lot of different articles in different sections, like the ReX website. As the user types, the system searches through the articles, and shows the titles of the articles containing the query as well as the section they are under.",
+          "jp": "コンテンツサジェスト機能はReXウェブサイトのような、異なるセクションに多くの異なる記事があるウェブサイトに適しています。ユーザーが入力するに従って、システムは記事の検索を行い、そのクエリを含む記事のタイトル、およびその記事があるセクションを表示します。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "search_image_suggestions_specs.png",
+          "jp": "search_image_suggestions_specs.png"
+        }
+      },
+      {
+        "component": "WorkingExample",
+        "cols": "12",
+        "data": [
+          {
+            "component": "SearchSuggestions",
+            "type": "query",
+            "text": {
+              "en": [
+                {
+                  "displayText": "Rakuten Ichiba"
+                },
+                {
+                  "displayText": "Rakuten Travel"
+                },
+                {
+                  "displayText": "Rakuten Card"
+                },
+                {
+                  "displayText": "Rakuten Bank"
+                },
+                {
+                  "displayText": "Rakuten Security"
+                }
+              ],
+              "jp": [
+                {
+                  "displayText": "楽天市場"
+                },
+                {
+                  "displayText": "楽天トラベル"
+                },
+                {
+                  "displayText": "楽天カード"
+                },
+                {
+                  "displayText": "楽天銀行"
+                },
+                {
+                  "displayText": "楽天証券"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "component": "WorkingExample",
+        "cols": "12",
+        "data": [
+          {
+            "component": "SearchSuggestions",
+            "type": "content",
+            "text": {
+              "en": [
+                {
+                  "section": "Components",
+                  "list": [
+                    "Dropdown menu",
+                    "Dropdown menu items"
+                  ]
+                },
+                {
+                  "section": "Buttons",
+                  "list": [
+                    "Dropdown buttons",
+                    "Dropdown shadow for buttons"
+                  ]
+                }
+              ],
+              "jp": [
+                {
+                  "section": "Components",
+                  "list": [
+                    "Dropdown menu",
+                    "Dropdown menu items"
+                  ]
+                },
+                {
+                  "section": "Buttons",
+                  "list": [
+                    "Dropdown buttons",
+                    "Dropdown shadow for buttons"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "In both patterns the query, typed by the user, uses regular font while the suggestion by the system is bold.",
+          "jp": "どちらのパターンでも、ユーザーが入力するクエリには標準フォントが使用され、サジェストには太字が使用されます。"
+        }
+      }
+    ]
+  }
+]

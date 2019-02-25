@@ -1,0 +1,17 @@
+#pagination {
+  margin: 0 0 80px 0;
+  .col-xs-6 {
+    &:first-child {padding-right: 0.5px;}
+    &:last-child {padding-left: 1px;}
+
+    .footer-button {
+      text-align: center;
+      background: $white;
+      padding-top: 48px;
+      padding-bottom: 36px;
+      p {
+        color: $gray;
+      }
+    }
+  }
+}

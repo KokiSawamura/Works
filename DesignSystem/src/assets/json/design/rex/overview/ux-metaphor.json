@@ -1,0 +1,97 @@
+[{
+    "component": "Section",
+    "data": [{
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "UX metaphor",
+          "jp": "UXメタファー"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "‘Theme park’ is a metaphor that is meant to inspire designers. Imagine Rakuten as a theme park: It provides joy and excitement to its users on a daily basis. A world-class theme park needs more than rides to thrill its visitors. It requires fun-to-use services, to enrich the experience; knowledgeable staff to guide and support guests, and a reliable infrastructure to connect it all. Like a world-class theme park, Rakuten requires all of these elements, working in harmony to provide a successful user experience. Great experiences can’t exist without the right systems to enable them. The ReX design language focuses on both the amusement and infrastructure side of the user experience, becoming Rakuten’s new foundation for delightful user experiences.",
+          "jp": "ReXは、“テーマパーク”をメタファーに選びました。もし楽天がテーマパークだったらと想像してみてください。テーマパークは、日々来場者を楽しませ盛り上げています。世界的なテーマパークは、来場者が豊かな体験ができるように、スリルある乗り物だけではなく、来場者をサポートする知識豊富なスタッフ、パーク全体をつなぐ安心できる設備などのサービスを充実させています。楽天も、同様に素晴らしいユーザー体験を提供するために、そのようなあらゆる要素が調和した環境が不可欠です。素晴らしい体験はそれを可能にするふさわしいシステムなしには存在できません。ReXデザインランゲージは、楽天の新しいユーザー体験の基礎を、アミューズメントとインフラの両側面から築いていきます。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "overviewImgMetaphor@2x.png",
+          "jp": "overviewImgMetaphor@2x.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [{
+      "component": "Row",
+      "data": [{
+          "component": "Column",
+          "cols": "6",
+          "data": [{
+              "component": "Image",
+              "type": "",
+              "responsive": true,
+              "src": {
+                "en": "overviewImgPath@2x.png",
+                "jp": "overviewImgPath@2x.png"
+              }
+            },
+            {
+              "component": "Heading",
+              "type": "h5",
+              "text": {
+                "en": "Path",
+                "jp": "パス"
+              }
+            },
+            {
+              "component": "Text",
+              "type": "",
+              "text": {
+                "en": "PATH focuses on creating a user-side ecosystem, allowing cross-pollination of products and services.",
+                "jp": "パスは、ユーザーがサービス、プロダクト間の回遊をスムーズに行えるエコシステムを構築することに焦点を合わせます。"
+              }
+            }
+          ]
+        },
+        {
+          "component": "Column",
+          "cols": "6",
+          "data": [{
+              "component": "Image",
+              "type": "",
+              "responsive": true,
+              "src": {
+                "en": "overviewImgRide@2x.png",
+                "jp": "overviewImgRide@2x.png"
+              }
+            },
+            {
+              "component": "Heading",
+              "type": "h5",
+              "text": {
+                "en": "Ride",
+                "jp": "ライド"
+              }
+            },
+            {
+              "component": "Text",
+              "type": "",
+              "text": {
+                "en": "RIDE creates uniqueness and trustworthiness through simple user experiences, providing more immersiveness and pleasant surprises through micro-interactions.",
+                "jp": "ライドは、分かりやすいユーザー体験を通じてユニークさと信頼を創造します。マイクロインタラクションによって夢中になる感覚や楽しい驚きを演出します。"
+              }
+            }
+          ]
+        }
+      ]
+    }]
+  }
+]

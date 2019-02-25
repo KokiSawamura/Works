@@ -1,0 +1,1110 @@
+[
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Button types",
+          "jp": "ボタンタイプ"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "Buttons are used to communicate, and on press carry out, a certain action. ",
+          "jp": "ボタンは押すことで一定のアクションを実行することができます。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "buttons-examples",
+    "data": [
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": [
+            {
+              "text": "According to "
+            },
+            {
+              "text": "function",
+              "type": "strong"
+            },
+            {
+              "text": ", buttons can be one of the following types:"
+            }
+          ],
+          "jp": [
+            {
+              "text": "ボタンは"
+            },
+            {
+              "text": "機能別に",
+              "type": "strong"
+            },
+            {
+              "text": "下記のタイプがあります。"
+            }
+          ]
+        }
+      },
+      {
+        "component": "Section",
+        "className": "buttons-examples",
+        "data": [
+          {
+            "component": "Row",
+            "data": [
+              {
+                "component": "Column",
+                "cols": "6",
+                "data": [
+                  {
+                    "component": "Heading",
+                    "type": "h4",
+                    "text": {
+                      "en": "Primary",
+                      "jp": "プライマリー"
+                    }
+                  },
+                  {
+                    "component": "WorkingExample",
+                    "data": [
+                      {
+                        "component": "Button",
+                        "type": "default",
+                        "size": "normal",
+                        "text": {
+                          "en": "Button",
+                          "jp": "ボタン"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "component": "Column",
+                "cols": "6",
+                "data": [
+                  {
+                    "component": "Heading",
+                    "type": "h4",
+                    "text": {
+                      "en": "Secondary",
+                      "jp": "セカンダリー"
+                    }
+                  },
+                  {
+                    "component": "WorkingExample",
+                    "data": [
+                      {
+                        "component": "Button",
+                        "type": "outline",
+                        "size": "normal",
+                        "text": {
+                          "en": "Button",
+                          "jp": "ボタン"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "component": "WorkingExample",
+                    "data": [
+                      {
+                        "component": "Button",
+                        "type": "default",
+                        "option": "text",
+                        "text": {
+                          "en": "Button",
+                          "jp": "ボタン"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Primary",
+          "jp": "プライマリー"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Primary buttons are filled buttons. Used to communicate the primary or the most important action. Actions like 'Add to cart', 'Checkout' and 'Save' are usually primary actions. \r\nUse only one primary action per segment, and avoid having two or more primary actions side-by-side, because that provides visual noise and prevents the user from making a quick decision.",
+          "jp": "プライマリーボタンは塗りつぶされたボタンです。主要または最も重要なアクションに使われます。“カートに追加する”、“チェックアウト”、“保存”などの多くはプライマリーアクションです。2つ以上のプライマリーアクションを並べるとビジュアルノイズが増え、ユーザーの判断を妨げてしまうので、プライマリーアクションは各セグメントに１つにしてください。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Secondary",
+          "jp": "セカンダリー"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Can be outlined buttons or links. Used to communicate a secondary or a less important action.\r\nUsually one secondary action is present per segment, though more than one can be present at a time. Don’t, however, have more than three secondary actions side-by-side. If one of the actions is destructive, make sure to separate it from the rest of the actions to avoid triggering it by mistake. \r\nIf there are a few secondary buttons, they can either use the same style or two different styles to reinforce hierarchy. For example, if we have ‘Save’, ‘Don’t save’ and ‘Cancel’, ‘Don’t save’ can be outlined, while ‘Cancel’ can be a link. \r\nEven if all secondary buttons are outlined, some might use the primary color and others can be black, if they have hierarchy between them. Don’t use more than three styles together, because that will be distracting for the user and will reduce their ability to make quick decision.",
+          "jp": "アウトラインボタンやリンクで表現され、副次的または重要度が低い動作に使用されます。セグメント毎にセカンダリーアクションは１つの場合が多いですが、複数配置することも可能です。ただし、３つより多くのセカンダリーアクションを隣接させないでください。破壊的アクションがある場合は、誤ってそれを押してしまわないように他と離してください。複数のセカンダリーボタンがある場合は同じスタイルで表現しても良いですが、優先度を表現するために異なるスタイルを使うこともできます。たとえば、“保存する”、“保存しない”、“キャンセル”があるとき、“保存しない”はアウトラインボタンにして、“キャンセル”をリンクにするなどです。セカンダリーボタンを全てアウトラインボタンにして優先度を表す場合は、あるボタンをプライマリーカラーにし、その他は黒にすることで表現できます。３つより多くのスタイルは、ユーザーの気が散って判断力を鈍らせてしまうので、同時に使用しないでください。"
+        }
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "buttonsImgSecondaryEnglish1@2x.png",
+                  "jp": "buttons_img_secondary-japanese1.png"
+                }
+              },
+              {
+                "component": "Do",
+                "text": {
+                  "en": "Separate the destructive action from the rest, to reduce the chance for error",
+                  "jp": "破壊的アクションを他のアクションと分け、エラーを減らします"
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "buttonsImgSecondaryEnglish2@2x.png",
+                  "jp": "buttons_img_secondary-japanese2.png"
+                }
+              },
+              {
+                "component": "Dont",
+                "text": {
+                  "en": "Never keep a destructive action together with the other buttons, nor assign the same style to it",
+                  "jp": "破壊的アクションを他のボタンと一緒にする、または同じスタイルにするのは避けてください。"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Image",
+        "responsive": true,
+        "src": {
+          "en": "buttonsImgSecondaryEnglish3@2x.png",
+          "jp": "buttons_img_secondary-japanese3.png"
+        }
+      },
+      {
+        "component": "Do",
+        "text": {
+          "en": "Mix together up to three button styles",
+          "jp": "ボタンのスタイルは３種類以下でまとめます。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "buttonsImgSecondaryEnglish4@2x.png",
+          "jp": "buttons_img_secondary-japanese4.png"
+        }
+      },
+      {
+        "component": "Dont",
+        "text": {
+          "en": "Mix together more than three button styles",
+          "jp": "ボタンのスタイルは３種類より多く使用しないでください。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "buttons-examples",
+    "data": [
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": [
+            {
+              "text": "According to "
+            },
+            {
+              "text": "color",
+              "type": "strong"
+            },
+            {
+              "text": ", buttons can be one of the following types:"
+            }
+          ],
+          "jp": [
+            {
+              "text": "ボタンは下記の"
+            },
+            {
+              "text": "カラー",
+              "type": "strong"
+            },
+            {
+              "text": "があります。"
+            }
+          ]
+        }
+      },
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Primary",
+          "jp": "プライマリー"
+        }
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Text",
+                "type": "",
+                "text": {
+                  "en": "Uses the primary color of the service. Used for general level service-related actions. Used for most buttons. (Examples: Add to cart, Book, Start reading, etc.)",
+                  "jp": "サービスのプライマリーカラーを使用してください。サービスに関連した一般レベルのアクションに使用してください。プライマリーカラーは、ほとんどのボタンに使用されます。（例:カートに入れる、予約する、読書を開始するなど）"
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "Button",
+                    "type": "default",
+                    "size": "normal",
+                    "text": {
+                      "en": "Primary",
+                      "jp": "プライマリー"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "buttons-examples",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Info",
+          "jp": "インフォ"
+        }
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Text",
+                "type": "",
+                "text": {
+                  "en": "Used for buttons that provide additional information for a subject. Not all such buttons need to have this style though. Use it only if you want to highlight the meaning of the button.",
+                  "jp": "サブジェクトに情報を追加するためのボタンに使用してください。ただし、全ての場合にこのスタイルを適用する必要はありません。ボタンの意味を強調する場合に使用してください。"
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "Button",
+                    "type": "default",
+                    "size": "normal",
+                    "optionalState": "info",
+                    "text": {
+                      "en": "Info",
+                      "jp": "インフォ"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "buttons-examples",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Success",
+          "jp": "サクセス"
+        }
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Text",
+                "type": "",
+                "text": {
+                  "en": "The success color should be used mostly for a state of a button rather than it’s default color. For example, it could show that the action taken by pressing this button was successful. Could be combined with loading to give feedback after submitting a form or performing another action that needs success confirmation. This is a transient state, so use sparingly, since it’s very easy to be missed by the user.",
+                  "jp": "サクセスカラーはデフォルトカラーとして用いず、主にボタンのステータスを表すために使用してください。例えば、ボタンを押すことによってアクションが適切に実行されたことなどを表します。サクセスカラーは、フォームを送信した後、または他の成否の確認が必要なアクションのために、ローディングと組み合わせてフィードバックを返します。ただし、一時的なステータスなのでユーザーがかろうじて気づく控えめな表現にしてください。"
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "Button",
+                    "type": "default",
+                    "size": "normal",
+                    "optionalState": "success",
+                    "text": {
+                      "en": "Success",
+                      "jp": "サクセス"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "buttons-examples",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Warning",
+          "jp": "警告"
+        }
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Text",
+                "type": "",
+                "text": {
+                  "en": "Indicates caution should be taken with this action. Use for actions where user should carefully consider his/her choice, for example when giving permission. Use sparingly and only when explicit emphasis is needed. Don’t use for common consent actions like agreeing to terms and conditions.",
+                  "jp": "注意が必要であるアクションを示します。ユーザーが、承認する時などの注意が必要なアクションに使用してください。強調する必要がある場合にのみ控えめに使用してください。利用規約への同意のようなアクションには使用しないでください。"
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "Button",
+                    "type": "default",
+                    "size": "normal",
+                    "optionalState": "warning",
+                    "text": {
+                      "en": "Warning",
+                      "jp": "ワーニング"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "buttons-examples",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Danger",
+          "jp": "危険"
+        }
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Text",
+                "type": "",
+                "text": {
+                  "en": "Indicates destructive or potentially negative action. Could be used for buttons that will carry irreversible action, like deleting an item permanently without the possibility to undo. Use sparingly and only for actions with serious consequences.",
+                  "jp": "破壊的か潜在的にネガティブなアクションがあることを示します。復元が不可能なアイテムを消去するなど、不可逆的なアクションを実行する場合に使用されます。使用は控えめにし、深刻な結果を伴うアクションに使用するようにしてください。"
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "Button",
+                    "type": "default",
+                    "size": "normal",
+                    "optionalState": "danger",
+                    "text": {
+                      "en": "Danger",
+                      "jp": "デンジャー"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+
+
+
+
+
+
+
+
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": [
+            {
+              "text": "According to the "
+            },
+            {
+              "text": "action",
+              "type": "strong"
+            },
+            {
+              "text": " they carry out, buttons can be one of the following types:"
+            }
+          ],
+          "jp": [
+            {
+              "text": "そのボタンが実行するアクション"
+            },
+            {
+              "text": "アクション",
+              "type": "strong"
+            },
+            {
+              "text": "により、ボタンは以下のタイプのどれかを選べます:"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Regular buttons",
+          "jp": "レギュラーボタン"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "The basic type of button, which on click preforms an action. Most buttons are regular buttons.",
+          "jp": "クリックすることであるアクションを実行する、基本的なタイプのボタンです。大半のボタンはレギュラーボタンです。"
+        }
+      },
+      {
+        "component": "Section",
+        "className": "buttons-examples",
+        "data": [
+          {
+            "component": "Row",
+            "data": [
+              {
+                "component": "Column",
+                "cols": "6",
+                "data": [
+                  {
+                    "component": "WorkingExample",
+                    "data": [
+                      {
+                        "component": "Button",
+                        "type": "default",
+                        "size": "normal",
+                        "text": {
+                          "en": "Button",
+                          "jp": "ボタン"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "component": "Column",
+                "cols": "6",
+                "data": [
+                  {
+                    "component": "WorkingExample",
+                    "data": [
+                      {
+                        "component": "Button",
+                        "type": "outline",
+                        "size": "normal",
+                        "text": {
+                          "en": "Button",
+                          "jp": "ボタン"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Heading",
+                "type": "h4",
+                "text": {
+                  "en": "Toggle buttons",
+                  "jp": "トグルボタン"
+                }
+              },
+              {
+                "component": "TextWithAnchor",
+                "type": "",
+                "text": {
+                  "en": [
+                    {
+                      "text": "Toggle buttons have an active and an idle state. The default state is idle, and on press the toggle button becomes active and preforms a specific action. Pressing it again undoes that action and returns the button to its idle state. An example for that will be an add to favorites button – when active, the corresponding item is in favorites.\r\nToggle buttons can either be just an icon or a circular button. For more information on circular buttons, see "
+                    },
+                    {
+                      "text": "Button options",
+                      "type": "link",
+                      "href": "/design/the-basics/buttons/options/"
+                    },
+                    {
+                      "text": "."
+                    }
+                  ],
+                  "jp": [
+                    {
+                      "text": "トグルボタンにはアクティブ状態とアイドル状態があります。デフォルトではアイドル状態で、ボタンを押すことによりアクティブ状態となり、ある特定のアクションを実行します。もう一度押すとそのアクションは取り消され、ボタンはアイドル状態に戻ります。トグルボタンの例としては「お気に入りに加える」ボタンがあります。アクティブ状態にすると、該当するアイテムがお気に入りに入ります。\r\nトグルボタンはただのアイコンかサーキュラーボタンのどちらでもかまいません。サーキュラーボタンについてより詳細な情報を得るには、"
+                    },
+                    {
+                      "text": "ボタンオプション",
+                      "type": "link",
+                      "href": "/design/the-basics/buttons/options/"
+                    },
+                    {
+                      "text": "を参照してください。"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "buttons_img_toggle.png",
+                  "jp": "buttons_img_toggle.png"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Dropdown buttons",
+          "jp": "ドロップダウンボタン"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "On press instead of immediately preforming an action, dropdown buttons open a submenu that lists the available actions. On click on any of the actions, it is preformed right away.\r\nMake sure that the available actions in the submenu are all related, and that the label makes it clear to the user what to expect.\r\nDropdown buttons should not be confused with selects. A select allows the user to select an option from a list, while dropdown buttons allow the user to preform one of a few available actions.",
+          "jp": "ドロップダウンボタンは押すとすぐにアクションを実行するのではなく、実行可能なアクションのリストを表示するサブメニューを開きます。そのアクションの中のどれかをクリックすると、そのアクションが即座に実行されます。\r\nサブメニュー内の実行可能なアクションはすべて関連性のあるものにし、選択すると何が起こるかをラベルでユーザーに明確に示しておいてください。\r\nドロップダウンボタンをセレクトと混同しないようにしてください。セレクトはユーザーがリストの中から1つの選択肢を選べるようにするもので、ドロップダウンボタンはユーザーがいくつかの実行可能なアクションの中から1つを実行できるようにするものです。"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Dropdown buttons can be of the following types:",
+          "jp": "ドロップダウンボタンは以下のタイプから選べます:"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "headings-examples",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h5",
+        "text": {
+          "en": "Simple dropdowns",
+          "jp": "シンプルドロップダウン"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Simple dropdowns consist of a label and an arrow pointing down. On click anywhere on the button, it opens the corresponding submenu.\r\nSimple dropdowns can be used on their own or as a part of a menu.",
+          "jp": "シンプルドロップダウンはラベルと下向き矢印から構成されています。ボタンのどこかをクリックすると、対応するサブメニューが開きます。\r\nシンプルドロップダウンはそれ自体で使用することも、メニューの一部として使用することもできます。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "buttons_img_simple_dropdown_specs.png",
+          "jp": "buttons_img_simple_dropdown_specs.png"
+        }
+      },
+      {
+        "component": "Section",
+        "className": "buttons-examples",
+        "data": [
+          {
+            "component": "Row",
+            "data": [
+              {
+                "component": "Column",
+                "cols": "6",
+                "data": [
+                  {
+                    "component": "WorkingExample",
+                    "cols": "12",
+                    "data": [
+                      {
+                        "component": "Dropdowns",
+                        "text": "Button"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "component": "Column",
+                "cols": "6",
+                "data": [
+                  {
+                    "component": "WorkingExample",
+                    "cols": "12",
+                    "data": [
+                      {
+                        "component": "Dropdowns",
+                        "text": "Button",
+                        "type": "btn-outline"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "headings-examples",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h5",
+        "text": {
+          "en": "Segmented dropdowns",
+          "jp": "セグメンテッドドロップダウン"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "In segmented dropdowns the label and the arrow are two separate buttons. The label describes the main action of the button, and on click it is preformed immediately. Clicking on the arrow calls the submenu containing additional actions. If the user clicks an additional action it is carried out immediately, without changing the label in the dropdown.\r\nMake sure that the main action in the segmented dropdown is the one most likely to be used by your users, otherwise they will have to preform many clicks to get to it, which will annoy and frustrate them.",
+          "jp": "セグメンテッドドロップダウンでは、ラベルと矢印は2つの別々のボタンになっています。 ラベルにはボタンのメインアクションが説明してあり、クリックするとメインアクションが即座に実行されます。矢印をクリックすると追加アクションが載っているサブメニューが開きます。ユーザーが追加アクションのどれかをクリックすると、ドロップダウンのラベルは変更されないまま、クリックしたアクションが即座に実行されます。\r\nセグメンテッドドロップダウンのメインアクションは、必ずユーザーが最も使用する可能性の高いアクションにしてください。そうでないと、ユーザーは望みのアクションを実行するためにたくさんクリックしなければならず、苛立ちを抱えることになってしまいます。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "buttons_img_segmented_dropdown_specs.png",
+          "jp": "buttons_img_segmented_dropdown_specs.png"
+        }
+      },
+      {
+        "component": "Section",
+        "className": "buttons-examples",
+        "data": [
+          {
+            "component": "Row",
+            "data": [
+              {
+                "component": "Column",
+                "cols": "6",
+                "data": [
+                  {
+                    "component": "WorkingExample",
+                    "cols": "12",
+                    "data": [
+                      {
+                        "component": "Dropdowns",
+                        "text": "Button",
+                        "splitButton": true
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "component": "Column",
+                "cols": "6",
+                "data": [
+                  {
+                    "component": "WorkingExample",
+                    "cols": "12",
+                    "data": [
+                      {
+                        "component": "Dropdowns",
+                        "text": "Button",
+                        "type": "outline",
+                        "splitButton": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Usage",
+          "jp": "使用法"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Buttons can be used individually or in groups. When you use buttons in a group keep them all the same height. There can be buttons with various heights on the same page, but those that are side-by-side can only be one height at a time, according to the classification described above.\r\nWhen there’s a button group consisting of primary and secondary actions (one or more), put the primary action at the right-hand side, and the secondary action(s) on the left-hand side. If the group is vertically aligned, put the primary button on top.",
+          "jp": "ボタンは個別またはグループで使用できます。グループで使用する場合、グループ内ではボタンを全て同じ高さにそろえてください。ページ内では様々な高さのボタンが存在できますが、並んで置かれるボタンは同じ高さにします。プライマリーアクションとセカンダリーアクション（１つかそれ以上）から成るボタングループがある場合は、右側にプライマリーアクション、左側にセカンダリーアクションを配置してください。もし、そのグループが垂直に並んでいる場合は、プライマリーボタンを一番上に配置してください。"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "For desktop and tablet allow buttons to span as wide as their content, or as wide as the minimum size of the button. \r\nAvoid using more than two buttons side-by-side on mobile. If it’s really necessary, use text links for the secondary actions. This is only valid for buttons that carry out actions (like submit or add to cart).",
+          "jp": "デスクトップとタブレットは、ボタンをコンテンツ幅まで広げるか、もしくは、ボタンの最小サイズと同じ幅に設定します。モバイルでは、ボタンを２つより多く横に並べて配置しないでください。もし、必要な場合は、セカンダリーアクションにテキストリンクを使用してください。これはアクションを実行する（送信するやカートに追加するなど）ボタンにのみ有効です。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "content-button-section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Content",
+          "jp": "コンテンツ"
+        }
+      },
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": [
+            {
+              "text": "A button or a link can contain just a label, or a label and an icon before or after it. There are no restrictions to the icon that can be used in button, just make sure it complements the button’s action. That being said make sure to use an icon only when it is actually needed. For example, there’s no need to add arrow to a button, just to show it takes the user to a new page, since that’s already one of the established button functionalities and adding an arrow doesn’t contribute much to comprehension.or example, there’s no need to add arrow to a button, just to show it takes the user to a new page, since that’s what a button does anyways. Only do that for special cases, i.e. To distinguish between different types of Campaign buttons, where some buttons take the user to a new page, and some preform action on the spot).\r\nA button can contain just an icon, in which case it is called a circular button. For more information, see "
+            },
+            {
+              "text": "Button options",
+              "type": "link",
+              "href": "/design/the-basics/buttons/options/"
+            },
+            {
+              "text": "."
+            }
+          ],
+          "jp": [
+            {
+              "text": "ボタンまたはリンクは、ラベルのみでできていてもかまいませんし、ラベルとその前後に配置したアイコンから構成されていても結構です。ボタンの中で使用できるアイコンには特に制限はありませんが、必ずそのボタンのアクションに合ったものにしてください。従って、アイコンは必要な場合のみの使用に限ります。例えば、ボタンに矢印アイコンを置く必要はありません。それは既に確立されたボタンの機能の1つで、矢印を追加することで理解度が高められる事はないからです。例外として、キャンペーンページなどで、遷移型/非遷移型などアクションの違うボタンが並存している際に、それらを差別化するといった特別な場合に使用してください。\r\n ボタン自体がそもそも遷移するものなので、ページに遷移させるという意図を改めてアイコンで示す必要は基本的にありません。\r\nまたボタンはアイコンのみでできていてもかまいません。その場合はサーキュラーボタンと呼ばれます。より詳細な情報を得るには、"
+            },
+            {
+              "text": "ボタンオプション",
+              "type": "link",
+              "href": "/design/the-basics/buttons/options/"
+            },
+            {
+              "text": "を参照してください。"
+            }
+          ]
+        }
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "button_img_content_types_specs.png",
+                  "jp": "button_img_content_types_specs.png"
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "Button",
+                    "type": "default",
+                    "icon": "cart-f",
+                    "text": {
+                      "en": "Button",
+                      "jp": "ボタン"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Buttons should have short, concise and to-the-point labels expressing the result of pressing the button. Avoid generic labels like ‘OK’, ‘Yes’ or ‘No’, instead describe the action that will result after pressing this button.",
+          "jp": "ボタンのラベルは簡潔で分かりやすく、押した結果を説明するものにしましょう。“OK”、“はい”、“いいえ”といったような一般的な語句は避けましょう。"
+        }
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "buttonsImgContentEnglish1@2x.png",
+                  "jp": "buttons_img_content-japanese1.png"
+                }
+              },
+              {
+                "component": "Do",
+                "text": {
+                  "en": "Use button labels that describe the result of pressing them",
+                  "jp": "ボタンを押した結果を説明するようなボタンラベルを使用します"
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "buttonsImgContentEnglish2@2x.png",
+                  "jp": "buttons_img_content-japanese2.png"
+                }
+              },
+              {
+                "component": "Dont",
+                "text": {
+                  "en": "Avoid generic labels",
+                  "jp": "曖昧なラベルを使用しないでください"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

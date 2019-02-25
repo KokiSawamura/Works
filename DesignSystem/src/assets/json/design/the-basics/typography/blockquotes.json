@@ -1,0 +1,69 @@
+[
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "target": [
+          "designer",
+          "developer"
+        ],
+        "text": {
+          "en": "Blockquotes",
+          "jp": "引用・転載文"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "If you need to add a quote to your site that stands out, you can use the style below. Any copy from external sources needs to be marked as a quote, but not all quotes need to use the blockquotes style. Use blockqoutes when you want to draw the attention of the customer. An example for use would be testimonials, but can be used for any quotes, as long as they are important enough to be highlighted.\r\nIf it’s important to mark the source of the quote, add it below the quote as per the specifications below.",
+          "jp": "引用文を目立たせる必要がある場合は、下記のスタイルを適用します。外部ソースからの引用を行う際には引用符で囲む必要がありますが、全てをこのスタイルで表現する必要はありません。他の文章から区別して際立たせたい場合にこのスタイルを使用してください。例としてお客様の声によく利用されますが、その他強調が必要な重要な引用にも使用できます。また、出典を明記する場合は、下記のように引用の直下に表示します。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Blockquotes",
+          "jp": "引用・転載文"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "typographyImgBlockquotes1@2x.png",
+          "jp": "typographyImgBlockquotes2@2x.png"
+        }
+      },
+      {
+        "component": "WorkingExample",
+        "type": "",
+        "data": [
+          {
+            "component": "Blockquote",
+            "quote": {
+              "en": "Since we founded Rakuten in 1997, innovation has been at the core of who we are.",
+              "jp": "私たちは1997年の創業時より、イノベーションの力を信じ、大切にしています。"
+            },
+            "author": {
+              "en": "Hiroshi Mikitani",
+              "jp": "三木谷浩史"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

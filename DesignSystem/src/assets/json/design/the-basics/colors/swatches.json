@@ -1,0 +1,96 @@
+[
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "Swatches",
+          "jp": "スウォッチ"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "Below you can find the .ase file for color swatches. Swatches for Sketch are included in the Sketch master file.",
+          "jp": "adobe用のスウォッチファイルは下記からダウンロードしてください。sketch用のスウォッチはsketchのマスターファイルに含まれています。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "className": "downloads-with-release-notes",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "Downloads",
+          "jp": "ダウンロード"
+        }
+      },
+      {
+        "component": "Link",
+        "type": "h3",
+        "target": [
+          "designer"
+        ],
+        "url": "/design/downloads/colors/",
+        "text": {
+          "en": "Release notes",
+          "jp": "リリースノート"
+        }
+      },
+      {
+        "component": "Download",
+        "type": "no-date",
+        "name": "Rakuten color palette",
+        "date": "",
+        "size": "451KB",
+        "url": "https://rak.app.box.com/s/4p4uksj99wo28avn9s9bd6zutfzqu3t2",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "Downloads",
+          "jp": ""
+        }
+      },
+      {
+        "component": "Download",
+        "type": "no-date",
+        "name": "Sketch",
+        "date": "",
+        "size": "451KB",
+        "url": "https://rak.app.box.com/s/kkl38fcc2r6bfvzz8tj8dhq18pnbhla7",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "Downloads",
+          "jp": ""
+        }
+      }
+    ]
+  }
+]

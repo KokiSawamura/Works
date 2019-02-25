@@ -1,0 +1,413 @@
+[
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Common patterns",
+          "jp": "一般的なフォームパターン"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "Forms can be very diverse, but there are a few patterns that are common and should be used uniformly across services. This provides better user experience and ensures ease of use.",
+          "jp": "フォームは非常に多様性のあるものですが、サービスをまたいで一律に使用されるべき一般的なパターンがいくつかあります。こうしたパターンの使用により、ユーザーエクスペリエンスの質を高め、使いやすさを確保することができます。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Email",
+          "jp": "Eメール"
+        }
+      },
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": [
+            {
+              "text": "Email field is just one text box and it’s more a special type of input, rather than a pattern. The reason we have included it here is because of its validation. Inputting a wrong email is the reason for hard bounces – drop offs caused by user input mistake. An error in the rest of the form can be remedied, but if the email is wrong the user is as good as lost. The most common pattern to avoid that is to use two fields for the email, but this doesn’t really solve the problem because a lot of people copy and paste the email they inputted in the previous box. Besides, it’s extremely tedious to do on mobile, where we have keyboard suggestions and an email confirmation field is simply not needed. Because of that, avoid a confirm email field, unless there’s no other choice. If for some reason you need to implement it, make sure not to disable it until the other email field’s been filled, because this leads to usability issues (as seen during Ichiba checkout UT at end of October 2017).\r\nMuch better way to reduce hard bounces is to check the domain for mistakes. This only works for the most common domains, but research shows that it’s a good way to reduce hard bounces by half. This validation method can be achieved by checking everything after the ‘@’ sign and comparing it to a list of most common domain names. If a possible mistake has been determined, show a message to the user, saying ‘Did you mean name@"
+            },
+            {
+              "text": "corrected-domain.com",
+              "type": "strong"
+            },
+            {
+              "text": "?’. "
+            }
+          ],
+          "jp": [
+            {
+              "text": "Eメールフィールドは単一のテキストボックスですので、厳密にはパターンというよりは特殊なタイプの入力項目です。Eメールアドレスの確認 (Validation) という観点から、フィールドをパターンに含んでいます。間違ったメールアドレスの入力は、ハードバウンス、つまりユーザーの入力ミスに起因する離脱の原因となります。Eメールアドレスフォーム以外の部分での入力間違いは、のちに修正できるため致命的ではありませんが、メールアドレスが間違って入力されていた場合は、ユーザーにコンタクトが取れなくなってしまうので致命的です。これを回避するための最も一般的なパターンはEメールの入力フィールドとEメールの確認フィールドの2つを使うことですが、多くの人はEメールの入力フィールドに入力したメールアドレスをコピー&ペーストするため、これでは問題の解決になりません。また、モバイルではキーボード自体の機能である予測変換機能を使用するケースが多いので、Eメールの確認フィールドは単に二度手間で不必要です。そのため、他に手段がない場合以外は、Eメールの確認フィールドの使用は避けてください。何らかの理由でEメールの確認フィールドを実装する必要がある場合は、通常のEメールの入力フィールドもEメールの確認フィールドも常に有効にしておいてください。これは (2017年10月末に行われた楽天市場のチェックアウトのユーザーテスト中に見られたような) ユーザビリティ上の問題につながるおそれがあるためです。\r\nこれよりもはるかに優れたハードバウンス削減方法は、ドメイン間違いの確認をすることです。これは最も一般的なドメインのみに対して有効な方法ですが、研究が示すところでは、それでもハードバウンスを半分にまで減らすことができます。この確認方法は、「@」記号の後ろすべてをチェックして、最も一般的なドメイン名のリストと照合することにより実行できます。もし間違いの可能性があると判断された場合は、「名前@"
+            },
+            {
+              "text": "正しいドメイン名.com",
+              "type": "strong"
+            },
+            {
+              "text": "ではありませんか？」というメッセージをユーザーに表示してください。"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "forms_common-patterns_img0.png",
+                  "jp": "forms_common-patterns_img0.png"
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "forms_common-patterns_img1.png",
+                  "jp": "forms_common-patterns_img1.png"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Don’t, under any circumstances, prevent the user from submitting the form, even if the domain looks wrong. There is an abundance of domain names out there, so we can’t assume that it’s an actual mistake, even if it looks like it.",
+          "jp": "どんな状況であれ、ユーザーによるフォームの送信を妨害しないでください。たとえドメインが間違っているように見えたとしてもです。世の中には膨大な数のドメイン名が存在するので、たとえ間違っているように見えたとしても、実際に間違っているだろうと推測することはできません。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Password",
+          "jp": "パスワード"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Similar to the email, the password is just one field, but what makes it a pattern is the validation. Password fields have two main complications about them. The first complication is that the actual input is hidden and the user cannot check if they have made a mistake. Just like with the email, a common way to remedy that is to add a confirm password field. This has worked for years, but with the spread of mobile, adding more fields is very discouraged. A better way to prevent mistakes with the password is to implement a show/hide password icon, that toggles the password between being visible/hidden. This will allow users to confirm they entered the correct password without having to type it twice. The second complication with passwords is their strength. There should be a password strength indicator under the password field, but that’s only one part of the problem. The other is the password rules. Due to security reasons, we require users to create strong passwords, which leads to many password rules. Of course password rules can just be shown in the help text, which works well for cases that have one or maybe two rules. If there are many rues though, that makes the help text too long and hard to comprehend. A much better way is to show each rule at a new line and check them off as the user types. This increases comprehension speed and makes it very easy to understand if the password meets all requirements.",
+          "jp": "パスワードはメールアドレスと同じく単なる一つのフィールドですが、パスワードの確認 (Validation) という観点から、フィールドをパターンに含んでいます。パスワードフィールドには難しい点が主に2つ存在します。最初の問題点は、実際の入力内容が隠されているため、間違えたかどうかをユーザーが自分で確認できないことです。メールアドレスの時と同じように、この問題を改善する一般的な方法は、パスワードの確認フィールドを追加することです。この方法は何年にもわたって効果を上げてきましたが、モバイルの普及により、さらなるフィールドを追加することは非常にためらわれるようになりました。パスワードの間違いを防止するためのよりよい方法は、パスワードを表示する/隠すアイコンを実装し、パスワードを見えるようにするか隠すかを切り替えられるようにすることです。これによりユーザーは、2回入力せずとも正しいパスワードを入力したことを確認できます。\r\n2つ目の問題点は、パスワードの強度です。パスワードフィールドの下にはパスワード強度メーターを設置するべきですが、問題はそれだけではありません。他に、パスワードの入力ルールも問題になります。セキュリティ上の理由により、ユーザーには強度の高いパスワードを作成するように求めていますが、そのことにより、パスワードの入力ルールが多くなるという問題が引き起こされます。もちろん、単純にパスワードの入力ルールをヘルプテキストに表示しておくこともできます。ルールが1つか2つの場合なら、これでもうまくいくでしょう。しかしもしルールが多い場合は、ヘルプテキストが長くなりすぎて理解することが難しくなってしまいます。それよりもはるかに優れた方法は、各ルールを箇条書きで表示し、ユーザーが入力を行う中で各項目にチェックを入れていくというものです。この方法を使えば、理解のスピードが速まり、すべての条件が満たされたかを判断することが非常に容易になります。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "forms_common-patterns_img2.png",
+                  "jp": "forms_common-patterns_img2.png"
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "forms_common-patterns_img3.png",
+                  "jp": "forms_common-patterns_img3.png"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Address",
+          "jp": "住所"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Address forms are a combination of several input fields - both plain and number. Each country has a different address format and it’s always best if it’s followed as closely as possible. For Japanese address forms, it is always best to partially fill in the address, after the user has filled in their Post code. This can be achieved either automatically (by the system) or on user action. Filling in part of the address automatically, is best done once the user has entered the last digit (the 7th digit) of the post code. This is very quick and user-friendly method, but it only works if the data is filled instantaneously. If the user has to wait any amount of time (over 200ms wait) then this method isn’t appropriate and user action should be implemented. Filling in part of the address on user action, means adding a button next to the field, which on click fills the available part of the address. If there’s a delay (over 200ms wait), there needs to be a loading state in the button (a spinner), so that the user knows what’s happening.\r\nMake sure to disable autocorrect where appropriate, namely in the name and building fields. Most names are not in dictionaries, so it will save people a lot of time if their names don’t get changed. This will also prevent errors, because the user might not see their name was changed.",
+          "jp": "住所フォームは通常のフィールドと数字フィールドの両方からなる、いくつかの入力フィールドの組み合わせによってできています。国が違えば住所の形式も違いますが、常に可能な限り形式に従うことが最善です。\r\n日本の住所フォームでは常に、ユーザーが郵便番号を入力したら、住所が途中まで自動入力されるようにすることがベストです。これには自動的に入力される自動タイプと、ユーザーのアクションで入力されるユーザーアクションタイプの2つのタイプがあります。\r\n自動タイプは、ユーザーが郵便番号の最後の桁 (7桁目) を入力し終わった時に行われるようにするのが最善です。これは非常に迅速でユーザーフレンドリーな手法ですが、これが機能するのはデータを即座に入力できる場合のみです。もしユーザーが多少なりとも (200ms以上) データが入力されるのを待たされる場合は、この手法は適切ではなく、ユーザーアクションタイプが実装されるべきです。\r\nユーザーアクションタイプは、ボタンをフィールドの横に追加し、クリックすると住所の一部が自動で入力されるものです。自動入力に時間がかかる場合 (200ms以上) は、ユーザーが状況を把握できるよう、ボタンの中にローディング状況を示すステータス (スピナー) を示すことが必要です。\r\nオートコレクト機能を無効にするべきところ (特に氏名と建物名フィールド) は、きちんと無効になっているかを確認してください。大半の氏名は辞書に載っていないため、名前を勝手に変えられることがなければ、ユーザーは多くの時間を節約できることでしょう。また、ユーザーは自分の名前が「修正」されたことに気づかないかもしれませんので、オートコレクト機能を無効にすることは間違いを防ぐことにもなります。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "forms_common-patterns_img4.png",
+          "jp": "forms_common-patterns_img4.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Credit card",
+          "jp": "クレジットカード"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Credit card forms are a combination of several input fields and/or a couple of dropdowns. The fields are mostly numeric and show a placeholder for the correct input. Since all numeric fields have fixed number of digits that can be accepted, it’s best to move the user to the next field, once this number has been reached. This will improve speed and ensure ease of use.",
+          "jp": "クレジットカードフォームはいくつかの入力フィールドおよび数個のドロップダウンの組み合わせからできています。大半のフィールドは数字フィールドで、正しく入力してもらうためにプレースホルダーが表示されます。すべての数字フィールドは受け入れ可能な桁数が決まっているため、その桁数に達したらユーザーを次のフィールドに移動させることがベストです。これにより入力スピードを速め、使いやすさを確保します。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "forms_common-patterns_img5.png",
+                  "jp": "forms_common-patterns_img5.png"
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "forms_common-patterns_img6.png",
+                  "jp": "forms_common-patterns_img6.png"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "When implementing credit card forms don’t ask the user to select their card company. Instead implement validation for determining the correct company by the first one or two digits of the card number as follows:",
+          "jp": "クレジットカードフォームを実装する時は、ユーザーにカード会社を選ぶように求めないでください。その代わりに、カード番号の最初の1～2桁でカード会社を判別する仕組みを実装するようにしてください。"
+        }
+      },
+      {
+        "component": "List",
+        "type": "",
+        "list": {
+          "en": [
+            {
+              "htmlText": "<strong>Visa:</strong> First digit is 4"
+            },
+            {
+              "htmlText": "<strong>MasterCard:</strong> First digits is a 5 and second digit is 1, 2, 3, 4 or 5"
+            },
+             {
+              "htmlText": "<strong>American Express:</strong> First digit is a 3 and second digit is 4 or 7"
+            },
+            {
+              "htmlText": "<strong>Diners Club:</strong> First digit is a 3 and second digit is 6 or 8"
+            },
+            {
+              "htmlText": "<strong>Japan Credit Bureau (JCB):</strong> First digit is a 3 and second digit is a 5"
+            },
+            {
+              "htmlText": "<strong>Discover:</strong> Card number begins with 6011 or 65"
+            }        
+          ],
+          "jp": [
+            {
+              "htmlText": "<strong>Visa:</strong> 最初の桁が4"
+            },
+            {
+              "htmlText": "<strong>MasterCard:</strong> 最初の桁が5で、その次の桁が1～5のどれか"
+            },
+             {
+              "htmlText": "<strong>アメリカン・エキスプレス:</strong> 最初の桁が3で、その次の桁が4または7"
+            },
+            {
+              "htmlText": "<strong>ダイナースクラブ:</strong> 最初の桁が3で、その次の桁が6または8"
+            },
+            {
+              "htmlText": "<strong>JCB:</strong> 最初の桁が3で、その次の桁が5"
+            },
+            {
+              "htmlText": "<strong>ディスカバーカード:</strong> 6011または65で始まるカード番号"
+            }        
+          ]
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Once the card company has been determined, show it at the left hand side of the field to show the user the result.",
+          "jp": "カード会社が判別できたら、ユーザーにその結果を見せるため、フィールドの左手側に表示してください。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "forms_common-patterns_img7.png",
+                  "jp": "forms_common-patterns_img7.png"
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "forms_common-patterns_img8.png",
+                  "jp": "forms_common-patterns_img8.png"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "In Japan a payment can be split into installments. To allow users to do that implement a dropdown, containing the available choices. Usually there are four types of payment, but one-time payment is used the most, therefore it can be preselected. If the user selects ‘分割払い’, or split payment, show a way to allow them to select the desired number of payments. We advise an additional dropdown because there’s a limited number of payments and they are non-sequential (i.e. it’s not 2, 3, 4, 5, etc. times, but rather 2, 3, 5, 8, etc. times). If your credit card form does not target Japan, then there’s no need to show number of payments. ",
+          "jp": "日本では、分割払いで支払いをすることができます。ユーザーが分割払いを行えるようにするためには、利用可能な選択肢を記載したドロップダウンを実装してください。通常は4種類の支払い方法がありますが、1回払いが最もよく使われるので、初期状態ではあらかじめ1回払いを選択しておいてかまいません。\r\nもしユーザーが「分割払い」を選んだ場合は、望みの支払い回数を選ぶ方法がわかるようにしてください。支払いの回数は限られており、その数は連続していない (2、3、4、5回払いのような形ではなく、2、3、5、8回払いのような形である) ため、特殊なドロップダウンを実装することが推奨されます。 \r\n日本を対象としていないクレジットカードフォームの場合は、支払い回数を表示する必要はありません。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "forms_common-patterns_img9.png",
+          "jp": "forms_common-patterns_img9.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "The card expiry date field is also a bit different for CJK and Western languages. For Western languages we recommend to have one field with a placeholder ‘MM/YY’ to show the format. This placeholder unfortunately doesn’t work on Japanese, so for CJK languages the field needs to be split into two – one for month and one for year.",
+          "jp": "カードの有効期限フィールドもまた、中日韓のものと欧米の言語のものとで多少違いがあります。欧米の言語のものには、入力形式を示すために「MM/YY」というプレースホルダーを表示したフィールドを1つ設けることが推奨されます。残念ながらこのプレースホルダーは日本語では機能しないため、中日韓の言語の場合はフィールドを月と年の2つに分割する必要があります。"
+        }
+      }
+    ]
+  }
+]

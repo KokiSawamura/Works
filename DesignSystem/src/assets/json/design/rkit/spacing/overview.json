@@ -1,0 +1,38 @@
+[
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "",
+          "jp": "概要"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "",
+          "jp": "コーポレートサイトで使用する余白は以下を参照する。"
+        }
+      },
+      {
+        "component": "List",
+        "type": "unstyled",
+        "list": {
+          "en": {},
+          "jp": [
+            {
+              "htmlText": "<a href='https://www.figma.com/file/SaX8R8Bmq8g6iKOKqL0Q3RSs/Spacing-(PC)' target='_blank'>Desktop</a>"
+            },
+            {
+              "htmlText": "<a href='https://www.figma.com/file/Zvspn9htBJC3oVfXijZhRQmm/Spacing-(SP)' target='_blank'>Mobile</a>"
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

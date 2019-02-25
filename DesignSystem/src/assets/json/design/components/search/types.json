@@ -1,0 +1,237 @@
+[
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Types of search",
+          "jp": "タイプ"
+        }
+      },
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": [
+            {
+              "text": "According to whether search is a "
+            },
+            {
+              "text": "main feature",
+              "type": "strong"
+            },
+            {
+              "text": " of the site or not, it can be classified in two categories."
+            }
+          ],
+          "jp": [
+            {
+              "text": "検索がそのサイトの"
+            },
+            {
+              "text": "主要な機能",
+              "type": "strong"
+            },
+            {
+              "text": "であるかどうかにより、検索機能は2つのカテゴリーに分類できます。"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h2",
+        "text": {
+          "en": "Prominent search",
+          "jp": "プロミネントサーチ"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "When search is a main feature of your service it is called prominent, which is the case for sites the user goes to with the task to find something, like Ichiba, Rakuma, Travel, etc. Prominent search needs to be displayed in a central location and span the full width of your main content. ",
+          "jp": "検索がサービスの主要機能である場合は、プロミネントサーチと呼ばれます。楽天市場、ラクマ、楽天トラベルなど、ユーザーが何かを探す目的を持って訪れるサイトがこれにあたります。プロミネントサーチは中心的な位置に表示し、メインコンテンツの幅全体の長さを持たせる必要があります。 "
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h2",
+        "text": {
+          "en": "Secondary search",
+          "jp": "セカンダリーサーチ"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "When search is not a main functionality of the service, it is called secondary. It is usually displayed at the top right corner of your site. For more details, see Simple search below.",
+          "jp": "検索がサービスの主要機能でない場合は、セカンダリーサーチと呼ばれます。これは通常、サイトの右上に表示されます。より詳細な情報を得るには、以下のシンプルサーチの項を参照してください。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": [
+            {
+              "text": "According to the "
+            },
+            {
+              "text": "site’s purpose and complexity",
+              "type": "strong"
+            },
+            {
+              "text": ", the search you use can be one of the following types:"
+            }
+          ],
+          "jp": [
+            {
+              "text": "その"
+            },
+            {
+              "text": "サイトの目的と複雑さ",
+              "type": "strong"
+            },
+            {
+              "text": "に応じて、使用する検索機能は以下の2つのタイプのどちらかを選べます:"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "simple-search",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h2",
+        "text": {
+          "en": "Simple search",
+          "jp": "シンプルサーチ"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Simple search consists of a search box and a button to submit the query. Simple search can be two types – prominent or secondary. The only difference between them is the size and location of the search box, as well as its behavior on mobile.",
+          "jp": "シンプルサーチは検索ボックスとクエリ送信用ボタンによって構成されています。シンプルサーチにはプロミネントとセカンダリーの2つのタイプがあります。その2つの違いは検索ボックスのサイズと位置、およびモバイルでの挙動だけです。"
+        }
+      },
+      {
+        "component": "List",
+        "list": {
+          "en": [
+            {
+              "htmlText": "The <strong>prominent</strong> simple search is used when search is a main feature of your service. For both desktop and mobile the component would span the whole width of your main content and would be located either at the top of page, or in the header. "
+            },
+            {
+              "htmlText": "The <strong>secondary</strong> simple search is used when search is not a main feature of your service. On desktop the component will span on relatively short width, located on the top right of your service. Research shows that users expect to find the search in that location. If it’s located anywhere else, they are likely to miss it. On mobile, display only a search icon at the right-hand side of your header, or the top of your page. The search box and button will show on tap."
+            }
+          ],
+          "jp": [
+            {
+              "htmlText": "<strong>プロミネント</strong>シンプルサーチは、検索がサービスの主要機能である場合に使用されます。これはデスクトップとモバイルの両方においてメインコンテンツの幅全体の長さを持ち、ページの最上部かヘッダーに配置されます。"
+            },
+            {
+              "htmlText": "<strong>セカンダリー</strong>シンプルサーチは、検索がサービスの主要機能でない場合に使用されます。これはデスクトップにおいては比較的短い幅で、サービスの右上に配置されます。調査によれば、ユーザーが検索機能を探す時は右上を見るそうです。別の場所に配置すると、ユーザーが見逃してしまう可能性が高くなります。モバイルでは、ヘッダーの右側またはページの最上部に検索アイコンだけを表示してください。アイコンをタップすると検索ボックスとボタンが表示されます。"
+            }
+          ]
+        }
+      },
+      {
+        "component": "Image",
+        "responsive": true,
+        "src": {
+          "en": "search_types_img0.png",
+          "jp": "search_types_img0.png"
+        }
+      },
+      {
+        "component": "WorkingExample",
+        "data": [
+          {
+            "component": "SearchBar",
+            "type": "outline"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "scoped-search",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h2",
+        "text": {
+          "en": "Scoped search",
+          "jp": "スコープドサーチ"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "If your service offers a lot of products or services, you might want to allow your users to narrow down their search to a certain category or type of commodity. To achieve this, use scoped search. This type of search can only be used as a prominent search, never as secondary.In addition to the search box and button, the scoped search has a dropdown, containing high level categories of your service. Due to space restrictions on mobile, this kind of search is available only on desktop, and reverts to prominent simple search on mobile.",
+          "jp": "そのサービスが数多くの製品やサービスを提供している場合は、検索結果を特定のカテゴリーや商品タイプに絞り込める機能を実装したいと思うかもしれません。これを可能にするには、スコープドサーチを使用してください。この種の検索機能はプロミネントサーチのみで使用可能なものであり、セカンダリーサーチには絶対に使用しないでください。スコープドサーチには検索ボックスとボタンに加え、サービスの上位カテゴリーを収めたドロップダウンが備えられています。モバイルではスペースが限られているため、この種の検索機能はデスクトップのみで使用可能とし、モバイルではプロミネントシンプルサーチに戻すようにしてください。"
+        }
+      },
+      {
+        "component": "Image",
+        "responsive": true,
+        "src": {
+          "en": "search_types_img1.png",
+          "jp": "search_types_img1.png"
+        }
+      },
+      {
+        "component": "Image",
+        "responsive": true,
+        "src": {
+          "en": "search_types-of-search_img0.png",
+          "jp": "search_types-of-search_img0.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "The scoped search should not be mistaken for advanced search, which allows users to set a lot of granular filters like color, size, price range, etc. The way users search is that they first type in their query, then once they see the results they start narrowing down by different characteristics. So if your service allows for advanced search, display it together with the search results, rather than up front. This initial narrowing of the scope is in case the user is looking for an item, that could fall under a lot of different categories. It is there to enable them to see relevant results, rather than serve as a filter.",
+          "jp": "スコープドサーチはアドバンスドサーチとは違うものなので、混同しないように注意してください。アドバンスドサーチはユーザー側で、色、サイズ、価格帯など多くの細かいフィルターを設定できるようにするものです、検索をする時、ユーザーはまずクエリを入力して検索結果を出した後から、さまざまな特徴によって絞り込みを始めます。そのため、アドバンスドサーチが使用できるサービスの場合は、検索を行う前ではなく、検索結果と一緒に表示するようにしてください。スコープドサーチによる事前の絞り込みは、ユーザーが多くの異なるカテゴリーの中に入る可能性のあるアイテムを探している場合に備えて行われます。スコープドサーチはフィルターの役割を果たすものではなく、関連する検索結果をユーザーに見せることができるようにするためのものです。"
+        }
+      }
+    ]
+  }
+]

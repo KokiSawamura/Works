@@ -1,0 +1,393 @@
+[
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Carousel elements",
+          "jp": "要素"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "Each carousel consists of slides or pages of content and a navigation pattern to allow the users to change the slides.",
+          "jp": "カルーセルはコンテンツを含んだ複数のスライドまたはページと、ユーザーがスライドを変更できるようにするナビゲーションパターンによって構成されています。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Slides or pages",
+          "jp": "スライドまたはページ"
+        }
+      },
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": [
+            {
+              "text": "Carousels consist of several items, displayed in the same real estate. Each of those items is called a slide. The only exception is for "
+            },
+            {
+              "text": "overflows",
+              "type": "link",
+              "href": "/design/components/carousels/overflows/"
+            },
+            {
+              "text": ", where more than one item is displayed at a time. In this case we’re talking about pages, rather than slides."
+            }
+          ],
+          "jp": [
+            {
+              "text": "カルーセルは同一の場所に表示されるいくつかのアイテムにより構成されています。このそれぞれのアイテムはスライドと呼ばれます。唯一の例外となるのは"
+            },
+            {
+              "text": "オーバーフロー",
+              "type": "link",
+              "href": "/design/components/carousels/overflows/"
+            },
+            {
+              "text": "で、これは一度に1つ以上のアイテムが表示されるものです。この場合はスライドではなくページに分類します。"
+            }
+          ]
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "target": [
+          "designer"
+        ],
+        "responsive": true,
+        "src": {
+          "en": "carousels_carousels-elements_img0.png",
+          "jp": "carousels_carousels-elements_img0.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "front-page-blockquote",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Navigation",
+          "jp": "ナビゲーション"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "In order for the user to be able to navigate between the slides in a carousel, they first need to know that there are more slides. There are several methods to both allow users to navigate and suggest there’s more content, and they are very often used in combination. Those methods are edge indicators, arrows, thumbnails, dots and swipe gesture.",
+          "jp": "ユーザーの手でカルーセル内のスライドを動かしてもらうには、まず他にもスライドがあることをユーザーに知ってもらわなければなりません。ユーザーがスライドを操作できるようにする手法と他にもコンテンツがあることをユーザーに示す手法はいくつかあり、複数の手法を組み合わせて用いているケースも非常によく見られます。その手法にはエッジインジケーター、矢印、サムネイル、ドット、スワイプジェスチャーがあります。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "target": [
+          "designer"
+        ],
+        "responsive": true,
+        "src": {
+          "en": "carousels_carousels-elements_img1.png",
+          "jp": "carousels_carousels-elements_img1.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "front-page-blockquote",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Edge indicators",
+          "jp": "エッジインジケーター"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "This is when a part of the next slide of the carousel is shown, to indicate there is more to see. This is the clearest and most well understood navigation method for carousels. It not only shows there is more to see, but it also shows part of the upcoming content as an added benefit. It can be used as a standalone method or can be combined with dots, which show the number of slides or pages available. Edge indicators work extremely well on both mobile and desktop, which makes them a very versatile carousel navigation method.",
+          "jp": "これは他にもコンテンツがあることを示すために、カルーセルの次のスライダーの一部を見せる手法です。エッジインジケーターはカルーセルのナビゲーション手法の中でも最も明瞭かつ認知度が高い手法です。この手法は他にもコンテンツがあることを示すだけでなく、次のコンテンツの一部を見せることもできるところにさらなる利点があります。エッジインジケーターは単独のナビゲーション手段として使用することもできますし、用意されているスライドまたはページの数を示すドットと組み合わせて使用することもできます。エッジインジケーターはモバイルとデスクトップの両方で極めてうまく機能するため、非常に汎用性の高いカルーセルナビゲーション手法となっています。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "front-page-blockquote",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Arrows",
+          "jp": "矢印"
+        }
+      },
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": [
+            {
+              "text": "Arrows are shown at both edges to indicate there are more slides/pages. While the arrows very clearly indicate there’s more to see, they don’t give any indication for what’s coming next. Therefore, they can only be used as a standalone navigation method for "
+            },
+            {
+              "text": "overflows ",
+              "type": "link",
+              "href": "/design/components/carousels/overflows/"
+            },
+            {
+              "text": "or "
+            },
+            {
+              "text": "image carousels ",
+              "type": "link",
+              "href": "/design/components/carousels/image/"
+            },
+            {
+              "text": ", because what’s next is implied by the context. Make sure that your arrows are visible on all backgrounds and color combinations."
+            }
+          ],
+          "jp": [
+            {
+              "text": "矢印は他にもスライド/ページがあることを示すために、コンテンツの両端に表示されます。矢印を使う場合、他にも何かコンテンツがあることは明確に示せるものの、次のコンテンツはどういうものかを示すことはできません。そのため単独のナビゲーション手法として矢印を使うことができるのは、置かれた状況からおのずと次に何が来るかを予測できる"
+            },
+            {
+              "text": "オーバーフロー",
+              "type": "link",
+              "href": "/design/components/carousels/overflows/"
+            },
+            {
+              "text": "か"
+            },
+            {
+              "text": "イメージカルーセル",
+              "type": "link",
+              "href": "/design/components/carousels/image/"
+            },
+            {
+              "text": "の場合のみです。\r\nこの場合、矢印はどんな背景やカラーコンビネーションでも視認できるよう注意してください。"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "front-page-blockquote",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Thumbnails (desktop only) ",
+          "jp": "サムネイル (デスクトップのみ) "
+        }
+      },
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": [
+            {
+              "text": "Thumbnails are small representations of the carousel slides either at the bottom or on the side of the carousel. Very good for "
+            },
+            {
+              "text": "marketing carousels ",
+              "type": "link",
+              "href": "/design/components/carousels/marketing/"
+            },
+            {
+              "text": ", because they clearly indicate what the rest of the content would be. Suitable for image carousels as well, since the user can choose which view of the product they want to see. Thumbnails can be used as a standalone navigation pattern, or in combination with arrows."
+            }
+          ],
+          "jp": [
+            {
+              "text": "サムネイルはカルーセルの下部か横に表示される、各スライドの縮小版です。これは残りのコンテンツがどういうものかを明確に示せるため、"
+            },
+            {
+              "text": "マーケティングカルーセル",
+              "type": "link",
+              "href": "/design/components/carousels/marketing/"
+            },
+            {
+              "text": "に非常に適しています。またユーザーが見たい角度からの製品画像を選ぶことができるため、イメージカルーセルにも適しています。サムネイルは単独のナビゲーションパターンとして使用することもできますし、矢印と組み合わせて使用することもできます。"
+            }           
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "front-page-blockquote",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Dots",
+          "jp": "ドット"
+        }
+      },
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": [
+            {
+              "text": "These are small dot indicators below or at the bottom of the carousel. Dots show the current slide and the number of all slides. Even though this is a good method to indicate the number of pages/slides when the context is clear (for "
+            },
+            {
+              "text": "overflows ",
+              "type": "link",
+              "href": "/design/components/carousels/overflows/"
+            },
+            {
+              "text": "and "
+            },
+            {
+              "text": "image carousels ",
+              "type": "link",
+              "href": "/design/components/carousels/image/"
+            },
+            {
+              "text": "), use with caution and never as the only navigation method, since they are very often overlooked by users, especially on mobile. Therefore, they should always be combined with edge indicators or arrows. Do not use dots as the sole navigation method for marketing carousels, because they give no indication of what’s coming next, which significantly reduces the engagement with the carousel. For more details, see "
+            },
+            {
+              "text": "Marketing carousels ",
+              "type": "link",
+              "href": "/design/components/carousels/marketing/"
+            },
+            {
+              "text": "."
+            }
+          ],
+          "jp": [
+            {
+              "text": "これはコンテンツの下部またはカルーセルの下に配置する、小さなドット型のインジケーターです。これは置かれた状況が明確な場合 (つまり"
+            },
+            {
+              "text": "オーバーフロー",
+              "type": "link",
+              "href": "/design/components/carousels/overflows/"
+            },
+            {
+              "text": "と"
+            },
+            {
+              "text": "イメージカルーセル",
+              "type": "link",
+              "href": "/design/components/carousels/image/"
+            },
+            {
+              "text": "の場合) にページ/スライドの枚数を示すためには優れた手法となりますが、特にモバイルではユーザーに気づかれないケースが非常に多いため使用には注意が必要であり、単独のナビゲーション手法としては絶対に使わないでください。必ずエッジインジケーターか矢印と組み合わせて使用されるべきです。次に何が来るかわからないとカルーセルのエンゲージメント率が顕著に減少するため、マーケティングカルーセルにはドットを使用しないでください。より詳細な情報を得るには、"
+            },
+            {
+              "text": "マーケティングカルーセル",
+              "type": "link",
+              "href": "/design/components/carousels/marketing/"
+            },
+            {
+              "text": "を参照してください。"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "front-page-blockquote",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Swipe gesture (mobile only)",
+          "jp": "スワイプジェスチャー (モバイルのみ) "
+        }
+      },
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": [
+            {
+              "text": "On mobile it’s very common to be able to navigate between slides by swiping. Make sure this method is always available on mobile, in addition to any navigation pattern chosen for your carousel."
+            }
+          ],
+          "jp": [
+            {
+              "text": "モバイルではスワイプでスライドを動かせるようにすることが非常に一般的です。どのカルーセルナビゲーションパターンを選んだ場合でも、モバイルではそれに加えて必ずスワイプジェスチャーも使用できるようにしてください。"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": [
+            {
+              "text": "The navigation pattern you pick depends on the type of carousel you’d use. As a general rule, make sure there are clear visual cues that there are more slides, what their content is (edge indicators or thumbnails) and how to switch between slides (thumbnails; arrows, visible on all backgrounds). When designing carousels, auto-rotation is strongly discouraged. Only ever use for marketing carousels and only on desktop. For more information, see "
+            },
+            {
+              "text": "Marketing carousels",
+              "type": "link",
+              "href": "/design/components/carousels/marketing/"
+            },
+            {
+              "text": ". Unless carousel is auto-rotating, make sure it has a start and end point - infinite sliders cause usability issues, because it takes time before the user realizes they are back at the beginning. Better to visually show that there are no more items, then have the user going through the same content over and over again. This is especially valid for carousels with very similar content."
+            }
+          ],
+          "jp": [
+            {
+              "text": "ナビゲーションパターンの選び方は、使用するカルーセルのタイプによって変わってきます。原則的には、他のスライドの存在、またそのコンテンツ (エッジインジケーターまたはサムネイル)、およびスライドの切り替え方法 (サムネイルまたはどんな背景でも視認できる矢印) を示す明確な視覚的ヒントを用意するようにしてください。\r\nカルーセルをデザインする際、自動ローテーションは決して推奨されません。デスクトップ専用のマーケティングカルーセル以外には使用しないでください。より詳細な情報を得るには、"
+            },
+            {
+              "text": "マーケティングカルーセル",
+              "type": "link",
+              "href": "/design/components/carousels/marketing/"
+            },
+            {
+              "text": "を参照してください。\r\n自動ローテーションのカルーセル以外では、必ずスタートポイントとエンドポイントを決めておいてください。一巡するスライダーだとユーザーが出発点に戻ったことに気づくまでに時間がかかるため、ユーザビリティの点で問題となります。すべてのアイテムを見終えたことをまず視覚的にユーザーに示してから、同じコンテンツを何度も繰り返し見てもらうようにした方がいいでしょう。これは非常によく似たコンテンツを掲載しているカルーセルの場合に特にあてはまります。"
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,206 @@
+[
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Icon usage",
+          "jp": "使用方法"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "",
+          "jp": "楽天カード独自のアイコンの使用方法について記載しています。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h2",
+        "text": {
+          "en": "Types",
+          "jp": "NEW"
+        }
+      },
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": "",
+          "jp": [
+            {
+              "text": "新しいことを知らせる言葉やアイコンは以下を使用しましょう。また使用後必要以上にこの言葉やアイコンが使用されないように、"
+            },
+            {
+              "text": "最大３カ月",
+              "type": "strong"
+            },
+            {
+              "text": "後に依頼者が削除依頼をし、使用を中止してください。"
+            }
+          ]
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "",
+          "jp": "new.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h2",
+        "text": {
+          "en": "Types",
+          "jp": "家族カード表示"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "",
+          "jp": "家族カードの表現には以下の２パターンのどちらかを使用してください。"
+        }
+      },
+      {
+        "component": "List",
+        "type": "",
+        "list": {
+          "en": [
+            {
+              "text": ""
+            },
+            {
+              "text": ""
+            }
+          ],
+          "jp": [
+            {
+              "text": "カード券面2枚重ね"
+            },
+            {
+              "text": "アイコン"
+            }
+          ]
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "",
+          "jp": "family-card.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h2",
+        "text": {
+          "en": "Types",
+          "jp": "閉じる表示"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "",
+          "jp": "閉じるの表現には以下のアイコンを使用してください。\r\nモーダルに関しては、閉じるという補助的テキストは必要ありません。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "",
+          "jp": "close.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Types",
+          "jp": "メニュー表示"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "",
+          "jp": "メニューを表現するアイコンは以下を補助テキストと一緒に使用してください。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "",
+          "jp": "menu.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Types",
+          "jp": "遷移表示"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "",
+          "jp": "ページ遷移するテキストリンクは右シェブロンを使用し、ページ内リンクするテキストリンクは下矢印を使用してください。文中のテキストリンクにはアイコンは必要ありません。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "",
+          "jp": "text-link.png"
+        }
+      }
+    ]
+  }
+]

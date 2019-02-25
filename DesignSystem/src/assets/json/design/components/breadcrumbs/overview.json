@@ -1,0 +1,159 @@
+[
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Overview",
+          "jp": "パンくずリスト"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "Breadcrumbs allow users to track their page and understand page hierarchy and organization.",
+          "jp": "パンくずリストは、ユーザーがページを追い、ページの階層と構造を理解できるようにするものです。"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "For ease of use and visibility without interrupting site content, breadcrumbs should be kept legible, but simple and unobtrusive.",
+          "jp": "使いやすさとサイトのコンテンツを邪魔しない視認性をもたらすため、パンくずリストは読みやすく、かつシンプルで控えめなものに保たれるべきです。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h2",
+        "text": {
+          "en": "Benefits",
+          "jp": "利点"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Usage of breadcrumbs offers the following benefits:",
+          "jp": "パンくずリストの使用は以下の利点をもたらします:"
+        }
+      },
+      {
+        "component": "List",
+        "type": "",
+        "list": {
+          "en": [
+            {
+              "text": "Help with site and content organization"
+            },
+            {
+              "text": "Help user orientation"
+            },
+            {
+              "text": "Help SEO"
+            },
+            {
+              "text": "Reduce bounce rate"
+            },
+            {
+              "text": "Encourage further site navigation"
+            },
+            {
+              "text": "Take up relatively little space"
+            }
+          ],
+          "jp": [
+            {
+              "text": "サイトとコンテンツの整理に役立つ"
+            },
+            {
+              "text": "ユーザーがサイトに順応しやすくなる"
+            },
+            {
+              "text": "SEOを強化する"
+            },
+            {
+              "text": "バウンス率を下げる"
+            },
+            {
+              "text": "回遊率を上げる"
+            },
+            {
+              "text": "必要とするスペースが比較的少ない"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "breadcrumbs-section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h2",
+        "text": {
+          "en": "Usage",
+          "jp": "使用方法"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Breadcrumbs are appropriate for large and complicated sites, with many levels and genres/subgenres. They are not appropriate for homepages or simple sites with only one or two levels of navigation, nor as a replacement of a track. Breadcrumbs should only ever be used for navigation purposes and only if the main navigation doesn't already cover those pages.\r\nBreadcrumbs are not appropriate for mobile sites due to space and size restrictions.",
+          "jp": "パンくずリストは、多数の階層やジャンル/サブジャンルを持つ大規模で複雑なサイトに適しており、ホームページや1～2階層のナビゲーションしかないシンプルなサイトには適していません。また、トラックの代替としての使用にも適していません。パンくずリストがナビゲーション目的のために使用されるべきなのは、メインのナビゲーションがそれらのページをカバーしていない場合のみに限られます。\r\nモバイルサイトはスペースとサイズが限られているため、パンくずリストは適していません。"
+        }
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "bredcrumbs_img_specs.png",
+                  "jp": "bredcrumbs_img_specs.png"
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "Breadcrumbs",
+                    "text": ["link1", "link2", "link3"]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

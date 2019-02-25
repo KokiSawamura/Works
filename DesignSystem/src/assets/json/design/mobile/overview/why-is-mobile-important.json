@@ -1,0 +1,61 @@
+[
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Overview – why is mobile important?",
+          "jp": "概要 – なぜモバイルが重要なのか"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "Smartphone usage has been growing very rapidly during the past few years. What was once luxury has turned into necessity, and mobile web usage and shopping will keep growing more and more in the future.",
+          "jp": "スマートフォンの使用量はここ数年間で急速に伸びています。かつては高級品であったものが必需品となり、モバイルでのウェブ使用とショッピングは今後もどんどん成長し続けるでしょう。"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Even though mobile phones are not likely to fully replace desktop anytime soon, they fill up commute and down times, especially in Japan where commutes are long. Therefore it’s really important to think about mobile first when creating webpages for services. Desktop has large screens and real estate, so it’s very easy to fall into the trap of designing desktop first and then forcing everything into mobile. This often means lots of compromises with usability on mobile devices. But due to the large mobile usage, chances are users will find their way to the mobile website first. If compromises were made with usability on mobile for the sake of desktop, this might give them bad impression and put them off a certain Rakuten service, or even the whole ecosystem. Enter mobile first – if we start designing from mobile and the scale up to desktop, we can filter the most important information and can create easy to use interfaces on both platforms. ",
+          "jp": "近いうちにスマートフォンが完全にパソコンに取って代わる可能性は少ないものの、通勤時間の長い日本では特にスマートフォンが通勤時間や余暇の時間を埋める存在になっています。そのため、サービス用のウェブページを制作する時はまずモバイルについて考えることが非常に重要です。デスクトップは大きな画面とスペースがあるので、最初にデスクトップ用のページをデザインしてから、そのすべてをモバイル用ページに詰め込もうとする人が多いのは確かです。ですが、これはモバイルデバイスでのユーザビリティに数々の問題が生じてしまいます。モバイルの使用量が非常に多いことから、ユーザーは最初にモバイル用ウェブサイトを発見する可能性が高いと言えます。デスクトップを優先させたためにモバイルでのユーザビリティに妥協が生じている場合、ユーザーに悪印象を与え、特定の楽天サービス、またはエコシステム全体さえもがユーザーから敬遠されてしまう可能性があります。そのため、まずモバイルから始めてください。モバイルからデザインを始めてデスクトップへと規模を拡大させていけば、一番重要な情報をフィルターにかけ、どちらのプラットフォームでも使いやすいインターフェースを制作することができます。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Web vs app",
+          "jp": "ウェブ対アプリ"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Mobile growth is a fact and most people understand how important it is nowadays, but there are two options – create a website or an app. Which one should we do? The simple answer is – both. The reason for that is that mobile websites and apps serve different functions. Research shows that mobile apps have much more engagement from users, while mobile websites get many more unique customers. In other words mobile websites allow you to reach many new customers, while mobile apps provide rich experience for already established customers. This is because websites are easy to build and only need a browser to be viewed, but their capability is limited to the web standards. Apps on the other hand need a bit more buy-in from both the businesses and the user – special coding capabilities and installing an app are required, but apps have access to the device’s native features (i.e. Push notifications, camera, wallet, NTFS, etc.), providing richer and more unique experiences. Therefore providing both websites and native apps will give you both reach and rich experience for the different user groups.",
+          "jp": "モバイルが成長していることは事実であり、ここ最近ではほとんどの人がその重要性を理解しています。しかしモバイルには、ウェブサイトかアプリかという2つの選択肢があります。どちらを作るべきかという疑問に対してのシンプルな答えは、「両方」です。モバイル用ウェブサイトとアプリは異なる機能を果たすからです。ある調査結果では、ユーザーからのエンゲージメントはモバイルアプリの方が多いですが、ユニークカスタマーの数はモバイル用ウェブサイトの方がはるかに多いことが分かっています。つまり、モバイル用ウェブサイトは多くの新規顧客にリーチすることができ、モバイルアプリはすでに確立された顧客に豊かなユーザーエクスペリエンスを提供することができるのです。その理由は、ウェブサイトは制作が容易で、ブラウザさえあれば閲覧可能であるものの、機能はウェブ標準のものに限定されます。ですが、アプリは企業側とユーザー側の双方の積極的な参加姿勢を必要とします。つまり企業側には特別なコーディング能力が求められ、ユーザー側にはアプリのインストールが求められます。アプリはユーザーのデバイスに備わっている機能 （プッシュ通知、カメラ、ウォレット、NTFS など） にアクセスすることができるため、より豊かで独自性のあるユーザーエクスペリエンスを提供できるのです。そのため、ウェブサイトとアプリの両方を提供することで、異なるユーザーグループに対しリーチし、豊かなユーザーエクスペリエンスを提供できるのです。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "mobile_overview_img0.png",
+          "jp": "mobile_overview_img0.png"
+        }
+      }
+    ]
+  }
+]

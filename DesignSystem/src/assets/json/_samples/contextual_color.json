@@ -1,0 +1,20 @@
+[
+  {
+    "component": "ContextualText",
+    "target": ["designer"],
+    "text": {
+      "en": "The colors used in an UI should express your brand, but also be legible and with enough contrast. When selecting your UI color palette, never forget that an UI exist to enable the user to accomplish a task. Colors should compliment that, never hinder it.",
+      "jp": ""
+    },
+    "context": "muted"
+  },
+  {
+    "component": "ContextualBackground",
+    "target": ["designer"],
+    "text": {
+      "en": "The colors used in an UI should express your brand, but also be legible and with enough contrast. When selecting your UI color palette, never forget that an UI exist to enable the user to accomplish a task. Colors should compliment that, never hinder it.",
+      "jp": ""
+    },
+    "context": "muted"
+  }
+]

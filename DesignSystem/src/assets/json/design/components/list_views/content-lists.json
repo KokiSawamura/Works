@@ -1,0 +1,96 @@
+[
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Content lists",
+          "jp": "コンテンツリスト"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "These are lists of related items. Each item is represented by a picture, title, description and any additional information as required. ",
+          "jp": "これは関連アイテムのリストです。各アイテムは画像、タイトル、説明文、および必要に応じたその他の追加情報によって表されます。 "
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "list-views_list-views-overview_img0.png",
+          "jp": "list-views_list-views-overview_img0.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "content-lists-section",
+    "data": [
+      {
+        "component": "WorkingExample",
+        "cols": "12-12",
+        "data": [
+          {
+            "component": "MenuList",
+            "type": "list icon",
+            "icon": "photograph",
+            "iconType": "line",
+            "list": {
+              "en": [
+                {
+                  "text": "Link 1"
+                },
+                {
+                  "text": "Link 2"
+                },
+                {
+                  "text": "Link 3"
+                },
+                {
+                  "text": "Link 4"
+                },
+                {
+                  "text": "Link 5"
+                }
+              ],
+              "jp": [
+                {
+                  "text": "Link 1"
+                },
+                {
+                  "text": "Link 2"
+                },
+                {
+                  "text": "Link 3"
+                },
+                {
+                  "text": "Link 4"
+                },
+                {
+                  "text": "Link 5"
+                }
+              ]
+            },
+            "defaultActive": "1"
+          }
+        ]
+      }
+    ]
+  }
+]

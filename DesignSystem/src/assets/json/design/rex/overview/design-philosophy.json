@@ -1,0 +1,149 @@
+[
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Design philosophy",
+          "jp": "デザインフィロソフィー"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "Every successful design language requires a strong design culture to implement, maintain and enforce it. It's important that we ask ourselves these questions – as individual designers and as a team.",
+          "jp": "デザインランゲージの成功には、それを実施し、維持し、強化する強いデザイン文化が必要です。デザイナー個人、またはチームにおいて、下記を自身に問うことが大切です。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Are we humble?",
+          "jp": "謙虚であるか?"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Overconfidence can lead to issues in team dynamics. Build faith in your team by being humble and informed.",
+          "jp": "自信過剰はチーム機能に問題を招きます。謙虚さを持ち、情報を共有することでチームの信頼関係を築きましょう。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "What can we learn by talking together?",
+          "jp": "対話から学べることは何だろうか?"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Communication amongst designers is the key to a successful design culture. By proactively sharing your ideas, you build trust with your fellow designers. When in doubt, ask another designer for critique or ideas.",
+          "jp": "デザイン文化にとってデザイナー同士のコミュニケーションは重要です。アイデアを積極的に共有し、仲間と信頼関係を築きましょう。疑問がある場合は、仲間に意見や考えを聞いてみましょう。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "How do we get inspired?",
+          "jp": "どうやってインスピレーションを得られるか?"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Inspiration can happen outside the office and away from the computer. As a team, get out of the office and learn. Find inspiration in the everyday, from your surroundings, what you interact with and who you talk with. Make sure to capture and communicate your inspiration sources with your team members.",
+          "jp": "インスピレーションは、オフィスやコンピュータから離れている時に、湧くことがあります。仲間とオフィスから出て学ぶことも大切です。日頃から、周囲の環境、触れるもの、話し相手からインスピレーションを受けましょう。インスピレーションの元をしっかり捕えチームで共有しましょう。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "How can we be more generative?",
+          "jp": "どうすればより創造的になれるか?"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "The best way to communicate an idea is to make it real. Make things, not documents.",
+          "jp": "アイデアを伝える最も良い方法は、実際に作り出すことです。机上の空論ではなく具体化させましょう。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "How do we take ownership?",
+          "jp": "どうやってオーナーシップを取ればいいのか?"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Designers are leaders. Be interested in the business objectives and show how your ideas can move the business needle.",
+          "jp": "デザイナーはリーダーです。ビジネスの目的に関心を持ち、自身のアイデアでビジネスをどのように進められるかを示しましょう。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "How does my part affect the whole?",
+          "jp": "自身の役割がどのように全体に影響しているのか?"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Your project or design challenge is a smaller piece of a large ecosystem of services. Ask yourself how your solution affects the bigger picture.",
+          "jp": "各プロジェクトやデザインの課題は、より大きなエコシステムの一部です。自身の役割がどのように全体に影響を与えるのか考えましょう。"
+        }
+      }
+    ]
+  }
+]

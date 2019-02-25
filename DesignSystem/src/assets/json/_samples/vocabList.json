@@ -1,0 +1,18 @@
+{
+  "component": "List",
+  "type": "",
+  "target": ["designer"],
+  "list": {
+    "en": [
+      {
+        "vocabWord": "Static",
+        "text": "provides information only and cannot be manipulated in any way"
+      },
+      {
+        "vocabWord": "Interactive",
+        "text": "the table rows and/or columns can be manipulated i.e. they can be selected, expanded, or other actions can be carried out on them. In this case add a hover state to the table, to enhance its interactivity."
+      }
+    ],
+    "jp": []
+  }
+}

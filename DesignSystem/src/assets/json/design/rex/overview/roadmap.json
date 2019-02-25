@@ -1,0 +1,423 @@
+[
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "target": [
+          "designer",
+          "developer"
+        ],
+        "text": {
+          "en": "Roadmap",
+          "jp": "ロードマップ"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "target": [
+          "designer",
+          "developer"
+        ],
+        "text": {
+          "en": "Below you can find the future release plan for ReX. Please note that this is a rough schedule and is subject to change. But no worries – we’ll keep you posted.",
+          "jp": "ReXの今後のリリース計画は下記になります。スケジュールの関係上変更される可能性がありますが、随時アップデートします。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "target": [
+          "designer",
+          "developer"
+        ],
+        "text": {
+          "en": "- 2017 -",
+          "jp": "-2017年-"
+        }
+      },
+      {
+        "component": "Milestone",
+        "type": "h4",
+        "target": [
+          "designer",
+          "developer"
+        ],
+        "complete": true,
+        "period": {
+          "en": "middle of",
+          "jp": "中旬"
+        },
+        "month": {
+          "en": "Jul",
+          "jp": "7月"
+        },
+        "title": {
+          "en": "Release 0.1.0",
+          "jp": "リリース0.1.0"
+        },
+        "list": {
+          "en": [
+            {
+              "boldedPhrase": "Basics - ",
+              "text": "including What's ReX, colors, logo guidelines, grids, typography, buttons, forms, images and icons"
+            }
+          ],
+          "jp": [
+            {
+              "boldedPhrase": "基本要素 - ",
+              "text": "ReXについて、カラー、ロゴのガイドライン、グリッド、タイポグラフィ、ボタ ン、フォーム、イメージとアイコン"
+            }
+          ]
+        }
+      },
+      {
+        "component": "Milestone",
+        "type": "h4",
+        "target": [
+          "designer",
+          "developer"
+        ],
+        "complete": true,
+        "period": {
+          "en": "end of",
+          "jp": "下旬"
+        },
+        "month": {
+          "en": "Aug",
+          "jp": "8月"
+        },
+        "title": {
+          "en": "Release 0.1.1",
+          "jp": "リリース0.1.1"
+        },
+        "list": {
+          "en": [
+            {
+              "boldedPhrase": "Icons - ",
+              "text": "we'll add new ones and provide guidelines for designing your own"
+            },
+            {
+              "boldedPhrase": "Translation - ",
+              "text": "the whole site will now be available in Japanese"
+            }
+          ],
+          "jp": [
+            {
+              "boldedPhrase": "アイコン - ",
+              "text": "既存アイコン改修と追加アイコン、16x16サイズの追加とガイドライン"
+            },
+            {
+              "boldedPhrase": "翻訳 ‒ ",
+              "text": "全てのコンテンツが日本語で利用可能になります"
+            }
+          ]
+        }
+      },
+      {
+        "component": "Milestone",
+        "type": "h4",
+        "target": [
+          "designer",
+          "developer"
+        ],
+        "complete": false,
+        "period": {
+          "en": "end of",
+          "jp": "下旬"
+        },
+        "month": {
+          "en": "Sept",
+          "jp": "9月"
+        },
+        "title": {
+          "en": "Release 0.2.0",
+          "jp": "リリース0.2.0"
+        },
+        "list": {
+          "en": [
+            {
+              "boldedPhrase": "Standard components - ",
+              "text": "dropdowns, cards, lists, star rating, labels, badges, tags and points display widget"
+            },
+            {
+              "boldedPhrase": "Page templates - ",
+              "text": "simple code templates"
+            }
+          ],
+          "jp": [
+            {
+              "boldedPhrase": "基本コンポーネント - ",
+              "text": "ドロップダウン、カード、リスト、レーティング、レーベル、バッ ジ、タグ、ポイント表示など"
+            },
+            {
+              "boldedPhrase": "ページテンプレート - ",
+              "text": "コードテンプレート"
+            }
+          ]
+        }
+      },
+      {
+        "component": "Milestone",
+        "type": "h4",
+        "target": [
+          "designer",
+          "developer"
+        ],
+        "complete": false,
+        "period": {
+          "en": "end of",
+          "jp": "下旬"
+        },
+        "month": {
+          "en": "Oct",
+          "jp": "10月"
+        },
+        "title": {
+          "en": "Release 0.3.0",
+          "jp": "リリース0.3.0"
+        },
+        "list": {
+          "en": [
+            {
+              "boldedPhrase": "Custom components - ",
+              "text": "switches, custom checkboxes and selects, carousels, tabs and login"
+            }
+          ],
+          "jp": [
+            {
+              "boldedPhrase": "カスタムコンポーネント ‒ ",
+              "text": "スイッチ、カスタムチェックボックス・セレクトボックス、カル ーセル、タブ、ログイン"
+            }
+          ]
+        }
+      },
+      {
+        "component": "Milestone",
+        "type": "h4",
+        "target": [
+          "designer",
+          "developer"
+        ],
+        "complete": false,
+        "period": {
+          "en": "end of",
+          "jp": "下旬"
+        },
+        "month": {
+          "en": "Nov",
+          "jp": "11月"
+        },
+        "title": {
+          "en": "Release 0.4.0",
+          "jp": "リリース0.4.0"
+        },
+        "list": {
+          "en": [
+            {
+              "boldedPhrase": "Animations - ",
+              "text": " update content and provide animation curves and timing"
+            },
+            {
+              "boldedPhrase": "Custom components - ",
+              "text": " search, alerts, pagination, back to top, track, sliders"
+            }
+          ],
+          "jp": [
+            {
+              "boldedPhrase": "アニメーション - ",
+              "text": "コンテンツの改修とアニメーションカーブとタイミング"
+            },
+            {
+              "boldedPhrase": "カスタムコンポーネント ‒ ",
+              "text": "検索、アラート、ページネーション、トップへ戻る、トラック、 スライダー"
+            }
+          ]
+        }
+      },
+      {
+        "component": "Milestone",
+        "type": "h4",
+        "target": [
+          "designer",
+          "developer"
+        ],
+        "complete": false,
+        "period": {
+          "en": "end of",
+          "jp": "下旬"
+        },
+        "month": {
+          "en": "Dec",
+          "jp": "12月"
+        },
+        "title": {
+          "en": "Release 0.5.0",
+          "jp": "リリース0.5.0"
+        },
+        "list": {
+          "en": [
+            {
+              "boldedPhrase": "Theming - ",
+              "text": " we’ll provide different themes to choose from"
+            },
+            {
+              "boldedPhrase": "Colors - ",
+              "text": " we’ll add an accent color"
+            }
+          ],
+          "jp": [
+            {
+              "boldedPhrase": "テーマ - ",
+              "text": "デザインテーマの提供"
+            },
+            {
+              "boldedPhrase": "カラー - ",
+              "text": "アクセントカラーの追加"
+            }
+          ]
+        }
+      },
+      {
+        "component": "Heading",
+        "type": "h4",
+        "target": [
+          "designer",
+          "developer"
+        ],
+        "text": {
+          "en": "- 2018 -",
+          "jp": "-2018年-"
+        }
+      },
+      {
+        "component": "Milestone",
+        "type": "h4",
+        "target": [
+          "designer",
+          "developer"
+        ],
+        "complete": false,
+        "period": {
+          "en": "end of",
+          "jp": "下旬"
+        },
+        "month": {
+          "en": "Jan",
+          "jp": "1月"
+        },
+        "title": {
+          "en": "Release 0.6.0",
+          "jp": "リリース0.6.0"
+        },
+        "list": {
+          "en": [
+            {
+              "boldedPhrase": "Global elements - ",
+              "text": " elements shared across Rakuten services, like group header, login page, etc."
+            }
+          ],
+          "jp": [
+            {
+              "boldedPhrase": "グローバル要素 - ",
+              "text": "楽天サービスで横断的に使用されるエレメント、グループヘッダー、ログ インページなど"
+            }
+          ]
+        }
+      },
+      {
+        "component": "Milestone",
+        "type": "h4",
+        "target": [
+          "designer",
+          "developer"
+        ],
+        "complete": false,
+        "period": {
+          "en": "end of",
+          "jp": "下旬"
+        },
+        "month": {
+          "en": "Feb",
+          "jp": "2月"
+        },
+        "title": {
+          "en": "Release 0.7.0",
+          "jp": "リリース0.7.0"
+        },
+        "list": {
+          "en": [
+            {
+              "boldedPhrase": "Design patterns - ",
+              "text": " navigation, search, etc."
+            },
+            {
+              "boldedPhrase": "Wireframes - ",
+              "text": " for the most common page layouts"
+            }
+          ],
+          "jp": [
+            {
+              "boldedPhrase": "デザインパターン - ",
+              "text": "ナビゲーション、検索など"
+            },
+            {
+              "boldedPhrase": "ワイヤーフレーム - ",
+              "text": "共通のページレイアウト"
+            }
+          ]
+        }
+      },
+      {
+        "component": "Milestone",
+        "type": "h4",
+        "target": [
+          "designer",
+          "developer"
+        ],
+        "complete": false,
+        "period": {
+          "en": "end of",
+          "jp": "下旬"
+        },
+        "month": {
+          "en": "March",
+          "jp": "3月"
+        },
+        "title": {
+          "en": "Release 0.8.0",
+          "jp": "リリース0.8.0"
+        },
+        "list": {
+          "en": [
+            {
+              "boldedPhrase": "App guidelines - ",
+              "text": " guidelines on how to approach designing for different platforms (iOS and Android)"
+            }
+          ],
+          "jp": [
+            {
+              "boldedPhrase": "アプリガイドライン - ",
+              "text": "異なるプラットフォーム(iOSとアンドロイド)に対するデザインガ イドライン"
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

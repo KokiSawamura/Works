@@ -1,0 +1,46 @@
+[
+  {
+  "component": "Row",
+  "data": [
+    {
+      "component": "Column",
+      "cols": "6",
+      "data": [
+      ]
+    },
+    {
+      "component": "Column",
+      "cols": "6",
+      "data": [
+      ]
+    }
+  ]
+},
+{
+  "component": "Row",
+  "data": [
+    {
+      "component": "Column",
+      "cols": "6",
+      "data": [
+        {
+          "component": "WorkingExample",
+          "data": [
+          ]
+        }
+      ]
+    },
+    {
+      "component": "Column",
+      "cols": "6",
+      "data": [
+        {
+          "component": "WorkingExample",
+          "data": [
+          ]
+        }
+      ]
+    }
+  ]
+}
+]

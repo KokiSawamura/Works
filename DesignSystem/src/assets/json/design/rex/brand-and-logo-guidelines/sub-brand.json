@@ -1,0 +1,305 @@
+[
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Sub-brands",
+          "jp": "サブブランド"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "In order to express the uniqueness, features, and diversity of Rakuten’s services, sub-brand logos are provided in various colors and fonts.",
+          "jp": "それぞれのサービスの個性や特徴を多彩に表現するために、サブブランドロゴにはさまざまなカラーやフォントが用意されています。"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Seven colors, including crimson red, are provided for the sub-brand logo. They are called sub-brand colors. The sub-brand colors can also be used for the circle R symbol.",
+          "jp": "ロゴのために用意された色はクリムゾンレッドを入れて7色で、それらをサブブランドカラーと呼びます。サブブランドカラーは、シンボルのサークルRにも適用されます。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "brand_img_logos.png",
+          "jp": "brand_img_logos.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Clear space and minimum size",
+          "jp": "余白と最小サイズ"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "In order to ensure the greatest visibility of the subbrand logos, follow the Clear Space and Minimum Size requirement rules.",
+          "jp": "ロゴの視認性を担保するために余白と最小サイズ、および下記のルールを守ってください。"
+        }
+      },
+      {
+        "component": "List",
+        "type": "",
+        "list": {
+          "en": [
+            {
+              "text": "Provide adequate Clear Space around the logo to ensure it is highly visible"
+            },
+            {
+              "text": "Do not place multiple logos on the same medium (except for media backdrops, billboard in ballparks, etc.)"
+            },
+            {
+              "text": "Respect the Clear Space - refrain from inserting other graphical elements"
+            }
+          ],
+          "jp": [
+            {
+              "text": "周辺に十分なスペースを確保し、独立性をもって配置する"
+            },
+            {
+              "text": "ひとつの媒体の中に、複数のロゴを使用しない (インタビューボード、球場のリボン広告などを除く)"
+            },
+            {
+              "text": "余白エリアに他のロゴやグラフィック要素を配置しない"
+            }
+          ]
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "brand_img_sub-brands-space-size1.png",
+          "jp": "brand_img_sub-brands-space-size1.png"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Clear space",
+          "jp": "余白"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "brand_img_sub-brands-space-size2.png",
+          "jp": "brand_img_sub-brands-space-size2.png"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Minimum size",
+          "jp": "最小サイズ"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Color usage",
+          "jp": "色"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "In general, sub-brand logos should be used in their original state on a white background. A white version of the sub-brand logo may be used on a sub-brand color or black background. For monochrome prints, please use the logo in full black. \r\nPlease be aware of the contrast between logo and the background content. When placing over an image, the original logo should be layered on top of images with a lighter tone. In the original logo, the letter R in the circle-R is a solid area, filled with white, whereas in the white logo, it is a negative silhouette. \r\nWhen visibility becomes a concern, adjustment layers may be applied on top of the background image. We suggest applying a 70-90% white tint layer to images with a lighter tone, and a 50-80% Crimson Red tint layer to images with a darker tone. Transparency of the tint layer is subject to change based on the need for visibility in each design.",
+          "jp": "ロゴを配置する際には、基本的にオリジナルロゴを使用してください。オリジナルロゴは白背景及び色濃度5%以下の薄いグレーやカラーの上で使用することができます。\r\n白抜きロゴは、サブブランドカラーまたは黒背景の上で使用することができます。単色の印刷物には、黒一色のロゴを使用してください。\r\nロゴを写真の上に配置する際には、図と地のコントラストに気をつけてください。明るいトーンの写真またはロゴ周辺のトーンを明るく調整した写真にオリジナルロゴを配置してください。視認性を担保できない場合は調整レイヤーを配置してください。調整レイヤーは、明るいトーンの写真では透明度70-90%の白色の調整レイヤーを、暗いトーンの写真では透明度50-80%のサブブランドカラーの調整レイヤーを配置してください。透明度は目安なので、推奨数値で視認性が担保できない場合は適宜透明度を調整してください。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "brand_img_subbrand-color-usage.png",
+          "jp": "brand_img_subbrand-color-usage_jp.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Misuse",
+          "jp": "禁則事項"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "In order to maintain a visually consistent look, the logo must not be modified, changed, or have any other element introduced to it. Always use the original logo data from the logo sheet.",
+          "jp": "ロゴの視覚的な一貫性を担保することはとても重要です。ロゴにはいかなる修正、改変、要素の追加をしてはいけません。常にロゴシートにある正規データを使用し、どの媒体でも同じに見えるように慎重に運用を行ってください。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "brand_img_subbrand-misuse.png",
+          "jp": "brand_img_subbrand-misuse_cjk.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Sub-brand colors",
+          "jp": "サブブランドカラー"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "For sub-brand creatives, the sub-brand color should be used as much as possible. If a different color is required, use a different shade of the sub-brand color by modifying the brightness or saturation, or use grayscale.",
+          "jp": "サブブランドの制作物には基本的にサブブランドカラーをできるだけ使用してください。制作物で他の色が必要な場合は、サブブランドカラーと同じ色相で、明度・彩度を調整したカラーまたはグレースケールを適宜使用してください。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "brand_img_subbrand-colors.png",
+          "jp": "brand_img_subbrand-colors.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Typeface",
+          "jp": "規定フォント"
+        }
+      },
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "English",
+          "jp": "英語"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Rakuten Global is a unique typeface designed and developed to represent the Rakuten brand.\r\n Rakuten Global amplifies the appealingness of the Rakuten brand through the group's logo and creatives. For corporate creatives, Rakuten Global should be used at all times. Do not, however, use it for body text, or any long lines of text. \r\nThis also applies to sub-brand creatives.",
+          "jp": "Rakuten Globalは楽天ブランドを体現するためにデザインされた独自の 書体です。 \r\nRakuten Globalは主に楽天グループのロゴや制作物で楽天ブランドを 強く訴求したい場合に使用します。 コーポレートブランドの制作物には、Rakuten Globalを使用して ください。本文パートなどには、可読性を向上させるための措置と して別のフォントを適用しても構いません。 \r\nサブブランドの制作物にも、楽天ブランドを強く訴求したい場合 にはRakuten Globalを使用してください。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "brand_img_typeface.png",
+          "jp": "brand_img_typeface.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Japanese",
+          "jp": "日本語"
+        }
+      },
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": [
+            {
+              "text": "UD Shingo NT Pro is the recommended Japanese typeface that embodies the Rakuten brand. \r\nFor Rakuten Group creatives, using UD Shingo NT Pro is recommended. However, a sub-brand may have it’s own unique typeface based on it’s own brand personality. In either case, respective guidelines are on the typeface is required to enable a consistent brand communication. \r\nFor Rakuten Group’s websites and mobile apps, please use the Noto Sans typeface. For more information, see "
+            },
+            {
+              "text": "Typography",
+              "type": "link",
+              "href": "/design/the-basics/typography/overview/"
+            },
+            {
+              "text": "."
+            }
+          ],
+          "jp": [
+            {
+              "text": "UD 新ゴNT Proは楽天ブランドを体現するための日本語推奨書体です。 \r\n楽天グループの制作物にはUD 新ゴNT Proの使用を推奨します。 ただし、サブブランドは、ブランドのパーソナリティにもとづいて 独自の書体を規定することができます。いずれの場合も独自のガイド ラインを制定するなどして一貫した書体によるブランドコミュニ ケーションに努めてください。\r\nウェブ、アプリといったインタラクティブなスクリーン上では、Noto Sansを使用してください。より詳細な情報を得るには、タイポグラフィを参照してください。"
+            },
+            {
+              "text": "サブブランド",
+              "type": "link",
+              "href": "/design/the-basics/typography/overview/"
+            },
+            {
+              "text": "の制作物にも、楽天ブランドを強く訴求したい場合 にはRakuten Globalを使用してください。"
+            }
+          ]
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "brand_img_typeface_cjk.png",
+          "jp": "brand_img_typeface_cjk.png"
+        }
+      }
+    ]
+  }
+]

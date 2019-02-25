@@ -1,0 +1,14 @@
+.simple-search,
+.scoped-search,
+.suggestions-section {
+  .working-example {
+    > div {
+      display: flex;
+      .rex-search,
+      .search-suggestions {
+        width: 296px;
+        margin: 0 auto;
+      }
+    }
+  }
+}

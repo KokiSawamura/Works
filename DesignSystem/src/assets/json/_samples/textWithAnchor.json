@@ -1,0 +1,32 @@
+{
+  "component": "TextWithAnchor",
+  "type": "",
+  "text": {
+    "en": [
+      {
+        "text": ""
+      },
+      {
+        "text": "",
+        "type": "mail",
+        "href": ""
+      },
+      {
+        "text": ""
+      }
+    ],
+    "jp": [
+      {
+        "text": ""
+      },
+      {
+        "text": "",
+        "type": "",
+        "href": ""
+      },
+      {
+        "text": ""
+      }
+    ]
+  }
+}

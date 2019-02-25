@@ -1,0 +1,18 @@
+.component-example {
+  width: 100%;
+  background: transparent;
+  padding: 32px;
+  margin: 0 0 24px;
+  border-radius: 3px;
+  .component-ex-text {
+    margin-bottom: 32px;
+  }
+  .component-ex-info {
+    font-size: 12px;
+    color: $brand-info;
+    margin-bottom: 0;
+  }
+  .input-group {
+    min-width: 100%;
+  }
+}

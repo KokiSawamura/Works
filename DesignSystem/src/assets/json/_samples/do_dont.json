@@ -1,0 +1,41 @@
+{
+  "component": "TwoColumns",
+  "type": "",
+  "target": ["designer"],
+  "data": [
+    [
+      {
+        "component": "Image",
+        "type": "",
+        "target": ["designer"],
+        "responsive": true,
+        "src": "icons-img-do-1@2x.png"
+      },
+      {
+        "component": "Do",
+        "target": ["designer"],
+        "text": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    [
+      {
+        "component": "Image",
+        "type": "",
+        "target": ["designer"],
+        "responsive": true,
+        "src": "icons-img-do-1@2x.png"
+      },
+      {
+        "component": "Dont",
+        "target": ["designer"],
+        "text": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ]
+  ]
+}

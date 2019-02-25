@@ -1,0 +1,32 @@
+{
+  "component": "LabelAndCheckbox",
+  "type": "checkbox",
+  "target": ["designer"],
+  "name": "checkbox-example-1",
+  "labels": {
+    "en": [
+      {
+        "text": "Always improve, always advance",
+        "id": "checkbox-1"
+      },
+      {
+        "text": "Passionately professional",
+        "id": "checkbox-2"
+      },
+      {
+        "text": "Hypothesize > Practice > Validate > Shikumika",
+        "id": "checkbox-3"
+      },
+      {
+        "text": "Maximize customer satisfaction",
+        "id": "checkbox-4"
+      },
+      {
+        "text": "Speed speed speed",
+        "id": "checkbox-5"
+      }
+    ],
+    "jp": [
+    ]
+  }
+}

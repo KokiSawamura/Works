@@ -1,0 +1,56 @@
+[
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Screen reach zones",
+          "jp": "画面のリーチゾーン"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "When interacting with mobile phones, we’re restricted by the reach of our hands. Therefore when deciding on navigation patterns it’s important to consider the easy to reach zones. ",
+          "jp": "携帯電話の操作は、指の届く範囲内で行わなければなりません。そのため、ナビゲーションパターンを決定する時は、簡単に指の届くリーチゾーンを考慮することが重要です。"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "As we saw in mobile touch targets, 49% of the users hold the device with one hand. As this is the widest group we’ll focus on its reach zones. ",
+          "jp": "モバイルのタッチターゲットで見た通り、ユーザーの49%は片手でデバイスを持っています。このグループが最も多数派であることを踏まえて、このグループのリーチゾーンに焦点を当てることにします。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "mobile_overview_reachzone_img0.png",
+          "jp": "mobile_overview_reachzone_img0.png"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "First and foremost it’s important to mention that right and left hand are equally used to hold the mobile phone. Most people, even if right-handed, still use their off-hand with mobile, while doing something else with the dominant hand – depending on context. Left vs right isn’t as important as top vs bottom.",
+          "jp": "何よりもまず、携帯電話を持つにあたっては、右手と左手はどちらも同じくらい使われていることに言及しておくことが重要です。たとえ右利きであっても、ほとんどの人は背景状況により利き手で何か別のことをしながら、利き手でない方の手で携帯電話を使用します。左か右かの問題は上部か下部かの問題ほど重要ではないのです。"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "As mobile device’s screen grows, the easy to reach zones shrink accordingly. As a general rule the bottom part of the phone is easiest to reach, while the top is the hardest. Therefore keeping the navigation at the bottom is advisable.",
+          "jp": "モバイルデバイスの画面が大きくなるにつれ、ユーザーの指の届く範囲は小さくなります。一般的に、最も指が届きやすいのは携帯電話の下部で、最も指が届きにくいのは携帯電話の上部となります。そのため、ナビゲーションは下部に配置しておくことが推奨されます。"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,35 @@
+#tabs {
+	position: relative;
+	top: 0px;
+  padding-top: 8px;
+  margin-bottom: -1px;
+  margin-bottom: 112px;
+  max-width: $content-width;
+  margin: 0 auto;
+
+  ul {
+    margin-bottom: 0;
+    margin-left: 0;
+    li {
+      cursor: pointer;
+      padding: 8px 16px;
+      margin-right: 40px;
+      margin-bottom: -1px;
+      @include transition($bg_curve);
+      &.active {
+        color: $brand-primary;
+        border-bottom: solid 1px $brand-primary;
+        @include transition($bg_curve);
+      }
+      &.inactive {
+        color: $gray;
+        &:hover {
+          background: $gray-lighter;
+          border-top-right-radius: 4px;
+          border-top-left-radius: 4px;
+          @include transition($bg_curve);
+        }
+      }
+    }
+  }
+}

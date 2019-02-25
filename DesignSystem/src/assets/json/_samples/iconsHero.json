@@ -1,0 +1,29 @@
+{
+  "component": "IconsHero",
+  "iconList": [
+    "calendar-l",
+    "review-edit-l",
+    "ranking-l",
+    "cart-l",
+    "coupon-l",
+    "notice-generic-l",
+    "calendar-f",
+    "review-edit-f",
+    "ranking-f",
+    "cart-f",
+    "coupon-f",
+    "notice-generic-f",
+    "browsing-history-l",
+    "upload-l",
+    "mail-l",
+    "home-l",
+    "login-l",
+    "credit-card-l",
+    "browsing-history-f",
+    "upload-f",
+    "mail-f",
+    "home-f",
+    "logout-l",
+    "credit-card-f"
+  ]
+}

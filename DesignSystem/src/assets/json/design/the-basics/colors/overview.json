@@ -1,0 +1,453 @@
+[
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Colors overview",
+          "jp": "カラー概要"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "The colors used in a UI should express your brand, but also be legible and maintain enough contrast. When selecting your UI color palette, never forget that a UI exists to enable the user to accomplish a task. Colors should compliment that, never hinder it.",
+          "jp": "UIで使用されるカラーは、ブランド表現であると同時に、見やすい十分なコントラストを維持する必要があります。カラーパレットを選択する際は、UIはユーザーがタスクを達成するためにあることを考慮してください。カラーは邪魔になるものではなく、それを補助するものでなければなりません。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Types",
+          "jp": "タイプ"
+        }
+      },
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Service colors",
+          "jp": "サービスカラー"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "These will be the colors that express your brand identity. There are three types of service colors, described below.",
+          "jp": "サービスカラーはブランドのアイデンティティを表現する色です。これには以下に記載されている3つの種類があります。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h5",
+        "text": {
+          "en": "Logo color",
+          "jp": "ロゴカラー"
+        }
+      },
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": [
+            {
+              "text": "That’s basically the color your logo is using, chosen from one of the seven sub-brand colors defined by the brand team. This color is used just for the logo. For more information on those colors, see "
+            },
+            {
+              "text": "Brand and logo guidelines",
+              "type": "link",
+              "href": "/design/rex/brand-and-logo-guidelines/overview/"
+            },
+            {
+              "text": "."
+            }
+          ],
+          "jp": [
+            {
+              "text": "ロゴの色は、ブランドチームが決定した7つのサブブランドカラーの中から選んで使用できます。この色はロゴのみに使用されます。これらの色についての詳しい情報は、"
+            },
+            {
+              "text": "ブランドとロゴのガイドライン",
+              "type": "link",
+              "href": "/design/rex/brand-and-logo-guidelines/overview/"
+            },
+            {
+              "text": "を参照してください。"
+            }
+          ]
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "logo_color_img_en.png",
+          "jp": "logo_color_img_jp.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Primary color",
+          "jp": "プライマリーカラー"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "That’s a color, chosen from the Brand color palette, used for all your main navigation, the most important actions of your service (i.e. Add to cart button) and for general emphasis. Primary color should be used sparingly to highlight its importance. Overuse will lead to loosing that emphasis and making it commonplace. The primary color can be any of the colors from the palette below, as long as it has sufficient contrast with the background.",
+          "jp": "ブランドのカラーパレットの中にある色で、全てのメインナビゲーションやサービスの重要なアクション （「商品をかごに追加」ボタンなど） 、強調に使用される色です。プライマリーカラーは重要性を強調する時に使用するため、使いすぎてしまうと強調したいところが薄れてしまいます。プライマリーカラーは、背景色とのコントラストが問題なければパレットの中のどの色を使用しても問題ありません。また、プライマリーカラーはロゴカラーと同じ色にすることもできます。色の波長はロゴカラーと同じでも、異なっていても構いません。プライマリーカラーは、サービスのユーザーグループの人口統計学デモグラフィックデータや特徴、生み出そうとしているブランドイメージに従って決定してください。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "color_img_scale_en.png",
+          "jp": "color_img_scale_en.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "UI color",
+          "jp": "UIカラー"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "This is supplementary color that is used for most UI elements, like buttons for less important actions (i.e. See more), form elements (inputs, checkboxes, radio buttons, switches, etc.), lists, tabs, etc. You can pick any color that supplements the Primary color, except the Logo color or gray. The UI color cannot be the same as the Primary color, but it can be a shade of. Make sure there’s a visible difference between the Primary color and the UI color. If the colors are close, make sure you check with non-designers to confirm there’s visible difference. That’s because designers can see more colors than the average person, and what’s big difference for a designer may be hardly noticeable for your regular users.",
+          "jp": "この色は、重要性が低いアクションボタン （「さらに見る」など）、フォーム要素 （入力フィールド、チェックボックス、ラジオボタン、スイッチなど）、リスト、タブなど、UI要素の大半に使用される補助的な色です。UIカラーには、ロゴカラーとグレー以外で、プライマリーカラーの補助となる色ならどの色でも選ぶことができます。UIカラーをプライマリーカラーと同じ色にすることはできませんが、色調が異なる場合は問題ありません。ですが、プライマリーカラーとUIカラーは見てはっきり分かる区別がなければなりません。色合いが近い場合は、デザイナー以外の人に聞いてみて、見て分かる色の違いがあることを確認してください。デザイナーは平均的な人よりも多くの色を識別できるため、デザイナーにとっては大きな違いでも、普通のユーザーにとっては気づかない程度の違いである可能性があるからです。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "color_img_do_dont.png",
+          "jp": "color_img_do_dont.png"
+        }
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Do",
+                "text": {
+                  "en": "Use a UI color that is distinguishably different from the Primary color",
+                  "jp": "Use a UI color that is distinguishably different from the Primary color"
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Dont",
+                "text": {
+                  "en": "Don’t use a UI color that is too close to the Primary color",
+                  "jp": "Don’t use a UI color that is too close to the Primary color"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "System colors",
+          "jp": "システムカラー"
+        }
+      },
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": [
+            {
+              "text": "Also called contextual colors, these are colors with specific meanings, used for things like success and error states. These are the same across all Rakuten services and cannot be changed, nor used as primary colors. For more information, see "
+            },
+            {
+              "text": "Contextual colors",
+              "type": "link",
+              "href": "/design/the-basics/colors/contextual-colors/"
+            },
+            {
+              "text": "."
+            }
+          ],
+          "jp": [
+            {
+              "text": "コンテキストカラーとも呼ばれ、サクセスもしくはエラーステータスを表すのに使用するなど特定の意味があります。全楽天サービスに共通で使用し、変更はできません。また、サービスカラーとして使用することはできません。詳細については、"
+            },
+            {
+              "text": "コンテキストカラー",
+              "type": "link",
+              "href": "/design/the-basics/colors/contextual-colors/"
+            },
+            {
+              "text": "を参照してください。"
+            }
+          ]
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "colors_img_system-colors.png",
+          "jp": "colors_img_system-colors.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Grayscale colors",
+          "jp": "グレースケールカラー"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "These are the colors used for typography, borders, lines and backgrounds.",
+          "jp": "グレースケールカラーは、文字やボーダー、ライン、背景などで使用されます。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "colors_img_grey-scale-colors.png",
+          "jp": "colors_img_grey-scale-colors.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Usage",
+          "jp": "使用法"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "When applying colors to your UI, they have two functions – to express your brand and create visual hierarchy. Make sure to emphasize what needs emphasis, and tone down what isn’t important. That being said make sure to always have sufficient contrast (see Accessibility below) and ensure that your color combinations are readable.",
+          "jp": "カラーは、大きくブランド表現と視覚的な階層表現の２つの機能があります。強調するものは強調し、控えめに表現するものは控えめにします。常に十分なコントラストを保ち、カラーの組み合わせは読みやすいものにしましょう。（アクセシビリティを参照）"
+        }
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "colors_img_usage1.png",
+                  "jp": "colors_img_usage1-jp.png"
+                }
+              },
+              {
+                "component": "Text",
+                "type": "",
+                "text": {
+                  "en": "Create visual hierarchy",
+                  "jp": "視覚的な階層を作成します"
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "colors_img_usage2.png",
+                  "jp": "colors_img_usage2.png"
+                }
+              },
+              {
+                "component": "Text",
+                "type": "",
+                "text": {
+                  "en": "Have sufficient contrast",
+                  "jp": "十分なコントラストを保ちます"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Accessibility",
+          "jp": "アクセシビリティ"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "In order to account for people with reduced vision and for color blindness, make sure to follow these principles:",
+          "jp": "低視力や色覚異常のユーザーのために、下記の原則に従ってください。"
+        }
+      },
+      {
+        "component": "List",
+        "type": "",
+        "list": {
+          "en": [
+            {
+              "text": "Never use color only to convey meaning - always make sure to use other universal visual cues. A typical example would be success and error states - red and green colors would look the same for certain types of color blindness. Because of this, make sure to use a symbol conveying success and error, in addition to colors."
+            },
+            {
+              "text": "Don't color large blocks of text - this will hinder all of your users, not only the ones with some sort of disability. Colored text is hard to read, and depending on the color it might even be invisible for some types of color blindness."
+            },
+            {
+              "text": "Make sure to have sufficient contrast with the background to ensure readability."
+            }
+          ],
+          "jp": [
+            {
+              "text": "決してカラーだけで意味を伝えないでください。常に他の一般的な視覚的手がかりを併用してください。よくある例は、サクセスとエラーステータスです。レッドとグリーンはある色覚異常の人には、判別しづらい可能性があります。そのため、カラーだけではなくシンボルを併用してください。"
+            },
+            {
+              "text": "長いテキストにカラーをつけないでください。ハンディキャップがある人だけでなく、全てのユーザーの可読性が低下します。カラーテキストは読みづらく、カラーによっては色覚異常のユーザーが読めなくなります。"
+            },
+            {
+              "text": "可読性を確保するために文字と背景に十分なコントラストを持たせてください。"
+            }
+          ]
+        }
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "colors_img_accessibility1.png",
+                  "jp": "colors_img_accessibility1-jp.png"
+                }
+              },
+              {
+                "component": "Text",
+                "type": "",
+                "text": {
+                  "en": "Never use color only to convey meaning",
+                  "jp": "カラーだけで意味を伝えないでください"
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "colorsImgAccessibility2@2x.png",
+                  "jp": "colorsImgAccessibility2@2x-jp.png"
+                }
+              },
+              {
+                "component": "Text",
+                "type": "",
+                "text": {
+                  "en": "Don’t color large blocks of text",
+                  "jp": "長いテキストをカラーにしないでください"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

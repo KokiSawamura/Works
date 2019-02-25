@@ -1,0 +1,155 @@
+[
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Transformation",
+          "jp": "変形"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "ReX UI elements can change their size and shape, as well as multiply and divide. When transformations occur, the element that increases and decreases in size should employ either the asymmetrical or symmetrical changes.",
+          "jp": "UI要素は、拡大縮小や形状の変形、増殖や分割ができます。要素を拡大縮小させる時は、対称的または非対称的な変形が起こります。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Asymmetrical",
+          "jp": "非対称"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "This involves transformational changes to the width and height at different rates. The most effective use for this transformation is when multiple elements or positional changes are occurring.",
+          "jp": "異なる速度で幅と高さが変形する場合がこれに該当し、複数の要素の変形や配置変更に適しています。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "asymmetrical-2.gif",
+          "jp": "asymmetrical-jp.gif"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Symmetrical",
+          "jp": "対称"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "This involves transformational changes to the width and height at the same rate. The most effective use for this is transformations to a single element, that occur along one axis.",
+          "jp": "同じ速度で幅と高さが変形する場合がこれに該当し、１つの要素の変形が１つの軸で発生している場合に適しています。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "symmetrical.gif",
+          "jp": "symmetrical-jp.gif"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Heading",
+                "type": "h4",
+                "text": {
+                  "en": "Radial transformation",
+                  "jp": "放射状"
+                }
+              },
+              {
+                "component": "Text",
+                "type": "",
+                "text": {
+                  "en": "Radial transformations are always symmetrical and are mainly used on circular elements that transform into other shapes upon user’s input/touch.",
+                  "jp": "放射状の変形は常に対称的に起き、主に円形の要素がユーザーの入力やタッチによって他の形状へ変形する場合に適しています。"
+                }
+              },
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "radial-transform.gif",
+                  "jp": "radial-transform.gif"
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Heading",
+                "type": "h4",
+                "text": {
+                  "en": "Joining and Dividing",
+                  "jp": "結合と分割"
+                }
+              },
+              {
+                "component": "Text",
+                "type": "",
+                "text": {
+                  "en": "Individual elements have the ability to join together to form a larger element, should it be required. The process can happen vise-versa - from one element to multiple smaller elements.",
+                  "jp": "個々の要素は結合しより大きな要素を形成できます。また同様に、１つの要素が複数の小さな要素に分割されることもできます。"
+                }
+              },
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "join-and-divide.gif",
+                  "jp": "join-and-divide.gif"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

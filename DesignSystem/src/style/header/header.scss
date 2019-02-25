@@ -1,0 +1,12 @@
+#header {
+  min-width: $min-content-width;
+  padding-top: $site-padding-top;
+  max-width: $content-width;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  #search-dropdown {
+    position: absolute;
+  }
+  @import "./localization";
+}
+

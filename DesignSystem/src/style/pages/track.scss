@@ -1,0 +1,18 @@
+.track-section {
+  .working-example {
+    display: flex;
+    &.component-example {
+      padding-right: 0 !important;
+      padding-left: 0 !important;
+    }
+    > div {
+      margin: auto;
+      .track {
+        margin-top: 32px;
+        &.mobile {
+          margin-top: 64px;
+        }
+      }
+    }
+  }
+}

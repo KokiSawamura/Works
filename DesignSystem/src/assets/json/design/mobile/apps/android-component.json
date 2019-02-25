@@ -1,0 +1,84 @@
+[
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Android component customisations",
+          "jp": "Androidのコンポーネントのカスタマイズ "
+        }
+      },
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "style": "lead",
+        "text": {
+          "en": [
+            {
+              "text": "Below you can find a list of all Android components with recommendations for how to customize them to match the ReX style. This is a list of all component but it does not display all variations, only enough to show all customizations. For full list of variations and guidelines on how to use the components, please visit the "
+            },
+            {
+              "text": "Material Design Guidelines",
+              "type": "link",
+              "href": "https://material.io/design/introduction/"
+            },
+            {
+              "text": "."
+            }
+          ],
+          "jp": [
+            {
+              "text": "ReXのスタイルにマッチさせるための推奨カスタマイズ方法が掲載されているAndroidの全コンポーネントの一覧を参照できます。これは全コンポーネントの一覧ではありますが、バリエーションは全て表示されているわけではなく、カスタマイズを全て表示するのに足りる分のバリエーションのみが表示されています。バリエーションを完全に網羅した一覧と、コンポーネントの使い方のガイドラインを入手するには、"
+            },
+            {
+              "text": "マテリアルデザインのガイドライン",
+              "type": "link",
+              "href": "https://material.io/design/introduction/"
+            },
+            {
+              "text": "を参照してください。"
+            }
+          ]
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "We have chosen a logo, primary and an UI color, as per the ReX color guidelines, so that we can demonstrate which component should use which type of color. These are just example colors, used only for the sake of demonstration.",
+          "jp": "色については、どのコンポーネントにどのタイプの色を使うかわかるように、ReXの色のガイドラインにそって、ロゴカラー、プライマリーカラー、UIカラーの色を選びました。サンプルで使われている色は実例を示す目的として選んだ色です。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "android_components_img0.png",
+          "jp": "android_components_img0.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "android_components_img1.png",
+          "jp": "android_components_img1.png"
+        }
+      }
+    ]
+  }
+]

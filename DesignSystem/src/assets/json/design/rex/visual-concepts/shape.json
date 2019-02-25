@@ -1,0 +1,125 @@
+[
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Shape",
+          "jp": "シェイプ"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "target": [
+          "designer",
+          "developer"
+        ],
+        "text": {
+          "en": "Shapes play a large role in a site's visual identity.\r\nIcons, component shapes and even fonts should be friendly and easy to use, while at the same time taking into consideration technical limitations, such as load times and file sizes.",
+          "jp": "シェイプは、ビジュアルアイデンティティーにおいて大きな役割を果たします。アイコンやコンポーネントのシェイプ、さらにはフォントに至るまで、読み込み時間やファイルサイズなどの技術的な制約を考慮しながら、親しみやすく使いやすいものにしなければなりません。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Rounded corners",
+          "jp": "角丸"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "A small difference can make a big impact.\r\nSlightly-rounded edges can lend a friendly, approachable feel to cards, input fields, buttons and other components. However, be careful not to overdo it as overly-curved edges can look childish or untrustworthy.",
+          "jp": "小さな違いが大きなインパクトを生みます。少し丸みを帯びた角はカード、インプットフィールド、ボタン、および他のコンポーネントに、親しみやすく近づきやすい印象を与えることができます。しかし、丸みをつけ過ぎると、幼稚な、または信頼できない印象になってしまいます。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "3senses_img_Color-tip.png",
+          "jp": "3senses_img_Color-tip.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Adaptable system fonts",
+          "jp": "適切なシステムフォント"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Large blocks of text can quickly become monotonous. Keep things interesting by using a range of font sizes and weights to add contrast to content.\r\nThink about contrasting headers with text blocks, or differentiating content groups from one another.",
+          "jp": "広いテキストエリアはすぐに単調になってしまいます。幅広いフォントサイズやウェイトを使用しコンテンツにメリハリをつけ魅力的にしましょう。タイトルと本文を大きく変え、また、コンテンツのグルーピングを分かりやすくしましょう。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "3senses_img_adaptable-system-fonts.png",
+          "jp": "3senses_img_adaptable-system-fonts-jp.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Icons",
+          "jp": "アイコン"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "The ReX icons have been designed with an emphasis on ease of use, adaptability, and a balance of clarity & style. This allows for consistent usage, and a visually-consistent impression across various services and user touchpoints.",
+          "jp": "ReXのアイコンは、使いやすさ、適応性、そして分かりやすさとスタイルのバランスを重視してデザインされています。これにより、一貫した使用と、様々なサービスとタッチポイントを通じて、視覚的に統一された印象になります。"
+        }
+      },
+      {
+        "component": "IconsHero",
+        "iconList": [
+          "calendar-l",
+          "review-edit-l",
+          "ranking-l",
+          "cart-l",
+          "coupon-l",
+          "notice-generic-l",
+          "calendar-f",
+          "review-edit-f",
+          "ranking-f",
+          "cart-f",
+          "coupon-f",
+          "notice-generic-f"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+{
+    "component": "ContentFooter",
+    "type": "",
+    "target": ["designer"],
+    "previous": {
+      "en": "",
+      "jp": ""
+    },
+    "previousLink": "",
+    "next": {
+      "en": "The Process",
+      "jp": ""
+    },
+    "nextLink": ""
+  } 

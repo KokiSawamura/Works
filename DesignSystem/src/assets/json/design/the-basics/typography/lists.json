@@ -1,0 +1,511 @@
+[{
+    "component": "Section",
+    "data": [{
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Lists",
+          "jp": "リスト"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "Lists provide homogenous representation for different, but logically related, strings of information.",
+          "jp": "リストは、関連性のある一連の情報を同列に並べるものです。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [{
+        "component": "Heading",
+        "type": "h2",
+        "text": {
+          "en": "Benefits",
+          "jp": "ベネフィット"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Usage of lists offers the following benefits:",
+          "jp": "リストには下記の利点があります。"
+        }
+      },
+      {
+        "component": "List",
+        "type": "",
+        "list": {
+          "en": [{
+              "text": "Easy to scan - because the different pieces of information are broken into chunks, it’s very easy to skim and scan them"
+            },
+            {
+              "text": "Provides emphasis on important information, or a list of steps, in a big block of text"
+            }
+          ],
+          "jp": [{
+              "text": "情報の取得しやすさ－情報ごとの区切りが明確で、情報を素早く読み取れます"
+            },
+            {
+              "text": "膨大なテキストの中で、重要な情報やステップを強調できます"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [{
+        "component": "Heading",
+        "type": "h2",
+        "text": {
+          "en": "Usage",
+          "jp": "使用法"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Use lists when you want to emphasize or group part of the page content. Lists are appropriate for short lines of text with distinct relation to one another (i.e. Technical specifications, steps to take in a set-up process, etc.).",
+          "jp": "ページコンテンツの一部を強調またはグループ化する場合は、リストを使用します。リストは相互関係が明確な短い行に適しています（技術仕様書の項目、設定手順など）。\r\nテキストに体言止めを使用するときは句点は使用しません。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [{
+        "component": "Heading",
+        "type": "h2",
+        "text": {
+          "en": "Types of lists",
+          "jp": "リストの種類"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Lists can be one of the following types:",
+          "jp": "リストの種類は下記の種類があります。"
+        }
+      },
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Unordered lists",
+          "jp": "順不同リスト"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Use for lists where the order of the items is not crucial.",
+          "jp": "項目の順序を明記する必要のないリストに使用します。"
+        }
+      },
+      {
+        "component": "WorkingExample",
+        "data": [{
+          "component": "List",
+          "type": "",
+          "list": {
+            "en": [{
+                "text": "Compliance System"
+              },
+              {
+                "text": "Implement compliance training",
+                "list": [{
+                    "text": "Implementation of harassment training"
+                  },
+                  {
+                    "text": "Rakuten hotline"
+                  }
+                ]
+              },
+              {
+                "text": "About protection and utilization of personal information"
+              }
+            ],
+            "jp": [{
+                "text": "コンプライアンス体制"
+              },
+              {
+                "text": "コンプライアンス研修の実施",
+                "list": [{
+                    "text": "ハラスメント研修の実施"
+                  },
+                  {
+                    "text": "楽天ホットライン"
+                  }
+                ]
+              },
+              {
+                "text": "個人情報の保護と利活用について"
+              }
+            ]
+          }
+        }]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [{
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Ordered lists",
+          "jp": "順序リスト"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Use when the order of items is important. i.e. For steps in a process.",
+          "jp": "項目の順序を明記する必要のあるリストの場合に使用します。"
+        }
+      },
+      {
+        "component": "WorkingExample",
+        "cols": "12",
+        "data": [{
+          "component": "List",
+          "type": "ordered",
+          "list": {
+            "en": [{
+                "text": "Compliance System"
+              },
+              {
+                "text": "Implement compliance training",
+                "list": [{
+                    "text": "Implementation of harassment training"
+                  },
+                  {
+                    "text": "Rakuten hotline"
+                  }
+                ]
+              },
+              {
+                "text": "About protection and utilization of personal information"
+              }
+            ],
+            "jp": [{
+                "text": "コンプライアンス体制"
+              },
+              {
+                "text": "コンプライアンス研修の実施",
+                "list": [{
+                    "text": "ハラスメント研修の実施"
+                  },
+                  {
+                    "text": "楽天ホットライン"
+                  }
+                ]
+              },
+              {
+                "text": "個人情報の保護と利活用について"
+              }
+            ]
+          }
+        }]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [{
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Notes",
+          "jp": "注釈"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Use to show additional information for certain content. Notes can be regular or numbered (CJK languages only, don’t use for Western), where regular lists display notes of equal importance, while numbered notes follow a specific order or are connected to a specific reference.\r\nThere are two types of notes - Japanese notes for CJK languages, and English notes for Western languages, because Western languages use an asterisk, while CJK use the ‘kome’ symbol. Don’t use English notes for CJK copy and vice versa, because it won’t make sense to the users.",
+          "jp": "読まないとユーザに不利益が生じる情報や特定のコンテンツの補足情報のために使用します。注釈は順不同リスト、順序リスト(CJKのみ)があり順不同リストは同じ重要度の注釈に、順序リストの注釈は特定の順序がある、または参照箇所がある場合に使用します。注釈の標準リストのブレットポイントには2種類あり、西洋語はアスタリスクを使用し、CJKは米印を使用します。それぞれの言語に適した記号を使用してください。"
+        }
+      },
+      {
+        "component": "WorkingExample",
+        "cols": "12",
+        "data": [{
+          "component": "List",
+          "type": "unstyled",
+          "list": {
+            "en": [{
+                "text": "* Compliance System"
+              },
+              {
+                "text": "* Implement compliance training"
+              },
+              {
+                "text": "* About protection and utilization of personal information"
+              }
+            ],
+            "jp": [{
+                "text": "※コンプライアンス体制"
+              },
+              {
+                "text": "※コンプライアンス研修の実施"
+              },
+              {
+                "text": "※個人情報の保護と利活用について"
+              }
+            ]
+          }
+        }]
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "",
+                  "jp": "list-do.png"
+                }
+              },
+              {
+                "component": "Do",
+                "text": {
+                  "en": "",
+                  "jp": "大項目で囲う場合は順不同リストを使用します"
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "",
+                  "jp": "list-dont.png"
+                }
+              },
+              {
+                "component": "Dont",
+                "text": {
+                  "en": "",
+                  "jp": "大項目で囲う場合は注釈を使用しないでください"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [{
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Plain lists",
+          "jp": "プレーンリスト"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Contains just a list of text with no bullets, and are usually used for links. Some of the items can have an indent to display hierarchy, but no other visual cues are used. Most appropriate for footer links or links with low importance, since they don’t provide any emphasis.",
+          "jp": "ブレットポイントのないテキストだけのリストで、通常はリンクに使用されます。階層を示すためにインデントを使用できますが、他の要素は使いません。強調効果がないのでフッターや重要度の低いリンクに適しています。"
+        }
+      },
+      {
+        "component": "WorkingExample",
+        "cols": "12",
+        "data": [{
+          "component": "List",
+          "type": "unstyled",
+          "list": {
+            "en": [{
+                "text": "Compliance System"
+              },
+              {
+                "text": "Implement compliance training"
+              },
+              {
+                "text": "About protection and utilization of personal information"
+              }
+            ],
+            "jp": [{
+                "text": "コンプライアンス体制"
+              },
+              {
+                "text": "コンプライアンス研修の実施"
+              },
+              {
+                "text": "個人情報の保護と利活用について"
+              }
+            ]
+          }
+        }]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [{
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Inline lists",
+          "jp": "インラインリスト"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "All the list items are side by side. Usually used for menus.",
+          "jp": "全てのリスト項目が横並びに表示されたリストです。通常はメニューに使用されます。"
+        }
+      },
+      {
+        "component": "WorkingExample",
+        "cols": "12",
+        "data": [{
+          "component": "List",
+          "type": "inline",
+          "list": {
+            "en": [{
+                "text": "Compliance System"
+              },
+              {
+                "text": "Implement compliance training"
+              },
+              {
+                "text": "Implementation of harassment training"
+              }
+            ],
+            "jp": [{
+                "text": "コンプライアンス体制"
+              },
+              {
+                "text": "コンプライアンス研修の実施"
+              },
+              {
+                "text": "ハラスメント研修の実施"
+              }
+            ]
+          }
+        }]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [{
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Descriptions",
+          "jp": "定義"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Descriptions are for a series of short titles and their definitions. They can be one of the following types:",
+          "jp": "定義は、タイトルとその説明文のグループに使用します。下記のタイプがあります。"
+        }
+      },
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Vertical",
+          "jp": "縦並び"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "For lists with long titles.",
+          "jp": "長いタイトルのリストに適しています。"
+        }
+      },
+      {
+        "component": "WorkingExample",
+        "cols": "12",
+        "data": [{
+          "component": "Description",
+          "type": "",
+          "title": {
+            "en": "Description list A",
+            "jp": "定義リストタイトルは右寄せです"
+          },
+          "text": {
+            "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pulvinar vitae odio quis vestibulum. Nullam ligula diam, convallis ac urna nec, egestas malesuada erat.",
+            "jp": "定義リストは用語を定義するのに最適です。定義リストは用語を定義するのに最適です。"
+          }
+        }]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [{
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Horizontal",
+          "jp": "横並び"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Suitable for lists with short titles – one or two words maximum. They are also good for lists where it’s necessary to scan the titles of the available items.",
+          "jp": "1-2語の短いタイトルに適しています。タイトルを素早く読み取る事にも適しています。"
+        }
+      },
+      {
+        "component": "WorkingExample",
+        "cols": "12",
+        "data": [{
+          "component": "Description",
+          "type": "horizontal",
+          "title": {
+            "en": "Description list A",
+            "jp": "定義リストタイトルは右寄せです"
+          },
+          "text": {
+            "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pulvinar vitae odio quis vestibulum. Nullam ligula diam, convallis ac urna nec, egestas malesuada erat.",
+            "jp": "定義リストは用語を定義するのに最適です。定義リストは用語を定義するのに最適です。"
+          }
+        }]
+      }
+    ]
+  }
+]

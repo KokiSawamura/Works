@@ -1,0 +1,477 @@
+[
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Button options",
+          "jp": "ボタンオプション"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "According to their shape, buttons can be one of four styles, divided into two groups – main and supplementary options.",
+          "jp": "ボタンのスタイルは形の違いから４つのスタイルがあり、それらはメインとサブの２つにグループに分けられます。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Main button style options",
+          "jp": "メインボタンスタイルのオプション"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "The main button style is the style applied to all primary buttons, secondary buttons, and some form elements, like switches. You can only pick one of the two main options according to the tone of voice of your site. Don’t mix and match the main styles.",
+          "jp": "メインボタンのスタイルは全てのプライマリーボタンやセカンダリーボタン、スイッチのような一部のフォーム要素などに適用してください。サイトのトーン＆マナーに合わせて、２つあるオプションから１を選択しましょう。２つのオプションを混在しないでください。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "buttons-examples",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Rounded buttons",
+          "jp": "角丸ボタン"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "This is the recommended button style, suitable for most sites and across devices.",
+          "jp": "これは多くのサイトやデバイスで使用するのに適した標準的なボタンスタイルです。"
+        }
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "Button",
+                    "type": "default",
+                    "option": "",
+                    "size": "normal",
+                    "text": {
+                      "en": "Button",
+                      "jp": "ボタン"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "Button",
+                    "type": "outline",
+                    "option": "",
+                    "size": "normal",
+                    "text": {
+                      "en": "Button",
+                      "jp": "ボタン"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "buttons-examples",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Pills",
+          "jp": "ピルボタン"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Use this style if you want to convey playfulness and lightheartedness. Because pills are so rounded they are tricky to align on mobile and the style doesn’t work with all the elements. Therefore, use with caution.",
+          "jp": "遊び心や陽気さを表現したい場合はこのスタイルを使用してください。このスタイルは丸く、モバイルでの位置合わせが難しく、また全ての要素には適応できないので注意してください。"
+        }
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+            ]
+          }
+        ]
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "Button",
+                    "type": "default",
+                    "option": "pill",
+                    "size": "normal",
+                    "text": {
+                      "en": "Button",
+                      "jp": "ボタン"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "Button",
+                    "type": "outline",
+                    "option": "pill",
+                    "size": "normal",
+                    "text": {
+                      "en": "Button",
+                      "jp": "ボタン"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Supplementary button style options",
+          "jp": "サブボタンスタイルのオプション"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "In conjunction with the main button style, you can use both of the button styles below. They are used for secondary or supplementary actions.",
+          "jp": "メインボタンと合わせて、２つのボタンスタイルが下記にあります。これらは、副次的もしくは補助的なアクションの際に使われます。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "buttons-examples",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Circular",
+          "jp": "円形"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Use circular buttons when your button contains only icons. Any icon can be used as long as it follows the size and contrast rules.\r\nCircular buttons can be used for anything, but usually they are used for social actions, playback controls or carousel controls. As a rule of thumb use circular buttons when enough context for the action to be taken has been provided already.",
+          "jp": "円形ボタンは、アイコン要素だけのボタンに使用してください。どんなアイコンでも、サイズやコントラストルールに沿って使用できます。円形ボタンは、どんなものにでも使えますが、一般的にソーシャルアクション、再生コントロールやカルーセルコントロールに用いられます。円形ボタンは、コンテクストからアクションについてユーザーが十分に理解できるような場合に使用しましょう。"
+        }
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "Button",
+                    "type": "default",
+                    "option": "circle",
+                    "innerIcon": "chevron-left",
+                    "text": {
+                      "en": "",
+                      "jp": ""
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "Button",
+                    "type": "outline",
+                    "option": "circle",
+                    "innerIcon": "chevron-left",
+                    "text": {
+                      "en": "",
+                      "jp": ""
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "Button",
+                    "type": "default",
+                    "option": "circle",
+                    "innerIcon": "chevron-right",
+                    "text": {
+                      "en": "",
+                      "jp": ""
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "Button",
+                    "type": "outline",
+                    "option": "circle",
+                    "innerIcon": "chevron-right",
+                    "text": {
+                      "en": "",
+                      "jp": ""
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "Button",
+                    "type": "default",
+                    "option": "circle",
+                    "innerIcon": "plus",
+                    "text": {
+                      "en": "",
+                      "jp": ""
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "Button",
+                    "type": "outline",
+                    "option": "circle",
+                    "innerIcon": "plus",
+                    "text": {
+                      "en": "",
+                      "jp": ""
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "Button",
+                    "type": "default",
+                    "option": "circle",
+                    "innerIcon": "minus",
+                    "text": {
+                      "en": "",
+                      "jp": ""
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "Button",
+                    "type": "outline",
+                    "option": "circle",
+                    "innerIcon": "minus",
+                    "text": {
+                      "en": "",
+                      "jp": ""
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "buttons-examples",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Links",
+          "jp": "リンク"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Used for inline actions or to communicate an action with low priority.",
+          "jp": "インラインのアクションや優先度の低いアクションのために使われます。"
+        }
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "Button",
+                    "type": "default",
+                    "option": "text",
+                    "text": {
+                      "en": "Link",
+                      "jp": "リンク"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

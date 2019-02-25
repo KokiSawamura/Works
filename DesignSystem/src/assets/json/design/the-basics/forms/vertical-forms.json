@@ -1,0 +1,92 @@
+[
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Vertical forms",
+          "jp": "縦並びのフォーム"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "In these forms, all form elements are located under one another. Vertical forms are also easier for users to process, since the flow is linear.",
+          "jp": "縦並びのフォームは、項目は下へ下と配置されます。そのため、縦並びのフォームは流れが直線的になり、ユーザーはコンテンツの流れを認識しやすくなります。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "formImgVerticalForms1@2x.png",
+          "jp": "formImgVerticalForms1@2x-jp.png"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "formImgVerticalForms2@2x.png",
+          "jp": "formImgVerticalForms2@2x-jp.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "formImgVerticalForms3.png",
+          "jp": "formImgVerticalForms3-jp.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "WorkingExample",
+        "data": [
+          {
+            "component": "InputGroup",
+            "type": "",
+            "target": ["designer"],
+            "state": "focus",
+            "helperText": {
+              "en": "Helper text",
+              "jp": "ヘルプテキスト"
+            },
+            "value": {
+              "en": "Inputted",
+              "jp": "入力済"
+            },
+            "placeHolder": {
+              "en": "Placeholder",
+              "jp": "プレースホルダー"
+            },
+            "label": {
+              "en": "Label",
+              "jp": "レーブル"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,229 @@
+[
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Icons overview",
+          "jp": "アイコン概要"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "ReX Icons take balance between functionality and friendliness, to be understandable yet inviting.",
+          "jp": "アイコンは、分かりやすく魅力的になるように機能性と親しみやすさのバランスを図っています。"
+        }
+      },
+      {
+        "component": "IconsHero",
+        "iconList": [
+          "calendar-l",
+          "review-edit-l",
+          "ranking-l",
+          "cart-l",
+          "coupon-l",
+          "notice-generic-l",
+          "calendar-f",
+          "review-edit-f",
+          "ranking-f",
+          "cart-f",
+          "coupon-f",
+          "notice-generic-f",
+          "browsing-history-l",
+          "upload-l",
+          "mail-l",
+          "home-l",
+          "login-l",
+          "credit-card-l",
+          "browsing-history-f",
+          "upload-f",
+          "mail-f",
+          "home-f",
+          "logout-l",
+          "credit-card-f"
+        ]
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "When using or creating ReX icons, think pragmatically on the meaning of motifs used, visibility for diﬀerent sizes & devices, and the versatility of icons across the Group.\r\nAt the same time, design stylistically. Balance straight lines and sharp corners with curved edges, maintain consistent visual weight, and add a bit of ﬂair with the “segmented” design style as if each icon were a set of ﬁtted parts to a whole.\r\nLast but not least, remember that ReX Icons are inclusive. Group services are encouraged to add their own unique icons to the set by maintaining the basic design guidelines, which will be coming soon.",
+          "jp": "アイコンを使用する、または作成する時は次の３点を考慮してください。それは、使用するモチーフの意味、様々なサイズとデバイスでの可視性、楽天グループ全体における汎用性の高さです。デザインの特徴は、直線と角丸とのバランスを図り、アイコン毎のウェイトが均一に見えるようにしています。また、ユニークなアイコンセットになるよう可能な場合は、“線と線の間にギャップ”を設けています。そして重要なことは、アイコンは幅広く参加することができることです。各サービス用に、アイコン規則に沿ってアイコンを追加することが可能です。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "icons-examples",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Types",
+          "jp": "タイプ"
+        }
+      },
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Group icons",
+          "jp": "グループアイコン"
+        }
+      },
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": [
+            {
+              "text": "Group & commonly-used icons. e.g. Account, Login, Notice, Coupon etc."
+            }
+          ],
+          "jp": [
+            {
+              "text": "楽天グループ全体に共通したアイコンです。例えば、アカウント、ログイン、お知らせ、クーポンなどです。"
+            }
+          ]
+        }
+      },
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": [
+            {
+              "text": "Note: ",
+              "type": "strong"
+            },
+            {
+              "text": "Use the group icons and their assigned meaning as is – DO NOT edit or assign different meaning to them."
+            }
+          ],
+          "jp": [
+            {
+              "text": "注: ",
+              "type": "strong"
+            },
+            {
+              "text": "グループアイコンは定義されている機能や利用シーンのみでご利用ください。アイコンを改変したり、定義以外の異なった利用はしないでください。"
+            }
+          ]
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "icons_group.png",
+          "jp": "icons_group.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "icons-examples",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "General icons",
+          "jp": "一般的なアイコン"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Commonly-used icons that are not specific to certain services.",
+          "jp": "特定のサービスに特化していない一般的に使用されるアイコンです。"
+        }
+      },
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": [
+            {
+              "type": "strong",
+              "text": "Note: "
+            },
+            {
+              "text": "Check back periodically for more icons."
+            }
+          ],
+          "jp": [
+            {
+              "text": "注: ",
+              "type": "strong"
+            },
+            {
+              "text": "アイコンの追加に関しては定期的に確認してください"
+            }
+          ]
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "icons_general.png",
+          "jp": "icons_general.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "downloads-with-release-notes",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Downloads",
+          "jp": "ダウンロード"
+        }
+      },
+      {
+        "component": "Link",
+        "type": "h3",
+        "url": "/design/downloads/icons/",
+        "text": {
+          "en": "Release notes",
+          "jp": "リリースノート"
+        }
+      },
+      {
+        "component": "Download",
+        "type": "no-date",
+        "name": "Icons",
+        "date": "",
+        "size": "XX.XMB",
+        "url": "https://rak.app.box.com/s/42ufeqt8jyvtu9q9te2toy5n7mdjxyal",
+        "text": {
+          "en": "Downloads",
+          "jp": ""
+        }
+      }
+    ]
+  }
+]

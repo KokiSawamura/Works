@@ -1,0 +1,438 @@
+[
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "Logos",
+          "jp": "ロゴ"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "Release notes",
+          "jp": "リリースノート"
+        }
+      },
+      {
+        "component": "Heading",
+        "type": "h4",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "2018/07/12",
+          "jp": "2018/07/12"
+        }
+      },
+      {
+        "component": "List",
+        "type": "",
+        "target": [
+          "designer"
+        ],
+        "list": {
+          "en": [
+            {
+              "text": "Updated the files and fav icon colors according to the new Brand guidelines"
+            }
+          ],
+          "jp": [
+            {
+              "text": "新しいブランドガイドラインに従い、fav iconのカラーとファイルを更新"
+            }
+          ]
+        }
+      },
+      {
+        "component": "Heading",
+        "type": "h4",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "2018/04/12",
+          "jp": "2018/04/12"
+        }
+      },
+      {
+        "component": "List",
+        "type": "",
+        "target": [
+          "designer"
+        ],
+        "list": {
+          "en": [
+            {
+              "text": "Added fav icon and Safari pinned page icon guidelines and downloads"
+            }
+          ],
+          "jp": [
+            {
+              "text": "ファビコンとSafariページピンアイコンのガイドライン・ダウンロードを追加しました。"
+            }
+          ]
+        }
+      },
+      {
+        "component": "Heading",
+        "type": "h4",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "2017/07/12",
+          "jp": "2017/07/12"
+        }
+      },
+      {
+        "component": "List",
+        "type": "",
+        "target": [
+          "designer"
+        ],
+        "list": {
+          "en": [
+            {
+              "text": "Added vertical corporate logo files"
+            }
+          ],
+          "jp": [
+            {
+              "text": "コーポレートロゴ（縦組み）を追加しました。"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "Downloads",
+          "jp": "ダウンロード"
+        }
+      },
+      {
+        "component": "Download",
+        "type": "",
+        "name": "Corporate Logo",
+        "date": "2018/07/12",
+        "size": "XX.XMB",
+        "target": [
+          "designer"
+        ],
+        "url": {
+          "en": "https://global.rakuten.com/corp/brand/logos_temp_visual/logos/files/corporate_logo.html",
+          "jp": "https://global.rakuten.com/corp/brand/logos_temp_visual/fonts/"
+        },
+        "text": {
+          "en": "Corporate Logo ",
+          "jp": "コーポレートロゴ"
+        }
+      },
+      {
+        "component": "Download",
+        "type": "",
+        "name": "“Rakuten Global” font",
+        "date": "2017/07/12",
+        "size": "XX.XMB",
+        "target": [
+          "designer"
+        ],
+        "url": {
+          "en": "https://global.rakuten.com/corp/brand/logos_temp_visual/fonts/",
+          "jp": "https://corp.rakuten.co.jp/brand/logos_temp_visual/fonts/"
+        },
+        "text": {
+          "en": "“Rakuten Global” font",
+          "jp": "“Rakuten Global” フォント"
+        }
+      },
+      {
+        "component": "TextWithLink",
+        "type": "",
+        "text": {
+          "en": "For more logo downloads, please visit ",
+          "jp": "その他ロゴはこちらのリンクよりダウンロードいただけます。"
+        },
+        "linkedText": {
+          "en": "https://global.rakuten.com/corp/brand/logos_temp_visual/logos/",
+          "jp": "https://global.rakuten.com/corp/brand/logos_temp_visual/logos/"
+        },
+        "url": "https://global.rakuten.com/corp/brand/logos_temp_visual/logos/",
+        "target": "_blank"
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Fav icons",
+          "jp": "ファブアイコン"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "A fav icon is a logo or an icon displayed at the start of a browser tab or bookmark, just before the page title. To use it download one of the .ico files below, or use the paths to add to your code. Take care to use the icon, matching your app primary color.",
+          "jp": "ファブアイコンはブラウザーのタブまたはブックマークの最初、ページタイトルの直前に表示されるロゴまたはアイコンです。これを使用するには以下の.icoファイルの内1つをダウンロードするか、パスを使ってコードに追加してください。アプリのメインカラーに合うアイコンを使用するように注意してください。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "fav_icon_example_img.png",
+          "jp": "fav_icon_example_img.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "DownloadList",
+        "type": "",
+        "data": [
+          {
+            "text": "Crimson Red",
+            "subText": "favicon.ico",
+            "iconColor": "crimson-red",
+            "url": {
+              "en": "https://jp.rakuten-static.com/1/im/ci/rakuten/icon/cr/favicon.ico",
+              "jp": "https://jp.rakuten-static.com/1/im/ci/rakuten/icon/cr/favicon.ico"
+            }
+          },
+          {
+            "text": "Orange",
+            "subText": "or_r.ico",
+            "iconColor": "orange",
+            "url": {
+              "en": "https://jp.rakuten-static.com/1/im/ci/rakuten/icon/or/favicon.ico",
+              "jp": "https://jp.rakuten-static.com/1/im/ci/rakuten/icon/or/favicon.ico"
+            }
+          },
+          {
+            "text": "Green",
+            "subText": "gr_r.ico",
+            "iconColor": "green",
+            "url": {
+              "en": "https://jp.rakuten-static.com/1/im/ci/rakuten/icon/gr02/favicon.ico",
+              "jp": "https://jp.rakuten-static.com/1/im/ci/rakuten/icon/gr02/favicon.ico"
+            }
+          },
+          {
+            "text": "Light Blue",
+            "subText": "lb_r.ico",
+            "iconColor": "light-blue",
+            "url": {
+              "en": "https://jp.rakuten-static.com/1/im/ci/rakuten/icon/lb/favicon.ico",
+              "jp": "https://jp.rakuten-static.com/1/im/ci/rakuten/icon/lb/favicon.ico"
+            }
+          },
+          {
+            "text": "blue",
+            "subText": "lb_r.ico",
+            "iconColor": "blue",
+            "url": {
+              "en": "https://jp.rakuten-static.com/1/im/ci/rakuten/icon/bl/favicon.ico",
+              "jp": "https://jp.rakuten-static.com/1/im/ci/rakuten/icon/bl/favicon.ico"
+            }
+          },
+          {
+            "text": "purple",
+            "subText": "pu_r.ico",
+            "iconColor": "purple",
+            "url": {
+              "en": "https://jp.rakuten-static.com/1/im/ci/rakuten/icon/pu/favicon.ico",
+              "jp": "https://jp.rakuten-static.com/1/im/ci/rakuten/icon/pu/favicon.ico"
+            }
+          },
+          {
+            "text": "pink",
+            "subText": "pi_r.ico",
+            "iconColor": "pink",
+            "url": {
+              "en": "https://jp.rakuten-static.com/1/im/ci/rakuten/icon/pi/favicon.ico",
+              "jp": "https://jp.rakuten-static.com/1/im/ci/rakuten/icon/pi/favicon.ico"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Safari pinned page icon",
+          "jp": "Safariページピンアイコン"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "On Safari 9 or higher, one can pin pages to the left hand side of the screen so that they are easily accessible. Even though the icon looks the same as the fav icon, the required file format is .svg, and the syntax is different. Please find it below and take care to use the icon, matching your app primary color.",
+          "jp": "Safari 9以上では、簡単にアクセスできるようスクリーンの左側にページをピン留めすることができます。このためのアイコンはファブアイコンと同じように見えますが、求められる ファイルフォーマットは.svg で、構文も異なります。以下から入手できますので、アプリのメインカラーに合うアイコンを、十分にご確認の上使用してください。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "pinned_page_example_img.png",
+          "jp": "pinned_page_example_img.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "DownloadList",
+        "type": "",
+        "data": [
+          {
+            "text": "Crimson Red",
+            "iconColor": "crimson-red",
+            "url": {
+              "en": "<link rel=\"mask-icon\" href=\"https://jp.rakuten-static.com/1/im/ci/rakuten/icon/rakuten.svg\" color=\"#bf0000\">",
+              "jp": "<link rel=\"mask-icon\" href=\"https://jp.rakuten-static.com/1/im/ci/rakuten/icon/rakuten.svg\" color=\"#bf0000\">"
+            }
+          },
+          {
+            "text": "Orange",
+            "iconColor": "orange",
+            "url": {
+              "en": "<link rel=\"mask-icon\"href=\"https://jp.rakuten-static.com/1/im/ci/rakuten/icon/rakuten.svg\" color=\"#F59600\">",
+              "jp": "<link rel=\"mask-icon\"href=\"https://jp.rakuten-static.com/1/im/ci/rakuten/icon/rakuten.svg\" color=\"#F59600\">"
+            }
+          },
+          {
+            "text": "Green",
+            "iconColor": "green",
+            "url": {
+              "en": "<link rel=\"mask-icon\" href=\"https://jp.rakuten-static.com/1/im/ci/rakuten/icon/rakuten.svg\" color=\"#00B900\">",
+              "jp": "<link rel=\"mask-icon\" href=\"https://jp.rakuten-static.com/1/im/ci/rakuten/icon/rakuten.svg\" color=\"#00B900\">"
+            }
+          },
+          {
+            "text": "Light Blue",
+            "iconColor": "light-blue",
+            "url": {
+              "en": "<link rel=\"mask-icon\" href=\"https://jp.rakuten-static.com/1/im/ci/rakuten/icon/rakuten.svg\" color=\"#00a0f0\">",
+              "jp": "<link rel=\"mask-icon\" href=\"https://jp.rakuten-static.com/1/im/ci/rakuten/icon/rakuten.svg\" color=\"#00a0f0\">"
+            }
+          },
+          {
+            "text": "Blue",
+            "iconColor": "blue",
+            "url": {
+              "en": "<link rel=\"mask-icon\" href=\"https://jp.rakuten-static.com/1/im/ci/rakuten/icon/rakuten.svg\" color=\"#002896\">",
+              "jp": "<link rel=\"mask-icon\" href=\"https://jp.rakuten-static.com/1/im/ci/rakuten/icon/rakuten.svg\" color=\"#002896\">"
+            }
+          },
+          {
+            "text": "Purple",
+            "iconColor": "purple",
+            "url": {
+              "en": "<link rel=\"mask-icon\" href=\"https://jp.rakuten-static.com/1/im/ci/rakuten/icon/rakuten.svg\" color=\"#7d00be\">",
+              "jp": "<link rel=\"mask-icon\" href=\"https://jp.rakuten-static.com/1/im/ci/rakuten/icon/rakuten.svg\" color=\"#7d00be\">"
+            }
+          },
+          {
+            "text": "Pink",
+            "iconColor": "pink",
+            "url": {
+              "en": "<link rel=\"mask-icon\" href=\"https://jp.rakuten-static.com/1/im/ci/rakuten/icon/rakuten.svg\" color=\"#ff41be\">",
+              "jp": "<link rel=\"mask-icon\" href=\"https://jp.rakuten-static.com/1/im/ci/rakuten/icon/rakuten.svg\" color=\"#ff41be\">"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "Downloads",
+          "jp": "ダウンロード"
+        }
+      },
+      {
+        "component": "Download",
+        "type": "",
+        "name": "rakuten.svg",
+        "date": "2018/07/12",
+        "size": "XX.XMB",
+        "target": [
+          "designer"
+        ],
+        "url": "https://jp.rakuten-static.com/1/im/ci/rakuten/icon/rakuten.svg",
+        "text": {
+          "en": "rakuten.svg",
+          "jp": "rakuten.svg"
+        }
+      }
+    ]
+  }
+]

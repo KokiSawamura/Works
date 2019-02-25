@@ -1,0 +1,26 @@
+.pagination-desktop-example,
+.pagination-mobile-example {
+  .working-example {
+    > div {
+      text-align: center;
+    }
+  }
+}
+
+.pagination-navigation-example {
+  .working-example {
+    .pagination {
+      margin: 19px 0;
+    }
+  }
+}
+
+.pagination-mobile-example {
+  .working-example {
+    height: 173px;
+    display: flex;
+    > div {
+      margin: auto;
+    }
+  }
+}

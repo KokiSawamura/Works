@@ -1,0 +1,36 @@
+[
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "What is R-kit?",
+          "jp": "R-kitとは"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "",
+          "jp": "楽天のサービスを統一感がありユニークなものにするReXに、楽天カードのユニークさを取り入れ、楽天カードサービス全体を統一感あるものにするデザインランゲージです。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "",
+          "jp": "rkit.png"
+        }
+      }
+    ]
+  }
+]

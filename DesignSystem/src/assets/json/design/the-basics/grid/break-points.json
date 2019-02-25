@@ -1,0 +1,188 @@
+[
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Breakpoints",
+          "jp": "ブレークポイント"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "When designing your service, the best way to achieve consistency is to use a grid system. We use a grid with 4 breakpoints with different numbers of columns, as shown below.",
+          "jp": "サイトをデザインする際に、一貫性を担保する最善の方法のひとつはグリッドシステムを適応することです。以下のカラム数の異なる4つのブレークポイントを使用してください。"
+        }
+      },
+      {
+        "component": "Table",
+        "type": "basic",
+        "headings": {
+          "en": [
+            "",
+            "Device width",
+            "Column width",
+            "Gutter"
+          ],
+          "jp": [
+            "",
+            "デバイス横幅",
+            "コラム横幅",
+            "ガター"
+          ]
+        },
+        "rows": {
+          "en": [
+            {
+              "rowType": "",
+              "cells": [
+                "Desktop",
+                "1280px or above",
+                "72px (12 columns)",
+                "32px"
+              ]
+            },
+            {
+              "rowType": "",
+              "cells": [
+                "Tablet landscape",
+                "between 960px and 1279px",
+                "56px (12 columns)",
+                "26px"
+              ]
+            },
+            {
+              "rowType": "",
+              "cells": [
+                "Tablet portrait",
+                "between 768px and 959px",
+                "64px (8 columns)",
+                "32px"
+              ]
+            },
+            {
+              "rowType": "",
+              "cells": [
+                "Mobile",
+                "below 768px",
+                "flexible (6 columns)",
+                "flexible"
+              ]
+            }
+          ],
+          "jp": [
+            {
+              "rowType": "",
+              "cells": [
+                "デスクトップ",
+                "1280px -",
+                "72px(12カラム)",
+                "32px"
+              ]
+            },
+            {
+              "rowType": "",
+              "cells": [
+                "タブレット（横向き時）",
+                "960px - 1279px",
+                "56px(12カラム)",
+                "26px"
+              ]
+            },
+            {
+              "rowType": "",
+              "cells": [
+                "タブレット（縦向き時）",
+                "768px - 959px",
+                "64px(8カラム)",
+                "32px"
+              ]
+            },
+            {
+              "rowType": "",
+              "cells": [
+                "スマートフォン",
+                "768px未満",
+                "可変(6カラム)",
+                "可変"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "gridImgBreakpoint@2x.png",
+          "jp": "gridImgBreakpoint@2x-jp.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Mobile layouts",
+          "jp": "モバイルレイアウト"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "When we get to small screen sizes (below 768px), there is a large variety of screen sizes, and space becomes too precious to waste. Because of this the grid, while always remaining at 6 columns, becomes flexible in width. This means that column widths and gutters flex to fill the available space. That being said, there are three common mobile sizes you always need to be mindful of when you design for small screens, namely 320px (iPhone 5), 375px (iPhone 6 and 7) and 414px (iPhone 6+ and 7+). Note that those screen sizes refer to the physical size, rather than the screen resolution.",
+          "jp": "768px未満の画面サイズでは、画面サイズのバリエーションは多く、小さな画面のスペースは貴重で無駄にできないことを考慮し、グリッドは常に6カラムの可変にします。つまりカラム幅とガター幅を可変にし、スペースを有効に活用します。制作の際は、次の３つの一般的な画面サイズ320px（iPhone5）、375px（iPhone6/7）、414px（iPhone6+/7+）を考慮してください。画面の解像度より物理的なサイズをより注意してください。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "gridImgMobileLayouts@2x.png",
+          "jp": "gridImgMobileLayouts@2x-jp.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Fixed-width sidebar with fluid content (desktop only)",
+          "jp": "固定幅のサイドバーと可変コンテンツ（デスクトップのみ）"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "If your website, similar to the ReX website you’re viewing now, consists of a sidebar and main content, you can split your grid into two parts. The sidebar will take up 3 columns, and always touch the left-hand side of the screen. Your main content will take up 9 columns and always be centered in the space between the right edge of the sidebar and the right edge of the screen. The grids themselves will have fixed columns and gutters, but the gaps between the sidebar and the content, and the content and the right-most screen edge, will flex according to the screen size.",
+          "jp": "このReXサイトと同じように、サイトがサイドバーとメインコンテンツエリアで構成されている場合、グリッドを２つに分割することができます。サイドバーは３カラム分を使用し画面の左側に固定されます。メインコンテンツは９カラム分を使用し、サイドバーの右端と画面の右端の間に中央配置されます。グリッド自体には固定値のカラムとガターがありますが、サイドバーとコンテンツの間（ギャップ）とスクリーン右側のスペースは画面サイズに応じて可変になります。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "gridImgSidebar@2x.png",
+          "jp": "gridImgSidebar@2x-jp.png"
+        }
+      }
+    ]
+  }
+]

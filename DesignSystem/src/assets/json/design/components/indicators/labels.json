@@ -1,0 +1,152 @@
+[
+  {
+    "component": "Section",
+    "className": "label-section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Labels",
+          "jp": "ラベル"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "Labels are very versatile visual indicators, that consist of a line of text and an optional icon on a colored background. They can be used to show category, characteristic, property, new items/features, locations, etc. ",
+          "jp": "ラベルは非常に汎用性の高い視覚的インジケーターで、色の付いた背景に書かれた1行のテキストから構成されています。アイコンが付加されている場合もあります。ラベルはカテゴリー、特徴、属性、新アイテム/新機能、場所などを表すために使用されます。"
+        }
+      },
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": [
+            {
+              "text": "Labels can be either outlined or filled, depending on your design or layout. Choose from the three available sizes, according to your layout. There can be labels with various heights on the same page, but those that are side-by-side, or close to one another, can only be one height at a time.As a general rule, always try to use one of the three standard label sizes in your service - avoid making custom labels. If this is inevitable, make sure they follow the 8-point system, so they can fit well in the overall layout. For more information, see "
+            },
+            {
+              "text": "Grid",
+              "type": "link",
+              "href": "/design/the-basics/grid/overview/"
+            },
+            {
+              "text": "."
+            }
+          ],
+          "jp": [
+            {
+              "text": "デザインやレイアウトによって、ラベルは枠線ありか塗りつぶしのどちらかが選べます。用意されている3つのサイズの中から、レイアウトに合うものを選んでください。同じページ内にさまざまな高さのラベルを設置してもかまいませんが、真横に並んでいたり近い位置にあるラベル同士は、必ずそれぞれ同じ高さにしてください。原則的には、サービス内で使用するラベルはこの3つのスタンダードサイズのどれかにして、カスタムラベルを作成することは避けてください。どうしてもそうせざるを得ない場合は、全体のレイアウトにうまくなじむよう、必ず8ポイントシステムに沿ったものにしてください。より詳細な情報を得るには、"
+            },
+            {
+              "text": "グリッド",
+              "type": "link",
+              "href": "/design/the-basics/grid/overview/"
+            },
+            {
+              "text": "を参照してください。"
+            }
+          ]
+        }
+      },
+      {
+        "component": "Image",
+        "responsive": true,
+        "src": {
+          "en": "indicators_labels_img0.png",
+          "jp": "indicators_labels_img0.png"
+        }
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "Labels",
+                    "text": "Label"
+                  },
+                  {
+                    "component": "Labels",
+                    "text": "Label",
+                    "size": "small"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "Labels",
+                    "type": "outline",
+                    "text": "Label"
+                  },
+                  {
+                    "component": "Labels",
+                    "type": "outline",
+                    "text": "Label",
+                    "size": "small"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": [
+            {
+              "text": "Labels always contain a short string of text. Never have long explanations or full sentences in a label. Their purpose is to draw the attention to a specific property or characteristic, so that the user can easily see it and find more information if interested, not to explain said feature. Therefore, try to use one or maximum two words in a label to describe the characteristic it is connected to. Labels can have an optional icon at the start. Images are much easier to process than text, so if you are going to use labels for a certain purpose time and again (let’s say a gift or shipping), it’s best to include an icon, representing that purpose. This will help users quickly separate that specific type of label from the rest.You can use any of the brand colors and their variations for your labels, as long as there’s enough contrast with the background. If you use more than one color, make sure there’s logic to their use – don’t just color things randomly, but rather use to visually distinguish between the different types of labels.Don’t use grayscale colors for labels, since this will make them too similar to "
+            },
+            {
+              "text": "tags",
+              "type": "link",
+              "href": "/design/components/tags/overview/"
+            },
+            {
+              "text": ". Don’t use any of the contextual colors, since they have specific meaning associated with them and using them for labels might lead to misinterpretation."
+            }
+          ],
+          "jp": [
+            {
+              "text": "ラベルに載せるテキストは必ず短くして、長い説明文や文章をラベルに記載することは決してしないでください。ラベルの役割は特定の属性や特徴にユーザーの注目を集め、もしユーザーがそれに興味があればさらなる情報を得られるようにすることであり、それについて説明をすることではありません。ですので、ラベルへの関連特徴の記述には1単語か最大でも2単語しか使わないように心がけてください。 ラベルには、任意で先頭にアイコンをつけることもできます。画像はテキストよりもずっと理解しやすいので、特定の目的のために繰り返し使用する予定のあるラベル (例えばギフトや配送など) には、その目的を表すアイコンをつけるのがベストです。これにより、ユーザーは特定のタイプのラベルを他のラベルと素早く区別することができます。背景とのコントラストが十分にとられているならば、ラベルにはブランドカラーとそのバリエーションの内どの色でも使用してかまいません。複数の色を使用する場合は、必ず配色に論理性を持たせてください。ただランダムに色を付けるのではなく、ラベルのタイプの違いを視覚的に区別できるように配色してください。"
+            },
+            {
+              "text": "タグ",
+              "type": "link",
+              "href": "/design/components/tags/overview/"
+            },
+            {
+              "text": "と似すぎてしまうことを避けるため、ラベルにはグレースケール色を使用しないでください。特定の意味合いと関連付けて考えられることのある色は、ラベルに使うと誤解を招く可能性があるので使用しないでください。"
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

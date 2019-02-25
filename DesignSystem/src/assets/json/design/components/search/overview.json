@@ -1,0 +1,226 @@
+[
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Overview",
+          "jp": "検索"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "Search is an important part of every service, especially for e-commerce. Search fields can have varying complexity, depending on your services’ purpose. ",
+          "jp": "検索機能はすべてのサービスにおいて、そしてオンライン販売においては特に重要となる部分です。サービスの目的によって、検索フィールドの複雑さには幅を持たせることができます。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h2",
+        "text": {
+          "en": "Usage",
+          "jp": "使用方法"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "When implementing search, make sure to always have a search button to submit the query. Relaying on the keyboard alone causes usability issues for the users with low to medium technical competence. Once the query’s been submitted, retain it in the search box in case the user wants to edit it. In conjunction with that it’s a good practice to implement a clear button so that the user can quickly erase the old query, if they need to start over. This is especially crucial on mobile, where space is limited and it’s harder to select text, due to the lack of a mouse and keyboard shortcuts.",
+          "jp": "検索機能を実装する時には、クエリを送信するための「検索」ボタンを必ずつけるようにしてください。キーボード入力のみに頼ると、リテラシーがあまり高くないユーザーにとってはユーザビリティの上で問題となります。送信済みのクエリは、ユーザーが編集したいかもしれないので、消去せずに検索ボックスの中に残しておいてください。またそれと併せて、ユーザーが一から別のものを検索したい時、前のクエリを素早く消すことができるように「消去」ボタンを実装するのはいい方法です。これは特にモバイルにおいては欠かせない機能となります。モバイルはスペースが狭い上にマウスやキーボードショートカットがないので、テキストを選択するのがより難しいからです。"
+        }
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "responsive": true,
+                "src": {
+                  "en": "search_overview_img0.png",
+                  "jp": "search_overview_img0_jp.png"
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "responsive": true,
+                "src": {
+                  "en": "search_overview_img1.png",
+                  "jp": "search_overview_img1_jp.png"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Do",
+                "text": {
+                  "en": "Use a search and clear buttons",
+                  "jp": "「検索」と「消去」ボタンの使用"
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Dont",
+                "text": {
+                  "en": "Rely solely on the keyboard for submit and/or clearing of the query",
+                  "jp": "クエリの送信や消去をキーボードのみに頼ること"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "To improve understanding, make sure to have meaningful placeholder in your search box. Only saying ‘Search’ is not enough in most cases. To increase engagement, it’s much better to give people direction on what to search for, by asking a question like ‘Where do you want to travel to?’, or providing guidance like ‘Search for recipes’.",
+          "jp": "わかりやすさを向上させるため、検索ボックスには意味のあるプレースホルダーを配置してください。ほとんどの場合、単に「検索」と書くだけでは不十分です。エンゲージメントを増やすには、「あなたが旅行したい場所はどこですか？」のような質問をすることで検索すべき内容について指示を与えたり、「レシピを検索」のように誘導する方がずっと有効です。 "
+        }
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "responsive": true,
+                "src": {
+                  "en": "search_overview_img2.png",
+                  "jp": "search_overview_img2_jp.png"
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "responsive": true,
+                "src": {
+                  "en": "search_overview_img3.png",
+                  "jp": "search_overview_img3_jp.png"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Do",
+                "text": {
+                  "en": "Use a meaningful placeholder to improve engagement",
+                  "jp": "エンゲージメントを増やすために意味のあるプレースホルダーを使用すること"
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Dont",
+                "text": {
+                  "en": "Use generic label",
+                  "jp": "特徴のない一般的なラベルを使用すること"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": [
+            {
+              "text": "Search has rounded or pill versions. Use the one corresponding to the main button style you’ve chosen. For more information, see "
+            },
+            {
+              "text": "Button options",
+              "type": "link",
+              "href": "/design/the-basics/buttons/options/"
+            },
+            {
+              "text": "."
+            }
+          ],
+          "jp": [
+            {
+              "text": "検索には角丸バージョンと楕円バージョンがあります。選択したメインボタンのスタイルに合うものを使用してください。より詳細な情報を得るには、"
+            },
+            {
+              "text": "ボタンオプション",
+              "type": "link",
+              "href": "/design/the-basics/buttons/options/"
+            },
+            {
+              "text": "を参照してください。"
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

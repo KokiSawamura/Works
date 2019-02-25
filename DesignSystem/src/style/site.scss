@@ -1,0 +1,26 @@
+#site {
+	min-width: 768px;
+
+	%scrollableArea {
+		padding: 0;
+		height:100vh;
+		max-height:100vh;
+		overflow-x: hidden;
+		overflow-y: auto;
+	}
+
+	#boxSidebar {
+		@extend %scrollableArea;
+		@include hideScrollbar();
+	}
+
+ 	#boxPage {
+		@extend %scrollableArea;
+		background: $gray-lightest;
+	}
+
+	@import "sidebar/sidebar";
+	@import "page";
+	@import "header/header";
+	@import "scaffolding";
+}

@@ -1,0 +1,180 @@
+[
+  {
+    "component": "Section",
+    "target": [
+      "designer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "Button states",
+          "jp": "ボタンステータス"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "target": [
+      "designer"
+    ],
+    "data": [
+      {
+        "component": "Text",
+        "type": "",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "Every button can have one of the following states:",
+          "jp": "ボタンは下記のステータスがあります。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "target": [
+      "designer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "Hover (desktop only)",
+          "jp": "ホバー（デスクトップのみ）"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "When the mouse pointer is over the button, it triggers this state in order to reinforce the button’s interactivity. It’s available on desktop only.",
+          "jp": "マウスポインターがボタン上にある時、ボタンがクリック可能であることを示すために発生します。デスクトップ上のみで使用できます。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "target": [
+      "designer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "Focus (desktop only)",
+          "jp": "フォーカス（デスクトップのみ）"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "When using the keyboard to navigate through interactive elements (by pressing the tab key), the focus state shows which button is ready to be activated by using the keyboard (usually by pressing enter or space). It’s available on desktop only.",
+          "jp": "フォーカスステータスは、キーボード（Tabキーを押す）でページ上の操作可能な要素を移動している時に、どのボタンがキーボード（EnterやSpaceキー）によって操作できるのかを表しています。デスクトップ上のみで使用できます。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "target": [
+      "designer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "Active",
+          "jp": "アクティブ"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "Pressing a button triggers an active (aka down or pressed) state to indicate the user has successfully interacted with the button.",
+          "jp": "アクティブステータス（通称:ダウンまたはプレス）はボタンを押した時に発生し、ボタン操作が行われたことを表しています。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "target": [
+      "designer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "Disabled",
+          "jp": "無効"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "Shows the action this button performs is unavailable at this time, but can be made available by user action, or by the system, when certain conditions have been met. If the required action or conditions are not evident, make sure to clarify them. When a button is in disabled state, its hover and down states are also turned off.",
+          "jp": "無効ステータスは、利用不可の状態であることを表しています。ユーザーアクションやシステムによって、条件がそろえば利用可能になります。求められるアクションや状況が明白でない場合は、明記するようにしましょう。利用不可の状態である場合は、ホバー、アクティブステータスも無効にしましょう。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "target": [
+      "designer"
+    ],
+    "data": [
+      {
+        "component": "Image",
+        "type": "",
+        "target": [
+          "designer"
+        ],
+        "responsive": true,
+        "src": {
+          "en": "buttons_img_button-states.png",
+          "jp": "buttons_img_button-states-jp.png"
+        }
+      }
+    ]
+  }
+]

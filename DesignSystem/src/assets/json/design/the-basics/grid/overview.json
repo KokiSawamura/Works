@@ -1,0 +1,140 @@
+[
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Grid overview",
+          "jp": "グリッド概要"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "All components in this guideline use the 8-point system, which means that all elements are divisible by 8.",
+          "jp": "ReXのコンポーネントは8ポイントシステムに沿っています、可能な限り全ての要素は8で割り切られるサイズで作成するようにします。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Benefits",
+          "jp": "ベネフィット"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Usage of the 8-point system provides the following benefits:",
+          "jp": "8ポイントシステムは次の利点があります。"
+        }
+      },
+      {
+        "component": "List",
+        "type": "",
+        "list": {
+          "en": [
+            {
+              "boldedPhrase": "Consistency – ",
+              "text": "following the same system across a large company like Rakuten will ensure consistency across all services. This is important to give a professional and trustworthy look to our services and evoke confidence in our users"
+            },
+            {
+              "boldedPhrase": "Scalability – ",
+              "text": "even numbers can account for any fragment resolution (i.e. 1.5x, where if you have odd measurements, you’ll end up with a blurry interface)"
+            },
+            {
+              "boldedPhrase": "Universality – ",
+              "text": "the most popular screen sizes are devisable by 8, which makes it easy to fit any element on any screen"
+            },
+            {
+              "boldedPhrase": "Versatility – ",
+              "text": "the 8-point system offers a good amount of options, without constraining the design too much"
+            }
+          ],
+          "jp": [
+            {
+              "boldedPhrase": "一貫性 ‒ ",
+              "text": "同じシステムを採用することで、多くのサービスを抱える楽天にもサービス間に一貫性を持たせることができます。それにより全てのサービスに、プロフェッショナルで信頼感のあるデザインを実現し、ユーザーへ安心感をもたらします"
+            },
+            {
+              "boldedPhrase": "拡張性 ‒ ",
+              "text": "は偶数で割り切れ、幅広い解像度に対応できます（奇数の場合、1.5倍などに引き伸ばされるとインターフェイスがぼやけてしまいます）"
+            },
+            {
+              "boldedPhrase": "一般性 ‒ ",
+              "text": "普及しているデバイスの画面サイズは8で割り切れる場合が多く、より多くの要素をより多くの画面で表示できます"
+            },
+            {
+              "boldedPhrase": "汎用性 ‒ ",
+              "text": "ポイントシステムはデザインの制約をあまり受けずに、多くの選択肢を持つことができます"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Usage",
+          "jp": "使用法"
+        }
+      },
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": [
+            {
+              "text": "When using the 8-point system, all element’s sizes, margins and paddings are divisible by 8. All components included in this guideline follow that rule. Therefore, if you need to create a custom component for your service, or you need to modify any of the presented components (within the constraints provided), make sure to do that in increments of 8. Otherwise you’ll lose consistency with the rest of the components, which will lead to misalignment.\r\nAs mentioned in the benefits, the most popular screen sizes are devisable by 8. A notable exception here is that of the iPhone 6 (375x667px). When it comes to mobile devices, your interface will need to be flexible to accommodate for all different resolutions (see "
+            },
+            {
+              "text": "Breakpoints",
+              "type": "link",
+              "href": "/design/the-basics/grid/break-points/"
+            },
+            {
+              "text": "), in which case make sure to keep the paddings and margins divisible by 8, and let your containers flex.\r\nIf your element has a border, the padding should follow the 8-point system, while the border is added on top. For ease of implementation, there is no need to subtract the border value from the padding."
+            }
+          ],
+          "jp": [
+            {
+              "text": "8ポイントシステムは、全ての要素のサイズ、マージン、およびパディングを8で割り切れるようにします。このガイドラインのコンポーネントは、その原則に則っています。独自のコンポーネントを作成する場合や、元のコンポーネントを制約の範囲内で変更する場合は、8で割り切れるサイズで作成してください。この原則に沿わない場合、他のコンポーネントと一貫性が失われ整合性が保てなくなります。ベネフィットで述べたように、普及しているデバイスの画面サイズはほぼ8の倍数で設計されています。例外として、iPhone6（375x667ピクセル）があります。モバイルデバイスの場合、異なる解像度に対応できるように、インターフェイスを可変にします（"
+            },
+            {
+              "text": "ブレークポイント",
+              "type": "link",
+              "href": "/design/the-basics/grid/break-points/"
+            },
+            {
+              "text": "を参照）。その場合は、パディングとマージンを8で割り切れるようにし、コンテンツを包含している要素を可変にします。要素にボーダーがある場合は、ボーダーを除いたパディングに8ポイントシステムを適応します。実装を容易にするために、パディングと境界線を含めて計算する必要はありません。"
+            }
+          ]
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "gridImgUsageEnglish@2x.png",
+          "jp": "gridImgUsageEnglish@2x.png"
+        }
+      }
+    ]
+  }
+]

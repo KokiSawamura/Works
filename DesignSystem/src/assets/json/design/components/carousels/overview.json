@@ -1,0 +1,97 @@
+[
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Overview",
+          "jp": "概要"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "Carousels enable more then one piece of featured content to occupy the same real estate.",
+          "jp": "カルーセルを使えば、同一の場所に注目コンテンツを複数収めることができます。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Benefits",
+          "jp": "利点"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Carousels are good when you want to:",
+          "jp": "カルーセルは以下のことを行いたい場合に適しています:"
+        }
+      },
+      {
+        "component": "List",
+        "type": "",
+        "list": {
+          "en": [
+            {
+              "text": "Highlight content the user might otherwise miss"
+            },
+            {
+              "text": "Show a snippet of the available information, so that the user can make an informed decision, if they want to see more or not"
+            },
+            {
+              "htmlText": "Help people compare content (<a href='/design/components/carousels/overflows/'>overflows</a> only)"
+            }
+          ],
+          "jp": [
+            {
+              "text": "ユーザーが見逃してしまう可能性のあるコンテンツにハイライトを当てる"
+            },
+            {
+              "text": "公開されている情報の一部を見せ、ユーザーがそれを踏まえた上でさらに見たいか否かを決定できるようにする"
+            },
+            {
+              "htmlText": "ユーザーにコンテンツの比較をしてもらいやすくする (<a href='/design/components/carousels/overflows/'>オーバーフロー</a>のみ)"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Usage",
+          "jp": "使用方法"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "When using a carousel make sure that the different slides contain related information. Never have completely different content, since this will confuse the users. Carousels are good when it’s not important for the user to see all the available content, because it’s likely they will see only the first couple of slides.",
+          "jp": "カルーセルを使用する場合は、スライドには互いに関連性のある情報を載せるよう注意してください。ユーザーを混乱させてしまうことを避けるため、それぞれにまったく異なるコンテンツを載せることは絶対にしないでください。ユーザーはカルーセルの最初の数枚のスライドしか見ない可能性が高いため、カルーセルはユーザーにコンテンツをすべて見てもらうことが重要ではない場合に適しています。"
+        }
+      }
+    ]
+  }
+]

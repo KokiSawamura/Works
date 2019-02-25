@@ -1,0 +1,10 @@
+.content-lists-section, .menu-lists-sction {
+  .working-example {
+    > div {
+      display: flex;
+      .list.menu {
+        margin: 0 auto;
+      }
+    }
+  }
+}

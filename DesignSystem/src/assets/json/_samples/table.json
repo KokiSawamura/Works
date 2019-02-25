@@ -1,0 +1,35 @@
+{
+  "component": "Table",
+  "type": "",
+  "target": ["designer", "developer"],
+  "headings": {
+    "en": [
+      "Name", "Type", "Point", "Price"
+    ],
+    "jp": ""
+  },
+  "rows": {
+    "en": [
+      {
+        "rowType": "",
+        "cells": [
+          "abcdef", "abcdef", "1,000", "$1,000"
+        ]
+      },
+      {
+        "rowType": "",
+        "cells": [
+          "ghijk", "ghijk", "1,000", "$1,000"
+        ]
+      },
+      {
+        "rowType": "",
+        "cells": [
+          "lmnop", "lmnop", "99", "$99"
+        ]
+      }
+    ],
+    "jp": [
+    ]
+  }
+}

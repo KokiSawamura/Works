@@ -1,0 +1,165 @@
+[
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Pagination",
+          "jp": "ページナビゲーション"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "When showing long lists of similar items, like search results, categories or news archive, loading all of the content at once will slow down the page and overwhelm the user. Therefore, we need a way to show only part of the information, and allow the user see the rest if they so desire. This can be achieved by using pagination. Pagination is suitable for lists of search results, items in a category, lists of articles, etc.",
+          "jp": "例えば検索結果やカテゴリー、ニュースのアーカイブなど、比較的小さいアイテムによる長いリストを見せる場合、すべてのコンテンツを一度にロードするとページ表示が遅くなりユーザーの負担になります。そこで、情報の一部のみを見せ、ユーザーの望みに応じてさらに先を見せていくという方法が必要となります。それを可能にするのがページネーションです。ページネーションは検索結果、カテゴリー内のアイテム、記事のリストなどに適しています。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h2",
+        "text": {
+          "en": "Platform",
+          "jp": "プラットフォーム"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Due to space restrictions pagination follows two different patterns according to the device screen size.",
+          "jp": "スペースの制限により、ページネーションにはデバイスのスクリーンサイズに応じて2つのパターンがあります。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "pagination-desktop-example",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h2",
+        "text": {
+          "en": "Desktop",
+          "jp": "デスクトップ"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "For large screens, show the individual pages with previous and next arrow, with the first and last pages always visible. If the user is on the first page, the left-hand arrow is disabled. If they are on the last page, the right-had arrow is disabled. If there are up to 10 pages available, display them all to the user without hiding anything.If space allows, you can display text under the pagination, showing the number of total results and number of items on the current page.",
+          "jp": "大型のスクリーンでは、最初のページと最終ページを常に示した上で、「前」と「次」の矢印付きで各ページを表示してください。ユーザーが最初のページにいる場合は、左側の矢印はグレーアウトされるようにし、ユーザーが最終ページにいる場合は、右側の矢印がグレーアウトされるようにします。総ページ数が10ページ以内なら、どのページ番号も省略せず、すべて表示するようにしてください。スペースが許す場合は、ページネーションの下に全体結果の数と現在のページのアイテム数を示すテキストを表示してもかまいません。"
+        }
+      },
+      {
+        "component": "Image",
+        "responsive": true,
+        "src": {
+          "en": "pagination_overview_img0.png",
+          "jp": "pagination_overview_img0.png"
+        }
+      },
+      {
+        "component": "WorkingExample",
+        "data": [
+          {
+            "component": "Pagination"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "pagination-mobile-example",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h2",
+        "text": {
+          "en": "Mobile",
+          "jp": "モバイル"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Due to space restrictions on small screens, using the same design as on desktop will allow just the next and previous pages' numbers to be visible. Since previous and next arrows are always available, this type of design doesn’t make for very good experience. Because of that it’s much better to keep the previous and next arrows, and only show the current page and the total number of pages in the middle. Tapping on them opens a dropdown, from which the user can jump to any page they like. For the design of the dropdown, use the OS default style.",
+          "jp": "小さいスクリーンではスペースが限られているため、デスクトップと同じデザインを使うと1つ前と後ろのページ番号しか表示できなくなるでしょう。「前」と「次」の矢印は常に用意されているため、このタイプのデザインではそれほどいいエクスペリエンスを生み出すことはできません。ですので「前」と「次」の矢印をそのままにして、中央に現在のページ番号と総ページ数を示すだけにした方がずっと優れています。そしてそれをタップするとドロップダウンが開き、ユーザーは好きなページに飛ぶことができるようにします。ドロップダウンのデザインは、OSのデフォルトスタイルを使用してください。"
+        }
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "responsive": true,
+                "src": {
+                  "en": "pagination_overview_img1.png",
+                  "jp": "pagination_overview_img1.png"
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "Pagination",
+                    "type": "mobile",
+                    "total": "30",
+                    "activeNo": "11"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h2",
+        "text": {
+          "en": "Usage",
+          "jp": "使用方法"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "When implementing pagination make sure to mark clearly the current page. Don't rely on color alone to accommodate for color blindness and accessibility. Space out page links and provide large targets to allow people easier navigation. It’s good to always allow the user to jump to the first page. Best way to achieve that is to have the number 1 always visible, rather than relying on icons. Provide previous and next links for easier navigation.The recommended number of items displayed per page is between 20 and 50 items on desktop and 15 to 30 items on mobile. Weather you’ll pick the higher or lower number of the range depends on the type of items displayed. For spec-heavy items (i.e. Electronics) pick the lower number, while for more visual products (i.e. Apparel, furniture, decor, etc.) the number can be in the higher range, because people are able to comprehend more products.Since the way people browse is subjective, it’s best to allow users to change the amount of results displayed per page. Pick a number from the range above for the default number, then one higher and one lower number and present them as choices to the user. The upper limit should not exceed 100 and each choice should be substantially higher than the other. Don’t present more than three choices to the user and save their previous choice to use it as a default next time around.\r\nPagination should be displayed at the bottom of the page, right after the last item(s) it relates to. If you are allowing users to choose the number of results displayed per page, then show pagination both at top and bottom of the page.",
+          "jp": "ページネーションを実装する場合は、現在のページ番号を明確に示すように注意してください。色盲の人やアクセシビリティ問題に対応するため、色のみに頼らないでください。操作性の向上のため、ページリンクのサイズは大きくし、それぞれの間には十分にスペースを開けてください。ユーザーがいつでも最初のページに飛べるようにしておくことはいいことです。そのための方法としてはアイコンに頼るよりも、ページ番号の内「1」は常に表示しておくようにするのがベストです。操作を楽にするため、「前」と「次」のリンクも用意してください。1ページに表示するアイテム数は、デスクトップでは20～50アイテム、モバイルでは15～30アイテムが推奨されます。その範囲の中から多い方を選ぶか少ない方を選ぶかは、表示するアイテムのタイプによって変わるでしょう。詳細情報の多いアイテム (電子機器など) なら少ない方を選んでください。より視覚的な製品 (アパレル、家具、雑貨など) なら、製品数が多くても把握は難しくないので、多い方にしてもかまいません。ブラウジングの仕方は主観的なものなので、1ページに表示する結果の数はユーザーの手で変えられるようにしておくのがベストです。上記の範囲からデフォルトの数、それより少ない数、多い数を選び、ユーザーが選べるように提示してください。上限は100を超えないようにし、また各選択肢の間には大幅な差をつけてください。3つ以上の選択肢は提示しないようにし、ユーザーが一度選んだ選択肢は保存しておいて次からはそれをデフォルトに使うようにしてください。\r\nページネーションはページの最下部、最後の関連アイテムのすぐ下に表示されるべきです。1ページごとの結果表示数をユーザーが選べるようにしている場合は、ページの一番上と一番下の両方にページネーションを表示してください。"
+        }
+      }
+    ]
+  }
+]

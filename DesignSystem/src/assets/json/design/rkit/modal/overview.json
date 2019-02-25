@@ -1,0 +1,27 @@
+[
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Overview",
+          "jp": "概要"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "",
+          "jp": "ユーザ行動に紐づかない（クリックやタップ）モーダル表示の利用は禁止とする。"
+        }
+      }
+    ]
+  }
+]

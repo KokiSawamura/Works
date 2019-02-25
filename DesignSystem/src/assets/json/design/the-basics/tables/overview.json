@@ -1,0 +1,392 @@
+[
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Tables overview",
+          "jp": "テーブル概要"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "Tables display sets of data in rows and columns.",
+          "jp": "テーブルは、行と列からなるデータセットを表示します。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Benefits",
+          "jp": "ベネフィット"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Usage of tables offers the following benefits:",
+          "jp": "テーブルの使用には下記の利点があります。"
+        }
+      },
+      {
+        "component": "List",
+        "type": "",
+        "list": {
+          "en": [
+            {
+              "text": "Data presented in a table is easy to scan"
+            },
+            {
+              "text": "Tables allow for easy data presentation"
+            },
+            {
+              "text": "Tables help organize the content"
+            }
+          ],
+          "jp": [
+            {
+              "text": "データを簡単に読み取ることができます"
+            },
+            {
+              "text": "データの提示を簡単に行える"
+            },
+            {
+              "text": "コンテンツの整理に有用です"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Usage",
+          "jp": "使用法"
+        }
+      },
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": [
+            {
+              "text": "Use tables for homogenous data sets. Tables are good for organizing data and/or for easy side-by-side comparison.\r\nTo be suitable for a table, your data needs to have at least two rows and two columns. If you have only one column or one row, use a "
+            },
+            {
+              "text": "list",
+              "type": "link",
+              "href": "/design/the-basics/typography/lists/"
+            },
+            {
+              "text": " instead."
+            }
+          ],
+          "jp": [
+            {
+              "text": "テーブルでは一連の同様のデータの表示に使用します。テーブルはデータを整理し比較を容易にします。テーブルを活用するには、少なくとも2行と2列のデータセットが必要です。1行または1列だけのデータを表示する場合は、"
+            },
+            {
+              "text": "リスト",
+              "type": "link",
+              "href": "/design/the-basics/typography/lists/"
+            },
+            {
+              "text": "を使用してください。"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Tables on mobile",
+          "jp": "モバイルでのテーブル使用"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Tables are good for desktop and tablet, but could become problematic on mobile, due to the size restriction. If your table has 3 to 4 relatively narrow columns, then it can be used on mobile as it is. On the other hand, if your table has 3 to 4 relatively narrow rows, but many columns, then consider reversing it. This will not only allow it to fit on mobile but will improve comprehension. See Structure below for more information.\r\nIn all other cases tables need to either be removed, or displayed in a different way on mobile. ",
+          "jp": "テーブルはデスクトップやタブレットには適していますが、モバイルにはそのサイズから適さない場合があります。テーブルが比較的幅の狭い3、4列で構成されている場合は、モバイルで使用できます。一方、比較的少ない行数（3、4行）と、多くの列で構成されている場合は、行と列を逆にすることを検討してください。これにより、モバイルに適するだけでなく分かりやすさも向上させられます。詳細は下記の構造を参照してください。それ以外のケースでは、テーブルを削除する、もしくはモバイル向けに別の方法で表示する必要があります。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "id": "structure",
+        "text": {
+          "en": "Structure",
+          "jp": "構造"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "As a general rule, keep the number of columns of your table to a minimum. A large amount of columns makes it harder to scan the information and make sense of it, because it’s harder to remember the context, especially if there’s a header column. The further the data is from its title the harder it is for the user to remember the context and to find the appropriate row. If your table has a lot of columns and few rows, consider reversing it by making the rows the columns and vice versa.",
+          "jp": "原則としてテーブルの列数は最小限にしてください。多数の列を使用すると、特にヘッダー列がある場合は情報の関連性を認識し続けるのが難しくなり、情報を読み取ることが難しくなります。つまり、データとそのタイトルが離れれば離れるほどユーザーは適切な項目を追うことが難しくなります。テーブルが多数の列と少数の行で構成されている場合、行と列を逆転させることを検討してください。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Table elements",
+          "jp": "テーブル要素"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "In addition to rows and columns, tables can contain one or all of the following elements:",
+          "jp": "テーブルは行と列に加え、下記の１つまたは全ての要素を含むことができます。"
+        }
+      },
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Header row",
+          "jp": "ヘッダー行"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "The first row of the table contains the titles of each column. Each table can contain only one header row at a time. If you need to use more than one, consider splitting your data into two or more tables. A header row can be used in conjunction with a header column for tables that have a matrix-like structure. Keep the labels of a header row short and concise. However, don’t use meaningless abbreviations in an attempt to make the titles as short as possible.",
+          "jp": "テーブルの最初の行で、各列のタイトルを含みます。テーブルは同時に1つのヘッダー行しか含むことはできません。もし2つ以上のヘッダー行が必要な場合は、データを2つ以上のテーブルに分割することを検討してください。ヘッダー行とヘッダー列とを組み合わせ、マトリクス構造のテーブルを構成することも可能です。ヘッダー行にあるタイトルは短く簡潔にしてください。ただし、むやみに省略し意味が分かりにくくなることは避けてください。"
+        }
+      },
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Header column",
+          "jp": "ヘッダー列"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "The first column of the table contains the titles of each row. Each table can contain only one header column at a time. If you need to use more than one, consider splitting your data into two or more tables. A header column can be used in conjunction with a header row for tables that have a matrix-like structure.",
+          "jp": "テーブルの最初の列で、各行のタイトルを含みます。テーブルは同時に1つのヘッダー列しか含むことはできません。もし2つ以上のヘッダー列が必要な場合は、データを2つ以上のテーブルに分割することを検討してください。ヘッダー列とヘッダー行とを組み合わせ、マトリクス構造のテーブルを構成することも可能です。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "tableImgHeaderColumn@2x.png",
+          "jp": "tableImgHeaderColumn@2x-jp.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Types of tables",
+          "jp": "テーブルタイプ"
+        }
+      },
+      {
+        "component": "List",
+        "type": "",
+        "list": {
+          "en": [
+            {
+              "boldedPhrase": "Static - ",
+              "text": "provides information only and cannot be manipulated in any way"
+            },
+            {
+              "boldedPhrase": "Interactive - ",
+              "text": "the table rows and/or columns can be manipulated i.e. They can be selected, expanded, or other actions can be carried out on them. In this case add a hover state to the table, to enhance its interactivity."
+            }
+          ],
+          "jp": [
+            {
+              "boldedPhrase": "スタティック - ",
+              "text": "情報のみを扱い、いかなる操作もできません"
+            },
+            {
+              "boldedPhrase": "インタラクティブ - ",
+              "text": "行もしくは列は操作ができ、選択、拡張、その他のアクションを実行することができます。ホバーステータスを持たせ操作可能であることを示しましょう"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Table data",
+          "jp": "テーブルデータ"
+        }
+      },
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Data ordering",
+          "jp": "データの順序"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "When creating a table, consider what will be the most logical initial ordering according to the purpose of the table and the way it will be used. In many cases ordering alphabetically isn’t the best option. Instead consider the column of most interest to the user and sort the table by it.",
+          "jp": "テーブルを作成するときは、テーブルの目的と用途に応じて、最も論理的な順序が何であるかを考慮してください。多くの場合、アルファベット順は最良の選択肢ではありません。ユーザーにとって最も関心の高い列は何かを考え、それを元にテーブルの順序を整理しましょう。"
+        }
+      },
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Numerical data formatting",
+          "jp": "数値データの形式"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "If your table contains a lot of numerical data, make sure the data is rounded consistently and in a way that makes sense. Only show the amount of data the users need. This is a good way to avoid clutter and ensure consistency.",
+          "jp": "テーブルに数値データが多数含まれている場合は、データが一貫した端数処理でそろえられていることを確認してください。それにより、ユーザーが必要とするデータのみを表示することで、分かりやすく一貫性を確保することができます。"
+        }
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "tableImgNumerialDataFormattingEnglish1@2x.png",
+                  "jp": "tableImgNumerialDataFormattingEnglish1@2x-jp.png"
+                }
+              },
+              {
+                "component": "Do",
+                "text": {
+                  "en": "Consistent rounding improves table readability",
+                  "jp": "一貫性のある端数処理によりテーブルの読みやすさが向上します"
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "tableImgNumerialDataFormattingEnglish2@2x.png",
+                  "jp": "tableImgNumerialDataFormattingEnglish2@2x-jp.png"
+                }
+              },
+              {
+                "component": "Dont",
+                "text": {
+                  "en": "Inconsistent rounding makes figures hard to read",
+                  "jp": "一貫性のない端数処理によりテーブルが読みにくくなります"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Data alignment",
+          "jp": "データの整列"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Depending on the data in your table, the columns might have different alignment. Columns that contain numerical data need to be right-aligned to improve scanning speed and readability. Columns containing text usually are easiest to read when left-aligned. If the table has a header row, each column header should carry whatever alignment their data has. This keeps the the vertical lines of your table clean and provides consistency and context.\r\nAvoid center alignment in tables, because it makes the data hard to scan, since it becomes ragged and there’s no anchor for the eye.",
+          "jp": "テーブルのデータ種類によって、各列の文字揃えを調整します。数値データを含む列は、読み取り速度と可読性を向上させるために右揃えにします。テキストを含む列では、通常は左揃えが最も可読性が高くなります。ヘッダー行がある場合は、各ヘッダー行はそれらのデータ列の文字揃えと一緒にします。これにより、テーブルの縦の文字揃えが保たれ、一貫性と関連性が生まれます。データの中央揃えは、がたがたして目が情報を追う支えがなくなり、読み取りにくくなるので避けてください。"
+        }
+      },
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Data units",
+          "jp": "データ単位"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "If your data contains a currency or a unit of any kind, don’t repeat it in every data point, but only include it in the header, or at the first data point in each column.",
+          "jp": "データに通貨またはその他の単位が含まれている場合は、全てのデータでそれを繰り返すのではなく、ヘッダーまたは各列の最初のデータにのみに記入してください。"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,131 @@
+[
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Overview",
+          "jp": "概要"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "Indicators are visual cues that draw the user’s attention to specific content. They emphasize important information and make it stand out.",
+          "jp": "インジケーターはユーザーの注意を特定のコンテンツに引き付けるための視覚的ヒントです。重要な情報を強調し、目立たせる役割を果たします。"
+        }
+      },
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": [
+            {
+              "text": "Indicators are contextual in nature – they are always associated with a certain UI element, and should be in close proximity to that element. They are also passive – indicators are not clickable, nor do they require the user to take an action. They are there strictly to provide information. If you need a clickable indicator-like element, see "
+            },
+            {
+              "text": "Tags",
+              "type": "link",
+              "href": "/design/components/tags/overview/"
+            },
+            {
+              "text": "."
+            }
+          ],
+          "jp": [
+            {
+              "text": "インジケーターには状況との関連性が高いという性質があります。つまりインジケーターは常に特定のUI要素と関連しており、その要素の近くに配置されるべきであるということです。またインジケーターはクリック可能でもなくユーザーのアクションも必要としない受動的な要素であり、ただ情報を提示することのみを役割としています。インジケーター的な要素でクリック可能なものが必要な場合は、"
+            },
+            {
+              "text": "タグ",
+              "type": "link",
+              "href": "/design/components/tags/overview/"
+            },
+            {
+              "text": "を参照してください。"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h2",
+        "text": {
+          "en": "Usage",
+          "jp": "使用方法"
+        }
+      },
+      {
+        "component": "Text",
+        "text": {
+          "en": "Indicators are great way to draw attention to important pieces of information, but they also provide visual noise and clutter. Overuse will just confuse the user and defy the purpose of the element. Therefore, it’s very important to carefully consider each and every indicator used on your service. To decide, ask yourself the following questions:",
+          "jp": "インジケーターはある重要な情報に注目を集めたい時に便利な手法ですが、同時に視覚的ノイズやごちゃごちゃ感ももたらします。インジケーターの使いすぎは単にユーザーを混乱させるだけで、元々の目的を損なってしまいます。そのため、サービス内で使用されている1つ1つのインジケーターについて、使うべきかどうかを注意深く考慮することが非常に重要となります。その決定を下すには、以下の質問を自分に尋ねてみてください:"
+        }
+      },
+      {
+        "component": "List",
+        "type": "",
+        "list": {
+          "en": [
+            {
+              "htmlText": "How important is the information to the <strong>user</strong>?",
+              "list": [
+                {
+                  "text": "How often is the information used? If it wouldn’t be very often, then an indicator isn’t warranted."
+                },
+                {
+                  "text": "Would the user expect to see that information? If not, then no flamboyant design will make it useful to them. Better move it to where it’d be expected, rather than trying to emphasize it at the inappropriate location."
+                },
+                {
+                  "text": "Would it be missed if it weren’t provided? If not, then it’s most likely not needed – emphasized or otherwise."
+                }
+              ]
+            },
+            {
+              "htmlText": "How important is it for the <strong>service</strong> that the user discovers the information?"
+            }
+          ],
+          "jp": [
+            {
+              "htmlText": "その情報は<strong>ユーザー側</strong>にとってどれほど重要ですか？",
+              "list": [
+                {
+                  "text": "その情報はどのくらいの頻度で使用されますか？ もしそれほど頻繁に使用されないなら、インジケーターを設置する正当性はありません。"
+                },
+                {
+                  "text": "ユーザーはこの場所でその情報を求めていますか？ その答えがノーなら、目立つデザインにしたところで求められるようになるわけではありません。 情報は不適切な場所で強調しようとするよりも、求められる場所に移動させるべきです。"
+                },
+                {
+                  "text": "その情報は提示されなかったら困るものですか？ そうでないなら、おそらくその情報は必要ではないのでしょう。強調しようがしまいが同じことです。"
+                }
+              ]
+            },
+            {
+              "htmlText": "その情報をユーザーに知ってもらうことはその<strong>サービス</strong>にとってどれほど重要ですか？"
+            }
+          ]
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "If the information is important for both the user and the service, then displaying an indicator is justified. If, however, the information is only important to the service then displaying an indicator is not warranted. If the information is only important to the user however, it might still require an indicator if it is crucial to carrying out the main user task. The user needs are always paramount and should be considered before business needs, because no matter how much you highlight something, if the user is not interested they are still going to ignore it.",
+          "jp": "もしその情報がユーザーとサービスの両方にとって重要ならば、インジケーターの設置には正当性があると言えます。しかしその情報がサービス側にとってのみ重要なものである場合は、インジケーターを設置する正当性はありません。一方、その情報がユーザー側にとってのみ重要である場合は、それがメインとなるユーザータスクを行うにあたって決定的に重大な情報であるならばインジケーターを設置する必要があるかもしれません。ユーザー側のニーズは常に最優先事項であり、ビジネス側のニーズよりも前に考慮されるべきです。どれほど何かを強調して目立たせたとしても、それがユーザーにとって興味のないことであれば無視されることに変わりはないからです。"
+        }
+      }
+    ]
+  }
+]

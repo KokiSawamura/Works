@@ -1,0 +1,70 @@
+[
+  {
+    "component": "Section",
+    "className": "rating-section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Overview",
+          "jp": "概要"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "A rating displays the satisfaction rate of a product or service. It’s always user generated and helps other users decide weather to themselves avail of the same product or service.",
+          "jp": "評価は製品またはサービスに対する満足度評価を表すものです。これは常にユーザー側によって生み出されるもので、他のユーザーがその製品やサービスを利用するかを決めるのに役立ちます。"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Satisfaction rating allows people to rate how satisfied they are with a specific product or service. It’ usually represented by 4 or 5 stars, where the more stars the better.The number of stars you use can be 4 or 5, where the difference is that 5 stars offers a neutral choice, while 4 stars doesn’t.",
+          "jp": "満足度評価は、ある特定の製品やサービスに対するそれぞれの満足度を各ユーザーに評価してもらうものです。これは通常、最大4～5個の星で表され、星が多いほど高評価となります。使う星の数は4個か5個かを選ぶことができます。違うところは、星5個の場合はちょうど中間という選択肢がありますが、星4つの場合はそれがないという点です。"
+        }
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "responsive": true,
+                "src": {
+                  "en": "ratings_overview_img0.png",
+                  "jp": "ratings_overview_img0.png"
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "Rating",
+                    "type": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

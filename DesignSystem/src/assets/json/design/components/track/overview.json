@@ -1,0 +1,138 @@
+[
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Overview",
+          "jp": "概要"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "A track conveys progress through a set of logical steps.",
+          "jp": "トラックは一連の論理的なステップを通して進行状況を伝えるものです。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "front-page-blockquote",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Benefits",
+          "jp": "利点"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Usage of tracks offers the following benefits:",
+          "jp": "トラックの使用により、以下の利点が得られます:"
+        }
+      },
+      {
+        "component": "List",
+        "type": "",
+        "list": {
+          "en": [
+            {
+              "text": "Gives the user an idea of how long a form or a process is"
+            },
+            {
+              "text": "Shows progress through a list of steps"
+            }
+          ],
+          "jp": [
+            {
+              "text": "フォームやプロセスがどれくらいの長さかをユーザーが予想できる"
+            },
+            {
+              "text": "ステップのリストを通して進行状況を表せる"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "front-page-blockquote",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Usage",
+          "jp": "使用方法"
+        }
+      },
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": [
+            {
+              "text": "Use tracks to show progress for lengthy forms or processes, and to inform the user how many steps there are and how far are they down the process.\r\nWhen you split your forms make sure to group fields logically. For more information, see "
+            },
+            {
+              "text": "Forms overview",
+              "type": "link",
+              "href": "/design/the-basics/forms/overview/"
+            },
+            {
+              "text": "."
+            }
+          ],
+          "jp": [
+            {
+              "text": "トラックは長いフォームやプロセスの進行状況を示し、ステップが全部でいくつあるのかと全プロセスの中でどこまで来たのかをユーザーに教えるために使用してください。\r\nフォームを分割する時は、それぞれのフィールドを論理的にまとめるようにしてください。より詳細な情報を得るには、フォーム概要を参照してください。"
+            },
+            {
+              "text": "フォーム概要",
+              "type": "link",
+              "href": "/design/components/track/elements"
+            },
+            {
+              "text": "を参照してください。"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Interaction",
+          "jp": "インタラクション"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "When filling a form consisting of steps, it might take some time for the system to load the next step, since the current step needs to be submitted and verified first. If this lag is over 2 seconds, a loading state is needed when switching between steps. If the lag is less than 2 seconds, no loading state is necessary.",
+          "jp": "複数のステップから構成されたフォームへの記入時、記入を終えたステップをまず送信し確認する必要があるため、システムが次のステップをロードするのに多少時間がかかる可能性があります。このラグタイムが2秒以上ある場合は、ステップを切り替える時にロード状況を示す必要があります。ラグタイムが2秒以下なら、ロード状況の提示は不必要です。"
+        }
+      }
+    ]
+  }
+]

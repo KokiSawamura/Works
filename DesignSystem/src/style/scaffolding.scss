@@ -1,0 +1,22 @@
+h1 {
+  margin-bottom: 32px;
+}
+
+p, h2, h3, h4, {
+  margin-bottom: 24px;
+}
+
+h5 {
+  margin-bottom: 16px;
+}
+
+ul, ol {
+  margin-bottom: 24px;
+  & > li:last-child {
+    margin-bottom: 0;
+  }
+}
+
+img + img {
+  margin-top: 24px;
+}

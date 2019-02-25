@@ -1,0 +1,112 @@
+[
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Striped rows",
+          "jp": "ストライプテーブル"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "This style can be used for very large tables with a vast amount of data, where reading long rows is important. The stripes improve the readability of the individual rows, but add visual noise as well. To avoid this issue, use striped row styles only if your table has more than 15 rows and 5 columns, and there’s a lot of white space between columns. If the table has more than 15 rows but less than 5 columns, or vice versa, use the basic table style instead.",
+          "jp": "このスタイルは、膨大なデータ量のテーブルで、行の多い情報を読み取ることが重要な場合に使用できます。ストライプは行ごとの可読性を向上させますが、視覚的なノイズにもなります。テーブルに行は15行、列は5列より多くあり、列間に余白を広く取れる場合にのみ使用します。データが15行より多くても5列以下の場合、または5列より多いが15行以下の場合は、標準テーブルを使用してください。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "WorkingExample",
+        "type": "",
+        "data": [
+          {
+            "component": "Table",
+            "type": "striped",
+            "headings": {
+              "en": [
+                "Name",
+                "Type",
+                "Point",
+                "Price"
+              ],
+              "jp": [
+                "商品名",
+                "タイプ",
+                "ポイント",
+                "価格"
+              ]
+            },
+            "rows": {
+              "en": [
+                {
+                  "rowType": "",
+                  "cells": [
+                    "abcdef",
+                    "abcdef",
+                    "1,000",
+                    "$1,000"
+                  ]
+                },
+                {
+                  "rowType": "",
+                  "cells": [
+                    "ghijk",
+                    "ghijk",
+                    "1,000",
+                    "$1,000"
+                  ]
+                },
+                {
+                  "rowType": "",
+                  "cells": [
+                    "lmnop",
+                    "lmnop",
+                    "99",
+                    "$99"
+                  ]
+                }
+              ],
+              "jp": [
+                {
+                  "rowType": "",
+                  "cells": [
+                    "あいうえお",
+                    "あいうえお",
+                    "1,000",
+                    "1,000円"
+                  ]
+                },
+                {
+                  "rowType": "",
+                  "cells": [
+                    "かきくけこ",
+                    "かきくけこ",
+                    "1,000",
+                    "1,000円"
+                  ]
+                },
+                {
+                  "rowType": "",
+                  "cells": [
+                    "さしすせそ",
+                    "さしすせそ",
+                    "99",
+                    "99円"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

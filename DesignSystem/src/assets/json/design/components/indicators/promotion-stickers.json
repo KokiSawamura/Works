@@ -1,0 +1,79 @@
+[
+  {
+    "component": "Section",
+    "className": "stickers-section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Promotion stickers",
+          "jp": "プロモーションステッカー"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "Represented by a colored circle, they are used for highlighting important promotions or for displaying ranking. You can only use one promotion sticker per container, since they are visually heavy and provide a lot of noise.",
+          "jp": "色の付いた丸で表現されるプロモーションステッカーは、重要なプロモーションを強調する時やランキングの表示に使用されます。プロモーションステッカーは視覚的にヘビーで多くのノイズをもたらすため、使用できる数は1コンテナあたり1つだけとします。"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "We recommend to use #FFCC00 for ranking, and Crimson Red for discount stickers. If those colors don't provide enough emphasis, you can use any of the brand colors and their variations, as long as there’s enough contrast with the background. ",
+          "jp": "ランキングには#FFCC00を、割引ステッカーにはクリムゾンレッドを使用することを推奨しています。これらの色では十分に目立たせることができない場合は、背景とのコントラストが十分にとれるならばブランドカラーとそのバリエーション の内どの色でも使用してかまいません。"
+        }
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "responsive": true,
+                "src": {
+                  "en": "indicators_promo_stickers_img0.png",
+                  "jp": "indicators_promo_stickers_img0.png"
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "Labels",
+                    "type": "circular",
+                    "text": "99th",
+                    "subtype": "stamp"
+                  },
+                  {
+                    "component": "Labels",
+                    "text": "80%",
+                    "subtext": "OFF",
+                    "type": "circular",
+                    "subtype": "off"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

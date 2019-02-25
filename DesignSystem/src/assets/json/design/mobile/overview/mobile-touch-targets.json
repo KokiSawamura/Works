@@ -1,0 +1,56 @@
+[
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Mobile touch targets",
+          "jp": "モバイルのタッチターゲット"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "Another trait of mobile devices is that the interaction with them is inaccurate. Not only that the screen is small, but we use our fingers for the interaction, which are bulky and much less precise than the mouse pointer. ",
+          "jp": "モバイルデバイスのもう一つの特徴は、操作が不正確であることです。モバイルの画面が小さいことだけでなく、マウスポインターほど精密な動きのできない指を使って操作が行われます。"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "If that wasn’t enough mobile devices are, well, mobile – they are often used on the go with a lot of distractions present – other people, trains, stairs, escalators, handbags, etc. etc. Therefore it’s important that all interactive elements, or touch targets, are big enough and easy to manipulate. But what does that mean? To answer this question we need to first have a closer look at how people hold mobile devices. A large scale research by Steven Hoober shows us that 49% of people hold the phone one handed, using their thumb to manipulate the screen and 36% use two hands – one as support and one as manipulating. 26% of the second group still use their thumb to manipulate the mobile screen. In other words 75% of users manipulate mobile apps using one thumb.",
+          "jp": "また、モバイルデバイスは携帯して使用されるものであり、他の人や電車、階段、エスカレーターなど、気を散らすものが数多く存在する外出先で使用されます。そのため、タッチターゲットには十分な大きさを持たせ、操作しやすくすることが重要です。スティーブン・フーバー氏の大規模調査では、携帯電話を片手で持ち、親指を使って画面を操作している人は49%であり、両手を使い、片方の手で携帯電話を支え、もう片方の手で操作を行う人は36%であることが分かりました。後者のグループのうち26%は、モバイル画面の操作に親指を使っていました。つまり76%のユーザーは、親指を使ってモバイルアプリを操作しているのです。そのため、タッチターゲットは人間の親指で操作するのに十分な大きさにすることが必要となります。数字で言うなら、タッチターゲットのサイズは44×44ピクセルが推奨され、40×40ピクセルが最小値となります。この数字は平均的な人間の親指のサイズの人間工学的な統計値に基づくものです。そして指は不正確なものであるため、タッチターゲットを隣り合わせて配置することは避けてください。タッチターゲットの間には、最低でも16ピクセルのスペースを空けることが求められます。また、インラインテキストリンクを大量に使用することも避けてください。インラインテキストリンクはタップしにくく、オーバーラップする可能性もあるため、タップすることがほぼ不可能になってしまうからです。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "mobile_overview_touchtarget_img0.png",
+          "jp": "mobile_overview_touchtarget_img0.png"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Because of that we need to make sure that touch targets are big enough to be manipulated by a human thumb. Or if we were to talk numbers this is 44x44px recommended, 40x40px absolute minimum touch target size. These numbers are based on ergonomics statistics of average human thumb size. ",
+          "jp": "そのため、タッチターゲットは人間の親指で操作するのに十分な大きさにすることが必要となります。数字で言うなら、タッチターゲットのサイズは44×44ピクセルが推奨され、40×40ピクセルが最小値となります。この数字は平均的な人間の親指のサイズの人間工学的な統計値に基づくものです。"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Also since fingers are inaccurate, avoid placing touch targets next to one another – there needs to be at least 16px distance between them. Also avoid using a lot of inline text links, since they are hard to tap and might overlap, thus becoming almost impossible to tap.",
+          "jp": "そして指は不正確なものであるため、タッチターゲットを隣り合わせて配置することは避けてください。タッチターゲットの間には、最低でも16ピクセルのスペースを空けることが求められます。また、インラインテキストリンクを大量に使用することも避けてください。インラインテキストリンクはタップしにくく、オーバーラップする可能性もあるため、タップすることがほぼ不可能になってしまうからです。"
+        }
+      }
+    ]
+  }
+]

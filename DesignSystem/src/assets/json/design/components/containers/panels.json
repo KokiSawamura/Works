@@ -1,0 +1,41 @@
+[
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Panels",
+          "jp": "パネル"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "Panels are the building blocks of your website. They are used to separate related content into sections. This is an extremely flexible element that can have any shape, size or styling, depending on your website’s layout. There’s also no limit to the amount of panels that can be used in a page, nor to the type of components, that can be placed in them.",
+          "jp": "パネルはウェブサイトの根幹となるもので、関連するコンテンツをセクションに分けるために使用されます。パネルは非常に融通の利く要素で、ウェブサイトのレイアウトに合わせてどんな形、サイズ、スタイルにもすることができます。1ページに使用できるパネルの数にも制限はなく、またその中に配置できるコンポーネントのタイプにも制限はありません。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "containers_panels_img0.png",
+          "jp": "containers_panels_img0.png"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,172 @@
+[
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Typography overview",
+          "jp": "タイポグラフィ概要"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "Typography is one of the most fundamental elements of any UI.\r\nSelecting the appropriate typefaces, and using the right implementation methods are some of the first steps in improving the overall Rakuten experience.",
+          "jp": "タイポグラフィはUIの最も基本的な構成要素の1つです。適切なタイプフェイスを選択し正しく実装することは、楽天全体のユーザー体験を改善するはじめの一歩になります。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h2",
+        "text": {
+          "en": "Language categorization",
+          "jp": "言語のカテゴリー"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "In this guideline we use the following font categorization:",
+          "jp": "このガイドラインでは、フォントを次のように分けします。"
+        }
+      },
+      {
+        "component": "List",
+        "type": "", 
+        "list": {
+          "en": [
+            {
+              "boldedPhrase": "Western: ",
+              "text": "Includes all Latin, Greek and Cyrillic scripts"
+            },
+            {
+              "boldedPhrase": "CJK: ",
+              "text": "Refers to Chinese, Japanese and Korean typefaces"
+            }
+          ],
+          "jp": [
+            {
+              "boldedPhrase": "西洋語: ",
+              "text": "全てのラテン語、ギリシア語およびキリル文字"
+            },
+            {
+              "boldedPhrase": "CJK: ",
+              "text": "中国語、日本語、韓国語"
+            }
+          ]
+        }
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+                {
+                  "component": "Image",
+                  "type": "",
+                  "responsive": true,
+                  "src": {
+                    "en": "typography-img-language-categorization-1@2x.png",
+                    "jp": "typography-img-language-categorization-1@2x.png"
+                  }
+                },
+                {
+                  "component": "Text",
+                  "type": "",
+                  "text": {
+                    "en": "Japanese\r\nNoto Sans CJK JP",
+                    "jp": "日本語 Noto Sans CJK JP"
+                  }
+                }
+              ]
+            },
+            {
+              "component": "Column",
+              "cols": "6",
+              "data": [
+                {
+                  "component": "Image",
+                  "type": "",
+                  "responsive": true,
+                  "src": {
+                    "en": "typography-img-language-categorization-2@2x.png",
+                    "jp": "typography-img-language-categorization-2@2x.png"
+                  }
+                },
+                {
+                  "component": "Text",
+                  "type": "",
+                  "text": {
+                    "en": "English\r\nNoto Sans",
+                    "jp": "英語 Noto Sans"
+                  }
+                }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h2",
+        "text": {
+          "en": "Typefaces for UI",
+          "jp": "UI向けのタイプフェイス"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Sans serif typefaces are best suited for interfaces due to their good readability and performance. We recommend using NotoSans for all Western copy and NotoSansCJKjp for all CJK copy.  \r\nSerif typefaces may be used for special content, like campaign titles and slogans. This will draw attention and provide delightful experiences. Don’t, however, write long sentences using hard to read fonts, because this will only decrease usability. Complex fonts can become unreadable when displayed at too small a size, or when viewed on low-resolution screens. If you use any fonts that deviate from the standard, make sure to check them on all widely-used target devices.",
+          "jp": "標準のサンセリフ体は、その可読性と読み込み速度からインターフェイスに最適な書体です。全ての西洋語にはNotoSansを使用し、CJKにはNotoSansCJKJPを使用します。セリフ体は、キャンペーンタイトルやスローガンなど、目立たせる、雰囲気を演出する場合など特別なコンテンツに使用できますが、ユーザビリティ低下を防ぐ恐れがあるため、長文での使用は控えてください。複雑なディテールを持ったフォントでは、サイズが小さい、または低解像度の画面で見ると可読性が下がることがあるからです。そのようなフォントを使用する場合は、普及しているデバイスで可読性を十分に確認してください。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "typography-img-general-on-typefaces-for-ui@2x.png",
+          "jp": "typography-img-general-on-typefaces-for-ui@2x.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h2",
+        "text": {
+          "en": "Typeface sizes and adjustments",
+          "jp": "フォントサイズと調整"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "In the next sections you’ll find the fonts and sizes we recommend for different typographical elements like headings, body text, etc. Those sizes are guidelines only. If you need to adjust them based on your needs, please feel free to do so. ",
+          "jp": "次のセクションでは、見出しや本文などのさまざまなタイポグラフィ要素において推奨されるフォントやフォントサイズが説明されていますが、このサイズはガイドラインにすぎません。必要に応じてフォントサイズを調整する必要がある場合は、自由に調整してかまいません。"
+        }
+      }
+    ]
+  }
+]

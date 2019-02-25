@@ -1,0 +1,60 @@
+.milestone {
+  margin-bottom: 32px;
+  display: inline-block;
+  width: 100%;
+
+  div:first-child {
+    padding-left: 0;
+  }
+
+  &.completed {
+    .period,
+    .month {
+      color: $brand-success;
+    }
+    .bubble {
+      background-color: $brand-success;
+      border: none;
+      .rex-icon {
+        color: $white;
+        position: absolute;
+        top: 7.5px;
+        left: 6.5px;
+      } 
+    }
+  }
+
+  .period,
+  .month {
+    color: $gray;
+  }
+  .period {
+    font-size: $font-size-h4;
+    margin-bottom: 0;
+  }
+  .month {
+    font-size: $font-size-h1;
+    line-height: 1;
+  }
+
+  .bubble {
+    height: 30px;
+    width: 30px;
+    background-color: $white;
+    border: solid 2px $gray-lighter;
+    border-radius: 30px;
+    position: relative;
+    margin: 0 auto 32px;
+  }
+  .little-pole {
+    height: 70px;
+    width: 6px;
+    background-color: $gray-lighter;
+    margin: 0 auto;
+    border-radius: 6px;
+  }
+
+  li {
+    margin-bottom: 0;
+  }
+}

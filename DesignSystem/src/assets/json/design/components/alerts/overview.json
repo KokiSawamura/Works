@@ -1,0 +1,306 @@
+[
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Overview",
+          "jp": "概要"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "Alerts are UI elements used for error, success or info messages like cookie notifications, privacy agreement, maintenance notifications, etc.",
+          "jp": "アラートはエラー時や成功時、クッキーに関する通知、プライバシー方針への同意、メンテナンス通知などのお知らせメッセージに使われるUI要素です。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h2",
+        "text": {
+          "en": "Usage",
+          "jp": "使用方法"
+        }
+      },
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": [
+            {
+              "text": "Alerts can be used for error messages on forms, that have validation on submission, to show a summary of the errors found. However, individual errors must be shown inline for each mistaken field. For more information, see "
+            },
+            {
+              "text": "Form states and validation",
+              "type": "link",
+              "href": "/design/the-basics/forms/forms-states-and-validation/"
+            },
+            {
+              "text": ". Alerts, though visually strong, are quite subtle way of giving feedback and it is possible to be missed by the user. Therefore, don’t use them for destructive actions, like asking for consent to delete a file. Use a modal instead.\r\nAlerts can either be shown all the time or have an ‘X’ button, allowing the user to dismiss them forever. Whether or not you’ll allow that depends on their severity level. If the information displayed is crucial (an error or content with high consequence), don't include a close button, to prevent the user from dismissing the alert by accident. But if the information present is of low or no consequence (success notification, nice-to-know information), a close button is advisable."
+            }
+          ],
+          "jp": [
+            {
+              "text": "アラートは、記入時に確認を行う機能のあるフォームにて、見つかったエラーの要旨を示すエラーメッセージに使用することができます。しかし、それぞれのエラーはエラーのあった各フィールドごとにインラインでの表示も行われなければなりません。より詳細な情報を得るには、“"
+            },
+            {
+              "text": "フォームの状態と確認",
+              "type": "link",
+              "href": "/design/the-basics/forms/forms-states-and-validation/"
+            },
+            {
+              "text": "”を参照してください。アラートは視覚的な強さは持っているものの、フィードバックを与える手段としてはかなり弱く、ユーザーに見逃される可能性があります。そのため、ファイルを削除するかどうかの確認など、ユーザーに被害をもたらしかねないアクションにはアラートは使用せず、モーダルを使用してください。アラートは常時表示にしてもいいですし、×ボタンをつけて二度と表示されないようにユーザーの手で消すことができるようにしてもかまいません。それを可能にするかどうかは、その重要度次第です。表示される情報が非常に重要なものである場合 (結果として起こる問題が大きいエラーやコンテンツ) には、ユーザーが間違ってアラートを消してしまうことを防ぐため、「閉じる」ボタンはつけないようにしてください。一方、結果として起こる問題が小さい、または存在しない情報 (処理成功の通知やお役立ち情報など) には、「閉じる」ボタンをつけることが推奨されます。"
+            }
+          ]
+        }
+      },
+      {
+        "component": "WorkingExample",
+        "cols": "12-12",
+        "data": [
+          {
+            "component": "Container",
+            "className": "alerts-example-container",
+            "data": [
+              {
+                "component": "Alerts",
+                "type": "info",
+                "text": {
+                  "en": ["メッセージ"],
+                  "jp": ["メッセージ"]
+                }
+              }
+            ]
+          },
+          {
+            "component": "Container",
+            "data": [
+              {
+                "component": "Alerts",
+                "type": "info",
+                "text": {
+                  "en": ["メッセージ"],
+                  "jp": ["メッセージ"]
+                },
+                "omitClose": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "component": "WorkingExample",
+        "cols": "12-12",
+        "data": [
+          {
+            "component": "Container",
+            "className": "alerts-example-container",
+            "data": [
+              {
+                "component": "Alerts",
+                "type": "info",
+                "text": {
+                  "en": ["Message"],
+                  "jp": ["Message"]
+                }
+              }
+            ]
+          },
+          {
+            "component": "Container",
+            "data": [
+              {
+                "component": "Alerts",
+                "type": "info",
+                "text": {
+                  "en": ["Message"],
+                  "jp": ["Message"]
+                },
+                "omitClose": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "front-page-blockquote",
+    "data": [
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": [
+            {
+              "text": "Alerts are used to present information to the user. They are not empty states so make sure to never use them as such. \r\nAlerts usually only contain text, but can have an icon at the start for visual reinforcement. They can also contain a list, if it provides clarity. If you’re using an alert to show a summary of an on-submission validation error, you can use a link list. Clicking on each link will take the user to the respective field. This approach is useful only for very long forms, which are not good practice in general. It’s better to divide long forms into steps and provide inline validation. For more information, see "
+            },
+            {
+              "text": "Forms",
+              "type": "link",
+              "href": "/design/the-basics/forms/overview/"
+            },
+            {
+              "text": "."
+            }
+          ],
+          "jp": [
+            {
+              "text": "アラートはユーザーに情報を与えるための要素であるため、エンプティステート (情報が何も入っていないこと) を表現するためにアラートUIを使用することは絶対にしないでください。通常アラートにはテキストが記載されますが、視認性を強化するために先頭にアイコンを使用することもできます。また、それにより明確さがもたらされる場合はリストを載せてもかまいません。フォーム記入中の確認エラーの要旨を示すためにアラートを使用する場合は、リンクリストを使用することもできます。ユーザーが各リンクをクリックすると、それぞれのフィールドに飛びます。このアプローチは非常に長いフォームで使用する場合のみ有効ですが、長いフォームを使うこと自体、一般的にはいい手法とは言えません。長いフォームはステップに分け、インラインで確認を入れる方が望ましいです。より詳細な情報を得るには、"
+            },
+            {
+              "text": "フォーム",
+              "type": "link",
+              "href": "/design/the-basics/forms/overview/"
+            },
+            {
+              "text": "を参照してください。"
+            }
+          ]
+        }
+      },
+      {
+        "component": "WorkingExample",
+        "cols": "12-12",
+        "data": [
+          {
+            "component": "Container",
+            "className": "alerts-example-container",
+            "data": [
+              {
+                "component": "Alerts",
+                "type": "alert-icon success",
+                "icon": "check",
+                "text": {
+                  "en": ["処理成功時のメッセージ"],
+                  "jp": ["処理成功時のメッセージ"]
+                }
+              }
+            ]
+          },
+          {
+            "component": "Container",
+            "className": "alerts-example-container",
+            "data": [
+              {
+                "component": "Alerts",
+                "type": "alert-icon warning",
+                "icon": "sign-info",
+                "iconType": "line",
+                "text": {
+                  "en": ["警告時のメッセージ"],
+                  "jp": ["警告時のメッセージ"]
+                },
+                "omitClose": true
+              }
+            ]
+          },
+          {
+            "component": "Container",
+            "data": [
+              {
+                "component": "Alerts",
+                "type": "alert-list",
+                "title": {
+                  "en": "リスト",
+                  "jp": "リスト"
+                },
+                "text": {
+                  "en": ["メッセージ1", "メッセージ2", "メッセージ3", "メッセージ4"],
+                  "jp": ["メッセージ1", "メッセージ2", "メッセージ3", "メッセージ4"]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "component": "WorkingExample",
+        "cols": "12-12",
+        "data": [
+          {
+            "component": "Container",
+            "className": "alerts-example-container",
+            "data": [
+              {
+                "component": "Alerts",
+                "type": "alert-icon success",
+                "icon": "check",
+                "text": {
+                  "en": ["Success message"],
+                  "jp": ["Success message"]
+                }
+              }
+            ]
+          },
+          {
+            "component": "Container",
+            "className": "alerts-example-container",
+            "data": [
+              {
+                "component": "Alerts",
+                "type": "alert-icon warning",
+                "icon": "sign-info",
+                "iconType": "line",
+                "text": {
+                  "en": ["Warning message"],
+                  "jp": ["Warning message"]
+                },
+                "omitClose": true
+              }
+            ]
+          },
+          {
+            "component": "Container",
+            "data": [
+              {
+                "component": "Alerts",
+                "type": "alert-list",
+                "title": {
+                  "en": "List",
+                  "jp": "List"
+                },
+                "text": {
+                  "en": ["Message1", "Message2", "Message3", "Message4"],
+                  "jp": ["Message1", "Message2", "Message3", "Message4"]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "front-page-blockquote",
+    "data": [
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Alerts provide visual noise and distraction, so don’t overuse them. Only use alerts for important information that needs emphasizing, overuse will defy their purpose. Make sure to use the appropriate alert based on the severity level or type of information it contains. Never use success alert to display an error message, or vice versa. ",
+          "jp": "アラートは視覚的ノイズを生み出しユーザーの気をそらしてしまうので、使いすぎないようにしてください。アラートは強調することが必要な重要情報のみに使用するものなので、使いすぎるとその効果がなくなります。提示する情報の重要度やタイプに基づいて、適切なアラートを使用するように注意してください。エラーメッセージを表示するのに「成功」アラートを使用したり、またその逆などは決して行わないようにしてください。 "
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "",
+          "jp": "カード券面のガイドライン"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "",
+          "jp": "最新カード券面は以下からダウンロード。"
+        }
+      },
+      {
+        "component": "List",
+        "type": "unstyled",
+        "list": {
+          "en": "",
+          "jp": [
+            {
+              "htmlText": "<a href='https://confluence.rakuten-it.com/confluence/pages/viewpage.action?pageId=887459653' target='_blank'>カード券面Regulation</a>"
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

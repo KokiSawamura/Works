@@ -1,0 +1,366 @@
+[
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "States",
+          "jp": "ステータス"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "Table rows, and in rare cases columns, can have one or some of the states described below. Except hover, use the other states sparingly and only when it’s strictly necessary, because they add visual noise to the table.",
+          "jp": "テーブルの行、まれに列は、下記の1つ、または複数のステータスを持つことができます。ホバー以外のステータスの使用は視覚的なノイズになるので使用を控え、特に必要な場合にのみ使用してください。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Hover (desktop only)",
+          "jp": "ホバー（デスクトップのみ）"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "If a select or drill-down action can be performed on the table rows, implement hover state to emphasize interactivity. If the table is not interactive, then the hover state is redundant and confusing.",
+          "jp": "行に対して選択またはドリルダウン操作が可能な場合は、操作可能な事を示すためにホバーを実装しましょう。もし操作ができない場合は、ホバーは混乱の原因になるので実装しないでください。"
+        }
+      },
+      {
+        "component": "WorkingExample",
+        "type": "",
+        "data": [
+          {
+            "component": "Table",
+            "type": "hover",
+            "headings": {
+              "en": [
+                "Name",
+                "Type",
+                "Point",
+                "Price"
+              ],
+              "jp": [
+                "商品名",
+                "タイプ",
+                "ポイント",
+                "価格"
+              ]
+            },
+            "rows": {
+              "en": [
+                {
+                  "rowType": "",
+                  "cells": [
+                    "abcdef",
+                    "abcdef",
+                    "1,000",
+                    "$1,000"
+                  ]
+                },
+                {
+                  "rowType": "",
+                  "cells": [
+                    "ghijk",
+                    "ghijk",
+                    "1,000",
+                    "$1,000"
+                  ]
+                },
+                {
+                  "rowType": "",
+                  "cells": [
+                    "lmnop",
+                    "lmnop",
+                    "99",
+                    "$99"
+                  ]
+                }
+              ],
+              "jp": [
+                {
+                  "rowType": "",
+                  "cells": [
+                    "あいうえお",
+                    "あいうえお",
+                    "1,000",
+                    "1,000円"
+                  ]
+                },
+                {
+                  "rowType": "",
+                  "cells": [
+                    "かきくけこ",
+                    "かきくけこ",
+                    "1,000",
+                    "1,000円"
+                  ]
+                },
+                {
+                  "rowType": "",
+                  "cells": [
+                    "さしすせそ",
+                    "さしすせそ",
+                    "99",
+                    "99円"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Active",
+          "jp": "アクティブ"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "In the case of interactive tables, pressing a row triggers an active (aka down or pressed) state to indicate the user has successfully interacted with the row.",
+          "jp": "操作可能なテーブルの場合、ユーザーが行を押すとアクティブ（通称:ダウンまたはプレス）ステータスになります。これはユーザーが行を正常に押したことを示しています。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Info",
+          "jp": "インフォ"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "This is a permanent state, used to mark information that might be important, but not crucial. Use sparingly and only when it adds concrete user value.",
+          "jp": "これは永続的なステータスであり、決定的ではないが重要な情報を表します。ユーザーにとって明確に意味のある場合にのみ控えめに使用してください。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Success",
+          "jp": "サクセス"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Used to indicate an action was carried out successfully. Only use for interactive tables. Use sparingly and only when it adds concrete user value.",
+          "jp": "アクションが成功したことを伝えるために使用します。操作可能なテーブルで、ユーザーの助けになる場合にのみ使用してください。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Warning",
+          "jp": "警告"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Use for information with medium importance that might or might not affect the user. i.e. To mark low availability or expiring information. Use sparingly and only when it adds concrete user value.",
+          "jp": "ユーザーに影響を与る可能性のある場合や、重要度が中程度の情報に使用します。例えば、低可用性や期限切れ情報を表すなどです。ユーザーにとって明確に意味のある場合にのみ控えめに使用してください。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Danger",
+          "jp": "危険"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "This can be a permanent or transient state. If permanent, use to draw attention to critical information. If transient, use for error state if an action wasn’t carried out successfully. The transient danger state is applicable to interactive tables only. Use sparingly and only when it adds concrete user value.",
+          "jp": "これは永続的または一時的なステータスです。もし永続的なステータスの場合は、重要な情報に注意喚起をするために使用してください。一時的なステータスの場合には、アクションのエラーステータスとして使用しましょう。一時的なステータスは操作可能なテーブルにのみ適用できます。ユーザーにとって明確に意味のある場合にのみ控えめに使用してください。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Active, info, success, warning, danger",
+          "jp": ""
+        }
+      },
+      {
+        "component": "WorkingExample",
+        "type": "",
+        "data": [
+          {
+            "component": "Table",
+            "type": "",
+            "headings": {
+              "en": [
+                "Name",
+                "Type",
+                "Point",
+                "Price"
+              ],
+              "jp": [
+                "ステータス",
+                "タイプ",
+                "ポイント",
+                "価格"
+              ]
+            },
+            "rows": {
+              "en": [
+                {
+                  "rowType": "active",
+                  "cells": [
+                    "active",
+                    "abcdef",
+                    "1,000",
+                    "$1,000"
+                  ]
+                },
+                {
+                  "rowType": "info",
+                  "cells": [
+                    "info",
+                    "lmnop",
+                    "1,000",
+                    "$1,000"
+                  ]
+                },
+                {
+                  "rowType": "success",
+                  "cells": [
+                    "success",
+                    "ghijk",
+                    "1,000",
+                    "$1,000"
+                  ]
+                },
+                {
+                  "rowType": "warning",
+                  "cells": [
+                    "warning",
+                    "ghijk",
+                    "1,000",
+                    "$1,000"
+                  ]
+                },
+                {
+                  "rowType": "danger",
+                  "cells": [
+                    "danger",
+                    "lmnop",
+                    "1,000",
+                    "$1,000"
+                  ]
+                }
+              ],
+              "jp": [
+                {
+                  "rowType": "active",
+                  "cells": [
+                    "アクティブ",
+                    "あいうえお",
+                    "1,000",
+                    "1,000円"
+                  ]
+                },
+                {
+                  "rowType": "info",
+                  "cells": [
+                    "インフォ",
+                    "あいうえお",
+                    "1,000",
+                    "1,000円"
+                  ]
+                },
+                {
+                  "rowType": "success",
+                  "cells": [
+                    "サクセス",
+                    "あいうえお",
+                    "1,000",
+                    "1,000円"
+                  ]
+                },
+                {
+                  "rowType": "warning",
+                  "cells": [
+                    "警告",
+                    "あいうえお",
+                    "1,000",
+                    "1,000円"
+                  ]
+                },
+                {
+                  "rowType": "danger",
+                  "cells": [
+                    "危険",
+                    "あいうえお",
+                    "1,000",
+                    "1,000円"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

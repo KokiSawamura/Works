@@ -1,0 +1,167 @@
+[
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "Sketch",
+          "jp": "スケッチ"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "Release notes",
+          "jp": "リリースノート"
+        }
+      },
+      {
+        "component": "Heading",
+        "type": "h4",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "2018/07/12",
+          "jp": "2018/07/12"
+        }
+      },
+      {
+        "component": "List",
+        "type": "",
+        "target": [
+          "designer"
+        ],
+        "list": {
+          "en": [
+            {
+              "text": "Updated according to new Brand guidelines"
+            }
+          ],
+          "jp": [
+            {
+              "text": "新しいブランドガイドラインに従い更新"
+            }
+          ]
+        }
+      },
+      {
+        "component": "Heading",
+        "type": "h4",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "2017/09/30",
+          "jp": "2017/09/30"
+        }
+      },
+      {
+        "component": "List",
+        "type": "",
+        "target": [
+          "designer"
+        ],
+        "list": {
+          "en": [
+            {
+              "text": "Added sketch file v0.2.0 also including dropdown buttons, cards, lists, ratings, points widget, labels, badges and tags"
+            }
+          ],
+          "jp": [
+            {
+              "text": "Sketchファイルをv2.0に更新しました。ドロップダウンボタン、カード、カード、リスト，レーティング、ポイントウィジェット、ラベル，バッヂ、タグが含まれます"
+            }
+          ]
+        }
+      },
+      {
+        "component": "Heading",
+        "type": "h4",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "2017/07/12",
+          "jp": "2017/07/12"
+        }
+      },
+      {
+        "component": "List",
+        "type": "",
+        "target": [
+          "designer"
+        ],
+        "list": {
+          "en": [
+            {
+              "text": "Added sketch file v0.1.0, including typography, grid system, tables, forms, buttons, images and colors"
+            }
+          ],
+          "jp": [
+            {
+              "text": "sketchファイルv0.1.0を追加しました。タイポグラフィ、グリッドシステム、テーブル、ボタン、フォーム、イメージ、カラーが含まれます"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "Downloads",
+          "jp": "ダウンロード"
+        }
+      },
+      {
+        "component": "Download",
+        "type": "",
+        "name": "ReX Design System sketch",
+        "date": "2018/07/12",
+        "size": "XX.XMB",
+        "url": "https://rak.box.com/s/kkl38fcc2r6bfvzz8tj8dhq18pnbhla7",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "Downloads",
+          "jp": ""
+        }
+      }
+    ]
+  }
+]

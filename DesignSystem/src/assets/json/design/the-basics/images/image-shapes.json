@@ -1,0 +1,248 @@
+[
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Image containers",
+          "jp": "イメージコンテナ"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "When different images are used in groups or as links, they need to be inside containers to ensure consistency of size and shape. Most image containers provide links to other pages, or in the case of thumbnails, to a bigger representation of the image. ",
+          "jp": "グループやリンクで複数のイメージが使われている場合、コンテナにイメージを収め一貫したサイズと形にします。ほとんどのイメージコンテナは他のページへのリンクを持ち、サムネイルはイメージの拡大表示などに使用されます。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Types",
+          "jp": "タイプ"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "According to the design of their container, images can be one of the following types:",
+          "jp": "コンテナのデザインは下記があります。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Rounded",
+          "jp": "角丸"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Used for most images. They can either be links themselves or be part of a panel/card.",
+          "jp": "ほとんどのイメージに使用されます。リンクを持つかパネルやカードの一部になります。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Circular",
+          "jp": "円形"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Used for avatars or to distinguish a certain set of images on a page.",
+          "jp": "アバターもしくは、ページ上において特定グループのイメージを区別するのに使用されます。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Thumbnails",
+          "jp": "サムネイル"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Used for images that link to a larger version of themselves. For individual images, avoid using in a carousel. ",
+          "jp": "イメージの拡大表示に用いられます。個々のイメージをカルーセルで使用しないでください。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Style",
+          "jp": "スタイル"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Depending on their content, image containers can have one of the following styles:",
+          "jp": "コンテンツに合わせ、イメージコンテナは下記のスタイルを持ちます。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "With border",
+          "jp": "ボーダーあり"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "If the image content would merge with the background it’s on, add a border to the container.",
+          "jp": "イメージが背景と同化してしまう場合は、コンテナにボーダーを追加します。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Without border",
+          "jp": "ボーダーなし"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "If the image content is distinctly different from the background it’s on, the container doesn’t need a border.",
+          "jp": "イメージが背景と見分けがつく場合は、コンテナにボーダーは必要ありません。"
+        }
+      },
+      {
+        "component": "Section",
+        "data": [
+          {
+            "component": "Note",
+            "type": "",
+            "text": {
+              "en": "If you use images in a group, use the same style for all of them; don’t mix and match. If most of your images merge with the background, use a border for all of them, and vice versa.",
+              "jp": "イメージをグループで使用する際は、同じスタイルに統一してください。もしイメージの大半が背景と同化してしまう場合には、ボーダーありを全てのイメージに使用しましょう、逆の場合も同様です。"
+            }
+          }
+        ]
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "4",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "Image",
+                    "type": "rounded",
+                    "responsive": true,
+                    "src": {
+                      "en": "bamboo-square.png",
+                      "jp": "bamboo-square.png"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "4",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "Image",
+                    "type": "circle",
+                    "responsive": true,
+                    "src": {
+                      "en": "bamboo-square.png",
+                      "jp": "bamboo-square.png"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "4",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "Image",
+                    "type": "thumbnail",
+                    "responsive": true,
+                    "src": {
+                      "en": "bamboo-square.png",
+                      "jp": "bamboo-square.png"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

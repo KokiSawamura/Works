@@ -1,0 +1,107 @@
+[
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "Photoshop",
+          "jp": "フォトショップ"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "Release notes",
+          "jp": "リリースノート"
+        }
+      },
+      {
+        "component": "Heading",
+        "type": "h4",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "2017/07/12",
+          "jp": "2017/07/12"
+        }
+      },
+      {
+        "component": "List",
+        "type": "",
+        "target": [
+          "designer"
+        ],
+        "list": {
+          "en": [
+            {
+              "text": "Added Photoshop files of v0.1.0 of typography, grid system, tables, forms, buttons and images"
+            }
+          ],
+          "jp": [
+            {
+              "text": "photoshopファイルv0.1.0を追加、タイポグラフィ、グリッドシステム、テーブル、ボタン、フォーム、イメージ、カラーが含まれます"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "target": [
+          "designer"
+        ],
+        "text": {
+          "en": "Downloads",
+          "jp": "ダウンロード"
+        }
+      },
+      {
+        "component": "Download",
+        "type": "",
+        "name": "Photoshop",
+        "date": "2017/07/12",
+        "size": "XX.XMB",
+        "target": [
+          "designer"
+        ],
+        "url": "https://rak.box.com/s/lp6k1l3qopsku78hqd41x8z7nz6seu84",
+        "text": {
+          "en": "Downloads",
+          "jp": ""
+        }
+      }
+    ]
+  }
+]

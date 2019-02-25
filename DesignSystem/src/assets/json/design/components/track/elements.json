@@ -1,0 +1,244 @@
+[
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Track elements",
+          "jp": "要素"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Step",
+          "jp": "ステップ"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Each step is represented by a circle, to make it visually clear how many steps the user needs to go through. Each step has one of three states:",
+          "jp": "終わらせないといけないステップがいくつあるのかを視覚的に明確にユーザーに示すため、各ステップは丸によって表現します。各ステップには以下の3つの状態があります:"
+        }
+      },
+      {
+        "component": "List",
+        "type": "",
+        "list": {
+          "en": [
+            {
+              "boldedPhrase": "Current",
+              "text": " - shows the step the user is currently on"
+            },
+            {
+              "boldedPhrase": "To do",
+              "text": " - shows the steps yet to be completed. Those steps are disabled to show that the user     cannot get to them until they complete all previous steps"
+            },
+            {
+              "boldedPhrase": "Completed",
+              "text": " - shows the successfully completed steps. If a validation error arises while the user’s filling the form, don’t let them go to the next step. They can only move forward if all fields of the     current step have been filled correctly. Therefore, a completed state is always a success state"
+            }
+          ],
+          "jp": [
+            {
+              "boldedPhrase": "現在",
+              "text": " - ユーザーが現在いるステップを表します"
+            },
+            {
+              "boldedPhrase": "未完",
+              "text": " - また完了していないステップを表します。その前までのステップをすべて完了させないと開くことができないことを示すために、未完のステップはグレーアウトさせておきます"
+            },
+            {
+              "boldedPhrase": "完了",
+              "text": " - 無事完了したステップを表します。フォームの記入時に確認エラーが起きた場合には、ユーザーを次のページには行かせないようにしてください。現在のステップのすべてのフィールドの記入を無事に終えた場合のみ、先に進めるようにします。そのため、完了状態はすなわち記入内容に問題のない状態を意味します"
+            }
+          ]
+        }
+      },
+      {
+        "component": "Section",
+        "className": "track-section",
+        "data": [
+          {
+            "component": "Image",
+            "type": "",
+            "responsive": true,
+            "src": {
+              "en": "track_img_specs.png",
+              "jp": "track_img_specs.png"
+            }
+          },
+          {
+            "component": "WorkingExample",
+            "cols": "12",
+            "data": [
+              {
+                "component": "Track",
+                "mobile": true,
+                "steps": [{
+                    "rule": "",
+                    "text": {
+                      "en": "",
+                      "jp": ""
+                    },
+                    "conditionMet": true,
+                    "current": false
+                  },
+                  {
+                    "rule": "",
+                    "text": {
+                      "en": "",
+                      "jp": ""
+                    },
+                    "conditionMet": true,
+                    "current": false
+                  },
+                  {
+                    "rule": "",
+                    "text": {
+                      "en": "",
+                      "jp": ""
+                    },
+                    "conditionMet": true,
+                    "current": true
+                  },
+                  {
+                    "rule": "",
+                    "text": {
+                      "en": "",
+                      "jp": ""
+                    },
+                    "conditionMet": false,
+                    "current": false
+                  },
+                  {
+                    "rule": "",
+                    "text": {
+                      "en": "",
+                      "jp": ""
+                    },
+                    "conditionMet": false,
+                    "current": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "component": "WorkingExample",
+            "cols": "12",
+            "data": [
+              {
+                "component": "Track",
+                "mobile": false,
+                "steps": [{
+                    "rule": "enterInfo",
+                    "text": {
+                      "en": "Enter your information",
+                      "jp": "情報挿入"
+                    },
+                    "conditionMet": true,
+                    "current": false
+                  },
+                  {
+                    "rule": "registerService",
+                    "text": {
+                      "en": "Register service for use",
+                      "jp": "サービスを登録"
+                    },
+                    "conditionMet": true,
+                    "current": false
+                  },
+                  {
+                    "rule": "confirmation",
+                    "text": {
+                      "en": "Confirmation",
+                      "jp": "確認"
+                    },
+                    "conditionMet": true,
+                    "current": true
+                  },
+                  {
+                    "rule": "passwordInput",
+                    "text": {
+                      "en": "ID/Password input",
+                      "jp": "ID/パスワード"
+                    },
+                    "conditionMet": false,
+                    "current": false
+                  },
+                  {
+                    "rule": "completion",
+                    "text": {
+                      "en": "Completion",
+                      "jp": "完了"
+                    },
+                    "conditionMet": false,
+                    "current": false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "front-page-blockquote",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Step title (desktop only)",
+          "jp": "ステップタイトル (デスクトップのみ)"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Located under the step, it provides a short description of the purpose of the step. Make sure to keep the step titles as concise and to the point as possible. If the description is long it can wrap to two rows, but should never go over that.\r\nIf you have up to three steps, and the step titles are short enough, you can display them on mobile as well. If you have more steps, or if the titles wrap on two lines, hide them for mobile due to space restrictions.",
+          "jp": "ステップの下に配置されたステップタイトルは、ステップの目的を伝える短い説明文です。ステップタイトルはできる限り簡潔でわかりやすくしてください。説明が長くなる場合は2行に折りたたんでもかまいませんが、決してそれ以上にはならないようにしてください。\r\nステップが3つ以内で、ステップタイトルが十分短い場合は、モバイルにもステップタイトルを表示してもかまいません。ステップが3つ以上ある場合、またはタイトルが2行にわたる場合は、モバイルではスペースが限られているため表示しないようにしてください。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Connection line",
+          "jp": "各ステップをつなぐ線"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Provides visual connection between steps and reinforces the visualization of the overall progress.",
+          "jp": "この線は各ステップ間のつながりを視覚的に示し、全体の進行状況の可視性を高めます。"
+        }
+      }
+    ]
+  }
+]

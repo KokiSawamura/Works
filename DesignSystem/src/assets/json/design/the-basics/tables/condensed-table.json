@@ -1,0 +1,120 @@
+[
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Condensed table",
+          "jp": "コンデンスドテーブル"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "When mouse and keyboard are the primary input methods, margins can be condensed to accommodate denser layouts. Avoid using this style in general and if you have a large table (over 15 rows and 5 columns), combine it with the striped row style.",
+          "jp": "マウスとキーボードが主な入力方法である際は、場合によってはより情報量を多くするために余白を小さくすることができます。ただし、原則としてこのスタイルは使わず、情報量の多いテーブル（15行以上5列以上）の場合にのみ、ストライプ行と組み合わせて使用してください。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "tableImgCondensedTable1@2x.png",
+          "jp": "tableImgCondensedTable1@2x.png"
+        }
+      },
+      {
+        "component": "WorkingExample",
+        "data": [
+          {
+            "component": "Table",
+            "type": "condensed",
+            "headings": {
+              "en": [
+                "Name",
+                "Type",
+                "Point",
+                "Price"
+              ],
+              "jp": [
+                "商品名",
+                "タイプ",
+                "ポイント",
+                "価格"
+              ]
+            },
+            "rows": {
+              "en": [
+                {
+                  "rowType": "",
+                  "cells": [
+                    "abcdef",
+                    "abcdef",
+                    "1,000",
+                    "$1,000"
+                  ]
+                },
+                {
+                  "rowType": "",
+                  "cells": [
+                    "ghijk",
+                    "ghijk",
+                    "1,000",
+                    "$1,000"
+                  ]
+                },
+                {
+                  "rowType": "",
+                  "cells": [
+                    "lmnop",
+                    "lmnop",
+                    "99",
+                    "$99"
+                  ]
+                }
+              ],
+              "jp": [
+                {
+                  "rowType": "",
+                  "cells": [
+                    "あいうえお",
+                    "あいうえお",
+                    "1,000",
+                    "1,000円"
+                  ]
+                },
+                {
+                  "rowType": "",
+                  "cells": [
+                    "かきくけこ",
+                    "かきくけこ",
+                    "1,000",
+                    "1,000円"
+                  ]
+                },
+                {
+                  "rowType": "",
+                  "cells": [
+                    "さしすせそ",
+                    "さしすせそ",
+                    "99",
+                    "99円"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

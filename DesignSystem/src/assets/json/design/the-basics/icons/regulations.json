@@ -1,0 +1,898 @@
+[
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Icon regulations",
+          "jp": "アイコンのガイドライン"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Rakuten icons",
+          "jp": "楽天グループ共通アイコン"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Icons used in Rakuten are defined as functional pictograms, for use in buttons, links etc.\r\nStandardized, Group-wide icons allow for consistency of design & icon motifs, as well as better usability & awareness of the Rakuten ecosystem.",
+          "jp": "アイコンは、ボタン、リンク、状況表示などの機能を持ったピクトグラムのことです。グループ共通アイコンは、一貫性のあるデザインとモチーフを用いることで、ユーザビリティを向上させ、楽天のエコシステムの促進に貢献することを目的としています。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "icons-examples",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Types of Rakuten icons",
+          "jp": "楽天アイコンの種類"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Rakuten icons can be separated into Group icons, general icons, and service-specific icons.",
+          "jp": "アイコンは、グループアイコン、一般的なアイコン、サービス独自のアイコンの3つに分類されます。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Group icons",
+          "jp": "グループアイコン"
+        }
+      },
+      {
+        "component": "List",
+        "type": "unstyled",
+        "list": {
+          "en": [
+            {
+              "boldedPhrase": "Overview: ",
+              "text": "Icons relating to Rakuten membership, the ecosystem, or frequently-used functions for online services."
+            },
+            {
+              "boldedPhrase": "Examples: ",
+              "text": "Rakuten account, Account registration, Point, Login, Logout, Refresh, Help, Warning sign, Language, Search, Shopping cart etc."
+            },
+            {
+              "boldedPhrase": "Creation & usage: ",
+              "text": "Please use the provided icon asset(s) without any changes."
+            }
+          ],
+          "jp": [
+            {
+              "boldedPhrase": "概要: ",
+              "text": "楽天メンバーシップ、エコシステムの基盤になるアイコン、またオンラインサービスでの利用頻度の高い基本的なアイコンです。"
+            },
+            {
+              "boldedPhrase": "アイコン例: ",
+              "text": "楽天会員、楽天会員登録、スーパーポイント、ログイン、ログアウト、リフレッシュ、ヘルプ、注意、言語、検索、買い物かごなど。"
+            },
+            {
+              "boldedPhrase": "制作・利用方法: ",
+              "text": "提供されたデザイン・モチーフを変えることなくそのまま使用してください。"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "General icons",
+          "jp": "一般的なアイコン"
+        }
+      },
+      {
+        "component": "List",
+        "type": "unstyled",
+        "list": {
+          "en": [
+            {
+              "boldedPhrase": "Overview: ",
+              "text": "Commonly-used icons that are not specific to certain services."
+            },
+            {
+              "boldedPhrase": "Examples: ",
+              "text": "Various device, building, and transportation icons etc."
+            },
+            {
+              "boldedPhrase": "Creation & usage: ",
+              "text": "Icon asset(s) are provided. Icons are editable (facing, angle etc.) as long as the motifs are maintained."
+            },
+            {
+              "htmlText": "<strong>Review: </strong>If you change any of the general icons, please send them over to us at <a href='mailto:cmo-rex@mail.rakuten.com'>cmo-rex@mail.rakuten.com</a>, so that we can review them."
+            }
+          ],
+          "jp": [
+            {
+              "boldedPhrase": "概要: ",
+              "text": "事業を問わず一般的に利用されるアイコンです。"
+            },
+            {
+              "boldedPhrase": "アイコン例: ",
+              "text": "デバイス、建物、交通手段など。"
+            },
+            {
+              "boldedPhrase": "制作・利用方法: ",
+              "text": "アイコンデータを提供しますが、変更することが可能です。（例：向きや角度を変えるなど）"
+            },
+            {
+              "htmlText": "<strong>レビュー: </strong>カスタムアイコンを作成する場合は、こちらでレビューが行えるよう、<a href='mailto:cmo-rex@mail.rakuten.com'>cmo-rex@mail.rakuten.com</a>にアイコンを送ってください。"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Service-specific icons",
+          "jp": "サービス独自のアイコン"
+        }
+      },
+      {
+        "component": "List",
+        "type": "unstyled",
+        "list": {
+          "en": [
+            {
+              "boldedPhrase": "Overview: ",
+              "text": "Icons specific to certain services."
+            },
+            {
+              "boldedPhrase": "Examples: ",
+              "text": "Genre or category-specific icons etc."
+            },
+            {
+              "boldedPhrase": "Creation & usage: ",
+              "text": "Please create icons as required by your service. If your icon is some sort of history (i.e. Appointment history), then your icon needs to be a combination of the main feature (i.e. Appointment icon) and a clock at the right side, similar to Purchase history, Search history, etc."
+            },
+            {
+              "htmlText": "<strong>Review: </strong>When you create your custom icons, please send them over to us at <a href='mailto:cmo-rex@mail.rakuten.com'>cmo-rex@mail.rakuten.com</a>, so that we can review them."
+            }
+          ],
+          "jp": [
+            {
+              "boldedPhrase": "概要: ",
+              "text": "各サービスに特化して利用されるアイコンです。"
+            },
+            {
+              "boldedPhrase": "アイコン例: ",
+              "text": "ジャンル、カテゴリーなど。"
+            },
+            {
+              "boldedPhrase": "制作・利用方法: ",
+              "text": "もし使用するアイコンが何らかの履歴 (予約履歴など) に関するものである場合は、メインの機能 (予約アイコンなど) とその右側に設置された時計とを組み合わせたもの (購入履歴や検索履歴のアイコンと同様のスタイル) でなければなりません。"
+            },
+            {
+              "htmlText": "<strong>レビュー: </strong>カスタムアイコンを作成する場合は、こちらでレビューが行えるよう、<a href='mailto:cmo-rex@mail.rakuten.com'>cmo-rex@mail.rakuten.com</a>にアイコンを送ってください。"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Design concept",
+          "jp": "デザインコンセプト"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Rakuten icons aim for a balance between functionality, usability, and uniqueness.\r\nKeep the following in mind when considering icon design:",
+          "jp": "楽天アイコンは機能性と分かりやすさ、ユニークさのバランスを取りながら下記の特徴を留意しデザインされています。"
+        }
+      },
+      {
+        "component": "List",
+        "type": "",
+        "list": {
+          "en": [
+            {
+              "text": "A balance of rounded & right-angled corners to evoke friendliness & modernity"
+            },
+            {
+              "text": "Use of common motifs, paired with a segmented design for uniqueness"
+            }
+          ],
+          "jp": [
+            {
+              "text": "角丸と直角を適切に使う温かみがあるモダンさ"
+            },
+            {
+              "text": "一般的なモチーフをギャップを設けセグメント化するユニークさ"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "How to create",
+          "jp": "制作方法"
+        }
+      },
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Design approach",
+          "jp": "デザイン方針"
+        }
+      },
+      {
+        "component": "List",
+        "type": "",
+        "list": {
+          "en": [
+            {
+              "text": "Visual consistency through standardized line thickness & gap widths"
+            },
+            {
+              "text": "Use simple, representative icon motifs (avoid frills & unnecessary details)"
+            },
+            {
+              "text": "Use geometric shapes, and consider overall balance, density and sense of volume"
+            },
+            {
+              "text": "Clarity over aesthetics (icon gaps may be omitted to improve usability)"
+            },
+            {
+              "text": "Diversify icon motifs & designs, for those with similar meanings and functions"
+            }
+          ],
+          "jp": [
+            {
+              "text": "一貫性のあるギャップの幅と線幅で視覚的な統一感を維持します"
+            },
+            {
+              "text": "採用したモチーフの代表的な特徴を生かしてシンプルに表現します（細かいディテールは避ける）"
+            },
+            {
+              "text": "シェイプは幾何学的に、上下左右バランスを取り、視覚的な密度とボリューム感を統一します"
+            },
+            {
+              "text": "審美性より意味の明確さを優先させます（アイコンの意味を明確するためにギャップの省略は可能）"
+            },
+            {
+              "text": "意味の近いアイコン、派生アイコンは同じモチーフとデザインを流用します"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Size / grid",
+          "jp": "サイズ/グリッド"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "32px is the base size, but 16px may be used if necessary.",
+          "jp": "アイコンは、32pxでの制作を基本としますが必要に応じて16pxを別途制作します。"
+        }
+      },
+      {
+        "component": "Note",
+        "type": "",
+        "text": {
+          "en": "For 16px, padding, gaps, and strokes should be 50% of the values used for 32px.",
+          "jp": "16pxアイコンのパディング、ギャップ、ストロークは32pxの50％を基本とします。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "icons-img-size-grid@2x.png",
+          "jp": "icons-img-size-grid@2x.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Live area / padding",
+          "jp": "ライブエリア/パディング"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "For 32px, a 2px padding is applied; for 16px, use a 1px padding.",
+          "jp": "32pxのサイズで内側に2pxのパディング、16pxのサイズでは1pxのパディングを設定します。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "icons-img-padding@2x.png",
+          "jp": "icons-img-padding@2x.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Keyline shapes",
+          "jp": "キーラインの形状"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Keyline shapes help maintain similar visual weight for all icons.",
+          "jp": "キーラインの形状を元にアイコンを制作し、アイコンセットのウェイトを均一に保つようにします。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "icons-img-keyline-shapes@2x.png",
+          "jp": "icons-img-keyline-shapes@2x-jp.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Strokes / angles / corners / gaps",
+          "jp": "ストローク/角度/角/ギャップ"
+        }
+      },
+      {
+        "component": "List",
+        "type": "unstyled",
+        "list": {
+          "en": [
+            {
+              "boldedPhrase": "Strokes: ",
+              "text": "Strokes should be 2px, ending with “squared caps” (e.g. Butt Cap or Projecting Cap in Illustrator)."
+            },
+            {
+              "boldedPhrase": "Angles: ",
+              "text": "Angles should be 45°, 90°, or 180° where possible for clean horizontal, vertical, and diagonal lines."
+            },
+            {
+              "boldedPhrase": "Corners: ",
+              "text": "Corners should be a mix of sharp right-angles, and rounded edges of 2px."
+            },
+            {
+              "boldedPhrase": "Gaps: ",
+              "text": "Use 2px gaps for segmentation, especially when motifs lend themselves to this style as in the case of the “Mail” icon."
+            }
+          ],
+          "jp": [
+            {
+              "boldedPhrase": "ストローク： ",
+              "text": "線幅は2pxにし、線端は四角になるようにします。（例：イラストレーターのバット線端、突出線端など）"
+            },
+            {
+              "boldedPhrase": "角度： ",
+              "text": "角度は45°、90°、180°を基本とし、水平、垂直、斜線を整えます。"
+            },
+            {
+              "boldedPhrase": "角： ",
+              "text": "角は、2pxの角丸と直角をバランスよく使用します。"
+            },
+            {
+              "boldedPhrase": "ギャップ： ",
+              "text": "メールアイコンのようにモチーフが適している場合は、2pxのギャップを使用し隙間を作ります。"
+            }
+          ]
+        }
+      },
+      {
+        "component": "Note",
+        "type": "",
+        "text": {
+          "en": "For 16px, use a 1px stroke, 1px rounded edge, and 1px gap. Gaps may be omitted if they negatively impact usability.",
+          "jp": "16pxアイコンでは線幅1px、角丸1px、ギャップ1px。またギャップは意味に影響がある場合は、省略可能です。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "icons_regulations_img0.png",
+          "jp": "icons_regulations_img0_jp.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Filled portions",
+          "jp": "塗り表現"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Select use of filled icon portions can strengthen the meaning of some motifs.",
+          "jp": "モチーフの意味をより明確にできる場合は部分的に塗り表現を使用します"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "icons-img-filled-portions@2x.png",
+          "jp": "icons-img-filled-portions@2x.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Converting lined icons to filled",
+          "jp": "塗りアイコンへの変換方法"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "When converting, some adjustment in size, positioning etc. may be necessary for visual balance.",
+          "jp": "サイズ、位置、視覚的バランスを取るために塗りアイコンが必要な場合があります。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "", 
+        "responsive": true,
+        "src": {
+          "en": "icons_regulations_img1.png",
+          "jp": "icons_regulations_img1.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Do's and don'ts",
+          "jp": "Do’s＆don’ts"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Use pixel-perfect x and y co-ordinates where possible.",
+          "jp": "X、Y座標が整数になるようにします。（ピクセルパーフェクト）"
+        }
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "icons-img-do-1@2x.png",
+                  "jp": "icons-img-do-1@2x.png"
+                }
+              },
+              {
+                "component": "Do",
+                "text": {
+                  "en": "",
+                  "jp": ""
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "icons-img-dont-1@2x.png",
+                  "jp": "icons-img-dont-1@2x.png"
+                }
+              },
+              {
+                "component": "Dont",
+                "text": {
+                  "en": "",
+                  "jp": ""
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "End lines with “squared caps” (e.g. Butt Cap or Projecting Cap in Illustrator).",
+          "jp": "線端は直角にします。（例：イラストレーターのバット線端、突出線端など）"
+        }
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "icons-img-do-2@2x.png",
+                  "jp": "icons-img-do-2@2x.png"
+                }
+              },
+              {
+                "component": "Do",
+                "text": {
+                  "en": "",
+                  "jp": ""
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "icons-img-dont-2@2x.png",
+                  "jp": "icons-img-dont-2@2x.png"
+                }
+              },
+              {
+                "component": "Dont",
+                "text": {
+                  "en": "",
+                  "jp": ""
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Use simple motifs regardless of size; omit unnecessary details to improve visibility.",
+          "jp": "どのサイズで使ってもきれいに、使いやすくするためモチーフをシンプルに表現します"
+        }
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "icons-img-do-3@2x.png",
+                  "jp": "icons-img-do-3@2x.png"
+                }
+              },
+              {
+                "component": "Do",
+                "text": {
+                  "en": "",
+                  "jp": ""
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "icons-img-dont-3@2x.png",
+                  "jp": "icons-img-dont-3@2x.png"
+                }
+              },
+              {
+                "component": "Dont",
+                "text": {
+                  "en": "",
+                  "jp": ""
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Gap placement can affect the meaning of icons. If necessary, gaps may also be omitted entirely to improve usability.",
+          "jp": "ギャップはアイコンの意味に影響する場合があります。必要に応じてギャップを省略することも可能です。"
+        }
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "icons_regulations_img2.png",
+                  "jp": "icons_regulations_img2.png"
+                }
+              },
+              {
+                "component": "Do",
+                "text": {
+                  "en": "",
+                  "jp": ""
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "icons_regulations_img3.png",
+                  "jp": "icons_regulations_img3.png"
+                }
+              },
+              {
+                "component": "Dont",
+                "text": {
+                  "en": "",
+                  "jp": ""
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Keep human shapes neutral to avoid conveying the wrong message from overly-expressive forms.",
+          "jp": "過剰な表現で誤ったメッセージを伝えないように、人モチーフのアイコンはニュートラルな表現にします。"
+        }
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "icons-img-do-5@2x.png",
+                  "jp": "icons-img-do-5@2x.png"
+                }
+              },
+              {
+                "component": "Do",
+                "text": {
+                  "en": "",
+                  "jp": ""
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "type": "",
+                "responsive": true,
+                "src": {
+                  "en": "icons-img-dont-5@2x.png",
+                  "jp": "icons-img-dont-5@2x.png"
+                }
+              },
+              {
+                "component": "Dont",
+                "text": {
+                  "en": "",
+                  "jp": ""
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "downloads-with-release-notes",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Downloads",
+          "jp": "ダウンロード"
+        }
+      },
+      {
+        "component": "Link",
+        "type": "h3",
+        "url": "/design/downloads/icons/",
+        "text": {
+          "en": "Release notes",
+          "jp": "リリースノート"
+        }
+      },
+      {
+        "component": "Download",
+        "type": "no-date",
+        "name": "Icons",
+        "date": "",
+        "size": "XX.XMB",
+        "url": "https://rak.app.box.com/s/42ufeqt8jyvtu9q9te2toy5n7mdjxyal",
+        "text": {
+          "en": "Downloads",
+          "jp": ""
+        }
+      }
+    ]
+  }
+]

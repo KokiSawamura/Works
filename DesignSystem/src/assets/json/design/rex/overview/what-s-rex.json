@@ -1,0 +1,312 @@
+[
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "What is ReX?",
+          "jp": "ReXとは"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "The ReX Design Language is a set of living guidelines, meant to exemplify our UX values, while communicating a brand promise through experience.\r\nHow can we create a design language that unifies Rakuten’s user experience, contributes to increasing loyalty, and creates more Rakuten fans? To accomplish this, we need to take more human-centered design approach.",
+          "jp": "ReXデザインランゲージは、ユーザーに体験を通じてブランドプロミスを伝える、UXバリューを体現するための生きたガイドラインです。ではどうすれば、楽天のユーザー体験を統一し、ロイヤルティ向上に貢献し、楽天ファンを増やすデザインランゲージが作れるでしょうか?それには、より人間中心設計のアプローチを適用することが必要です。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h5",
+        "text": {
+          "en": "ReX sets out to achieve 3 goals:",
+          "jp": "ReXは3つのゴールを掲げています"
+        }
+      },
+      {
+        "component": "List",
+        "type": "ordered",
+        "list": {
+          "en": [
+            {
+              "text": "Create opportunities for users to discover and use different Rakuten services."
+            },
+            {
+              "text": "Create coherent interactions across our services, so that users will be able to adapt to them effortlessly and seamlessly."
+            },
+            {
+              "text": "Make the Rakuten experience more engaging and unique."
+            }
+          ],
+          "jp": [
+            {
+              "text": "ユーザーが様々な楽天サービスを発見し利用する機会を作ります"
+            },
+            {
+              "text": "サービス全体で統一感あるインタラクションを実現し、ユーザーが簡単にスムーズに利用できるようにします"
+            },
+            {
+              "text": "楽天での体験をより魅力的でユニークなものにします"
+            }
+          ]
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "ReX is a design language, that is meant to evolve by incorporating feedback from users and teams. We invite everyone to join the ReX initiative.",
+          "jp": "ReXは、ユーザーや様々なチームからのフィードバックによって発展するデザインランゲージです。全ての人がイニシアティブを発揮することが歓迎されています。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "front-page-blockquote",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "The Rakuten customer values",
+          "jp": "楽天のカスタマーバリュー"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "The ReX user experience has been created for users. Therefore, it should align with the values we want to deliver to our customers.",
+          "jp": "ReXのユーザー体験は、顧客のために存在します。ですから、私たちが顧客に届けたい価値と、ユーザー体験は一体でなければなりません。"
+        }
+      },
+      {
+        "component": "Blockquote",
+        "quote": {
+          "en": "Rakuten is your trusted companion.",
+          "jp": "楽天はあなたにとって信頼できるパートナーです"
+        },
+        "author": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "We provide a variety of everyday and lifelong services that are much more than simple transactions. We want to create customer loyalty by being clear, concise and focused on what our users need.",
+          "jp": "私たちは、単なるサイトでのやり取りを超えて、顧客の日々の生活や人生を彩るようなサービスを提供します。分かりやすく簡潔に伝え、ニーズを理解することで、ブランドロイヤルティを高めましょう。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "front-page-blockquote",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Why do we need a Design System?",
+          "jp": "デザインシステムはなぜ必要なのですか？"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Due to the vast amount of service offerings from Rakuten, it is vital to achieve a level of consistency to ensure ease-of-use and brand continuity.",
+          "jp": "楽天では大量のサービスを提供しているので、使いやすさと同一ブランドとしての統一感を確保するには、ある程度の一貫性を持たせることが不可欠であるためです。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "front-page-blockquote",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Won't that lead to limited creativity?",
+          "jp": "デザインシステムは、創造性を制限することにつながりませんか？"
+        }
+      },
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": [
+            {
+              "text": "Simply put, no. The ReX Design System takes care of the "
+            },
+            {
+              "text": " small ",
+              "type": "strong"
+            },
+            {
+              "text": "things so you can focus on the"
+            },
+            {
+              "text": " big ",
+              "type": "strong"
+            },
+            {
+              "text": "things that matter."
+            }
+          ],
+          "jp": [
+            {
+              "text": "簡潔に言えば、ノーです。ReXデザインシステムが細かな事柄を定義しているので、重要性の高い大きな事柄に集中することができます。 "
+            }
+          ]
+        }
+      }
+
+
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Contact the ReX team",
+          "jp": "お問い合わせ"
+        }
+      },
+      {
+        "component": "Heading",
+        "type": "h5",
+        "text": {
+          "en": "Questions?",
+          "jp": "質問がある場合"
+        }
+      },
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": [
+            {
+              "text": "If you have any questions, or if you need more information about ReX and the contents of this guideline, please drop us a line at "
+            },
+            {
+              "text": "cmo-rex@mail.rakuten.com",
+              "type": "mail",
+              "href": "cmo-rex@mail.rakuten.com"
+            },
+            {
+              "text": ". We’re always happy to help!"
+            }
+          ],
+          "jp": [
+            {
+              "text": "ReXやこのガイドラインに関しての質問や、より詳細な情報が必要な方はいつでも連絡ください。"
+            },
+            {
+              "text": "cmo-rex@mail.rakuten.com",
+              "type": "mail",
+              "href": "cmo-rex@mail.rakuten.com"
+            }
+          ]
+        }
+      },
+      {
+        "component": "Heading",
+        "type": "h5",
+        "text": {
+          "en": "Help us grow!",
+          "jp": "協力のお願い"
+        }
+      },
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": [
+            {
+              "text": "Rex is a growing framework; we’re still small, but you can help us grow with feedback and suggestions. Send them all to "
+            },
+            {
+              "text": "cmo-rex@mail.rakuten.com",
+              "type": "mail",
+              "href": "cmo-rex@mail.rakuten.com"
+            },
+            {
+              "text": " - we’d love to hear from you!"
+            }
+          ],
+          "jp": [
+            {
+              "text": "ReXは成長していくフレームワークです。まだ小さな存在ですが、皆さまからのフィードバックや提案が成長の助けとなります。"
+            },
+            {
+              "text": "cmo-rex@mail.rakuten.com",
+              "type": "mail",
+              "href": "cmo-rex@mail.rakuten.com"
+            }
+          ]
+        }
+      },
+      {
+        "component": "Heading",
+        "type": "h5",
+        "text": {
+          "en": "Need a review?",
+          "jp": "レビューが必要ですか？"
+        }
+      },
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": [
+            {
+              "text": "When you create your designs using ReX, we’re always happy to review them. Drop us an email at "
+            },
+            {
+              "text": "cmo-rex@mail.rakuten.com",
+              "type": "mail",
+              "href": "cmo-rex@mail.rakuten.com"
+            },
+            {
+              "text": " and we’ll be more than happy to review it for you."
+            }
+          ],
+          "jp": [
+            {
+              "text": "ReXを使用して作成されたデザインは、こちらで常にレビューを承っています。"
+            },
+            {
+              "text": "cmo-rex@mail.rakuten.com",
+              "type": "mail",
+              "href": "cmo-rex@mail.rakuten.com"
+            },
+            {
+              "text": "にメールをいただければ、喜んでレビューいたします。"
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

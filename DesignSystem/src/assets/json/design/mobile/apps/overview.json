@@ -1,0 +1,335 @@
+[
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Mobile apps overview",
+          "jp": "アプリのガイドライン"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "Apps are different then mobile sites – they are task oriented and allow the user to focus on their goals. Also by using apps we have access to device capabilities (i.e. Push notifications, camera, wallet, NTFS, etc.). Therefore when creating apps, the approach is a little bit different then with mobile sites.",
+          "jp": "アプリはモバイル用サイトとは違い、タスクを重視し、ユーザーに目的に集中してもらうためのものです。またアプリを使うことにより、そのデバイスの機能 （プッシュ通知、カメラ、ウォレット、NTFSなど） にアクセスすることができます。そのため、アプリを制作する時のアプローチはモバイル用サイトを制作する時とは多少異なります。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Platform guidelines adherence",
+          "jp": "プラットフォームのガイドラインの順守 "
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "First and foremost apps are created for specific platforms, namely iOS and Android in the case of Rakuten. Both platforms have guidelines specific to the philosophy and design characteristics of each governing company. Some of these guidelines are common but most of them are conflicting. This means that user behavior and expectation is also different between Android and iOS users.",
+          "jp": "まず、アプリは特定のプラットフォーム向けに制作されるものです。楽天の場合はiOSとAndroidです。どちらのプラットフォームにも、それぞれの運営会社の哲学とデザインにまつわる特有のガイドラインがあります。これらのガイドラインの一部には共通の部分もありますが、ほとんどの部分は相反しています。このことは、ユーザーの行動やユーザーが期待するものもまた、AndroidとiOSユーザーの間では異なっているということを意味しています。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "mobileApp_img0.png",
+          "jp": "mobileApp_img0.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h4",
+        "text": {
+          "en": "Approaches to platform guidelines",
+          "jp": "プラットフォームのガイドラインへのアプローチ"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "When creating apps for different platforms there are three different approaches one can take: Platform-oriented, Brand-oriented and Hybrid. Each has a different brand expression and four costs associated with them: design, development, maintenance and usability. The brand expression depends on how rigorous the specific platform guidelines are followed – the more they are followed the less unique the app becomes. On the other hand standard components don’t require much design, have guaranteed usability and very low development and maintenance costs, while custom components require much more time to be spent in all areas. All those things need to be taken into consideration, when choosing approach to follow, when creating apps for different platforms.",
+          "jp": "異なるプラットフォーム向けのアプリを制作する時に採ることができるアプローチには、プラットフォーム重視、ブランド重視、ハイブリッドの3つがあります。またそれぞれのアプローチには異なるブランド表現とデザイン、開発、維持管理、ユーザビリティの4つの関連コストがあります。ブランド表現は、特定のプラットフォームのガイドラインにどれほど厳密に従うかによって変わってきます。ガイドラインに従えば従うほど、アプリの独自性は少なくなります。また、標準コンポーネントを使えばデザインをつくることがそれほど求められず、ユーザビリティを確保でき、開発および維持管理コスト非常に低く抑えられることが保証されている一方で、カスタムコンポーネントを使うとあらゆる面においてはるかに長い時間を費やすことになります。異なるプラットフォーム向けのアプリを制作する時のアプローチを選ぶにあたっては、これらのことを考慮に入れる必要があります。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h5",
+        "text": {
+          "en": "Platform-oriented",
+          "jp": "プラットフォーム重視"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "The Platform-oriented approach aligns the design on each platform with the corresponding platform design guideline. In this case, the focus has shifted from brand identity to familiarity with platform standards since users are accustomed to the platform conventions. They already have an intuitive grasp of the design rules around the platform they use, so that the platform-specific design can make it easy for them to adapt to your product. ",
+          "jp": "このアプローチでは、各プラットフォームにおけるデザインを、対応するプラットフォームのデザインガイドラインに合わせます。この場合、ユーザーがそのプラットフォームを使い慣れていることを踏まえ、ブランドアイデンティティよりもプラットフォーム自体へのなじみ深さに焦点が置かれます。ユーザーは自分が使用しているプラットフォームのデザインルールをすでに把握しているため、プラットフォーム特有のデザインを使えば、ユーザーが適応しやすいアプリになります。"
+        }
+      },
+      {
+        "component": "WorkingExample",
+        "data": [
+          {
+            "component": "Table",
+            "type": "condensed",
+            "headings": {
+              "en": [
+                "Brand expression",
+                "Design cost",
+                "Usability cost",
+                "Development cost",
+                "Maintenance cost"
+              ],
+              "jp": [
+                "ブランド表現",
+                "デザインコスト",
+                "ユーザビリティコスト",
+                "開発コスト",
+                "維持管理コスト"
+              ]
+            },
+            "rows": {
+              "en": [
+                {
+                  "rowType": "",
+                  "cells": [
+                    "low",
+                    "low",
+                    "low",
+                    "low",
+                    "low"
+                  ]
+                }
+              ],
+              "jp": [
+                {
+                  "rowType": "",
+                  "cells": [
+                    "低",
+                    "低",
+                    "低",
+                    "低",
+                    "低"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "mobileApp_img1.png",
+          "jp": "mobileApp_img1_jp.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h5",
+        "text": {
+          "en": "Brand-oriented",
+          "jp": "ブランド重視"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "The Brand-oriented approach unifies a product’s brand identity by customizing its UI and UX on both OS. Under this approach, one don’t follow the standard platform guidelines, and designs unique user interface, uniform for all platforms. This is very good from brand expression point of view. However, it also offers a lot of usability issues, since it encourages the use of non-standard design patterns, which increase cognitive strain and learning curve for the users. Because of that many rounds of user testing are required, to ensure reasonable usability for users of all involved platforms, which involves a lot of time and expense. ",
+          "jp": "ブランド重視のアプローチでは、両方のOSにおいてUIとUXをカスタマイズすることにより、アプリのブランドアイデンティティを統一します。このアプローチを採用する場合は、標準のプラットフォームのガイドラインには従わず、全プラットフォームで共通の独自ユーザーインターフェースをデザインします。ブランド表現の観点からするとこれは非常に優れた方法です。しかし、ユーザーの認知的ストレスや学習を必要とする非標準的なデザインの使用が推奨されるため、ユーザビリティの面で多くの問題を引き起こす原因にもなりかねます。これにより、関連するすべてのプラットフォームのユーザビリティを確保するためにユーザーテストを何度も繰り返し行う必要があり、多くの時間と費用がかかってしまいます。 "
+        }
+      },
+      {
+        "component": "WorkingExample",
+        "data": [
+          {
+            "component": "Table",
+            "type": "condensed",
+            "headings": {
+              "en": [
+                "Brand expression",
+                "Design cost",
+                "Usability cost",
+                "Development cost",
+                "Maintenance cost"
+              ],
+              "jp": [
+                "ブランド表現",
+                "デザインコスト",
+                "ユーザビリティコスト",
+                "開発コスト",
+                "維持管理コスト"
+              ]
+            },
+            "rows": {
+              "en": [
+                {
+                  "rowType": "",
+                  "cells": [
+                    "high",
+                    "high",
+                    "high",
+                    "high",
+                    "high"
+                  ]
+                }
+              ],
+              "jp": [
+                {
+                  "rowType": "",
+                  "cells": [
+                    "高",
+                    "高",
+                    "高",
+                    "高",
+                    "高"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "mobileApp_img2.png",
+          "jp": "mobileApp_img2_jp.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h5",
+        "text": {
+          "en": "Hybrid",
+          "jp": "ハイブリッド"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "This mixed approach promotes the use of standard patterns as much as possible, but also encourages slight modifications and leeway to improve brand expression. This is achieved by adhering to the platform guidelines, but modifying them where necessary or when the provided patterns are not appropriate for achieving the business goals. This approach is recommended by ReX.",
+          "jp": "このミックスアプローチでは、できる限り標準パターンを使用することを促進しつつ、ブランド表現を向上させるために多少の変更を加えることと自由裁量の余地を残すことも促進しています。プラットフォームのガイドラインを順守しながらも、必要な部分や提供されているパターンがビジネス上の目的を達成するのにふさわしくない場合には変更を加えましょう。ReXではこのアプローチを推奨しています。"
+        }
+      },
+      {
+        "component": "WorkingExample",
+        "data": [
+          {
+            "component": "Table",
+            "type": "condensed",
+            "headings": {
+              "en": [
+                "Brand expression",
+                "Design cost",
+                "Usability cost",
+                "Development cost",
+                "Maintenance cost"
+              ],
+              "jp": [
+                "ブランド表現",
+                "デザインコスト",
+                "ユーザビリティコスト",
+                "開発コスト",
+                "維持管理コスト"
+              ]
+            },
+            "rows": {
+              "en": [
+                {
+                  "rowType": "",
+                  "cells": [
+                    "medium",
+                    "medium",
+                    "medium",
+                    "medium",
+                    "medium"
+                  ]
+                }
+              ],
+              "jp": [
+                {
+                  "rowType": "",
+                  "cells": [
+                    "中～低",
+                    "中～低",
+                    "中～低",
+                    "中～低",
+                    "中～低"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "mobileApp_img3.png",
+          "jp": "mobileApp_img3_jp.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Based on the four factors (Design, Usability, Development, Maintenance) it is the recommendation to choose the Hybrid approach. This because we need to ensure a good level of usability while still able to create uniqueness for each service/app.",
+          "jp": "4つの要素 （デザイン、ユーザビリティ、開発、維持管理） に基づき、ハイブリッドアプローチが推奨されます。高いレベルのユーザビリティを確保しながら、各サービス・アプリの独自性を生み出す必要があるからです。"
+        }
+      }
+    ]
+  }
+]

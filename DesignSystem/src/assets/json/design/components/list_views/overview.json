@@ -1,0 +1,40 @@
+[
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Overview",
+          "jp": "リストビュー"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "This is a linear layout, which presents multiple line items vertically. Each container in a list view is separated from the previous by a divider.",
+          "jp": "これは直線状につながったレイアウトで、複数の項目を縦に並べて表示するものです。リストビュー内の各コンテナは、仕切りまたは白いスペースによって区切られます。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Lists are best suited for presenting a homogenous data type and are optimized for reading and scanning comprehension. Suitable for spec heavy content or content where quick scanning is important.",
+          "jp": "リストは均質のデータタイプを提示するのに最適であり、読みやすさとさっと目を通した時のわかりやすさに特化しています。そのため詳細情報の多いコンテンツや素早く目を通せることが重要性を持つコンテンツに適しています。"
+        }
+      }
+    ]
+  }
+]

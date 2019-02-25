@@ -1,0 +1,32 @@
+[
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "",
+          "jp": "区切り線"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "",
+          "jp": "カードデザインのh3要素を子要素に持たない、h2要素が並列するときに区切り線を使用する。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "",
+          "jp": "separator.png"
+        }
+      }
+    ]
+  }
+]

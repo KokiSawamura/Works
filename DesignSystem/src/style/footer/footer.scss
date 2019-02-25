@@ -1,0 +1,22 @@
+footer {
+  max-width: $content-width;
+  margin: 0 auto;
+  .footer-note {
+    border-top: solid 1px $gray-light;
+    padding: 10px 0 16px;
+    margin: 32px 0 0;
+    width: 100%;
+    .copyright,
+    .contact {
+      display: inline-block;
+      margin-bottom: 0;
+    }
+    .copyright {
+      float: left;
+    }
+    .contact {
+      float: right;
+    }
+  }
+  @import "pagination";
+}

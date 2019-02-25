@@ -1,0 +1,25 @@
+[
+	{
+		"component": "Text",
+		"type": "lead",
+		"target": ["designer"],
+		"text": {
+			"en": "Lists provide homogenous representation for different, but logically related, strings of information.",
+			"jp": ""
+		}
+	},
+	{
+    "component": "TextWithLink",
+    "type": "",
+    "target": ["designer"],
+    "text": {
+      "en": "For more logo downloads, please visit ",
+      "jp": ""
+    },
+    "linkedText": {
+      "en": "/logos/",
+      "jp": ""
+    },
+    "url": "/logos/"
+  }
+]

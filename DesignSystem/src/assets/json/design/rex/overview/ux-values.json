@@ -1,0 +1,559 @@
+[
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "UX values",
+          "jp": "UXバリュー"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead", 
+        "text": {
+          "en": "The UX Values are sets of principles designers should consider while designing. They are the core of the Rakuten Experience. The values are meant to be considered across all services to provide a delightful experience that promotes loyalty. ",
+          "jp": "UXバリューは、ReXのコアであり、デザインを行う上で考慮しなければいけない原則です。これらのUXバリューは、ユーザーにとっての嬉しい体験をつくりあげ、ブランドロイヤルティの構築をするため、サービスを超えて考慮される必要があります。"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "The UX Values are not listed in order of importance – all are relevant. ",
+          "jp": "それぞれのUXバリューはどれも等しく重要で、お互いに関連し合っています。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "overviewImgBeContinuous@2x.png",
+          "jp": "overviewImgBeContinuous@2x.png"
+        }
+      },
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Be continuous",
+          "jp": "連続した体験"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Rakuten design should accommodate all user needs, big or small. Holistic design allows our users to flow through services simply and consistently. Their journey shouldn’t only end with a transaction.",
+          "jp": "大小を問わず、全てのユーザーニーズを考えてデザインをしてください。ただ1つのタスクだけでなく、ユーザーにさまざまなサービスやページを継続的に回遊してもらうために、俯瞰的な視野でデザインを行いましょう。"
+        }
+      },
+      {
+        "component": "List",
+        "type": "unstyled",
+        "list": {
+          "en": [
+            {
+              "boldedPhrase": "Detail: ",
+              "text": "To ensure the journey doesn't end, you could reserve an area for ‘related’ item cross-selling from other services (including the user profile/demographic) on the transaction confirmation screen. This does not mean that we try to sell everything to our users; recommendations should be targeted, relevant and add value."
+            }
+          ],
+          "jp": [
+            {
+              "boldedPhrase": "詳細: ",
+              "text": "決済画面で他サービスの関連アイテム(ユーザーのプロフィールや属性に関連するもの)を表示しユーザーに自然と回遊してもらえるようにしましょう。この時のお勧めは、ユーザーの興味に合わせて、価値のあるものにしましょう、あらゆる商品を売ろうとしてはいけません。"
+            }
+          ]
+        }
+      },
+      {
+        "component": "List",
+        "type": "unstyled",
+        "list": {
+          "en": [
+            {
+              "boldedPhrase": "Scenario Example: ",
+              "text": "Ms. Aikawa just completed a transaction on Rakuten Travel for a Bali resort trip. On the final confirmation page, she notices some cross-sell items from various Rakuten services that are directly related to her and her trip to Bali. Cross-sell items include: Bali shopping guide, bikini, hat, UV sunscreen, travel insurance, etc. Ms. Aikawa is pleasantly surprised that the recommendations are actually useful for her and match her needs."
+            }
+          ],
+          "jp": [
+            {
+              "boldedPhrase": "シナリオ例: ",
+              "text": "相川さんは楽天トラベルで、バリのリゾート旅行の決済を完了したところです。彼女は最終確認ページで、他サービスからバリ旅行に関連した商品がお勧めされていることに気がつきました。それらは、バリのショッピングガイド、水着や帽子、日焼け止めクリーム、旅行保険などでした。旅行に役立ち、ちょうど欲しいものだったので嬉しい驚きでした。"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "overviewImgLeadTheWay@2x.png",
+          "jp": "overviewImgLeadTheWay@2x.png"
+        }
+      },
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Lead the way",
+          "jp": "迷わない体験"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Users need guidance to accomplish their tasks. Rakuten design is about providing clear navigation and intuitive way-finding.",
+          "jp": "ユーザーが目的を達成するためにはガイダンスが必要です。分かりやすいナビゲーションと直感的に遷移できる導線を示し、今どのページを閲覧しているのかを明示しましょう。"
+        }
+      },
+      {
+        "component": "List",
+        "type": "unstyled",
+        "list": {
+          "en": [
+            {
+              "boldedPhrase": "Detail: ",
+              "text": "Ensure it is clear which screen the user is currently viewing, use the Track component to indicate process for registrations/signups, use clearly labeled and well-placed buttons/links to guide users through a navigational path, etc."
+            }
+          ],
+          "jp": [
+            {
+              "boldedPhrase": "詳細: ",
+              "text": "登録のステップを示すトラックを設置する、また分かりやすいラベル表示と適切に配置されたリンクやボタンのナビゲーションを通して、ユーザーがどの画面を見ているのか明確にしてください。"
+            }
+          ]
+        }
+      },
+      {
+        "component": "List",
+        "type": "unstyled",
+        "list": {
+          "en": [
+            {
+              "boldedPhrase": "Scenario Example: ",
+              "text": "Mr. Ozaki is applying for a Rakuten credit card. He comes across a field in the application process in which he is unsure what information he needs to provide exactly. He notices a ‘help’ button right beside the field, clicks on it, and an overlay appears with a description of what information is needed and how to obtain it. Mr. Ozaki would then like to know how many screens it will take before the application process is complete. Thankfully, at the top of the application screen, a progress wizard (aka Track) is clearly displayed therefore he can see he is currently on step 3 of a 4-step process."
+            }
+          ],
+          "jp": [
+            {
+              "boldedPhrase": "シナリオ例: ",
+              "text": "小崎さんは楽天カードに申し込みをしています。何を入力するか定かでない項目に差し掛かった時、ちょうどフォームの右側に“ヘルプ”ボタンが設置されているのに気づきました。クリックすると何が必要で、それはどこで取得できるかの説明が表示されていました。また、何ステップで申請が完了するのか知りたいと思っていたところ、ページ上部に申請プロセス(通称:トラック)が表示されており、現在4ステップ中の3ステップ目にいることがすぐに分かりました。"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "overviewImgBeDelightful@2x.png",
+          "jp": "overviewImgBeDelightful@2x.png"
+        }
+      },
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Be delightful",
+          "jp": "嬉しい体験"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "By creating 'sticky' experiences that surprise and delight users, we can attract new customers and ensure existing ones return, day after day.",
+          "jp": "ユーザーに驚いて喜んでもらえるような愛着の湧く体験を提供することにより、新規顧客を惹き付けるとともに、既存顧客には再訪してもらえるようにしましょう。"
+        }
+      },
+      {
+        "component": "List",
+        "type": "unstyled",
+        "list": {
+          "en": [
+            {
+              "boldedPhrase": "Detail: ",
+              "text": "Achieve delightfulness by giving rewards for actions, or by using ‘waku-waku’ (marketplace excitement). Small details here and there go a long way in generating customer satisfaction. A good example will be the way Google brings vitality to their site with their ‘doodles’, or the way Line emphasizes seasonality with appropriate backgrounds. Let’s make customers smile!"
+            }
+          ],
+          "jp": [
+            {
+              "boldedPhrase": "詳細: ",
+              "text": "ユーザーのアクションに応えることやワクワクを仕掛けることで喜びを作り出せます。顧客満足を生み出す長い道のりには小さな積み重ねが多くあります。Googleが“doodles”で活気をもたらしたことや、LINEが背景画面に季節を表現したことなどが良い例です。顧客を笑顔にしましょう。"
+            }
+          ]
+        }
+      },
+      {
+        "component": "List",
+        "type": "unstyled",
+        "list": {
+          "en": [
+            {
+              "boldedPhrase": "Scenario Example: ",
+              "text": "Mrs. Yamaoka is at the end of applying for a campaign. After she clicks the ‘Apply’ button, she notices the ‘Apply’ label begin to animate and transition into ‘Thank you’. Then a layer appears with subtly-animated fireworks, rewarding her for her efforts. It brought a smile to her face."
+            }
+          ],
+          "jp": [
+            {
+              "boldedPhrase": "シナリオ例: ",
+              "text": "山岡さんはキャンペーンの申請を完了するところです。彼女が“申請する”ボタンを押した時、そのラベルがアニメーションで“ありがとう”に変化しました。さらに、感謝を表すささやかな花火のアニメーションが登場し、彼女を笑顔にしました。"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "overviewImgBeTransparent@2x.png",
+          "jp": "overviewImgBeTransparent@2x.png"
+        }
+      },
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Be transparent",
+          "jp": "明快な体験"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "We can create more trust with our users by articulating information clearly and concisely.",
+          "jp": "情報を明確かつ簡潔に伝える事で、ユーザーの信頼を築くことができます。"
+        }
+      },
+      {
+        "component": "List",
+        "type": "unstyled",
+        "list": {
+          "en": [
+            {
+              "boldedPhrase": "Detail: ",
+              "text": "Achieve trust by clearly communicating: Campaign rules, service/app descriptions, point types (i.e. The difference between normal, expired and temporary points), membership states, process states, etc. Always give feedback (i.e. ‘Completed’, ‘Saved’, ‘You will lose your work, are you sure you want to quit?’) and use common words, rather than technical or obscure terminology."
+            }
+          ],
+          "jp": [
+            {
+              "boldedPhrase": "詳細: ",
+              "text": "信頼を築くために、キャンペーンルール、サービスやアプリの説明、ポイントの種類(通常ポイントと期間限定ポイントの違いなど)、メンバーシップステータス、進捗状況などを明確に伝えます。常に状況のフィードバック(“完了”、“保存済み”、“一度削除されると復元できませんが、削除しますか?”など)を返してください。その際には、専門的または曖昧な言葉ではなく一般的で分かりやすいものを使用しましょう"
+            }
+          ]
+        }
+      },
+      {
+        "component": "List",
+        "type": "unstyled",
+        "list": {
+          "en": [
+            {
+              "boldedPhrase": "Scenario Example: ",
+              "text": "Mr. Tanaka is new to Rakuten and is unsure about the rules of some of the Super Point campaigns. He comes across a Super Point campaign banner on Ichiba, which indicates a giveaway of 500pts. He clicks on the banner and is taken to the campaign page which contains a large image complete with catch copy. Beside it is a message which reads: ‘To receive 500 Super Points, one must spend more than ¥5,000 in one of the following shops’. Mr. Tanaka is extremely happy with the clear and well-placed information. Had it been missing or displayed at an illegible font size, he would have missed it and become frustrated."
+            }
+          ],
+          "jp": [
+            {
+              "boldedPhrase": "シナリオ例: ",
+              "text": "田中さんは楽天を初めて使うので、キャンペーンのルールについてはまだ理解していません。彼は楽天市場を訪れ、500ポイントプレゼントのキャンペーンバナーを見つけました。バナーから、大きいイメージにポイントプレゼントと書かれたキャンペーンページに遷移しました。キャッチコピーのすぐ横には“500ポイントを受け取るには、次の店舗で5,000円以上の購入が条件です”と明記されていました。田中さんは、的確な情報に満足しました。もしそのテキストが分かりづらい場所にある、もしくは読みづらいサイズだった場合、見逃してしまい不満を感じていたかもしれません。"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "overviewImgMakeItPersonal@2x.png",
+          "jp": "overviewImgMakeItPersonal@2x.png"
+        }
+      },
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Make it personal",
+          "jp": "自分に合った体験"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "An easy way to build loyalty is by giving control to the user. Consider clear communication settings, customizable UI and device independent messaging.",
+          "jp": "ブランドロイヤルティを築くための確かな方法は、ユーザーひとりひとりにコントロールを委ねることです。"
+        }
+      },
+      {
+        "component": "List",
+        "type": "unstyled",
+        "list": {
+          "en": [
+            {
+              "boldedPhrase": "Detail: ",
+              "text": "Areas in which this principle could be implemented: Changing email magazine settings, ad settings, customizing layout/font size, automatic log-in, changing theme, wallpaper etc."
+            }
+          ],
+          "jp": [
+            {
+              "boldedPhrase": "詳細: ",
+              "text": "明確なコミュニケーション設定、カスタマイズ可能なUI、デバイスに依存しないメッセージ機能を提供しましょう。それは、メールマガジン設定、広告表示設定、レイアウトやフォントサイズのカスタマイズ、自動ログイン、テーマ、壁紙のカスタマイズなどです。"
+            }
+          ]
+        }
+      },
+      {
+        "component": "List",
+        "type": "unstyled",
+        "list": {
+          "en": [
+            {
+              "boldedPhrase": "Scenario Example: ",
+              "text": "Mrs. Midorikawa is a user of three Rakuten services therefore she receives a lot of campaign & offer notifications. She accesses her ‘My Rakuten’ screen which provides her with the ability to turn notifications on/off from specific services, along with the ability to filter the kind of notifications she wishes to continue receiving. At the same time, she discovers a new service of interest hence she enables notifications from it. After setting up notifications, she turns her attention to the ‘recommended items setting’ screen and customizes what she does/doesn’t want to see recommended to her, while she shops on her Rakuten EC sites."
+            }
+          ],
+          "jp": [
+            {
+              "boldedPhrase": "シナリオ例: ",
+              "text": "緑川さんは3つの楽天サービスを利用しており、多くのキャンペーンや通知を受け取っています。そこで、彼女はサービスからの通知をコントロールする機能を持つmyRakutenに、受信を継続する通知の種類を整理しにアクセスしました。その時、興味のある新しいサービスを発見し、新たに通知を受け取れるように設定しました。また、“おすすめ商品の設定”で、楽天で買い物をしている時に、お勧めして欲しい商品として欲しくない商品の設定もしました。"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "overviewImgBeUnique@2x.png",
+          "jp": "overviewImgBeUnique@2x.png" 
+        } 
+      },
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Be unique, yet united",
+          "jp": "ユニークでもまとまっている"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Whilst we celebrate the diversity of each Rakuten property, we also need to demonstrate how it connects to the whole.",
+          "jp": "それぞれの楽天サービスの多様性を尊重しながら、1つのサービスと楽天全体とのつながりを実証することが重要です。"
+        }
+      },
+      {
+        "component": "List",
+        "type": "unstyled",
+        "list": {
+          "en": [
+            {
+              "boldedPhrase": "Detail: ",
+              "text": "Give the impression that your service is part of something bigger. Have a certain level of consistency across all services, by using common elements, modules and even layouts where possible."
+            }
+          ],
+          "jp": [
+            {
+              "boldedPhrase": "詳細: ",
+              "text": "あるサービスが楽天全体の1つのサービスであるという印象になるために、可能なところには共通の要素、コンポーネント、レイアウトなどを使用して、全てのサービスに一定レベルの一貫性を保つようにしましょう。"
+            }
+          ]
+        }
+      },
+      {
+        "component": "List",
+        "type": "unstyled",
+        "list": {
+          "en": [
+            {
+              "boldedPhrase": "Scenario Example: ",
+              "text": "Mr. Shimizu is an avid Ichiba user. He recently joined Rakuma in order to sell some of his old items. He was taken aback by the fact that the service’s layout, colors and design was radically different from Ichiba... yet somewhat incredibly familiar. The first thing he wants to do is edit the settings of the app. He instantly knows where to go and how to go about doing this, because the navigation and layout of the settings area/screen was designed and organized in a very similar fashion to Ichiba."
+            }
+          ],
+          "jp": [
+            {
+              "boldedPhrase": "シナリオ例: ",
+              "text": "清水さんは楽天市場をよく利用しています。彼は最近いらなくなった物を売ろうと思い、ラクマを利用し始めました。レイアウトやカラーなどのデザインが楽天市場と大きく異なっており驚きましたが、同時にどこかに馴染みがあるようにも感じました。初めにアプリの設定をしようとした時、設定画面が楽天市場とほぼ同じナビゲーションやレイアウトでデザインされていたので、どこで何をすべきかがすぐに分かりました。"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "overviewImgEnableCommunications@2x.png",
+          "jp": "overviewImgEnableCommunications@2x.png"
+        }
+      },
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Enable communications",
+          "jp": "コミュニケーションがとりやすい"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Facilitate clear communication wherever possible, including customer-to-customer, customer-to-merchant and customer-to-Rakuten scenarios.",
+          "jp": "顧客と顧客、顧客と店舗、顧客と楽天、全ての人たちの円滑なコミュニケーションを促進させましょう。"
+        }
+      },
+      {
+        "component": "List",
+        "type": "unstyled",
+        "list": {
+          "en": [
+            {
+              "boldedPhrase": "Detail: ",
+              "text": "Enabling communication provides a more humanized service, and demonstrates that we care about our users. We do not want to appear as a vending machine. Therefore, consider things like adding ‘contact’ methods regardless of whether it is via live chat or email."
+            }
+          ],
+          "jp": [
+            {
+              "boldedPhrase": "詳細: ",
+              "text": "コミュニケーション手段を確保すると、より情感豊かなサービスが提供でき、ユーザーにより尽くすことができるようになります。私たちは自動販売機ではないので、ライブチャットや電子メールに限らず、連絡手段の確保を検討しましょう。"
+            }
+          ]
+        }
+      },
+      {
+        "component": "List",
+        "type": "unstyled",
+        "list": {
+          "en": [
+            {
+              "boldedPhrase": "Scenario Example: ",
+              "text": "Mrs. Horiguchi ordered a bottle of vintage wine for her father’s 70th birthday. After finalizing the order and opting for the item to be nicely gift-wrapped, she became worried about how the item will be packed for delivery. She accesses her 'My Rakuten' screen, finds the item using the ‘Order History’ screen, clicks on the item, then notices an area on the screen labeled ‘Contact Merchant’. In this area, two options are presented: Contact merchant via email or via Viber. Mrs. Horiguchi clicks on the Viber option and is presented with a Chat wizard. Within a matter of seconds, a chat session was initiated between Mrs. Horiguchi and the merchant."
+            }
+          ],
+          "jp": [
+            {
+              "boldedPhrase": "シナリオ例: ",
+              "text": "堀口夫人は父親の70歳の誕生日にヴィンテージワインを注文しました。ギフトラッピング付きで注文は完了しましたが、商品の梱包方法が心配になりました。彼女はmyRakutenにアクセスし、注文履歴から商品を選択すると、“ショップへの問い合わせ”に気がつきました。ここでは、2つのオプションがあり、電子メールまたはViberによるショップへの連絡手段が用意されていたので、Viberを選択しました。すると、チャット画面が表示され、すぐに堀口さんとショップとの間でチャットが開始されました。"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "overviewImgBeOrganized@2x.png",
+          "jp": "overviewImgBeOrganized@2x.png" 
+        }
+      },
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Be organized",
+          "jp": "整理されている"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "The key to every good experience is organization – always deliver visual clarity, hierarchy and consistency.",
+          "jp": "よいユーザー体験に必要なのは体系化です。視覚的な分かりやすさ、階層構造、体験の一貫性を常に提供しましょう。"
+        }
+      },
+      {
+        "component": "List",
+        "type": "unstyled",
+        "list": {
+          "en": [
+            {
+              "boldedPhrase": "Detail: ",
+              "text": "Based on UX work, ensure contents are not only strategic, but also organized in a logical, clean and clear manner."
+            }
+          ],
+          "jp": [
+            {
+              "boldedPhrase": "詳細: ",
+              "text": "UXを基盤に、コンテンツは戦略的であるだけでなく論理的で整理され明確に構成されるようにしましょう。"
+            }
+          ]
+        }
+      },
+      {
+        "component": "List",
+        "type": "unstyled",
+        "list": {
+          "en": [
+            {
+              "boldedPhrase": "Scenario Example: ",
+              "text": "While shopping on Ichiba, Mr. Koushirou is looking at a pair of shoes that caught his eye. He notices that he has the ability to swipe through a set of images. After looking at some of the images, he decides to check the item details which is located right beneath the image gallery. As he becomes more interested in the item, naturally he begins to wonder what options are available and how might the pricing be different between each option. Beneath the item details are options for color, size, etc., and beside each is the price tag. As Mr. Koushirou taps through the options, the conveniently-placed price tag updates accordingly. He also notices in the right-hand column are some alternative shoe recommendations which are similar to what he is currently looking at."
+            }
+          ],
+          "jp": [
+            {
+              "boldedPhrase": "シナリオ例: ",
+              "text": "楽天市場で買い物をしている時、ある靴が幸四郎さんの目に飛び込んで来ました。スワイプで一連の画像を見られたので、画像を何枚かチェックし、そのすぐ下にある詳細を確認しました。商品に興味を持つにつれて、どんなオプションがあるのか、それらの価格の違いを知りたくなりました。詳細の下にカラー、サイズなどのオプションがあり、それぞれの横に価格タグが表示されており、オプションをタップすると価格タグがそれに応じて更新されます。また、右のコラムに類似する靴がお勧めとして並んでいることにも気がつきました。"
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

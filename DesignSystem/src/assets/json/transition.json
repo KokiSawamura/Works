@@ -1,0 +1,17 @@
+[
+	{
+		"component": "ContentHeader",
+		"target": ["designer","developer"],
+		"data": [
+			{
+				"component": "Heading",
+				"type": "h1",
+				"target": ["designer","developer"],
+				"text": {
+					"en": "",
+					"jp": ""
+				}
+			}
+		]
+	}
+]

@@ -1,0 +1,60 @@
+#content {
+	@import "~prismjs/themes/prism-okaidia.css";
+  margin: 0;
+	p {
+		white-space: pre-line;
+	}
+
+  .img-rounded,
+  .img-circle,
+  .img-thumbnail {
+    background-color: $gray-medium-light;
+  }
+  .input-group {
+      min-width: 100%;
+  }
+  textarea {
+        min-width: 100% !important;
+      }
+  @media(min-width: 768px){
+    textarea {
+      min-width: 100% !important;
+    }
+  }
+
+  & > section:first-of-type {
+    padding-top: 0px;
+    > div { 
+      margin-top: 40px;
+      border-top: solid 1px $gray-lighter;
+      padding-top: 80px;
+    }
+  }
+
+  & > section:last-child {
+    padding-bottom: 80px;
+  }
+
+  & .component-example:last-child {
+    margin-bottom: 0;
+  }
+
+  .do, 
+  .dont {
+    margin-top: 24px;
+  }
+
+  .do + img {
+    margin-top: 40px;
+  }
+
+
+  @import "content-header";
+  @import "tabs";
+  @import "download";
+	@import "component-example.scss";
+  @import "milestone";
+  @import "square-frame";
+  @import "section";
+  @import "working-examples";
+}

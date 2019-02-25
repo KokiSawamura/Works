@@ -1,0 +1,149 @@
+[
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Previous/Next navigation",
+          "jp": "「前/次」のナビゲーション"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "When there’s a long list of content, it should be split into easier to comprehend chunks. Of course that can be achieved with pagination, but sometimes having just previous and next buttons can be sufficient. The best example for such case would be on blog posts: each entry topic can vary greatly, yet it has a consistent flow from start to finish. Same applies to images, carousels, reviews, books, etc.",
+          "jp": "コンテンツの長いリストがある場合、より把握しやすくなる分量に分けるべきです。もちろんページネーションでもそれを行うことは可能ですが、単に「前」と「次」ボタンを配置するだけで十分な場合もしばしばあります。こういったケースを最もよく表している例は、ブログ記事です。各エントリの話題は多岐にわたりますが、最初から最後まで流れは一貫しています。画像、カルーセル、レビュー、書籍などにも同じことが言えます。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "pagination-navigation-example",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h2",
+        "text": {
+          "en": "Usage",
+          "jp": "使用方法"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Page navigation consists of two buttons, containing an arrow and an optional label. If the user is on the first page only the next button should be displayed, and again if the user is on the last page, only the previous button should be displayed.The label depends on what the page navigation is used for. If it’s used for navigating between articles, then it shows the names of the previous and next articles respectively. For all other cases you can use short words like Previous/Next or Older/Newer.",
+          "jp": "ページナビゲーションは矢印とラベル (または矢印のみ) でできた2つのボタンから構成されています。ユーザーが最初のページにいる時には「次」ボタンだけが表示され、同様にユーザーが最後のページにいる時には「前」ボタンだけが表示されるようにすべきです。そのページナビゲーションが何の目的で使用されるかにより、ラベルの内容は変わってきます。記事の切り替えを行う場合なら、ラベルにはそれぞれ前と次の記事の名前を記載します。それ以外の場合は「前へ/次へ」や「旧/新」、または数単語からなる短い言葉などを使用することができます。"
+        }
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "responsive": true,
+                "src": {
+                  "en": "pagination_navigation_img0.png",
+                  "jp": "pagination_navigation_img0.png"
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "data": [
+                  {
+                    "component": "Pagination",
+                    "type": "arrow"
+                  },
+                  {
+                    "component": "Pagination",
+                    "type": "button",
+                    "prevText": "Prev",
+                    "nextText": "Next"
+                  },
+                  {
+                    "component": "Pagination",
+                    "type": "button title",
+                    "prevText": "Article 1",
+                    "nextText": "Article 3"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h2",
+        "text": {
+          "en": "Localization",
+          "jp": "ローカライゼーション"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "For RTL (right-to-left) languages an arrow pointing right to left would indicate forward motion, which is the opposite to LTR (left-to-right) languages. For example, for any LTR language when the user is on the first page the only button available will be the next button located on the right hand side, with an arrow pointing right. In the same scenario for RTL languages the next button will be located on the left hand side, with an arrow pointing left. Please be cautions of this when implementing page navigation. This is especially true for Japanese, where the reading directionality depends on the flow of the text. If the text is in rows then Japanese is LTR language, but if the text is in columns then Japanese is RTL language. Make sure the correct navigation is implemented for the correct scenario.",
+          "jp": "左から右に書く言語とは逆に、右から左に書く言語では左向きの矢印が先に進むことを示します。例えば、左から右に書く言語の場合では、ユーザーが最初のページにいる時に表示されるボタンは、右側に配置された右向き矢印の「次」ボタンだけとなります。同じ状況でも、右から左に書く言語の場合には、「次」ボタンは左側に配置され、矢印も左向きとなります。ページナビゲーションを実装する際には、このことに気を付けてください。日本語の場合には特に注意が必要です。日本語は文章の書かれ方によって読む方向が変わり、横書きの場合は左から右に読みますが、縦書きの場合は右から左に読むからです。その場の状況に合った正しいナビゲーションが実装されているかを必ず確認してください。"
+        }
+      },
+      {
+        "component": "Row",
+        "data": [
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "responsive": true,
+                "src": {
+                  "en": "pagination_navigation_img1.png",
+                  "jp": "pagination_navigation_img1.png"
+                }
+              }
+            ]
+          },
+          {
+            "component": "Column",
+            "cols": "6",
+            "data": [
+              {
+                "component": "Image",
+                "responsive": true,
+                "src": {
+                  "en": "pagination_navigation_img2.png",
+                  "jp": "pagination_navigation_img2.png"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

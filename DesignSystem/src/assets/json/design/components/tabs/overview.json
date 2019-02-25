@@ -1,0 +1,142 @@
+[
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Overview",
+          "jp": "タブ"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "Tabs are a type of navigation pattern, that allows the user to change views in the same page. They provide a way to meaningfully separate content into different sections, while showing users the available content and how to get to it.",
+          "jp": "タブはナビゲーションパターンの一種で、ユーザーが同じページ内で表示を切り替えることを可能にするものです。タブは利用可能なコンテンツおよびその入手方法をユーザーに見せつつ、何らかの意味に基づいてコンテンツを異なるセクションに仕分けする手段として使えます。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "front-page-blockquote",
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h3",
+        "text": {
+          "en": "Usage",
+          "jp": "使用方法"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "",
+        "text": {
+          "en": "Use tabs when you have a small number of related categories (2-7), which are unlikely to change on regular basis. Tabs should be used to alternate between views within the same context, not to navigate to different areas. Therefore, they are always part of a page and shouldn’t be used for primary navigation.\r\nUse tabs when the user doesn’t need to compare or see simultaneously the content from multiple tabs. If people need to switch between tabs to compare content, this will burden their short-term memory, leading to frustration and usability issues.",
+          "jp": "タブは関連カテゴリーの数がそれほど多くなく (2～7)、そう頻繁には変わらない場合に使用してください。タブは異なるエリアを移動する時ではなく、同じコンテンツ内で表示を切り替える時に使用されるべきものです。つまりタブは常にページの一部であり、メインのナビゲーション方法として使用されるべきではありません。\r\nタブは、ユーザーがコンテンツを比較したり複数のタブからコンテンツを同時に見たりする必要のない場合に使用してください。コンテンツを比較する時にタブを切り替えなければならない場合、ユーザーの短期記憶に負荷をかけることになり、その結果ユーザーに苛立ちを与えたりユーザビリティの面で問題となります。"
+        }
+      },
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "tabs_img_specs.png",
+          "jp": "tabs_img_specs.png"
+        }
+      },
+      {
+        "component": "Section",
+        "data": [
+          {
+            "component": "Container",
+            "className": "tabs-example-container",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "cols": "12",
+                "data": [
+                  {
+                    "component": "Tabs",
+                    "type": "overflow"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "component": "TextWithAnchor",
+        "type": "",
+        "text": {
+          "en": [
+            {
+              "text": "Make sure your tab sections are logically related and are part of the same overall theme. For example, if your tabs show top ranking in different categories, don’t add a tab called ‘coupons’ to them, because that is not related to the ranking theme as a whole.\r\nTabs comprise of buttons that switch the different views and content area for each view. The buttons are always located on top of the content and should always fit on one row. On mobile tabs can scroll, due to the limited space, usually that will be if you have more than 3 or 4 tabs. If you need to have scrollable tabs, make sure that one of the labels is always cut off and slightly faded in to give indication to the users that they can indeed scroll.\r\nTab buttons can have a label, an icon or both. For icon and text specifications, please see "
+            },
+            {
+              "text": "Buttons",
+              "type": "link",
+              "href": "/design/the-basics/buttons/types/"
+            },
+            {
+              "text": ".\r\nMake sure the labels of your tab buttons are short and to the point – preferably one or two words. They still need to be descriptive enough to indicate what’s under that tab, so that the user knows what to expect.\r\nUse sentence case for your tab button labels. Never use all caps because that makes them hard to read and scan."
+            }
+          ],
+          "jp": [
+            {
+              "text": "タブのセクション間には論理的な関連性があり、また同じ1つの全体テーマの一部分を構成しているかを確かめてください。例えば、異なるカテゴリーのトップランキングを見せるためにタブを使用するなら、「クーポン」という名のタブはそこに加えないでください。それはランキングという全体テーマに関連していないからです。\r\nタブは異なる表示や各表示のコンテンツエリアを切り替えるためのボタンから構成されています。ボタンは常にコンテンツの上部に設置し、必ず1行に収まるようにすべきです。モバイルではスペースが限られているため、タブはスクロール可能となっています。通常3～4つ以上タブがある場合、スクロールするようになります。スクロール可能タブを使用する必要がある場合は、ラベルの一つは必ず途中で切り、縁を少しぼかすことでスクロール可能であることをユーザーに示すようにしてください。.\r\nタブボタンはラベルでも、アイコンでも、またはその両方で構成されていてもかまいません。アイコンとテキストの仕様については、"
+            },
+            {
+              "text": "ボタン",
+              "type": "link",
+              "href": "/design/the-basics/buttons/types/"
+            },
+            {
+              "text": "を参照してください。\r\nタブボタンのラベルは必ず短くわかりやすくしてください。1から2単語が望ましいでしょう。ですがその一方で、そのタブには何があるのかユーザーが予測できるよう、十分に説明できている必要があります。\r\nタブボタンラベルは文頭だけ大文字、後は小文字にしてください。全部大文字にすると読みにくく一目で理解しにくいので、絶対にやめてください。"
+            }
+          ]
+        }
+      },
+      {
+        "component": "Section",
+        "data": [
+          {
+            "component": "Container",
+            "className": "mobile-tabs-example-container",
+            "data": [
+              {
+                "component": "WorkingExample",
+                "cols": "12",
+                "data": [
+                  {
+                    "component": "Tabs",
+                    "type": "mobile icons"
+                  }
+                ]
+              },
+              {
+                "component": "WorkingExample",
+                "cols": "12",
+                "data": [
+                  {
+                    "component": "Tabs",
+                    "type": "mobile overflow"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

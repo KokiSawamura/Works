@@ -1,0 +1,115 @@
+[
+  {
+    "component": "Section",
+    "target": [
+      "designer",
+      "developer"
+    ],
+    "data": [
+      {
+        "component": "Heading",
+        "type": "h1",
+        "text": {
+          "en": "Menu lists",
+          "jp": "メニューリスト"
+        }
+      },
+      {
+        "component": "Text",
+        "type": "lead",
+        "text": {
+          "en": "Those are lists of links, that can be used as a secondary service menu. ",
+          "jp": "これはリンクのリストで、二次的なサービスメニューとして使用することもできます。"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "data": [
+      {
+        "component": "Image",
+        "type": "",
+        "responsive": true,
+        "src": {
+          "en": "list-views_menu-lists_img0.png",
+          "jp": "list-views_menu-lists_img0.png"
+        }
+      }
+    ]
+  },
+  {
+    "component": "Section",
+    "className": "menu-lists-sction",
+    "data": [
+      {
+        "component": "WorkingExample",
+        "cols": "12-12",
+        "data": [
+          {
+            "component": "MenuList",
+            "type": "list menu",
+            "list": {
+              "en": [
+                {
+                  "text": "Link 1"
+                },
+                {
+                  "text": "Link 2",
+                  "submenu": [
+                    {
+                      "text": "Link item"
+                    },
+                    {
+                      "text": "Link item"
+                    },
+                    {
+                      "text": "Link item"
+                    },
+                    {
+                      "text": "Link item"
+                    }
+                  ]
+                },
+                {
+                  "text": "Link 3"
+                },
+                {
+                  "text": "Link 4"
+                }
+              ],
+              "jp": [
+                {
+                  "text": "Link 1"
+                },
+                {
+                  "text": "Link 2",
+                  "submenu": [
+                    {
+                      "text": "Link item"
+                    },
+                    {
+                      "text": "Link item"
+                    },
+                    {
+                      "text": "Link item"
+                    },
+                    {
+                      "text": "Link item"
+                    }
+                  ]
+                },
+                {
+                  "text": "Link 3"
+                },
+                {
+                  "text": "Link 4"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

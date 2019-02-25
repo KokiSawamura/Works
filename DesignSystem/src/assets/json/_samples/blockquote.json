@@ -1,0 +1,12 @@
+{
+  "component": "Blockquote",
+  "target": ["designer", "developer"],
+  "quote": {
+    "en": "Since we founded Rakuten in 1997, innovation has been at the core of who we are.",
+    "jp": ""
+  },
+  "author": {
+    "en": "Hiroshi Mikitani",
+    "jp": ""
+  }
+}
