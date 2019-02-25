@@ -1,0 +1,1113 @@
+.xlo-wrapper {
+  padding-bottom: 50px;
+}
+
+.xlo-wrapper * {
+  line-height: inherit;
+  font-weight: inherit;
+}
+
+.cardInfo01 {
+  padding: 5px 10px;
+  float: right;
+  background: #f8f8f8;
+  border: 1px solid #cccccc;
+}
+
+.cardInfo01 > div {
+  float: left;
+  margin-right: 10px;
+}
+
+.cardInfo01 > div:last-child {
+  margin-right: 0;
+}
+
+.cardInfo01_form_type {
+  padding-top: 6px;
+}
+
+.cardInfo01_form_cardNumber {
+  padding-top: 8px;
+}
+
+.cardInfo01_form form {
+  margin: 5px 0 0;
+  cursor: pointer;
+}
+
+.cardInfo01_form select {
+  cursor: pointer;
+}
+
+.cardInfo01_state {
+  padding: 8px;
+  text-align: center;
+  color: #fff;
+}
+
+.cardInfo01_state--double {
+  padding: 4px 8px;
+}
+
+.cardInfo01_state--business {
+  background: #BFA460;
+}
+
+.cardInfo01_state--family {
+  background: #698dbf;
+}
+
+.cardInfo01_state--disable {
+  margin-bottom: 2px;
+  background: #a6a6a6;
+}
+
+.xlo-topicPath {
+  float: left;
+}
+
+.xlo-topicPath-wrapper {
+  padding: 10px 0;
+}
+
+.xlo-wrapper {
+  color: #363636;
+  font-size: 13px;
+  text-align: left;
+  line-height: 1.462;
+}
+
+.xlo-wrapper .boxStyle03 {
+  width: 930px;
+  margin: 0px auto 15px auto;
+}
+
+.xlo-wrapper .tableStyle07 {
+  width: 950px;
+  margin: 0px auto 15px auto;
+}
+
+.xlo-container {
+  width: 950px;
+  margin: 0 auto;
+}
+
+.xlo-content {
+  margin-bottom: 50px;
+}
+
+.xlo-content:last-child {
+  margin-bottom: 0;
+}
+
+.xlo-ttl-lv2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.xlo-ttl-lv3 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.xlo-description {
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.xlo-description--alert {
+  border-color: #bf0000;
+  color: #bf0000;
+}
+
+.xlo-btn-primary {
+  display: block;
+  padding: 10px 0;
+  text-align: center;
+  background: #bf0000;
+  color: white;
+  border-radius: 3px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-transition: box-shadow .2s, background .1s;
+  -ms-transition: box-shadow .2s, background .1s;
+  -moz-transition: box-shadow .2s, background .1s;
+  transition: box-shadow .2s, background .1s;
+}
+
+.xlo-btn-primary:visited, .xlo-btn-primary:link, .xlo-btn-primary:hover, .xlo-btn-primary:active, .xlo-btn-primary:focus {
+  color: white;
+  text-decoration: none;
+}
+
+.xlo-btn-primary:hover, .xlo-btn-primary:focus {
+  box-shadow: 0 0.1em 0.5em #aaa;
+  background: #d30000;
+}
+
+.xlo-btn-primary--disabled-01 {
+  border: 1px solid #ccc;
+  background: white;
+  color: #ccc;
+  -webkit-transition: none;
+  -ms-transition: none;
+  -moz-transition: none;
+  transition: none;
+  cursor: default;
+}
+
+.xlo-btn-primary--disabled-01:visited, .xlo-btn-primary--disabled-01:link, .xlo-btn-primary--disabled-01:hover, .xlo-btn-primary--disabled-01:active, .xlo-btn-primary--disabled-01:focus {
+  color: #ccc;
+}
+
+.xlo-btn-primary--disabled-01:hover, .xlo-btn-primary--disabled-01:focus {
+  box-shadow: none;
+  background: white;
+}
+
+.xlo-btn-primary--disabled-02 {
+  background: #999;
+  color: white;
+  -webkit-transition: none;
+  -ms-transition: none;
+  -moz-transition: none;
+  transition: none;
+  cursor: default;
+}
+
+.xlo-btn-primary--disabled-02:visited, .xlo-btn-primary--disabled-02:link, .xlo-btn-primary--disabled-02:hover, .xlo-btn-primary--disabled-02:active, .xlo-btn-primary--disabled-02:focus {
+  color: white;
+}
+
+.xlo-btn-primary--disabled-02:hover, .xlo-btn-primary--disabled-02:focus {
+  box-shadow: none;
+  background: #999;
+}
+
+.xlo-btn-alt {
+  display: block;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  font-weight: 600;
+  text-decoration: none;
+  -webkit-transition: box-shadow .2s;
+  -ms-transition: box-shadow .2s;
+  -moz-transition: box-shadow .2s;
+  transition: box-shadow .2s;
+}
+
+.xlo-btn-alt:visited, .xlo-btn-alt:link, .xlo-btn-alt:hover, .xlo-btn-alt:active, .xlo-btn-alt:focus {
+  color: inherit;
+  text-decoration: none;
+}
+
+.xlo-btn-alt:hover, .xlo-btn-alt:focus {
+  border-color: #a0a0a0;
+  box-shadow: 0 0.1em 0.5em #aaa;
+}
+
+.xlo-btn-complete {
+  display: block;
+  padding: 10px 0;
+  text-align: center;
+  background: #999999;
+  color: white;
+  border-radius: 3px;
+  font-weight: 600;
+  text-decoration: none;
+  position: static !important;
+}
+
+[class*=xlo-btn] {
+  font-size: 15px;
+}
+
+[class*=xlo-btn] > img {
+  vertical-align: baseline;
+}
+
+.xlo-main {
+  margin-bottom: 50px;
+  background: url(//image.card.jp.rakuten-static.com/r-enavi/WebImages/enavi/pointservice/shop_point/bg_main.png) center repeat-x;
+  text-align: center;
+}
+
+.xlo-main:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  max-width: 1425px;
+  height: 379px;
+  background: url(//image.card.jp.rakuten-static.com/r-enavi/WebImages/enavi/pointservice/shop_point/main.png) center no-repeat;
+  background-size: cover;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+  .xlo-main:after {
+    background: url(//image.card.jp.rakuten-static.com/r-enavi/WebImages/enavi/pointservice/shop_point/main@2x.png) center no-repeat;
+    background-size: cover;
+  }
+}
+
+.xlo-howto {
+  margin-bottom: 50px;
+}
+
+.xlo-howto > input {
+  display: none;
+}
+
+.xlo-howto > label {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 5px 10px;
+  cursor: pointer;
+  background: #ebebeb;
+  font-size: 18px;
+  -webkit-box-shadow: 0px 3px 5px -3px rgba(0, 0, 0, 0.45);
+  box-shadow: 0px 3px 5px -3px rgba(0, 0, 0, 0.45);
+}
+
+.xlo-howto > label > img {
+  margin-right: 5px;
+}
+
+.xlo-howto > label:after {
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  content: "";
+  width: 26px;
+  height: 26px;
+  background: url(//image.card.jp.rakuten-static.com/r-enavi/WebImages/enavi/pointservice/shop_point/icon_collapsed.png) no-repeat;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+  .xlo-howto > label:after {
+    background: url(//image.card.jp.rakuten-static.com/r-enavi/WebImages/enavi/pointservice/shop_point/icon_collapsed@2x.png) no-repeat;
+    background-size: contain;
+  }
+}
+
+.xlo-howto > input:checked + label:after {
+  background: url(//image.card.jp.rakuten-static.com/r-enavi/WebImages/enavi/pointservice/shop_point/icon_expanded.png) no-repeat;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+  .xlo-howto > input:checked + label:after {
+    background: url(//image.card.jp.rakuten-static.com/r-enavi/WebImages/enavi/pointservice/shop_point/icon_expanded@2x.png) no-repeat;
+    background-size: contain;
+  }
+}
+
+.xlo-howto-content {
+  display: none;
+  padding: 30px 15px;
+  border-right: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;
+  border-left: 1px solid #bbb;
+  background-color: #f7f7f7;
+}
+
+.xlo-howto-step {
+  float: left;
+  width: 33.3333%;
+  padding: 0 16px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.xlo-howto-step-content {
+  margin-right: -16px;
+  margin-left: -16px;
+}
+
+.xlo-howto-step__ttl {
+  color: #bf0000;
+  font-size: 18px;
+}
+
+.xlo-howto-step__ttl__figure {
+  font-size: 22px;
+}
+
+.xlo-store-lists {
+  display: table;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 20px;
+}
+
+.xlo-store-lists:last-child {
+  margin-bottom: 0;
+}
+
+.xlo-store-lists--flag {
+  padding-top: 26px;
+}
+
+.xlo-store-lists--1col {
+  width: 227px;
+}
+
+.xlo-store-lists--2col {
+  width: 468px;
+}
+
+.xlo-store-lists--3col {
+  width: 709px;
+}
+
+.xlo-store-list {
+  height: 100%;
+  border: 1px solid #bbb;
+  box-shadow: 0 0 1.5em rgba(204, 204, 204, 0.6);
+  box-sizing: border-box;
+}
+
+.xlo-store-list-block {
+  display: table-cell;
+  height: 100%;
+  padding-right: 14px;
+  position: relative;
+}
+
+.xlo-store-list-block:last-child {
+  padding-right: 0;
+}
+
+.xlo-store-list__ttl {
+  padding: 5px;
+  background: #666;
+  color: white;
+}
+
+.xlo-store-list__thumbnail {
+  position: relative;
+  border-bottom: 1px solid #bbb;
+}
+
+.xlo-store-list__thumbnail:after {
+  content: "";
+  display: block;
+  width: 9px;
+  height: 17px;
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background: url(//image.card.jp.rakuten-static.com/r-enavi/WebImages/enavi/pointservice/shop_point/icon_arrow02.png) no-repeat;
+}
+
+.xlo-store-list__thumbnail > a {
+  display: block;
+}
+
+.xlo-store-list__thumbnail > a:hover .xlo-store-list__thumbnail__hover-content {
+  opacity: 1;
+}
+
+.xlo-store-list__thumbnail__hover-content {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  -webkit-transition: opacity .2s;
+  -ms-transition: opacity .2s;
+  -moz-transition: opacity .2s;
+  transition: opacity .2s;
+}
+
+.xlo-store-list__thumbnail__hover-content > span {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+.xlo-store-list__content {
+  padding: 10px;
+  text-align: center;
+}
+
+.xlo-store-list__point {
+  display: table;
+  margin: 0 auto;
+}
+
+.xlo-store-list__point > div {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.xlo-store-list__point__before {
+  font-size: 11px;
+}
+
+.xlo-store-list__point__after > span {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.xlo-store-list__point__figure {
+  font-size: 31px;
+  color: #bf0000;
+}
+
+.xlo-store-list__btn {
+  position: relative;
+}
+
+.xlo-store-list__expiration-date {
+  padding: 2px 0;
+  background-color: #bf0000;
+  color: white;
+}
+
+.xlo-store-list__detail-link a {
+  color: #007eff;
+}
+
+.xlo-store-list__detail-link a:visited {
+  color: #0055ac;
+  text-decoration: underline;
+}
+
+.xlo-store-flag:before {
+  content: "";
+  display: block;
+  width: 178px;
+  height: 26px;
+  position: absolute;
+  top: -26px;
+  left: 0;
+  background: url(//image.card.jp.rakuten-static.com/r-enavi/WebImages/enavi/pointservice/shop_point/parts_flag.svg) no-repeat;
+}
+
+.xlo-more-contents {
+  display: table;
+  height: 100%;
+}
+
+.xlo-more-contents__content {
+  position: relative;
+  height: 100%;
+  padding: 20px;
+  padding-bottom: calc(20px + 41px);
+  border: 1px solid #bbb;
+  box-shadow: 0 0 1.5em rgba(204, 204, 204, 0.6);
+  box-sizing: border-box;
+}
+
+.xlo-more-contents__content-block {
+  display: table-cell;
+  height: 100%;
+  padding-right: 20px;
+}
+
+.xlo-more-contents__content-block:last-child {
+  padding-right: 0;
+}
+
+.xlo-more-contents__content > [class*=xlo-btn] {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  width: 265px;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.xlo-campaign {
+  display: table;
+  height: 100%;
+}
+
+.xlo-campaign__content {
+  position: relative;
+  height: 100%;
+  padding: 20px 20px 61px;
+  border: 1px solid #bbb;
+  box-shadow: 0 0 1.5em rgba(204, 204, 204, 0.6);
+  -moz-box-sizing: border-box;
+}
+
+.xlo-campaign__content-block {
+  display: table-cell;
+  height: 100%;
+  padding-right: 12px;
+}
+
+.xlo-campaign__content-block:last-child {
+  padding-right: 0;
+}
+
+.xlo-campaign__content > [class*=xlo-btn] {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  width: calc(100% - 40px);
+  box-sizing: border-box;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.xlo-js-toggle-content {
+  position: relative;
+}
+
+.xlo-js-toggle-content__shadow {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 29px;
+  background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, white 100%);
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, white 100%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, white 100%);
+  cursor: pointer;
+}
+
+.xlo-js-is-expanded .xlo-js-toggle-content__shadow {
+  -webkit-animation: white-shadow--hide .2s forwards;
+  -ms-animation: white-shadow--hide .2s forwards;
+  -moz-animation: white-shadow--hide .2s forwards;
+  animation: white-shadow--hide .2s forwards;
+}
+
+.xlo-js-is-collapsed .xlo-js-toggle-content__shadow {
+  -webkit-animation: white-shadow--show .2s forwards;
+  -ms-animation: white-shadow--show .2s forwards;
+  -moz-animation: white-shadow--show .2s forwards;
+  animation: white-shadow--show .2s forwards;
+}
+
+.xlo-js-toggle-btn {
+  display: none;
+  width: 260px;
+  margin: 0 auto;
+}
+
+.xlo-js-is-expanded .xlo-js-toggle-btn--expanded {
+  display: block;
+}
+
+.xlo-js-is-collapsed .xlo-js-toggle-btn--collapsed {
+  display: block;
+}
+
+.xlo-js-is-expanded .xlo-js-toggle-icon {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.xlo-mfp {
+  position: relative;
+  margin: 0 auto;
+  width: 552px;
+  padding: 40px 20px 20px;
+  background: white;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.xlo-mfp-content {
+  font-size: 14px;
+}
+
+.xlo-mfp-content__ttl {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.xlo-mfp-content__img {
+  border: 1px solid #bbb;
+}
+
+.xlo-mfp-content__region {
+  font-size: 11px;
+}
+
+.xlo-mfp-content__benefit {
+  display: table;
+  width: 100%;
+}
+
+.xlo-mfp-content__benefit__point {
+  display: table-cell;
+  padding-right: 10px;
+  vertical-align: middle;
+  text-align: right;
+  font-weight: 700;
+  color: #bf0000;
+}
+
+.xlo-mfp-content__benefit__period {
+  display: table-cell;
+  vertical-align: bottom;
+  font-size: 11px;
+}
+
+.xlo-mfp-content__benefit__figure {
+  font-size: 41px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.xlo-mfp-content__btn {
+  position: relative;
+}
+
+.xlo-mfp-content__store-info {
+  border: 1px solid #bbb;
+}
+
+.xlo-mfp-content__store-image {
+  padding: 10px;
+}
+
+.xlo-mfp-content__store-image > li {
+  margin-bottom: 10px;
+}
+
+.xlo-mfp-content__store-image > li:last-child {
+  margin-bottom: 0;
+}
+
+.xlo-mfp-content__store-image__img, .xlo-mfp-content__store-image__text {
+  float: left;
+}
+
+.xlo-mfp-content__store-image__img {
+  margin-right: 10px;
+  width: 140px;
+}
+
+.xlo-mfp-content__store-image__text {
+  width: -webkit-calc(100% - 150px);
+  width: calc(100% - 150px);
+}
+
+.xlo-mfp-content__store-detail {
+  padding: 10px;
+  background: #f2f2f2;
+}
+
+.xlo-mfp-content__requirement {
+  padding: 10px;
+  border: 1px solid #bbb;
+}
+
+.xlo-mfp-content__code {
+  font-size: 11px;
+  text-align: right;
+}
+
+.xlo-mfp .mfp-close {
+  width: 74px;
+  height: 30px;
+  line-height: 1;
+  color: transparent;
+  background: url(//image.card.jp.rakuten-static.com/r-enavi/WebImages/enavi/pointservice/shop_point/icon_close.png) center no-repeat;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+  .xlo-mfp .mfp-close {
+    background: url(//image.card.jp.rakuten-static.com/r-enavi/WebImages/enavi/pointservice/shop_point/icon_close@2x.png) center no-repeat;
+    background-size: 56px 14px;
+  }
+}
+
+.xlo-mfp-wrapper.mfp-bg {
+  opacity: 0;
+  -webkit-transition: all .2s;
+  -ms-transition: all .2s;
+  -moz-transition: all .2s;
+  transition: all .2s;
+}
+
+.xlo-mfp-wrapper.mfp-bg.mfp-ready {
+  opacity: .8;
+}
+
+.xlo-mfp-wrapper.mfp-bg.mfp-removing {
+  opacity: 0;
+}
+
+.xlo-mfp-wrapper .mfp-content {
+  opacity: 0;
+  -webkit-transition: all .2s;
+  -ms-transition: all .2s;
+  -moz-transition: all .2s;
+  transition: all .2s;
+}
+
+.xlo-mfp-wrapper.mfp-ready .mfp-content {
+  opacity: 1;
+}
+
+.xlo-mfp-wrapper.mfp-removing .mfp-content {
+  opacity: 0;
+}
+
+.xlo-js-benefit .xlo-btn-primary--undone {
+  position: relative;
+  z-index: 2;
+}
+
+.xlo-js-benefit .xlo-btn-primary--progress {
+  z-index: 1;
+}
+
+.xlo-js-benefit .xlo-btn-primary--progress, .xlo-js-benefit .xlo-btn-primary--done {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  -webkit-transition: opacity .2s;
+  -ms-transition: opacity .2s;
+  -moz-transition: opacity .2s;
+  transition: opacity .2s;
+}
+
+.xlo-js-benefit[data-state="undone"] .xlo-btn-primary--unnecessary {
+  display: none;
+}
+
+.xlo-js-benefit[data-state="progress"] .xlo-btn-primary--unnecessary {
+  display: none;
+}
+
+.xlo-js-benefit[data-state="progress"] .xlo-btn-primary--undone {
+  -webkit-animation: fadeout_done .2s forwards;
+  -ms-animation: fadeout_done .2s forwards;
+  -moz-animation: fadeout_done .2s forwards;
+  animation: fadeout_done .2s forwards;
+}
+
+.xlo-js-benefit[data-state="done"] .xlo-btn-primary--unnecessary {
+  display: none;
+}
+
+.xlo-js-benefit[data-state="done"] .xlo-btn-primary--undone {
+  opacity: 0;
+  z-index: 0;
+}
+
+.xlo-js-benefit[data-state="done"] .xlo-btn-primary--progress {
+  opacity: 0;
+}
+
+.xlo-js-benefit[data-state="unnecessary"] .xlo-btn-primary--undone, .xlo-js-benefit[data-state="unnecessary"] .xlo-btn-primary--progress, .xlo-js-benefit[data-state="unnecessary"] .xlo-btn-primary--done {
+  display: none;
+}
+
+@keyframes white-shadow--show {
+  from {
+    bottom: -29px;
+  }
+  to {
+    bottom: 0;
+  }
+}
+
+@keyframes white-shadow--hide {
+  from {
+    bottom: 0;
+  }
+  to {
+    bottom: -29px;
+  }
+}
+
+@keyframes fadeout_done {
+  0% {
+    opacity: 1;
+  }
+  99% {
+    opacity: 0;
+    z-index: 2;
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+    cursor: default;
+  }
+}
+
+.xlo-align-right {
+  text-align: right;
+}
+
+.xlo-align-center {
+  text-align: center;
+}
+
+.xlo-align-left {
+  text-align: left;
+}
+
+.xlo-color-alert {
+  color: #bf0000;
+}
+
+.xlo-inline-block {
+  display: inline-block !important;
+}
+
+.xlo-mt-0 {
+  margin-top: 0px !important;
+}
+
+.xlo-mt-5 {
+  margin-top: 5px !important;
+}
+
+.xlo-mt-10 {
+  margin-top: 10px !important;
+}
+
+.xlo-mt-20 {
+  margin-top: 20px !important;
+}
+
+.xlo-mt-30 {
+  margin-top: 30px !important;
+}
+
+.xlo-mt-40 {
+  margin-top: 40px !important;
+}
+
+.xlo-mt-50 {
+  margin-top: 50px !important;
+}
+
+.xlo-mr-0 {
+  margin-right: 0px !important;
+}
+
+.xlo-mr-5 {
+  margin-right: 5px !important;
+}
+
+.xlo-mr-10 {
+  margin-right: 10px !important;
+}
+
+.xlo-mr-20 {
+  margin-right: 20px !important;
+}
+
+.xlo-mr-30 {
+  margin-right: 30px !important;
+}
+
+.xlo-mr-40 {
+  margin-right: 40px !important;
+}
+
+.xlo-mr-50 {
+  margin-right: 50px !important;
+}
+
+.xlo-mb-0 {
+  margin-bottom: 0px !important;
+}
+
+.xlo-mb-5 {
+  margin-bottom: 5px !important;
+}
+
+.xlo-mb-10 {
+  margin-bottom: 10px !important;
+}
+
+.xlo-mb-20 {
+  margin-bottom: 20px !important;
+}
+
+.xlo-mb-30 {
+  margin-bottom: 30px !important;
+}
+
+.xlo-mb-40 {
+  margin-bottom: 40px !important;
+}
+
+.xlo-mb-50 {
+  margin-bottom: 50px !important;
+}
+
+.xlo-ml-0 {
+  margin-left: 0px !important;
+}
+
+.xlo-ml-5 {
+  margin-left: 5px !important;
+}
+
+.xlo-ml-10 {
+  margin-left: 10px !important;
+}
+
+.xlo-ml-20 {
+  margin-left: 20px !important;
+}
+
+.xlo-ml-30 {
+  margin-left: 30px !important;
+}
+
+.xlo-ml-40 {
+  margin-left: 40px !important;
+}
+
+.xlo-ml-50 {
+  margin-left: 50px !important;
+}
+
+.xlo-pt-0 {
+  padding-top: 0px !important;
+}
+
+.xlo-pt-5 {
+  padding-top: 5px !important;
+}
+
+.xlo-pt-10 {
+  padding-top: 10px !important;
+}
+
+.xlo-pt-20 {
+  padding-top: 20px !important;
+}
+
+.xlo-pt-30 {
+  padding-top: 30px !important;
+}
+
+.xlo-pt-40 {
+  padding-top: 40px !important;
+}
+
+.xlo-pt-50 {
+  padding-top: 50px !important;
+}
+
+.xlo-pr-0 {
+  padding-right: 0px !important;
+}
+
+.xlo-pr-5 {
+  padding-right: 5px !important;
+}
+
+.xlo-pr-10 {
+  padding-right: 10px !important;
+}
+
+.xlo-pr-20 {
+  padding-right: 20px !important;
+}
+
+.xlo-pr-30 {
+  padding-right: 30px !important;
+}
+
+.xlo-pr-40 {
+  padding-right: 40px !important;
+}
+
+.xlo-pr-50 {
+  padding-right: 50px !important;
+}
+
+.xlo-pb-0 {
+  padding-bottom: 0px !important;
+}
+
+.xlo-pb-5 {
+  padding-bottom: 5px !important;
+}
+
+.xlo-pb-10 {
+  padding-bottom: 10px !important;
+}
+
+.xlo-pb-20 {
+  padding-bottom: 20px !important;
+}
+
+.xlo-pb-30 {
+  padding-bottom: 30px !important;
+}
+
+.xlo-pb-40 {
+  padding-bottom: 40px !important;
+}
+
+.xlo-pb-50 {
+  padding-bottom: 50px !important;
+}
+
+.xlo-pl-0 {
+  padding-left: 0px !important;
+}
+
+.xlo-pl-5 {
+  padding-left: 5px !important;
+}
+
+.xlo-pl-10 {
+  padding-left: 10px !important;
+}
+
+.xlo-pl-20 {
+  padding-left: 20px !important;
+}
+
+.xlo-pl-30 {
+  padding-left: 30px !important;
+}
+
+.xlo-pl-40 {
+  padding-left: 40px !important;
+}
+
+.xlo-pl-50 {
+  padding-left: 50px !important;
+}
