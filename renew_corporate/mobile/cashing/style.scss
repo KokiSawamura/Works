@@ -1,0 +1,57 @@
+
+.jumbotron {
+ background: url(./image/main.png) center no-repeat;
+  background-size: cover;
+}
+
+.card-title-check {
+  position: relative;
+  padding-left: 27px;
+  margin-bottom: 7px;
+
+}
+
+.card-title-check::before {
+  content: '';
+  position: absolute;
+  width: 22px;
+  height: 20px;
+  background-image:  url(./image/check.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 0;
+  left: 0;
+}
+
+.card-block-bottom {
+  margin-top: auto;
+}
+
+.bg-light {
+  background-color: #F0F3F8;
+}
+
+.card-title-beginner::before {
+  content: '';
+  margin-right: 10px;
+  display: inline-block;
+  width: 50px;
+  height: 54px;
+  background-image:  url(../../image/icon_beginner.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.card-title-user::before {
+  content: '';
+  margin-right: 10px;
+  display: inline-block;
+  width: 50px;
+  height: 54px;
+  background-image:  url(./image/ico_user.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+
+}

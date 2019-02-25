@@ -1,0 +1,17 @@
+.jumbotron {
+  background: url(./image/main.png) center no-repeat;
+  background-size: cover;
+}
+
+.card-title-check::before {
+  content: '';
+  margin-right: 5px;
+  margin-bottom: 7px;
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background-image: url(./image/check.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+}

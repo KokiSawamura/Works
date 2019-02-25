@@ -1,0 +1,26 @@
+.jumbotron {
+  background: url(./image/main.png) center no-repeat;
+  background-size: cover;
+}
+
+.card-img-top-add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 98px;
+}
+
+.card-img-top-other {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 84px;
+}
+
+.card-block-bottom {
+  margin-top: auto;
+}
+
+.bg-light {
+  background-color: #F0F3F8;
+}

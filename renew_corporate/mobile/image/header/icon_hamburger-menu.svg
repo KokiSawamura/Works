@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="33px" height="33px" viewBox="0 0 33 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_hamburger-menu</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_hamburger-menu" fill="#B90E00">
+            <path d="M30.5,5 L2.5,5 C1.119,5 0,3.881 0,2.5 C0,1.119 1.119,0 2.5,0 L30.5,0 C31.881,0 33,1.119 33,2.5 C33,3.881 31.881,5 30.5,5" id="Fill-2"></path>
+            <path d="M30.5,19 L2.5,19 C1.119,19 0,17.881 0,16.5 C0,15.119 1.119,14 2.5,14 L30.5,14 C31.881,14 33,15.119 33,16.5 C33,17.881 31.881,19 30.5,19" id="Fill-6"></path>
+            <path d="M30.5,33 L2.5,33 C1.119,33 0,31.881 0,30.5 C0,29.119 1.119,28 2.5,28 L30.5,28 C31.881,28 33,29.119 33,30.5 C33,31.881 31.881,33 30.5,33" id="Fill-10"></path>
+        </g>
+    </g>
+</svg>

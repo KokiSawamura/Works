@@ -1,0 +1,27 @@
+.jumbotron {
+  background: url(./image/main.png) center no-repeat;
+  background-size: cover;
+}
+
+.card-img-top-add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 98px;
+}
+
+.card-img-top-other {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 84px;
+}
+
+/************ revo:index.html add 2018/05/11 ************/
+.box__block {
+  width: 484px;
+  height: 194px;
+  margin: 73px auto 50px;
+}
+
+/**********************************************/

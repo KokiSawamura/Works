@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="13px" viewBox="0 0 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_close</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ui-icons" transform="translate(0.000000, -233.000000)" fill="#BF0000" fill-rule="nonzero">
+            <g id="icon_close" transform="translate(0.000000, 233.000000)">
+                <path d="M7.94,6.5 L11.8,2.64 C12.1597223,2.27741737 12.1597223,1.69258263 11.8,1.33 L11.67,1.2 C11.3074174,0.840277734 10.7225826,0.840277734 10.36,1.2 L6.5,5.06 L2.64,1.2 C2.27741737,0.840277734 1.69258263,0.840277734 1.33,1.2 L1.2,1.33 C0.840277734,1.69258263 0.840277734,2.27741737 1.2,2.64 L5.06,6.5 L1.2,10.36 C0.840277734,10.7225826 0.840277734,11.3074174 1.2,11.67 L1.33,11.8 C1.69258263,12.1597223 2.27741737,12.1597223 2.64,11.8 L6.5,7.94 L10.36,11.8 C10.7225826,12.1597223 11.3074174,12.1597223 11.67,11.8 L11.8,11.67 C12.1597223,11.3074174 12.1597223,10.7225826 11.8,10.36 L7.94,6.5 Z" id="j"></path>
+            </g>
+        </g>
+    </g>
+</svg>

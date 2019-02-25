@@ -1,0 +1,5 @@
+.jumbotron {
+  background: url(./image/main.png) center no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}

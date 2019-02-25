@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="96px" height="97px" viewBox="0 0 96 97" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_graph</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 96 96 96 96 0 0 0"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_graph" transform="translate(0.000000, 1.000000)">
+            <polygon id="Fill-1" fill="#4D4D4D" points="0 -0.0002 0 89.9998 0 95.9998 6 95.9998 96 95.9998 96 89.9998 6 89.9998 6 -0.0002"></polygon>
+            <polygon id="Fill-2" fill="#1C6EAB" points="12 84.0001 26 84.0001 26 6.0001 12 6.0001"></polygon>
+            <polygon id="Fill-3" fill="#1C6EAB" points="34 84.0001 48 84.0001 48 31.0001 34 31.0001"></polygon>
+            <polygon id="Fill-4" fill="#1C6EAB" points="56 84.0001 70 84.0001 70 65.0001 56 65.0001"></polygon>
+            <g id="Group-10" transform="translate(0.000000, 0.000100)">
+                <path d="M76,0 C87.046,0 96,8.954 96,20 C96,31.046 87.046,40 76,40 C64.954,40 56,31.046 56,20 C56,8.954 64.954,0 76,0" id="Fill-5" fill="#E25351"></path>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-8"></g>
+                <path d="M73.813,30.152 L77.606,30.152 L77.606,26.359 L73.813,26.359 L73.813,30.152 Z M73.813,18.799 C76.796,18.293 78.466,17.155 78.466,15.612 C78.466,14.272 77.403,13.387 75.836,13.387 C74.318,13.387 73.004,13.918 71.967,14.98 L69.488,12.35 C71.385,10.656 73.459,9.847 75.811,9.847 C79.654,9.847 82.512,12.325 82.512,15.663 C82.512,18.217 81.045,19.911 77.605,21.252 L77.605,24.033 L73.813,24.033 L73.813,18.799 Z" id="Fill-7" fill="#FFFFFF" mask="url(#mask-2)"></path>
+                <polygon id="Fill-9" fill="#1C6EAB" mask="url(#mask-2)" points="78 84 92 84 92 45 78 45"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

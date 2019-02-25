@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>分割払い　ＷＥＢで変更可能！月々のお支払いの調整方法｜楽天カード</title>
+  <meta name="description" content="分割払いとは、ご希望の支払回数をご指定いただき、自分のペースで計画的なお支払いが可能な方法です。">
+  <meta property="og:title" content="分割払い　ＷＥＢで変更可能！月々のお支払いの調整方法｜楽天カード">
+  <meta property="og:description" content="分割払いとは、ご希望の支払回数をご指定いただき、自分のペースで計画的なお支払いが可能な方法です。">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="楽天カード">
+  <meta property="og:image" content="https://image.card.jp.rakuten-static.com/corp/pc/contents/logo_200x200.gif">
+  <link rel="canonical" href="https://www.rakuten-card.co.jp/installment/">
+  <link rel="stylesheet" href="../css/header.css">
+  <link rel="stylesheet" href="../css/footer.css">
+  <link rel="stylesheet" href="../css/rex-red.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+    <article class="pt-4">
+      <section class="container-fluid">
+        <h1 class="text-center mb-4">分割払い</h1>
+      </section>
+      <p class="jumbotron text-center mb-0">
+        ちょっと大きなお買い物。<br>賢い私は支払いの不安を分割する。
+      </p>
+      <section class="container-fluid py-4">
+        <h2 class="text-center mb-3">分割払いとは</h2>
+        <p class=" text-left">分割払いとは、ご利用時にお支払回数をご指定いただき、自分のペースで計画的なお支払いが可能な方法です。<br>
+        2・3・5・6・10・12・15・18・20・24・30・36回の中から、ご希望の支払回数がご指定いただけます。</p>
+        <ul class="text-left list-unstyled small">
+          <li>※ 分割払いをご利用になると、包括信用購入あつせんの手数料(以下分割払手数料)がかかります。</li>
+        </ul>
+      </section>
+
+      <hr class="separator">
+
+      <section class="container-fluid py-4">
+        <h2 class="text-center mb-3">手数料無料の2回払い</h2>
+        <p class=" text-left">締切日（毎月末日）の翌月27日と翌々月27日の2回に分けてお支払いいただく方法です。<br>
+        <strong>2回払いは手数料不要</strong>でご利用いただけます。</p>
+      </section>
+
+      <hr class="separator">
+
+      <section class="container-fluid py-4">
+        <h2 class="text-center mb-3">分割払いのお支払方法</h2>
+        <p class="text-left">毎月27日に現金価格（以下ご利用金額）と分割払手数料の合計を、支払回数で分割した分割支払金をお支払いいただきます。<br>
+        （支払回数：2・3・5・6・10・12・15・18・20・24・30・36回）<br>
+        実質年率12.25％～15.00％</p>
+        <ul class="text-left list-unstyled small">
+          <li>※お持ちのカードによっては上記以外の利率の場合がございます。</li>
+          <li>※分割払いのご利用可能額を超過して分割払いのご利用はできません。</li>
+        </ul>
+        <p class="text-right"><a href="/e-navi/members/credit-limit/availability/" class="d-inline-flex align-items-center"><span class="mr-1">ご利用可能額についてはこちら</span><span class="rex-icon chevron-right"></span></a></p>
+      </section>
+
+      <section class="container-fluid py-4">
+        <div class="text-left">
+          <h3 class="text-center">お支払い回数表</h3>
+          <table class="paymentTbl table table-condensed table-responsive mb-2">
+            <thead>
+              <tr>
+                <th>支払回数</th>
+                <td>
+                  <select id="js-calcPayment">
+                    <option>3回</option>
+                    <option>5回</option>
+                    <option>6回</option>
+                    <option>10回</option>
+                    <option>12回</option>
+                    <option>15回</option>
+                    <option>18回</option>
+                    <option>20回</option>
+                    <option>24回</option>
+                    <option>30回</option>
+                    <option>36回</option>
+                  </select>
+                </td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>支払期間</th>
+                <td>
+                  <ul class="js-calcResult">
+                    <li>3ヶ月</li>
+                    <li>5ヶ月</li>
+                    <li>6ヶ月</li>
+                    <li>10ヶ月</li>
+                    <li>12ヶ月</li>
+                    <li>15ヶ月</li>
+                    <li>18ヶ月</li>
+                    <li>20ヶ月</li>
+                    <li>24ヶ月</li>
+                    <li>30ヶ月</li>
+                    <li>36ヶ月</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <th>実質年率</th>
+                <td>
+                  <ul class="js-calcResult">
+                    <li>12.25</li>
+                    <li>13.50</li>
+                    <li>13.75</li>
+                    <li>14.50</li>
+                    <li>14.75</li>
+                    <li>15.00</li>
+                    <li>15.00</li>
+                    <li>15.00</li>
+                    <li>15.00</li>
+                    <li>15.00</li>
+                    <li>15.00</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <th>分割払手数料<br>(現金価格100円当たり)</th>
+                <td>
+                  <ul class="js-calcResult">
+                    <li>2.04</li>
+                    <li>3.40</li>
+                    <li>4.08</li>
+                    <li>6.80</li>
+                    <li>8.16</li>
+                    <li>10.20</li>
+                    <li>12.24</li>
+                    <li>13.60</li>
+                    <li>16.32</li>
+                    <li>20.40</li>
+                    <li>24.48</li>
+                  </ul>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <ul class="list-unstyled small">
+          <li>※分割支払金は、1円未満切り捨てとなり、その端数は初回に加算します。</li>
+          <li>※端数の調整により実質年率が異なる場合があります。</li>
+          <li>※お手持ちのカードにより、それぞれ手数料率が異なります。</li>
+        </ul>
+        <ul class="list-unstyled small text-primary">
+          <li>1回払い、2回払いは、いずれも手数料不要でご利用いただけます。</li>
+          <li>1回払い…締切日（毎月末日）の翌月27日にお支払いいただく方法です。</li>
+          <li>2回払い…締切日（毎月末日）の翌月27日と翌々月27日の2回に分けてお支払いいただく方法です。</li>
+        </ul>
+      </section>
+
+      <section class="container-fluid py-4">
+        <h2 class="text-center mb-3">お支払い例</h2>
+        <p>【例：5/10に購入した5万円の商品を6回払いで支払う場合】（6回払い、実質年率13.75％）</p>
+        <div class="text-center mb-2">
+          <img src="./image/pay_fig_02.png" alt="5万円の商品を6回払いで購入" width="100%" style="max-width: 584px;">
+        </div>
+        <ul class="list-unstyled">
+          <li>・ご利用金額 50,000円</li>
+          <li>・分割払手数料 50,000円ｘ(4.08円/100円)＝2,040円</li>
+          <li>・支払総額 50,000円＋2,040円＝52,040円</li>
+          <li>・1回目の分割支払金 8,675円(※)</li>
+          <li>・2回目～6回目までの分割支払金 8,673円</li>
+        </ul>
+        <p class="mb-3 small">※52,040円÷6回(端数は初回に加算)</p>
+
+        <div class="text-center">
+          <table class="table table-condensed">
+            <thead>
+            <tr>
+            <th class="align-middle w-35">お支払い日</th>
+            <th class="text-center">初回<br>（6月27日のお支払い）</th>
+            <th class="text-center">2回目から6回目まで<br>（7月27日～11月27日のお支払い）</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <th>分割支払金</th>
+            <td>8,675円</td>
+            <td>8,673円</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="container-fluid py-4">
+        <h2 class="text-center mb-3">都合に合わせてべんりな<br>「あとから分割払い」</h2>
+        <p>ショッピング1回払いご利用分をあとから分割払いに変更できるサービスです。<br>
+        分割払い手数料は、店頭で分割払いを指定した場合と同様となります。</p>
+        <div class="text-center mb-2">
+          <img src="./image/payment_installment_pc_atoinstallment_merit_1.png" alt="分割払いにあとから変更！それがあとから分割払い" width="100%" style="max-width: 575px;">
+        </div>
+        <ul class="list-unstyled">
+          <li>・変更したいご利用分を選んで分割払いに変更できます。</li>
+          <li>・毎月、最長20日まで分割払いに変更可能です。</li>
+          <li>・パソコン・スマートフォンから簡単にお手続きいただけます。</li>
+        </ul>
+        <p class="text-right mb-3"><a href="/service/payment/easy/" class="d-inline-flex align-items-center"><span class="mr-1">分割払いの説明はこちら</span><span class="rex-icon chevron-right"></span></a></p>
+        <p class="text-center"><a href="/e-navi/members/payment/installment/" class="btn btn-primary">「あとから分割払い」をする</a></p>
+      </section>
+
+      <hr class="separator">
+
+      <section class="container-fluid py-4">
+        <h2 class="text-center mb-3">「あとから分割払い」<br>お支払い例</h2>
+        <p>【例:5月15日にご利用された3万円の１回払いご利用分を、5月15日に「あとから分割払い」した場合】</p>
+        <div class="text-center mb-2">
+          <img src="./image/payment_installment_sp_ato_installment_figure.png" alt="" width="100%" style="max-width: 580px;">
+        </div>
+        <ul class="list-unstyled small mb-1">
+          <li>※ カード年会費や家賃のお支払いなど、一部の加盟店のご利用代金については分割払いに変更できない場合がありますのでご注意ください。</li>
+          <li>※ 分割払い変更ご利用可能額を超過して分割払いへの変更はご利用できません。</li>
+        </ul>
+        <p class="text-right"><a href="/service/basic/credit-limit/" class="d-inline-flex align-items-center"><span class="mr-1">ご利用可能額についてはこちら</span><span class="rex-icon chevron-right"></span></a></p>
+      </section>
+
+      <hr class="separator">
+
+      <section class="container-fluid py-4">
+        <h2 class="text-center mb-3">分割払い変更後の<br>お支払い開始月</h2>
+        <p>当月ご請求分に関しましては、お支払い月の5日までにご変更いただきますと当月27日から、<br>
+        6日～最長20日までにご変更いただきますと翌月27日からお支払い開始となります。</p>
+        <div class="mb-3 text-center">
+          <img src="./image/payment_installment_sp_ato_installment.png" alt="" width="100%" style="max-width: 579px;">
+        </div>
+        <p class="text-center"><a href="/service/basic/credit-limit/" class="btn btn-primary">「あとから分割払い」をする</a></p>
+      </section>
+
+      <div class="bg-light py-4">
+        <section class="container-fluid">
+          <h2 class="text-center mb-3">関連情報</h2>
+          <p><strong>・あとからリボ払い</strong></p>
+          <p>お支払い方法を、後からリボ払いに変更することができます。</p>
+          <p class="text-right"><a href="/revo/after/" class="d-inline-flex align-items-center"><span class="mr-1">「あとからリボ払い」についてはこちら</span><span class="rex-icon chevron-right"></span></a></p>
+          <p><strong>・自動でリボ払い</strong></p>
+          <p>毎月一定のお支払い金額で安心です。</p>
+          <p class="text-right"><a href="/revo/automatic/" class="d-inline-flex align-items-center"><span class="mr-1">「自動でリボ払い」についてはこちら</span><span class="rex-icon chevron-right"></span></a></p>
+          <p><strong>・ご利用可能枠の変更</strong></p>
+          <p>ショッピング・キャッシングのご利用可能枠の変更が可能です。</p>
+          <p class="text-right"><a href="/service/basic/credit-limit/" class="d-inline-flex align-items-center"><span class="mr-1">ご利用可能額についてはこちら</span><span class="rex-icon chevron-right"></span></a></p>
+          <p>分割払いのおまとめ払い時はコンタクトセンターへご連絡ください。</p>
+        </section>
+      </div>
+    </article>
+  </main>
+  <script src="//static.card.jp.rakuten-static.com/corp/pc/js/common/jquery.js"></script>
+  <script type="text/javascript" src="//static.card.jp.rakuten-static.com/corp/smart/js/contents/service/payment/easy/calcPaymentInfo.js"></script>
+
+</body>
+</html>

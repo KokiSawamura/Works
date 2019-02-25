@@ -1,0 +1,20 @@
+.jumbotron {
+  background: url(./image/main_installment.png) center no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.paymentTbl select {width:80px;padding:10px;border:none;font-weight:bold;height:auto;-webkit-appearance:menulist;-moz-appearance:menulist;appearance:menulist;}
+.paymentTbl>thead>tr>th {width:60%;}
+.paymentTbl>thead>tr>td {width:40%;}
+.paymentTbl>tbody>tr>td,
+.paymentTbl>tbody>tr>th,
+.paymentTbl>tfoot>tr>td,
+.paymentTbl>tfoot>tr>th,
+.paymentTbl>thead>tr>td,
+.paymentTbl>thead>tr>th {vertical-align: middle;color:#828282;}
+.paymentTbl>tbody>tr>td,
+.paymentTbl>thead>tr>td {text-align: center;}
+.js-calcResult {padding:0;margin:0;}
+.js-calcResult > li {padding:10px 20px 10px 0;margin:0;display: none;list-style-type:none;list-style-position: outside;}
+.w-35{width: 35%;}
+  

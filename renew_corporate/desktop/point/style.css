@@ -1,0 +1,39 @@
+.jumbotron {
+  background: url(./image/main.png) center no-repeat;
+  background-size: cover;
+}
+
+.card-img-top-add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 98px;
+}
+
+.card-img-top-other {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 84px;
+}
+
+.card-title-check::before {
+  content: '';
+  margin-right: 5px;
+  margin-bottom: 7px;
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background-image: url(./image/check.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.card-block-bottom {
+  margin-top: auto;
+}
+
+.bg-light {
+  background-color: #F0F3F8;
+}

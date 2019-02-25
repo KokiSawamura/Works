@@ -1,0 +1,16 @@
+.jumbotron {
+  background: url(./image/main.png) center no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.fs-18px {
+  font-size: 18px;
+}
+
+.edy_use_box {
+  width: 692px;
+  margin: 0 auto;
+  padding: 20px 25px;
+  border: 2px solid #cccccc;
+}
