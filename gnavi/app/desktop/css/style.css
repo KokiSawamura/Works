@@ -1,0 +1,252 @@
+/* overwrite */
+body {
+  font-family: "Noto Sans", "Noto Sans CJK JP", "Noto Sans Japanese", Arial, sans-serif;
+}
+
+.btn.disabled,
+.btn.disabled:focus,
+.btn.disabled:hover,
+.btn[disabled],
+.btn[disabled]:focus,
+.btn[disabled]:hover,
+fieldset[disabled] .btn,
+fieldset[disabled] .btn:focus,
+fieldset[disabled] .btn:hover {
+  color: #d1d1d1 !important;
+}
+
+#rex-btn {
+  position: relative;
+  display: inline-block;
+  width: 352px;
+  padding-bottom: 42px;
+  text-align: right;
+}
+
+#rex-btn .rex-button__1ArV {
+  margin-bottom: 0;
+}
+
+#rex-btn .rex-button__1ArV .rex-button__3n3I {
+  margin: 0;
+  width: 100%;
+  padding: 16px 32px;
+  font-size: 22px;
+}
+
+#rex-btn .rex-button__1ArV .rex-button__3n3I.rex-button__32Uc {
+  line-height: 1.5;
+  border: 1px solid #ebebeb;
+}
+
+#rex-btn .rex-button__1ArV .rex-button__3n3I.rex-button__2YZp, #rex-btn .rex-button__1ArV .rex-button__3n3I.rex-button__27xO {
+  padding-right: 20px;
+  padding-left: calc(20px + 1.3em + 8px);
+  text-align: left;
+}
+
+#rex-btn .rex-button__1ArV .rex-button__3n3I.rex-button__2YZp:before, #rex-btn .rex-button__1ArV .rex-button__3n3I.rex-button__27xO:before {
+  width: 1.3em;
+  height: 1.3em;
+}
+
+#rex-btn .rex-button__1ArV .rex-button__3n3I.rex-button__2YZp:before {
+  animation: check 1s ease-in-out 1 forwards;
+}
+
+#rex-btn ._3Eti {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 736px;
+  max-width: 736px;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  background-color: transparent;
+  border: none;
+  font-size: 14px;
+}
+
+#rex-btn ._3Eti:before {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  margin-right: .3em;
+  width: 1.3em;
+  height: 1.3em;
+  vertical-align: middle;
+}
+
+#rex-btn ._31bj {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  font-size: 14px;
+}
+
+/* original */
+noscript {
+  display: block;
+  text-align: center;
+  color: #bf0000;
+}
+
+body {
+  padding: 16px 0;
+  background-color: #f7f7f7;
+}
+
+main {
+  width: 910px;
+  margin: 0 auto;
+}
+
+main > article {
+  padding: 40px 32px;
+  background-color: white;
+  box-shadow: 0 0 15px 0px rgba(0, 0, 0, 0.05);
+}
+
+.ribbon {
+  position: relative;
+  padding: 8px 0;
+  margin: 0 calc(-32px - 15px) 48px;
+  text-align: center;
+  background-color: #bf0000;
+  color: white;
+}
+
+.ribbon:before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  transform: translateY(100%);
+  border-style: solid;
+  border-width: 0 15px 17px 0;
+  border-color: transparent #9f0101 transparent transparent;
+}
+
+.ribbon:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  transform: translateY(100%);
+  border-style: solid;
+  border-width: 17px 15px 0 0;
+  border-color: #9f0101 transparent transparent transparent;
+}
+
+.store-information {
+  margin-bottom: 48px;
+}
+
+.store-name {
+  padding: 8px 0;
+  text-align: center;
+  border-top: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+}
+
+.store-insentives {
+  text-align: center;
+  line-height: 1;
+  font-size: 56px;
+  color: #bf0000;
+}
+
+.store-insentives strong {
+  font-size: 144px;
+}
+
+.store-term {
+  text-align: center;
+  font-size: 14px;
+}
+
+.btn-area {
+  margin-bottom: 40px;
+}
+
+.btn-area .btn {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  width: 352px;
+}
+
+.campaign-text {
+  text-align: center;
+  line-height: 1.2;
+  font-size: 20px;
+}
+
+.campaign-text--large {
+  font-size: 24px;
+}
+
+#gnavi-link {
+  display: none;
+}
+
+#gnavi-link.gnavi-active {
+  display: inline-block;
+}
+
+#gnavi-link.disabled {
+  display: inline-block;
+}
+
+/* icon-font */
+@font-face {
+  font-family: 'gnavi-rexicon';
+  src: url(data:application/font-woff;base64,d09GRgABAAAAAAUcAAsAAAAABNAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABPUy8yAAABCAAAAGAAAABgDxIFgGNtYXAAAAFoAAAAVAAAAFQXVtKHZ2FzcAAAAbwAAAAIAAAACAAAABBnbHlmAAABxAAAAMwAAADMbkliEWhlYWQAAAKQAAAANgAAADYT2BXDaGhlYQAAAsgAAAAkAAAAJAhtBHFobXR4AAAC7AAAABQAAAAUCqsAAGxvY2EAAAMAAAAADAAAAAwAKAB6bWF4cAAAAwwAAAAgAAAAIAAKADVuYW1lAAADLAAAAc4AAAHOYq5kC3Bvc3QAAAT8AAAAIAAAACAAAwAAAAMDVgGQAAUAAAKZAswAAACPApkCzAAAAesAMwEJAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAAAAAAAAAAAAAQAAA6QADwP/AAEADwABAAAAAAQAAAAAAAAAAAAAAIAAAAAAAAwAAAAMAAAAcAAEAAwAAABwAAwABAAAAHAAEADgAAAAKAAgAAgACAAEAIOkA//3//wAAAAAAIOkA//3//wAB/+MXBAADAAEAAAAAAAAAAAAAAAEAAf//AA8AAQAAAAAAAAAAAAIAADc5AQAAAAABAAAAAAAAAAAAAgAANzkBAAAAAAEAAAAAAAAAAAACAAA3OQEAAAAABAAA/6sEqwOrABUAGQAdADIAACUhETM1IyIGFTERFBYzMSEyNjUxNSMBIRUhFSERIQEhIgYVMREUFjMxITI2NTERNCYjMQNV/QBWViMyMiMDACQyVv4AAwD9AAMA/QADAP0AIzIyIwMAJDIyJAACK1UyI/3VIzIyI4AC1VVV/oACgDIk/dYkMjIkAiokMgAAAQAAAAEAAAEqqktfDzz1AAsEAAAAAADYBui4AAAAANgG6LgAAP+rBKsDqwAAAAgAAgAAAAAAAAABAAADwP/AAAAEqwAAAAAEqwABAAAAAAAAAAAAAAAAAAAABQQAAAAAAAAAAAAAAAIAAAAEqwAAAAAAAAAKABQAHgBmAAEAAAAFADMABAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAOAK4AAQAAAAAAAQANAAAAAQAAAAAAAgAHAJYAAQAAAAAAAwANAEgAAQAAAAAABAANAKsAAQAAAAAABQALACcAAQAAAAAABgANAG8AAQAAAAAACgAaANIAAwABBAkAAQAaAA0AAwABBAkAAgAOAJ0AAwABBAkAAwAaAFUAAwABBAkABAAaALgAAwABBAkABQAWADIAAwABBAkABgAaAHwAAwABBAkACgA0AOxnbmF2aS1yZXhpY29uAGcAbgBhAHYAaQAtAHIAZQB4AGkAYwBvAG5WZXJzaW9uIDEuMABWAGUAcgBzAGkAbwBuACAAMQAuADBnbmF2aS1yZXhpY29uAGcAbgBhAHYAaQAtAHIAZQB4AGkAYwBvAG5nbmF2aS1yZXhpY29uAGcAbgBhAHYAaQAtAHIAZQB4AGkAYwBvAG5SZWd1bGFyAFIAZQBnAHUAbABhAHJnbmF2aS1yZXhpY29uAGcAbgBhAHYAaQAtAHIAZQB4AGkAYwBvAG5Gb250IGdlbmVyYXRlZCBieSBJY29Nb29uLgBGAG8AbgB0ACAAZwBlAG4AZQByAGEAdABlAGQAIABiAHkAIABJAGMAbwBNAG8AbwBuAC4AAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="gnavi-rexicon"],
+[class*=" gnavi-rexicon"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'gnavi-rexicon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.gnavi-rexicon_new-window-l:before {
+  content: "\e900";
+}
+
+@keyframes check {
+  0% {
+    opacity: 0;
+    left: 50%;
+    top: 50%;
+  }
+  50% {
+    opacity: 1;
+    left: 50%;
+    top: 50%;
+  }
+  100% {
+    left: 20px;
+    top: 50%;
+  }
+}
