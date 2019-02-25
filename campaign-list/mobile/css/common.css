@@ -1,0 +1,2572 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/* ############################################################
+
+	CSS Compornent & reset
+	Last Up Date: 2012.5.2
+	Author: Nobuhiro, Saito
+	lastAuthor: Fumiaki Yamato
+
+############################################################ */
+
+/* reset
+--------------------------------------------- */
+body,div,pre,p,ul,li,h1,h2,h3,h4,h5,h6,dl,dt,dd,blockquote,form,fieldset,table,th,td {
+	margin: 0;
+	padding: 0;
+}
+html {
+	overflow-x: hidden;
+}
+body {
+	-webkit-text-size-adjust:none;
+	overflow-x: hidden;
+	background: #ffffff;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.3;
+}
+
+body > iframe{
+	display:none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-size: 100%;
+	font-weight: inherit;
+}
+img {
+	margin: 0;
+	padding: 0;
+	border: none;
+	vertical-align: bottom;
+}
+table,th,td {
+	text-align: left;
+}
+ul,ol,li {
+	margin: 0;
+	padding: 0;
+	list-style: none outside;
+}
+input, button, select, textarea {
+	font-size: 14px;
+}
+select {
+  min-width: 2em;
+}
+#inputForm\\:expirationMonth,
+#inputForm\\:birthYear,
+#inputForm\\:birthMonth,
+#inputForm\\:birthDay { 
+/*
+min-width: 4em; 
+*/
+}
+a,
+a:link {
+	color: #0000FE;
+}
+a:visited {
+	color: #883388;
+}
+table,tr,th,td {
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+	empty-cells: hide;
+}
+em {
+	font-weight: bold;
+	font-style: normal;
+}
+
+/* ----------------------------------
+      helper class
+----------------------------------- */
+
+.mha { margin-left:auto!important;margin-right:auto!important; }
+.mh5 { margin-left:5px!important;margin-right:5px!important; }
+.mh10 { margin-left:10px!important;margin-right:10px!important; }
+.mh15 { margin-left:15px!important;margin-right:15px!important; }
+.mh20 { margin-left:20px!important;margin-right:20px!important; }
+.mv5 { margin-top: 5px!important;margin-bottom: 5px!important; }
+.mv10 { margin-top: 10px!important;margin-bottom: 10px!important; }
+.mv15 { margin-top: 15px!important;margin-bottom: 15px!important; }
+.mv20 { margin-top: 20px!important;margin-bottom: 20px!important; }
+.ml5 { margin-left: 5px!important; }
+.mt5 { margin-top: 5px!important; }
+.mr5 { margin-right: 5px!important; }
+.mb5 { margin-bottom: 5px!important; }
+.ml10 { margin-left: 10px!important; }
+.mt10 { margin-top: 10px!important; }
+.mr10 { margin-right: 10px!important; }
+.mb10 { margin-bottom: 10px!important; }
+.ml15 { margin-left: 15px!important; }
+.mt15 { margin-top: 15px!important; }
+.mr15 { margin-right: 15px!important; }
+.mb15 { margin-bottom: 15px!important; }
+.ml20 { margin-left: 20px!important; }
+.mt20 { margin-top: 20px!important; }
+.mr20 { margin-right: 20px!important; }
+.mb20 { margin-bottom: 20px!important; }
+.ph5 { padding-left:5px!important;padding-right:5px!important; }
+.ph10 { padding-left:10px!important;padding-right:10px!important; }
+.ph15 { padding-left:15px!important;padding-right:15px!important; }
+.ph20 { padding-left:20px!important;padding-right:20px!important; }
+.pv5 { padding-top: 5px!important;padding-bottom: 5px!important; }
+.pv10 { padding-top: 10px!important;padding-bottom: 10px!important; }
+.pv15 { padding-top: 15px!important;padding-bottom: 15px!important; }
+.pv20 { padding-top: 20px!important;padding-bottom: 20px!important; }
+.pl5 { padding-left: 5px!important; }
+.pt5 { padding-top: 5px!important; }
+.pr5 { padding-right: 5px!important; }
+.pb5 { padding-bottom: 5px!important; }
+.pl10 { padding-left: 10px!important; }
+.pt10 { padding-top: 10px!important; }
+.pr10 { padding-right: 10px!important; }
+.pb10 { padding-bottom: 10px!important; }
+.pl15 { padding-left: 15px!important; }
+.pt15 { padding-top: 15px!important; }
+.pr15 { padding-right: 15px!important; }
+.pb15 { padding-bottom: 15px!important; }
+.pl20 { padding-left: 20px!important; }
+.pt20 { padding-top: 20px!important; }
+.pr20 { padding-right: 20px!important; }
+.pb20 { padding-bottom: 20px!important; }
+.inB {
+  display: inline-block!important;
+  *display: inline!important;
+  *zoom: 1;
+}
+.txtL { text-align: left!important; }
+.txtC { text-align: center!important; }
+.txtR { text-align: right!important; }
+.isBlock { display: block!important; }
+.isHidden { display: none!important; }
+.fs-3 { font-size: 65%!important; }
+.fs-2 { font-size: 82%!important; }
+.fs-1 { font-size: 90%!important; }
+.fs0 { font-size: 100%!important; }
+.fs1 { font-size: 115%!important; }
+.fs2 { font-size: 125%!important; }
+.fs3 { font-size: 150%!important; }
+.fs4 { font-size: 165%!important; }
+.fs5 { font-size: 175%!important; }
+.fwN { font-weight: normal!important; }
+.fwB { font-weight: bold!important; }
+.fc--emph { color: #bf0000!important;}
+.fc--caution { color: #ff0000!important;}
+
+.bgEmph{ background:#ffd9d9;}
+
+/* ----------------------------------
+      clear fix
+----------------------------------- */
+.cfx:after,
+.grid:after,
+.cp-column--2:after,
+.cp-column--3:after,
+.cp-column--4:after {
+  display:block;
+  clear:both;
+  height:0;
+  visibility:hidden;
+  content:".";
+}
+.cfx,
+.grid,
+.cp-column--2,
+.cp-column--3,
+.cp-column--4, { zoom: 1; }
+
+.flL { float: left; }
+.flR { float: right; }
+
+/* ----------------------------------
+      general parts
+      rule: add prefix "cp-"
+----------------------------------- */
+
+.grid .grid__item--1 {
+  width: 8.333%;
+  float: left;
+}
+.grid .grid__item--2 {
+  width: 16.667%;
+  float: left;
+}
+.grid .grid__item--3 {
+  width: 25%;
+  float: left;
+}
+.grid .grid__item--4 {
+  width: 33.333%;
+  float: left;
+}
+.grid .grid__item--5 {
+  width: 41.666%;
+  float: left;
+}
+.grid .grid__item--6 {
+  width: 50%;
+  float: left;
+}
+.grid .grid__item--7 {
+  width: 58.333%;
+  float: left;
+}
+.grid .grid__item--8 {
+  width: 66.666%;
+  float: left;
+}
+.grid .grid__item--9 {
+  width: 75%;
+  float: left;
+}
+.grid .grid__item--10 {
+  width: 83.33%;
+  float: left;
+}
+.grid .grid__item--11 {
+  width: 91.666%;
+  float: left;
+}
+.grid .grid__item--12 {
+  width: 100%;
+  float: left;
+}
+
+.cp-column--2 .cp-column__box {
+  width: 50%;
+  float: left;
+}
+.cp-column--3 .cp-column__box {
+  width: 33.33%;
+  float: left;
+}
+.cp-column--4 .cp-column__box {
+  width: 25%;
+  float: left;
+}
+
+.cp-noticeBox--def {
+  background: #f7f7f7;
+  border: solid 1px #b3b3b3;
+  padding: 5px;
+}
+
+.cp-noticeBox--hilight {
+  background: #ffffcc;
+  border: solid 1px #ffcc66;
+  padding: 5px;
+}
+
+.cp-ttl--tag {
+  border-left: solid 3px #bf0000;
+  border-bottom: solid 1px #bf0000;
+  padding: 5px 5px 5px 10px;
+}
+
+.cp-statusBox--emph {
+  padding: 5px;
+  border: solid 2px #bf0000;
+  background: #ffd9d9;
+  -webkit-border-radius: 4px 4px;
+}
+
+.cp-icn {
+  display: inline-block;
+}
+
+.cp-icn--present {
+  background: url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/enavi/common/icon_present.gif) no-repeat 0 50%;
+  padding: 5px 0 5px 40px;
+}
+
+/* developer making in 3.0*/
+
+
+#top {
+    position: relative;
+    background-color: #036fab;
+    color: white;
+    padding: 5px;
+    margin: 0px 0px 10px 0px;
+}
+
+#bottom {
+    position: relative;
+    background-color: #c2dfef;
+    padding: 5px;
+    margin: 10px 0px 0px 0px;
+}
+
+#left {
+    float: left;
+    background-color: #ece3a5;
+    padding: 5px;
+    width: 150px;
+}
+
+#right {
+    float: right;
+    background-color: #ece3a5;
+    padding: 5px;
+    width: 150px;
+}
+
+.center_content {
+    position: relative;
+    background-color: #dddddd;
+    padding: 5px;
+}
+
+.left_content {
+    background-color: #dddddd;
+    padding: 5px;
+    margin-left: 170px;
+}
+
+.right_content {
+    background-color: #dddddd;
+    padding: 5px;
+    margin: 0px 170px 0px 170px;
+}
+
+#top a:link, #top a:visited {
+  color: white;
+  font-weight : bold;
+  text-decoration: none;
+}
+
+#top a:link:hover, #top a:visited:hover  {
+  color: black;
+  font-weight : bold;
+  text-decoration : underline;
+}
+
+/* developer making in 3.0*/
+
+
+/* ステータス確認用パンクズ
+----------------------------------*/
+ul.statusPath {
+	margin: 10px 0;
+	list-style: none;
+	overflow: hidden;
+	font-size: 12px;
+}
+ul.statusPath li {
+	float: left;
+	line-height: 28px;
+}
+ul.statusPath li span {
+	float: left;
+	display: block;
+	padding: 0 10.5px 0 20px;
+	border-top: #9e9e9e solid 1px;
+	border-bottom: #9e9e9e solid 1px;
+	color: #4e4e4e;
+	background: #f5f5f5;
+	font-weight: bold;
+	text-decoration: none;
+}
+ul.statusPath li:first-child span {
+	border-left: #9e9e9e solid 1px;
+	-webkit-border-radius:4px 0 0 4px;
+}
+ul.statusPath li:last-child span {
+	border-right: #9e9e9e solid 1px;
+	-webkit-border-radius:0 4px 4px 0;
+}
+ul.statusPath li:not(:last-child) span::after {
+	position: relative;
+	display: block;
+	width: 10px;
+	height: 14px;
+	margin-top: -14px;
+	margin-left: auto;
+	margin-right: -15px;
+	border-right: 1px solid #9e9e9e;
+	background: #f5f5f5;
+	content: " ";
+	-webkit-transform: skew(-30deg);
+}
+ul.statusPath li:not(:last-child) span::before {
+	float: right;
+	display: block;
+	width: 10px;
+	height: 14px;
+	margin-bottom: -14px;
+	margin-left: auto;
+	margin-right: -15px;
+	background: #f5f5f5;
+	border-right: 1px solid #9e9e9e;
+	content: " ";
+	-webkit-transform: skew(30deg);
+}
+ul.statusPath li:first-child span {
+	padding-left: 14px;
+}
+ul.statusPath li.statusPathAct {
+	text-shadow: none;
+}
+ul.statusPath li.statusPathAct span, 
+ul.statusPath li.statusPathAct span::after, 
+ul.statusPath li.statusPathAct span::before {
+	color: #fefefe;
+	background: #6e6e6e;
+}
+
+/* コンテンツ部分ラッピング用
+----------------------------------*/
+div.contentForm {
+	background-color: #ffffff;
+	border: 1px solid #cccccc;	
+	margin: 10px 5px 0;
+	padding-bottom: 15px;
+	-webkit-border-radius: 6px 6px;
+	clear: both;
+}
+div.contentWrapper {
+	padding: 0 5px;
+}
+div.contentBox {
+	margin: 10px 2px 20px;
+	padding: 1px;
+	border: 1px solid #B3B3B3;
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+	-webkit-box-shadow: 0px 1px 2px #c9c9c9;
+}
+
+/* エラーメッセージ用
+----------------------------------*/
+div.errorMessage {
+	margin: 0 5px 10px;
+	padding: 5px;
+	border: 2px solid #BF0000;
+	background: #FFD9D9;
+	font-weight: bold;
+	-webkit-border-radius: 4px 4px;
+}
+div.errorMessage ul li {
+	margin-top: 5px;
+	color: #FF0000;
+}
+div.errorMessage ul.attention li,
+div.errorMessage ul.attention2 li{
+	margin-top: 0;
+	color: #333333;
+	font-weight: normal;
+}
+div.errorMessage p.add {
+	font-weight: normal;
+	font-size: 14px;
+}
+div.errorMessage a.blank {
+	background: url("https://image.card.jp.rakuten-static.com/r-enavi/WebImages/enavi/common/icn_blank.gif") no-repeat scroll 100% 50% transparent;
+	padding-right: 15px;
+}
+div.errorMessage a.blank img, a.popup img {
+	display: none;
+}
+
+/* メンテナンス用
+----------------------------------*/
+div.maintenance {
+	margin: 0 5px 10px;
+	padding: 5px;
+	border: 1px solid #BF0000;
+}
+div.maintenance em {
+	color: #BF0000;
+	font-weight: bold;
+}
+/* 確認メッセージ用
+----------------------------------*/
+.essential,
+.essential2 {
+	display: block;
+	padding: 5px 10px 0;
+	color: #BF0000;
+	font-weight: bold;	
+}
+.essential2 {
+	margin-bottom: 10px;
+}
+/* 注意確認用
+----------------------------------*/
+ul.attention {
+	margin:0 2px 10px;
+	padding: 5px 10px 0;
+	background: #FFD9D9;
+	font-size: 14px;
+}
+ul.attention li {
+	padding: 0 0 5px 12px;
+	background: url("https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/icon_kome.gif") no-repeat 0 0.4em;
+}
+ul.attention li.disc {
+	padding: 0 0 5px 0;
+	background: none;
+}
+p.attentiontitle01 {
+	margin: 15px 10px 0 5px;
+	font-weight: bold;
+}
+/* その他メッセージ用
+----------------------------------*/
+div.infoBox {
+	margin: 0 5px 10px;
+	padding: 10px 5px;
+	border: 2px solid #aaaaaa;
+	background: #f5f5f5;
+	font-weight: bold;
+	-webkit-border-radius: 4px;
+}
+div.infoBox p {
+	color: #333333;
+	font-weight: normal;
+	font-size: 14px;
+}
+div.sentence {
+	margin: 0 10px 10px;
+}
+.definitionStyle01 {
+	margin: 5px 10px;
+	color:#333333;
+}
+/* コメント表示用
+----------------------------------*/
+.note {
+	display: block;
+	padding: 5px 10px 0;
+}
+p.note {
+	display: block;
+	padding: 5px 10px 10px;
+}
+dl.notes {
+	margin: 10px 2px 10px;
+	padding: 1px;
+	border: 1px solid #B3B3B3;
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+}
+dl.notes dt{
+	overflow: hidden;
+	padding: 8px 8px 8px 15px;
+	color: #333333;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#eeeeee), to(#cccccc), color-stop(.7,#cccccc));
+	font-weight: bold;
+}
+dl.notes dd {
+	padding: 8px;
+	font-size: 14px;
+	word-break: break-all;
+}
+dl.notes dd.notesTitle{
+	padding: 20px 8px 0;
+}
+dl.notes dd strong.alert {
+	color: #bf0000;
+}
+ul.notes {
+	margin:0 2px 10px;
+	padding: 5px 10px 0;
+	font-size: 14px;
+}
+ul.notes li {
+	padding: 0 0 5px 12px;
+	background: url("https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/icon_kome.gif") no-repeat 0 0.4em;
+}
+
+/* コメント表示用(矢印)
+----------------------------------*/
+
+ul.listStyle_arrow li{
+    background: url("https://image.card.jp.rakuten-static.com/r-enavi/WebImages/enavi/common/arrow_01_2.gif") no-repeat 0 0.2em;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 6px;
+    padding-left: 17px;
+}
+
+ul.listStyle_arrow_red li{
+    background: url("https://image.card.jp.rakuten-static.com/r-enavi/WebImages/enavi/common/arrow_01.gif") no-repeat 0 0.2em;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 6px;
+    padding-left: 17px;
+}
+
+/*e-NAVI開始手続き専用PW追加*/
+ul.notes li.attention {
+	padding: 0 0 5px 12px;
+	background: url("https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/icon_kome_red.gif") no-repeat 0 0.4em;
+	color: #bf0000;
+}
+ul.notes li.attention span{
+	font-weight: bold;
+}
+ul.notes li.disc {
+	padding: 0 0 5px 12px;
+	background: none;
+}
+ul.notes li.disc::before {
+	content: "・";
+	margin-left: -12px;
+}
+ul.notes li.none {
+	padding: 0 0 5px 12px;
+	background: none;
+}
+/* メリット
+----------------------------------*/
+dl.merit {
+    border: 1px solid #FF9900;
+	background-color:#FFFFE6;
+    margin: 1px 1px 10px;
+    padding: 5px 5px 0;
+	-webkit-border-radius: 4px;
+}
+dl.merit dt {
+    color:#F30;
+    font-size: 90%;
+    font-weight: bold;
+}
+dl.merit dd {
+	color: #333;
+	font-size: 90%;
+    padding-bottom: 5px;
+}
+/* お支払日
+----------------------------------*/
+.day {
+	margin: 10px 5px 5px 5px;
+	padding: 5px;
+	text-align: center;
+	border: 1px solid #B3B3B3;
+}
+/* 入力フォーム用
+----------------------------------*/
+input[type=checkbox] {
+	-webkit-appearance: none;
+	display: inline-block;
+	border: 1px solid #555555;
+	background: #ffffff;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#cccccc));
+	-webkit-box-shadow: 1px 1px 1px #ffffff;
+	font-size: 15px;
+	line-height: 1em;
+	margin: 0 0.25em 0 0;
+	padding: 0;
+	width: 1.25em;
+	height: 1.25em;
+	-webkit-border-radius: 0.25em;
+	vertical-align: text-top;
+}
+input[type=checkbox]:checked {
+	background: url("https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/input_check.png") no-repeat center center;
+	-webkit-background-size: 100% 100%;
+}
+input[type=checkbox]:disabled {
+	background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#dddddd));
+	border: 1px solid #bbbbbb;
+	-webkit-box-shadow: none;
+}
+div.formBox {
+	margin: 15px 2px 10px;
+	padding: 1px;
+	border: 1px solid #B3B3B3;
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+	-webkit-box-shadow: 0px 1px 2px #c9c9c9;
+}
+div.formBox:first-child {
+	margin-top: 0;
+}
+div.formBox p.buttons {
+	margin-bottom: 10px;
+}
+/* タイトル用
+----------------------------------*/
+/* h2 */
+h2 {
+	overflow: hidden;
+	margin-bottom: 10px;
+	padding: 10px 8px 5px 10px;
+	border-bottom: 3px solid #bf0000;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	color: #000000;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ededed), to(#fefefe));
+	font-weight: bold;
+}
+/* h3 */
+h3 {
+	overflow: hidden;
+	padding: 8px 8px 8px 10px;
+	color: #333333;
+	font-weight: bold;
+}
+h3.space {
+	margin-bottom: 10px;
+}
+
+/* タイトル内ボタン（リセット）用
+----------------------------------*/
+span.btnReset {
+	float: right;
+	margin-top: -5px;
+	margin-right: -5px;
+	padding: 0;
+	text-align: center;
+}
+span.btnReset input {
+	display: block;
+	padding: 4px;
+	border: 1px solid #a1a1a1;
+	-webkit-border-radius: 3px;
+	color: #333333;
+	background: #f4f3f1;
+	background:	-webkit-gradient(linear, left top, left bottom, color-stop(0%,#f4f3f1), color-stop(50%,#e1e1e1), color-stop(51%,#ececec), color-stop(100%,#f5f5f5));
+	background: -webkit-linear-gradient(top,  #f4f3f1 0%,#e1e1e1 50%,#ececec 51%,#f5f5f5 100%);
+	font-size: 14px;
+	text-decoration: none;
+}
+span.btnReset input:active {
+	background: #f4f3f1;
+}
+/* テーブル用
+----------------------------------*/
+table.detail{
+	width: 100%;
+}
+table.detail th,
+table.detail td {
+	padding: 4px;
+	font-size: 14px;
+	word-break: break-all;
+}
+table.detail tr,
+table.detail td {
+	border-top: 1px solid #cccccc;
+}
+table.detail tr:first-child,
+table.detail tr:first-child td {
+	border-top: 1px solid #ffffff;
+}
+
+/* テーブル上ライン */
+table.detail.hr tr:first-child td {
+	border-top: none;
+}
+table.hr tr:first-child {
+	border-top: 1px solid #cccccc;
+}
+/* /テーブル上ライン */
+
+table.detail th {
+	border-right: 1px solid #cccccc;
+	text-align: left;
+	font-weight: normal;
+	background-color: #eeeeee;
+}
+table.detail th.error{
+	background: #ffd9d9;
+}
+table.detail td{
+	background: #FFFFFF;
+}
+table.detail td.error{
+	background: #ffffdd;
+}
+table.detail td.noticeCharge {
+	font-weight: bold;
+	color: #bf0000;
+}
+table.schedule tbody th {
+	width: 40%;
+}
+table.schedule td {
+	text-align: right;
+}
+table.schedule.subtotal {
+	margin-top: 15px;
+}
+table.detail td span {
+	margin-right: 5px;	
+	font-size: 12px;
+	color: #FF7700;
+}
+table.detail td a span {
+	margin-right: 0px;	
+	font-size: 14px;
+	color: #0000ff;
+}
+table.detail span.errorMessage{
+	display: block;
+	padding-bottom: 5px;
+	color: #FF0000;
+	font-weight: bold;
+}
+
+.error__detail {
+  padding: 5px 0 5px 28px;
+  background: url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/arrow_error.gif) no-repeat 0 9px;
+  background-size: 25px 10px;
+  color: #f00;
+  font-weight: bold;
+}
+
+table.detail span.add{
+	color: #333333;
+	font-size: 12px;
+}
+table.detail span.add a{
+	padding: 0 5px 2px 7px;
+	color: #333333;
+	background: url("https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/icon_arrow.gif") no-repeat 0 0.3em;
+}
+table.detail em {
+	color: #BF0000;
+	font-weight: bold;
+}
+table.icon th span,
+table.card th span,
+table.detail th span.card,
+table.detail th span.icon,
+table.detail th span.icon3,
+table.detail th span.icon4,
+table.detail th span.icon5,
+table.detail th span.icon6 {
+	display: block;
+	width: 3em;
+	margin-top: 4px;
+	padding: 2px 4px;
+	-webkit-border-radius: 3px;
+	background: #ff9b9b;
+	color: #ffffff;
+	font-size: 10px;
+	text-align: center;
+	line-height: 1.0;
+	word-break: normal;
+}
+table.detail th span.icon3{
+	width: 4em;
+}
+table.detail th span.icon4{
+	width: 5em;
+}
+table.detail th span.icon5{
+	width: 6em;
+}
+table.detail th span.icon6{
+	width: 7em;
+}
+
+/* フォーム入力（長）用
+----------------------------------*/
+input.inputLength,
+input[type="email"] {
+	width: 70%;
+}
+
+/* 必須項目ハイライト用 */
+table.card th span.requirement,
+table.detail th span.requirement,
+table.detail th span.card {
+	display: block;
+	width: 3em;
+	margin-bottom: 4px;
+	padding: 2px 4px;
+	border: 1px solid #BF0000;
+	-webkit-box-shadow: 1px 1px 1px #b9bbba;
+	font-size: 10px;
+	background: #FF1E05;
+}
+/* どちらか必須項目ハイライト用 */
+table.card th span.alternative,
+table.detail th span.alternative {
+	display: block;
+	width: 4em;
+	margin-bottom: 4px;
+	padding: 2px 4px;
+	border: 1px solid #BF0000;
+	-webkit-box-shadow: 1px 1px 1px #b9bbba;
+	font-size: 10px;
+	background: #FF1E05;
+}
+/* 入力誤りチェック用 */
+table td.errorCheck {
+	padding: 7px;
+	background-color: #FFFCDD;
+	font-size: 17px;
+}
+td.errorCheck input[type=checkbox] {
+	padding-left: 5px;
+	width: 15px;
+	height: 15px;
+}
+ul.check li {
+	display: inline;
+}
+table td input,
+table td select {
+	margin-bottom: 2px;
+}
+table td select {
+	max-width: 200px;
+	min-width: 50px;
+}
+table td input.price3 {
+	max-width: 50px;
+}
+table td input.price6 {
+	max-width: 100px;
+}
+table td input[maxlength="7"] {
+	max-width: 70px;
+}
+table td input.number {
+	max-width: 40px;
+	margin-right: 0;
+	margin-left: 0;
+}
+#section form li input[type="text"],
+#section form li input[type="password"]{
+	font-size: 100%;
+	padding: 8px;
+	width: 85%;
+	background: white;
+	border: 1px solid #AAA;
+	-webkit-border-radius: 5px;
+	-webkit-box-shadow: 1px 1px 2px #B3B3B3;
+}
+table.card td dd {
+	margin-bottom: 5px;
+	padding: 3px;
+	border: 1px solid #B3B3B3;
+	font-size: 14px;
+}
+table dl.cardSelect dd {
+	font-size: 14px;
+}
+
+/* テーブル th 幅調整用
+----------------------------------*/
+div.formBox table th,
+div.formBox table.check table.thOffset th {
+	width: 30%;
+}
+div.formBox table.check th,
+div.formBox table.check2 th {
+	width: 2em;
+	text-align: center;
+}
+div.formBox table.check2 th {
+	vertical-align: top;	
+}
+
+/* カード情報用
+----------------------------------*/
+.cardInfo {
+	padding: 8px;
+}
+.cardInfo dl {
+	overflow: hidden;
+}
+.cardInfo dl.markInfo {
+	padding: 5px;
+	margin-bottom: 5px;
+}
+.cardInfo dl.markInfo dd {
+	font-size: 14px;
+}
+.cardInfo dt {
+	float: left;
+	width: 104px;
+}
+.cardInfo dd.company,
+.cardInfo dt.company {
+	/* width: auto; */
+	font-weight: bold;
+}
+.cardInfo dd.number {
+	font-size: 13px;
+}
+
+/* アコーディオン用
+----------------------------------*/
+div.accordion {
+	margin:0 2px 10px;
+	padding: 1px;
+	border:1px solid #B3B3B3;
+	-webkit-border-radius: 4px;
+}
+div.accordion div.itemBox {
+	margin: 10px 5px 10px;
+	padding: 1px;
+	border: 1px solid #B3B3B3;
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+}
+div.accordion div.itemBox table.detail thead th {
+	border-top: 1px solid #ffffff;
+	background: #6e6e6e;
+	color: #fafafa;
+	font-weight: bold;
+}
+div.accordion div.itemBox table.detail thead th:first-child {
+	border-right: 1px solid #ffffff;
+}
+div.accordion div.itemBox table.detail th,
+div.accordion div.itemBox table.detail tr,
+div.accordion div.itemBox table.detail td {
+	border-top: 1px solid #cccccc;
+}
+div.accordion p.buttons {
+	margin-bottom:10px;
+}
+div.accordion p.trigger {
+	display: block;
+	padding: 8px 8px 8px 15px;
+	border:1px solid #ffffff;
+	-webkit-border-radius: 3px;
+	color: #333333;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#eeeeee), to(#cccccc), color-stop(.7,#cccccc));
+	font-weight: bold;
+}
+div.accordion p.trigger span {
+	display: block;
+	padding: 0 15px 0 0;
+	background: url(//image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/icon_openclose.png) no-repeat;
+}
+div.accordion p.trigger span.icon_openclose {
+	background-position: right;
+	-webkit-background-size:15px 15px;
+} 
+
+/* リスト用
+----------------------------------*/
+div.article {
+	margin: 0 2px 10px;
+	padding: 1px;
+	border: 1px solid #B3B3B3;
+	-webkit-border-radius: 4px;
+}
+div.article ul li {
+	display: block;
+	padding: 1px;
+	border-bottom: 1px solid #cccccc; 
+}
+div.article ul li:last-child {
+	border-bottom: none; 
+}
+div.article ul li a {
+	display: block;
+	padding: 5px;
+	color: #3a3a3a;
+	background:	-webkit-gradient(linear, 0% 0%, 0% 100%, from(#fefefe), to(#ededed));
+	font-weight: normal;
+	text-decoration: none;
+}
+div.article ul li:first-child a {
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-top-right-radius: 3px;
+}
+div.article ul li:last-child a {
+	-webkit-border-bottom-left-radius: 3px;
+	-webkit-border-bottom-right-radius: 3px;
+}
+/* サイト内リンク用 */
+div.article ul li span {
+	display: block;
+	padding: 5px 15px 5px 5px;
+}
+div.article ul li span.icon_arrow_link_r {
+	background: url(//image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/icon_arrow_link_r.png) no-repeat;
+	background-position: right;
+	-webkit-background-size:15px 20px;
+} 
+div.article ul li span.icon_dialog {
+	background: url(//image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/icon_dialog.png) no-repeat;
+	background-position: right;
+	-webkit-background-size:15px 15px;
+} 
+div.article ul li em {
+	margin-left: 5px;
+	font-size:12px;
+	font-weight: normal;
+}
+/* サイト外リンク用 */
+div.article ul li a[target="_blank"] span {
+	display: block;
+	padding: 5px 20px 5px 5px;
+	background: url(//image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/icon_blank.png) no-repeat;
+}
+div.article ul li a[target="_blank"] span.icon_blank {
+	background-position: right ;
+	-webkit-background-size:15px 15px;
+}
+
+/* ログインフォーム系 */
+div#section {
+	margin: 0 5px 10px;
+	background: #EEEEEE;
+}
+ul#loginBox{
+	padding: 10px;
+}
+ul#loginBox li{
+	text-align:center;
+}
+#section form ul li {
+	margin-bottom: 8px;
+}
+/* ######## 量産後追加（外部発注後） ######## */
+
+/* リンクアウト用 */
+div.article ul li p.linkout {
+	display: block;
+	padding: 5px;
+	color: #3a3a3a;
+	background: #cacaca;
+	font-weight: normal;
+	text-decoration: none;
+}
+div.article ul li p.linkout span {
+	background-image: none;
+}
+
+/* h4 */
+h4 {
+	overflow: hidden;
+	padding: 8px 8px 8px 15px;
+	color: #333333;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#eeeeee), to(#cccccc), color-stop(.7,#cccccc));
+	font-weight: bold;
+}
+h4.space {
+	margin-bottom: 10px;
+}
+
+p.unitTitle {
+	overflow: hidden;
+	padding: 8px 8px 8px 15px;
+	color: #333333;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#eeeeee), to(#cccccc), color-stop(.7,#cccccc));
+	font-weight: bold;
+}
+p.space {
+	margin-bottom: 10px;
+}
+
+/* table */
+div.formBox table.detail td.colspan2 {
+	background: #eeeeee;
+}
+
+/* お支払い方法ページ用 */
+table.mobile {
+	width: 100%;
+}
+table.mobile th {
+	border-right: none;
+}
+table.mobile th, table.mobile td {
+	padding: 5px;
+	border: 1px solid #B3B3B3;
+	word-break: break-all;
+}
+
+/* 画像付きタイトル用 */
+h3 img {
+	margin-right: 10px;
+	border: 1px solid #fff;
+	-webkit-border-radius: 3px 3px;
+}
+
+/* 注意・コメントテキスト用 */
+p.detail{
+	display: block;
+	padding: 3px 10px 10px;
+	font-size: 14px;
+	color: #ff7700;
+}
+
+/* カード選択枠 */
+
+dl.cardSelect {
+	background: #fafafa;
+	clear: both;
+}
+dl.cardSelect dd a {
+	text-decoration: none;
+}
+
+dl.cardSelect dd.changeCard a.openDialog {
+	-webkit-border-radius: 3px;
+	-webkit-box-shadow: 0px 1px 3px #c9c9c9;
+	font-weight: bold;
+	border: 2px solid #BF0000;
+	color: #FFFFFF;
+	background: #f20000;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f20000), color-stop(50%,#dc0000), color-stop(51%,#990002), color-stop(100%,#ba0001));
+	background: -webkit-linear-gradient(top,  #f20000 0%,#dc0000 50%,#990002 51%,#ba0001 100%);
+	background: linear-gradient(top,  #f20000 0%,#dc0000 50%,#990002 51%,#ba0001 100%);
+}
+
+dl.cardSelect dd.changeCard a.openDialog:active {
+	background: -webkit-gradient(linear, 0% 26%, 0% 100%, from(#BF0000), to(#BF0000), color-stop(.3,#BF0000));
+}
+
+/* フォーム注意文 */
+
+p.attention {
+	background: #FFD9D9;	
+	margin: 5px 0px 10px;
+	padding: 5px;
+	font-weight: bold;
+	font-size:12px;
+}
+
+/* アコーディオン余白調整 */
+div.suppress {
+	margin-top: 10px;
+}
+
+/* 申込み履歴用アコーディオン */
+div.application div.suppress{
+	margin-top:0;
+}
+
+/* テーブル内タイトル表示用（追加） */
+div.formBox table th.title {
+	border-right: none;
+}
+div.formBox table th.title p {
+	color: #bf0000;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+/* サイト外リンク（テキストリンク）用 */
+a[target="_blank"] span {
+	display: inlline-block;
+	margin-right: 3px;
+	padding-right: 15px;
+	background: url(//image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/icon_blank.png) no-repeat;
+	background-position: right ;
+	-webkit-background-size:15px 15px;
+}
+
+/* 中トップタイトル用 */
+h3.categoryTop {
+	overflow: hidden;
+	padding: 8px 8px 8px 10px;
+	border-bottom: 1px solid #cccccc;
+	color: #333333;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fffde7), color-stop(50%,#fffde7), color-stop(51%,#efebbc), color-stop(100%,#fefbdc));
+	background: -webkit-linear-gradient(top,  #fffde7 0%,#fffde7 50%,#efebbc 51%,#fefbdc 100%);
+	font-weight: bold;
+}
+h3.categoryTop span {
+	padding: 2px 8px;
+	border-left: 4px solid #bf0000;
+	line-height: 16px;
+}
+
+/* キャッシングタイトル用 */
+
+h2.titleIcon {
+	line-height: 30px;
+}
+h2.titleIcon img {
+	padding: 0 4px;
+	height: 30px;
+	line-height: 30px;
+}
+h3.cashingTitleIcon {
+	line-height: 30px;
+}
+h3.cashingTitleIcon img{
+	float: right;
+	margin: 0;
+	height: 30px;
+	line-height: 30px;
+}
+th.iconImage img{
+	float: right;
+	height: 25px;
+	padding: 2px;
+}
+
+table.detail tr.contract td {
+	border-right: 1px solid #cccccc;
+}
+table.detail tr.contract td:last-child {
+	border-right: none;
+}
+
+/* メルマガサンプルボタン用 */
+
+table.detail .btnSample {
+	margin: 5px 0;
+}
+table.detail .btnSample a {
+	padding: 3px 5px;
+	background: #ffbb33;
+	border-top: 1px solid #ff9966;
+	border-left: 1px solid #ff9966;
+	-webkit-border-radius: 4px;
+	text-decoration: none;
+}
+table.detail .btnSample a span {
+	padding-right: 18px;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+/* 銀行リスト用 */
+ul.bankList {
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+ul.bankList li{
+	display: block;
+	padding-left: 15px;
+	background: url(//image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/arrow_triangle.png) no-repeat left 1px;
+	-webkit-background-size: 15px 15px;
+}
+
+/* 注釈 */
+div.annotationBox {
+	padding: 3px 0 0 3px;
+}
+
+/* x2 Point Club */
+ol.pointCourse li {
+	margin-bottom: 10px;
+}
+/* family */
+.comfortInput {
+	margin-top: 5px;
+}
+.comfortInput li{
+	margin-bottom: 10px;
+}
+/* 紹介者ID */
+div.introducer dl {
+	margin:1px;
+	border:1px solid #aaaaaa;
+	border-top-left-radius:3px;
+	border-top-right-radius:3px;
+	text-align:center;
+	font-size: 18px;
+}
+div.introducer dl dt {
+	padding: 10px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#eeeeee), to(#cccccc), color-stop(.7,#cccccc));
+	color: #333333;
+	font-weight: bold;
+}
+div.introducer dl dd {
+	padding: 10px;
+	border-top: 1px solid #cccccc;
+	font-size: 18px;
+}
+/* バナー類 */
+div.bannerStyleA {
+	text-align: center;
+	margin: 0 2px 10px 2px;
+}
+div.bannerStyleA img {
+	width:100%;
+	max-width:310px;
+	height:auto;
+}
+
+/* ラジオボタン間隔調整 */
+ul.radioArea li {
+	padding: 5px 0 10px 0;
+}
+
+/* h3 must文字色 */
+h3 span.must{
+	color:#bf0000;
+}
+
+span.radioClass>label {
+    display:none !important;
+}
+
+/* ボタン
+----------------------------------*/
+.buttons,
+.buttons3 {
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+.buttons button,
+.buttons3 button,
+.buttons a {
+	display: inline-block;
+	width: 245px;
+	margin: 0 auto;
+	padding: 5px 5px; 
+	-webkit-border-radius: 3px;
+	-webkit-box-shadow: 0px 1px 3px #c9c9c9;
+	font-weight: bold;
+	font-size: 16px;
+}
+.buttons button,
+.buttons3 button {
+	border: 2px solid #BF0000;
+	-webkit-border-radius: 3px;
+	color: #FFFFFF;
+	background: #f20000;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f20000), color-stop(50%,#dc0000), color-stop(51%,#990002), color-stop(100%,#ba0001));
+	background: -webkit-linear-gradient(top,  #f20000 0%,#dc0000 50%,#990002 51%,#ba0001 100%);
+	background: linear-gradient(top,  #f20000 0%,#dc0000 50%,#990002 51%,#ba0001 100%);
+}
+
+.buttons button:active {
+	background: -webkit-gradient(linear, 0% 26%, 0% 100%, from(#BF0000), to(#BF0000), color-stop(.3,#BF0000));
+}
+
+.buttons a {
+	color: #FFFFFF;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f20000), color-stop(50%,#dc0000), color-stop(51%,#990002), color-stop(100%,#ba0001));
+	border: 2px solid #BF0000;
+	text-decoration: none;
+        width:235px;
+}
+.buttons a:active {
+	background: -webkit-gradient(linear, 0% 26%, 0% 100%, from(#BF0000), to(#BF0000), color-stop(.3,#BF0000));
+}
+
+/* スーパーポイントロゴ */
+p.superPointLogo {
+	overflow:hidden;
+}
+p.superPointLogo img {
+	float:left;
+	margin-right: 5px;
+}
+
+/* お支払中トップ　リボ導線改善 */
+.revo_tg{
+	width: auto;
+	color: #bf0000;
+	border: solid 1px #bbbbbb;
+	background: #fffff;
+	-webkit-border-radius: 5px;
+	margin:0 8px 25px;
+	padding:5px 4px;
+}
+
+/* ポイントサービストップ導線改善 */
+p.textRed{
+	color: #bf0000;
+}
+
+/* 赤文字 */
+.essential3 {
+	color: #BF0000;
+}
+
+/* スマートフォンの方はチェック */
+table.detail ul li p.spCheck {
+	margin: 5px auto;
+	font-weight: bold
+}
+
+/* 顧客サポートページの構築 */
+div#groupBlock ul#items li.listStyle01 {
+	margin: 0 2px 10px;
+	padding: 1px;
+	border: 1px solid #B3B3B3;
+	-webkit-border-radius: 4px;
+}
+
+div#groupBlock ul li.listStyle02 {
+	border-bottom: 1px solid #cccccc;
+}
+
+ol#pagination {
+	display: table;
+}
+
+ol#pagination li{
+	display: table-cell;
+	list-style-type: none;
+	float: left;
+	padding: 3px 9px;
+	background-color: #FFC;
+	border: 1px solid #666;
+	color: #000;
+	margin: 8px 5px;
+	cursor: pointer;
+}
+
+ol#pagination li.current {
+	list-style-type: none;
+	float: left;
+	background-color: #bf0000;
+	border: 1px solid #666;
+	font-size: 15px;
+	color: #FFF;
+}
+
+p.resolution {
+	padding: 1px;
+	color: #FFFFFD;
+	background: #7E7E7E;
+	font-size: 90%;
+}
+
+p.resolution span {
+	display: block;
+	line-height: 1.2;
+	padding: 5px 5px 4px 15px;
+	border: 1px solid #FFFFFF;
+	background: url("http://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/faq/icon_head.gif") no-repeat 5px 4px;
+}
+
+/* ボーナスメール優先表示 */
+p.bonusmail {
+	margin-bottom: 2px;
+}
+
+ul.cpnLst div.cpnImg p.bonusmail img {
+	width: 102px;
+	padding-bottom: 0;
+}
+
+/* スマホアドレス
+Phase2 */
+p.spUser {
+	margin: 5px 0 0 30px;
+}
+
+table.detail ul li p.spCheckMargin {
+	margin: 10px 0 10px 28px;
+}
+
+/* 属性変更画面改修 */
+dl.cashingMerit {
+	margin: 0;
+}
+
+div.cpnCashing p {
+	padding: 3px;
+	font-size: 14px;
+}
+
+div.cpnCashing p a {
+	color: #0000FE;
+}
+
+div.cashingServiceMemo {
+	margin: 2px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	font-size: 14px;
+}
+
+div.camSubject {
+	padding: 0;
+	margin: 0;
+}
+
+div.camSubject p.trigger {
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#91d1eb), to(#3faee0), color-stop(.7,#3faee0));
+	color: #ffffff;
+	padding: 0;
+}
+
+div.camSubject p.trigger span {
+	padding: 5px 20px 5px 10px;
+	font-size: 12px;
+	font-weight: normal;
+	color: #f7f6f5;
+}
+
+div.camBaloonArea {
+	display: none;
+	margin-bottom: 5px;
+	border-bottom: 1px dotted #949ba1;
+	padding: 5px 10px 0;
+}
+
+div.baloonBox {
+	color: #666666;
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+
+div.camBaloonArea ul.linkList li {
+	padding-bottom: 15px;
+}
+
+div.camBaloonArea ul.linkList li a {
+	padding-left: 32px;
+	background: url(//image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/icon_blank.png) no-repeat 5px 0;
+	background-size: 20px 20px;
+	color: #2489ce;
+	padding-bottom: 5px;
+}
+
+tr.trCashingArea td {
+	padding: 1px;
+}
+
+/* maintenanceAlert */
+.maintenanceAlert{
+	clear:both;
+	border:2px solid #bf0000;
+	border-radius:3px;
+	padding:10px;
+	background:#FCC;
+	margin:0 5px 15px;
+	font-weight:bold;
+	position:relative;
+	top:5px;
+}
+
+/* CA loanwording */
+ul.notes li.dot{
+	padding: 0 0 5px 12px;
+	background: url("https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/icn_dot.gif") no-repeat 0 0.4em;
+}
+
+/* CA 追加（リアルタイムアラート）
+----------------------------------*/
+table.detail.netcashing thead tr,
+table.detail.netcashing tbody tr {
+	border: 1px solid #cccccc;
+}
+
+table.detail.netcashing thead th,
+table.detail.netcashing tbody th {
+	border: 1px solid #cccccc;
+}
+
+table.detail.netcashing thead th {
+	background: #fffcdd;
+	font-weight: bold;
+}
+
+table.detail.netcashing tbody td {
+	font-weight: normal;
+}
+
+
+/* 東電追加
+----------------------------------*/
+div.tepcoSample {
+	margin:  0 0 10px;
+	font-size: 14px;
+}
+
+div.tepcoSample p {
+	text-align: left;
+	padding-left: 5px;
+}
+
+.mw700 img, div.tepcoSample img {
+	width: 100%;
+	max-width: 700px;
+}
+
+
+
+/*属性変更表示完了画面バナー*/
+div.publicServiceBanner{
+	text-align: center;
+}
+
+div.publicServiceBanner a{
+	display: inline-block;
+}
+
+div.publicServiceBanner a img{
+	width:100%;
+	max-width:234px;
+	text-align: center;
+}
+
+div.examplePoint{
+	margin-top:15px;
+	text-align:center;
+}
+
+div.examplePoint img{
+	width:100%;
+	height: auto;
+	max-width:595px;
+}
+
+div.redBorder{
+	border-top: solid 2px #bf0000;
+	border-bottom: solid 2px #bf0000;
+	margin:15px 0;
+}
+
+div.redBorder img{
+	width:100%;
+	height: auto;
+	max-width:640px;
+}
+
+div.formalityButton{
+	margin: 20px 0;
+	text-align: center;
+}
+
+div.formalityButton a{
+	color: #ffffff;
+	display:inline-block;
+	width:250px;
+	height:40px;
+	line-height:2.5;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fce59f), color-stop(10%,#fcc623), color-stop(21%,#febf01), color-stop(81%,#febf01), color-stop(91%,#dbac02), color-stop(100%,#c97602));
+	border:solid 1px #c97602;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 5px;
+	text-align: center;
+}
+
+/*VPで追加
+----------------------------------*/
+ul.attention li.essential3 {
+	padding: 0 0 5px 12px;
+	background: url("https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/icon_kome_red.gif") no-repeat 0 0.4em;
+}
+
+div.selectPeriod {
+	padding: 10px;
+}
+
+div.selectPeriod input {
+	padding: 3px 30px;
+	margin-top: 10px;
+}
+
+@media(min-width:400px){
+	div.selectPeriod ul li {
+		display: inline;
+        }
+}
+
+p.vpcmail{
+padding:5px 10px 5px;
+}
+div.vpcmail{
+margin:0px 2px 10px;
+}
+
+/* 自動リボ登録フォーム内キャンペーン露出 */
+.autorevoCpnText {
+	padding: 5px;
+}
+
+.autorevoCpnText dt {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.autorevoCpnText dd {
+	display: table-cell;
+	vertical-align: middle;
+	padding: 0 5px;
+}
+
+/* anytimeEdy table */
+div.formBox table th.w10 {
+	width: 10%;
+	text-align: center;
+}
+
+/* プライオリティパス */
+.selectedIcon_1,.selectedIcon_2 {
+	display: none;
+	font-size: 10px;
+	padding: 2px;
+	color: #fff;
+	background: #888;
+	font-weight: normal;
+	border: #666;
+	-webkit-border-radius: 3px;
+	-webkit-box-shadow: 1px 1px 0 #666;
+	position: relative;
+	bottom: 2px;
+	left: 4px;
+}
+
+/* キャンペーン表示ロジック改善 */
+p.recommend {
+	margin-bottom: 2px;
+}
+
+ul.cpnLst div.cpnImg p.recommend img {
+	width: 60px;
+	padding-bottom: 0;
+}
+
+/* CPNエントリー完了画面チームサイト出しわけ */
+.cpnTargetPersons {
+	margin: 0 2px;
+	border: 2px solid #bf0000;
+}
+
+.cpnTargetPersons dl {
+	padding: 5px 0;
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.cpnTargetPersons dt {
+	display: table-cell;
+	vertical-align: middle;
+	padding: 5px;
+}
+
+.cpnTargetPersons dd {
+	display: table-cell;
+	padding: 0 5px;
+	font-size: 13px;
+}
+
+.cpnTargetPersons span {
+	font-weight: bold;
+	font-size: 120%;
+}
+
+.cpnTargetPersons a {
+	display: block;
+	text-align: right;
+}
+
+div.contentUnit{
+	margin: 10px 2px 0;
+	padding: 1px;
+	border: 1px solid #B3B3B3;
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+	-webkit-box-shadow: 0px 1px 2px #c9c9c9;
+}
+
+div.contentUnit p.headLine{
+	overflow: hidden;
+	padding: 8px 8px 8px 10px;
+	color: #333333;
+	font-weight: bold;    
+	border-left: solid 5px #bf0000;
+	border-bottom: 1px solid #E2E2E2;
+	padding: 5px 0 5px 5px;
+	margin-bottom:5px;
+	font-size:15px;
+	-webkit-border-top-left-radius:2px;
+	-webkit-border-bottom-left-radius:2px;
+}
+
+div.owl-carousel{
+	margin: 5px 0;
+	padding: 3px 5px;
+
+}
+
+div.owl-wrapper-outer{
+	overflow: hidden;
+	position: relative;
+	border-right: dotted 1px #cccccc;
+	border-left: dotted 1px #cccccc;
+}
+
+div.owl-wrapper{
+	overflow:hidden;
+	display: flex !important;
+	display: -webkit-flex !important;
+	display: -moz-flex !important;
+	display: -webkit-box !important;
+	display: -moz-box !important;
+	display: box !important;
+}
+
+div.owl-item{
+	box-sizing: border-box;
+	border: #cccccc 1px dotted;
+	border-left: none;
+}
+
+div.owl-item div.flicItem{
+	text-align: center;
+	padding:5px;
+	margin: 2px;
+	display: block;
+	font-size:13px;
+	text-align: left;
+	height: auto;
+}
+
+div.owl-item:last-child{
+	border-right: none;
+}
+
+div.owl-item div.flicItem a{
+	width:100%;
+	display: block;
+}
+
+div.owl-item div.flicItem img{
+	width:100%;
+	height: auto;
+}
+
+div.owl-item div.flicItem span{
+	display: block;
+	white-space: normal;
+}
+
+div.owl-item div.flicItem p.groupName{
+	display: none;
+}
+
+.owl-theme .owl-controls {
+	text-align: center;
+	margin-top:15px;
+}
+
+.owl-theme .owl-controls .owl-page{
+	display: inline-block;
+	zoom: 1;
+	*display: inline;/*iE7 life-saver */
+}
+
+.owl-theme .owl-controls .owl-page span{
+	display: block;
+	width: 7px;
+	height: 7px;
+	margin: 5px 7px;
+	filter: Alpha(Opacity=50);/*iE7 fix*/
+	opacity: 0.5;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	background: #869791;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+	filter: Alpha(Opacity=100);/*iE7 fix*/
+	opacity: 1;
+}
+
+
+.owl-buttons{
+	overflow: hidden;
+	padding: 3px;
+}
+
+.owl-buttons div{	
+	width: 60px;
+	padding: 5px;
+	background-image: -webkit-gradient(linear, left top, left bottom,color-stop(0.2, #ffffff),color-stop(1, #dedede));
+	text-align: center;
+	-webkit-border-radius: 7px;
+	-webkit-box-shadow: 0px 0px 4px #666666;
+	font-weight: bold;
+	color: #bf0000;
+}
+
+.owl-buttons div.disabled{
+	background: #dddddd;
+	color:#999999;
+}
+
+.owl-buttons .owl-prev{
+	margin-left: 5px;
+	float: left;
+}
+
+.owl-buttons .owl-next{
+	margin-right: 5px;
+	float: right;
+}
+
+/*最近チェックした商品*/
+.smtTopContents {
+	margin-top: 30px;
+	padding: 1px;
+	border: 1px solid #B3B3B3;
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+	-webkit-box-shadow: 0px 1px 2px #c9c9c9;
+}
+
+#ashiatoItemsDisplay {
+    height: 130px;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+}
+
+#ashiatoItemsDisplay ul {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+li.ashiatoItem {
+    height: 120px;
+    display: block;
+    float: left;
+    margin: 10px 0 3px 5px;
+}
+
+li.ashiatoItem a {
+    position: relative;
+    display: block;
+    height: 120px;
+    margin: 0;
+    color: #000;
+    font-size: 80%;
+}
+
+li.ashiatoItem img {
+    border: solid 1px #999;
+}
+
+li.ashiatoItem .btnDelLayout {
+    position: absolute;
+    right: -12px;
+    top: -190px !important;
+    z-index: 10;
+    border: none !important;
+    -webkit-box-shadow: 0 0 0 transparent !important;
+}
+
+li.ashiatoItem .btnDelNo {
+    display: none;
+}
+
+li.ashiatoItem .ashiatoRemoveBtn {
+    display: none;
+}
+li.ashiatoItem .ashaitoThumb {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    height: 82px;
+    width: 82px;
+}
+.slPeger {
+    -webkit-box-align: center !important;
+    box-align: center !important;
+    -webkit-box-pack: center;
+    box-pack: center;
+    -webkit-box-flex: 1.0;
+    min-width: 90px;
+    text-align: center;
+    display: -webkit-box !important;
+    display: box !important;
+}
+.lamper {
+    width: 10px;
+    height: 10px;
+    border: solid 1px #fff;
+    -webkit-box-shadow: 0 0 3px #666;
+    box-shadow: 0 0 3px #666;
+    margin: 8px 3px 0;
+}
+
+.cur {
+    background: #bf0000;
+}
+
+.lazyLoading {
+    background: url("https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/loading_icon2.gif") no-repeat center center;
+}
+.smtBannerConfig, .smtBannerList, .smtBannerPrototype,
+.smtBannerExistItemDisplay {
+    display: none;
+}
+
+#ashiatoItemsDisplay .lazyLoadingSize100 {
+    width: 100px;
+    height: 100px;
+}
+
+#ashiatoItemsDisplay li.ashiatoItem img {
+    max-width: 100px !important;
+    max-height: 100px !important;
+}
+
+#ashiatoItemsDisplay li.ashiatoItem {
+    margin: 10px 2px 3px 2px !important;
+    height: 192px !important;
+    width: 100px !important;
+}
+
+#ashiatoItemsDisplay {
+    height: 195px !important;
+}
+
+#ashiatoItemsDisplay li.ashiatoItem .ashaitoThumb {
+    width: 100px !important;
+    height: 100px !important;
+    margin-bottom: 5px;
+    background: none;
+}
+
+#ashiatoItemsDisplay li.ashiatoItem a {
+    width: 100px !important;
+    height: 180px !important;
+}
+
+#ashiatoItemsDisplay li.ashiatoItem span.ashiatoPrice {
+    color: #bf0000;
+    font-size: 120%;
+    text-align: right;
+    font-weight: bold;
+    display: block;
+}
+
+div.spinner {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+div.spinner div {
+    width: 9%;
+    height: 26%;
+    background: #888;
+    position: absolute;
+    left: 44.5%;
+    top: 37%;
+    opacity:0;
+    -webkit-animation: fade 1s linear infinite;
+    -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    animation: fade 1s linear infinite;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+div.spinner div.bar1 {
+    -webkit-transform: rotate(0deg) translate(0, -142%);
+    -webkit-animation-delay: 0s;
+    transform: rotate(0deg) translate(0, -142%);
+    animation-delay: 0s;
+}
+
+div.spinner div.bar2 {
+    -webkit-transform: rotate(30deg) translate(0, -142%);
+    -webkit-animation-delay: -0.9167s;
+    transform: rotate(30deg) translate(0, -142%);
+    animation-delay: -0.9167s;
+}
+
+div.spinner div.bar3 {
+    -webkit-transform: rotate(60deg) translate(0, -142%);
+    -webkit-animation-delay: -0.833s;
+    transform: rotate(60deg) translate(0, -142%);
+    animation-delay: -0.833s;
+}
+
+div.spinner div.bar4 {
+    -webkit-transform: rotate(90deg) translate(0, -142%);
+    -webkit-animation-delay: -0.75s;
+    transform: rotate(90deg) translate(0, -142%);
+    animation-delay: -0.75s;
+}
+
+div.spinner div.bar5 {
+    -webkit-transform: rotate(120deg) translate(0, -142%);
+    -webkit-animation-delay: -0.667s;
+    transform: rotate(120deg) translate(0, -142%);
+    animation-delay: -0.667s;
+}
+
+div.spinner div.bar6 {
+    -webkit-transform: rotate(150deg) translate(0, -142%);
+    -webkit-animation-delay: -0.5833s;
+    transform: rotate(150deg) translate(0, -142%);
+    animation-delay: -0.5833s;
+}
+
+div.spinner div.bar7 {
+    -webkit-transform: rotate(180deg) translate(0, -142%);
+    -webkit-animation-delay: -0.5s;
+    transform: rotate(180deg) translate(0, -142%);
+    animation-delay: -0.5s;
+}
+
+div.spinner div.bar8 {
+    -webkit-transform: rotate(210deg) translate(0, -142%);
+    -webkit-animation-delay: -0.41667s;
+    transform: rotate(210deg) translate(0, -142%);
+    animation-delay: -0.41667s;
+}
+
+div.spinner div.bar9 {
+    -webkit-transform: rotate(240deg) translate(0, -142%);
+    -webkit-animation-delay: -0.333s;
+    transform: rotate(240deg) translate(0, -142%);
+    animation-delay: -0.333s;
+}
+
+div.spinner div.bar10 {
+    -webkit-transform: rotate(270deg) translate(0, -142%);
+    -webkit-animation-delay: -0.25s;
+    transform: rotate(270deg) translate(0, -142%);
+    animation-delay: -0.25s;
+}
+
+div.spinner div.bar11 {
+    -webkit-transform: rotate(300deg) translate(0, -142%);
+    -webkit-animation-delay: -0.1667s;
+    transform: rotate(300deg) translate(0, -142%);
+    animation-delay: -0.1667s;
+}
+
+div.spinner div.bar12 {
+    -webkit-transform: rotate(330deg) translate(0, -142%);
+    -webkit-animation-delay: -0.0833s;
+    transform: rotate(330deg) translate(0, -142%);
+    animation-delay: -0.0833s;
+}
+.topHistoryDel a, .topHistoryDel a:visited, .topHistoryDel a:active, .topHistoryDel a:hover {
+	color: #bf0000;
+	padding: 4px 20px;
+	font-weight: normal;
+	font-size: 80%;
+	display: block;
+}
+.topHistoryDel {
+	-webkit-box-shadow: 1px 1px 3px rgba(0,0,0,0.4),-1px -1px 3px rgba(0,0,0,0.4);
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.4),-1px -1px 3px rgba(0,0,0,0.4);
+	border-radius: 7px;
+	text-align: center;
+}
+
+@media screen and (max-width: 394px) {
+	.boxPJAC {
+		display: block !important;
+	}
+	.topHistoryDel {
+		display: inline-block;
+	}
+}
+
+.topHistoryDel, .btn-back, .btn-next {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fff), color-stop(100%, #dedede));
+	background: -webkit-linear-gradient(top, #fff 0%, #dedede 100%);
+	background: linear-gradient(to bottom, #ffffff 0%,#dedede 100%);
+}
+.btn-back, .btn-next {
+	width: 60px;
+	padding: 5px;
+	text-align: center;
+	border-radius: 7px;
+	-webkit-box-shadow: 0 0 4px #666;
+	box-shadow: 0 0 4px #666;
+	font-weight: bold;
+	color: #bf0000;
+}
+.slBtnArea {
+	padding: 2px 10px 0 10px;
+	display: -webkit-box !important;
+	display: box !important;
+	-webkit-box-align: center !important;
+	box-align: center !important;
+}
+
+
+
+
+/* 閲覧周り （ヘッダーなど） */
+.topCntsTtlWrap>h1 {
+	font-size: 100%;
+	font-weight: bold;
+	color: #bf0000;
+	margin:0;
+}
+.boxPJAC {
+	display: -webkit-box;
+	display: box;
+	-webkit-box-pack: justify !important;
+	box-pack: justify !important;
+	-webkit-box-align: center !important;
+	box-align: center !important;
+}
+.topCntsTtl, .topCntsTtlWrap, .ipnTopGenreTtl {
+	border-top: 2px solid #bf0000;
+	border-bottom: 1px solid #e2e2e2;
+	padding: 7px 10px;
+	font-weight: bold;
+	color: #333;
+}
+.topHistoryAll a, .topHistoryAll a:visited, .topHistoryAll a:active, .topHistoryAll a:hover {
+	color: #333;
+	padding: 10px 7px;
+	display: block;
+}
+.topHistoryAll {
+	font-size: 110%;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.topGArw {
+	background-repeat: no-repeat;
+	-webkit-background-size: 72px 1000px;
+	background-size: 72px 1000px;
+	background-image: url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/arrow_sub.png);
+	width: 10px;
+	height: 16px;
+	float: right;
+	background-position: 100% -434px;
+
+}
+.topCntsTtl, .topCntsTtlWrap, .ipnTopGenreTtl, .topFunc, .topFuncPopupCnts, #sc_lidAdd_rakupon .titleH2, #memberDetail .detailMenu, .rnkITRttlArea, #searchBtn, #topButton {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fff), color-stop(100%, #eee));
+	background: -webkit-linear-gradient(top, #fff 0%, #eee 100%);
+	background: linear-gradient(to bottom, #ffffff 0%,#eeeeee 100%);
+}
+
+/* 【EdyPJ50開発案件】phase3 */
+.aboutEdy {
+	border: 2px solid #999;
+	display: table;
+}
+
+.aboutEdy dd {
+	display: table-cell;
+	vertical-align: middle;
+	padding: 5px
+}
+
+.aboutEdy dd:first-child {
+	width: 60px;
+}
+
+.aboutEdy dd + dd {
+	text-align: center;
+	width: 100%;
+	color: #bf0000;
+	font-weight: bold; 
+}
+
+.aboutEdy dd + dd + dd {
+	width: 97px;
+}
+
+ul.notes02 {
+	margin: 0 2px;
+	padding: 5px 10px 0;
+	font-size: 14px;
+}
+
+ul.notes02 li {
+	padding: 0 0 5px 12px;
+	background: url("https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/icon_square.gif") no-repeat 0 0.4em;
+}
+
+/* 家族でポイントおまとめサービス エラー */
+div.formBox.notHave {
+	overflow: hidden;
+	margin-bottom: 16px;
+	border-color: #e3c361;
+}
+
+div.formBox.notHave h3 {
+	overflow: hidden;
+	padding: 8px 8px 8px 10px;
+	border-bottom: 1px solid #e3c361;
+	color: #bf0000;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fffde7), color-stop(50%,#fffde7), color-stop(51%,#efebbc), color-stop(100%,#fefbdc));
+	background: -webkit-linear-gradient(top, #fffde7 0%,#fffde7 50%,#efebbc 51%,#fefbdc 100%);
+	font-weight: bold;
+}
+
+div.formBox.notHave p {
+	padding: 8px;
+	text-align: center;
+}
+.errorFamilyPoint{
+	display:block;
+}
+
+/* familycard application improvement */
+table.detail td span .essential3 {
+	color: #bf0000;
+}
+
+ul.goWide {
+	overflow: hidden;
+	margin-top: 5px;
+	padding: 0 10px 10px;
+	text-align:center;
+}
+
+ul.goWide input.sdbutton {
+	width: 250px;
+        margin: 0 10px;
+}
+
+ul.goWide li.buttons {
+	display: inline-block;
+}
+
+ul.goWide li.buttons.back {
+	float: left;
+	background: #f4f3f1;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0	%,#f4f3f1), color-stop(50%,#e1e1e1), color-stop(51%,#ececec), color-stop(100%,#f5f5f5));
+	background: -webkit-linear-gradient(top, #f4f3f1 0%,#e1e1e1 50%,#ececec 51%,#f5f5f5 100%);
+}
+
+ul.goWide li.buttons.back input {
+	width: 82px;
+	padding: 5px 0 5px 10px;
+	border: 1px solid #A1A1A1;
+	color: #333;
+}
+
+.cpText a {
+	background: #ff0;
+}
+
+/* logincommon */
+.bannerArea{
+	border:1px solid #b3b3b3;
+	margin:10px 5px;
+}
+.bannerArea .spOnly{
+	display:none;
+}
+.bannerArea .tbOnly{
+    display:block;
+}
+.bannerArea a{
+    text-decoration:none;
+    display:block;
+}
+.bannerArea img{
+	width:100%;
+    height:auto;
+}	
+.bannerArea .bannerAreaInner{
+    display:table;
+    padding:10px 10px 10px 0;
+}
+.bannerArea .left{
+    width:65%;
+    display:table-cell;
+    vertical-align:middle;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bannerArea .right{
+    width:35%;
+    display:table-cell;
+    vertical-align:top;
+    border: #ff9696 3px solid;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bannerArea .ttl{
+    color:#fff;
+    background:none;
+    background:#ff9696;
+    padding:4px 3px 5px;
+    margin:0;
+    font-size:12px;
+    font-weight:bold;
+    display:block;
+    text-align:center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    -webkit-border-top-left-radius: 15px;
+    -webkit-border-top-right-radius: 15px;
+    -moz-border-radius-topleft: 15px;
+    -moz-border-radius-topright: 15px;
+}
+.bannerArea .commonBnr{
+    padding:10px 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display:block;
+    background:none;
+    margin:0;
+}
+
+/* pjtRED card-addition */
+.content__arrow--text-link {
+  position: relative;
+  padding-left: 15px;
+}
+.content__arrow--text-link:before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border: 5px solid transparent;
+  border-left: 10px solid #bf0000;
+}
+
+/* icon--pdf */
+.icon--pdf {
+    background: url("https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/icon_pdf_26px.png") 99% 50% no-repeat;
+    background-size: 13px 13px;
+}
+
+/* loginmediaqueries */
+
+@media screen and (max-width: 480px){
+.bannerArea .spOnly{
+    display:block;
+}
+.bannerArea .tbOnly{
+	display:none;
+}
+.bannerArea .bannerAreaInner{
+    display:table;
+    padding:0;
+    border-collapse:separate;
+	border-spacing:4px 10px;
+}	
+.bannerArea .left{
+    width:55%;
+}
+.bannerArea .right{
+    width:45%;
+}
+.bannerArea .ttl{
+    padding:2px 3px 4px;
+    font-size:10px;
+}
+.bannerArea .commonBnr{
+    padding:10px;
+}
+}

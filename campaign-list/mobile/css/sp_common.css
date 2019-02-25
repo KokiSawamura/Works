@@ -1,0 +1,3921 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/* ############################################################
+
+	CSS Compornent for Smartphone
+	Last Up Date: 2012.5.2
+	Author: Nobuhiro, Saito
+
+############################################################ */
+
+/* display test */
+#deviceTest {
+	padding: 5px;
+	border-bottom: #adaeff solid 1px;
+	background: #d8d8ff;
+}
+#deviceTest p {
+	color: #888888;
+	font-size: 12px;
+}
+
+/* header
+--------------------------------------------- */
+#header {
+	display: block;
+}
+#header.naviless {
+	border-bottom: 2px solid #BF0000;
+}
+#header div.gNaviTablet {
+	display: none;
+}
+#header div.gNaviSp {
+	display: block;
+}
+
+/* ロゴ */
+#header h1 {
+	padding-top: 3px;
+	float: left;
+}
+#header h1 img {
+	width: 155px;
+	height: 40px;
+}
+/* 右上ナビ */
+#header div.headNavi {
+	float: right;
+	border-bottom: #cccccc solid 1px;
+	border-left: #cccccc solid 1px;
+	-webkit-border-bottom-left-radius: 4px;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#eaeaea));
+	overflow: hidden; /* clearfix */
+	zoom: 1; /* clearfix */
+}
+#header div.headNavi a {
+	display: block;
+	float: left;
+	text-decoration: none;
+	color: #161616;
+	font-size: 9px;
+	box-shadow: 1px 1px 2px #fafafa inset, -1px -1px 3px #cecece inset;
+	-webkit-box-shadow:1px 1px 2px #fafafa inset,-1px -1px 3px #cecece inset;
+}
+/* 右上ナビ - 会員 */
+#header div.headNavi a.pointNavi {
+	float: left;
+	display: block;
+	padding: 30px 5px 3px 5px;
+	border-right: #cccccc solid 1px;
+}
+#header div.headNavi a.pointNavi span {
+	display: block;
+}
+#header div.headNavi a.Diamond {
+	background: url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/icon_diamond.png) no-repeat 50% 0;
+	-webkit-background-size: 23px 30px;
+}
+#header div.headNavi a.Platinum {
+	background: url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/icon_platinum.png) no-repeat 50% 0;
+	-webkit-background-size: 23px 30px;
+}
+#header div.headNavi a.Gold {
+	background: url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/icon_gold.png) no-repeat 50% 0;
+	-webkit-background-size: 23px 30px;
+}
+#header div.headNavi a.Silver {
+	background: url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/icon_silver.png) no-repeat 50% 0;
+	-webkit-background-size: 23px 30px;
+}
+#header div.headNavi a.Regular {
+	background: url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/icon_normal.png) no-repeat 50% 5px;
+	-webkit-background-size: 23px 23px;
+}
+#header div.headNavi a.tamaurePoint {
+	background: url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/icon_tamaure.png) no-repeat 50% 0;
+	-webkit-background-size: 23px 30px;
+}
+#header div.headNavi a.loading {
+	background: url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/loading_anime_circle.gif) no-repeat 50% 6px;
+	-webkit-background-size: 20px 20px;
+}
+
+/* 右上ナビ - カード */
+#header div.headNavi a.cardNavi {
+	float: left;
+	display: block;
+	padding: 4px 3px 3px 3px;
+	border-right: #cccccc solid 1px;
+}
+#header div.headNavi a.cardNavi img {
+	display: block;
+	margin: 0 auto 1px;
+	width: 40px;
+}
+#header div.headNavi a.cardNavi span {
+	display: block;
+	text-align: center;
+}
+/* 右上ナビ - ログアウト */
+#header div.headNavi a.logoutNavi {
+	float: right;
+	display: block;
+	padding: 30px 3px 3px 3px;
+	background: url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/icon_logout.png) no-repeat 50% 7px;
+}
+#header div.headNavi a.logoutNavi span {
+	display: block;
+	text-align: center;
+}
+#header div.headNavi a span.onlyTab {
+	display: none;
+}
+
+#header div.foreside {
+	padding-bottom: 7px;
+	overflow: hidden; /* clearfix */
+	zoom: 1; /* clearfix */
+}
+noscript div.errorMessage {
+	margin-top: 10px;
+}
+
+/* タブエリア */
+#header div.gNaviSp {
+	border-bottom: #bf0000 solid 2px;
+	-webkit-box-shadow: 0px 1px 2px #aaaaaa;
+}
+#header div.gNaviSp ul {
+	display: none;
+}
+#header div.gNaviSp li {
+	display: inline-block;
+	width: 50%;
+	border-bottom: #cccccc solid 1px;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#eeeeee));
+}
+#header div.gNaviSp li:last-child:nth-child(odd) {
+	display: inline-block;
+	width: 100%;
+	border-bottom: #cccccc solid 1px;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#eeeeee));
+}
+#header div.gNaviSp li:nth-child(even) a {
+	border-left: #cccccc solid 1px;
+}
+#header div.gNaviSp li a {
+	display: block;
+	padding: 15px 0 15px 35px;
+	background: url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/icon_tab.png?1) no-repeat 5px 5px;
+	color: #333333;
+	text-decoration: none;
+	font-size: 12px;
+}
+#header div.gNaviSp li a.navTop {
+	background-position: 5px 5px;
+}
+#header div.gNaviSp li a.navStatus {
+	background-position: 5px -75px;
+}
+#header div.gNaviSp li a.navCampaign {
+	background-position: 5px -155px;
+}
+#header div.gNaviSp li a.navRevo{
+	background-position: 5px -234px;
+}
+#header div.gNaviSp li a.navCash {
+	background-position: 5px -315px;
+}
+#header div.gNaviSp li a.navPoint {
+	background-position: 5px -393px;
+}
+#header div.gNaviSp li a.navConf {
+	background-position: 5px -475px;
+}
+#header div.gNaviSp li a.navApplication {
+	background-position: 5px -553px;
+}
+#header div.gNaviSp li a.navFamily {
+	background-position: 5px -707px;
+}
+#header div.gNaviSp li a.navCommon {
+	background-position: 5px -630px;
+}
+#header div.gNaviSp li a.navCardloan {
+	background-position: 5px -930px;
+}
+#header div.gNaviSp li a.navOther {
+	background-position: 5px -1011px;
+}
+
+#header #openTab {
+	float: right;
+}
+#header #openTab span {
+	display: block;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	padding: 3px 10px;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#bf0000), to(#fa0000));
+	border: #9f0000;
+	-webkit-border-bottom-right-radius:7px;
+	-webkit-border-bottom-left-radius:7px;
+	color: #ffffff;
+	font-wight: bold;
+	font-size: 12px;
+	-webkit-box-shadow: 0px 1px 2px #888888;
+}
+#header #openTab span:after {
+	display: block;
+	margin-top: -5px;;
+	text-align: center;
+	content: "\025B2";
+	-webkit-transform: scale(2, 0.5);
+}
+#header #openTab span.close:after {
+	display: block;
+	margin-top: -5px;;
+	text-align: center;
+	content: "\025BC";
+	-webkit-transform: scale(2, 0.5);
+}
+
+/* content
+--------------------------------------------- */
+#content {
+	padding-top:7px;
+	padding-bottom:15px;
+	background: #eeeeee;
+}
+
+/* topic path
+--------------------------------------------- */
+#topicPath {
+	display: inline-block;
+	margin: 0 0 7px 0;
+	padding-right: 10px;
+	list-style: none;
+	overflow: hidden;
+	font-size: 82%;
+}
+#topicPath li {
+	float: left;
+	line-height: 30px;
+}
+#topicPath li a {
+	color: #444444;
+	text-decoration: none;
+	padding: 0 10px 0 15px;
+	background: #fffcdd;
+	border-top: #d8c7ab solid 1px;
+	border-bottom: #d8c7ab solid 1px;
+	display: block;
+	float: left;
+}
+#topicPath li:first-child a {
+	display: block;
+	width: 20px;
+	height: 30x;
+	background: #fffcdd url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/icon_home.png) no-repeat 50% 50%;
+	text-indent: -9999px;
+	text-align: right;/* iOS7 */
+	font-size: 0;/* iOS7追加 */
+	color:transparent;
+}
+#topicPath li:only-child a {
+	display: block;
+	width: auto;
+	height: 30x;
+	background: #fffcdd url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/icon_home.png) no-repeat 6px 50%;
+	text-indent: 30px;
+	font-size: 12px;/* iOS7追加 */
+	color:#444444;
+}
+#topicPath li a:after {
+	position: relative;
+	display: block;
+	width: 10px;
+	height: 15px;
+	margin-top: -15px;
+	margin-left: auto;
+	margin-right: -15px;
+	border-right: 1px solid #d8c7ab;
+	background: #fffcdd;
+	content: " ";
+	-webkit-transform: skew(-30deg);
+}
+#topicPath li a:before {
+	float: right;
+	display: block;
+	width: 10px;
+	height: 15px;
+	margin-bottom: -15px;
+	margin-left: auto;
+	margin-right: -15px;
+	background: #fffcdd;
+	border-right: 1px solid #d8c7ab;
+	content: " ";
+	-webkit-transform: skew(30deg);
+}
+#topicPath li:first-child a {
+	padding-left: 5px;
+}
+
+/* footer
+--------------------------------------------- */
+#footer {
+	padding: 10px 10px 5px;
+	border-top: #989898 solid 1px;
+	background: #ffffff;
+}
+#footer ul.asideMenu {
+	margin-bottom: 10px;
+	border: #aaaaaa solid 1px;
+	-webkit-border-radius: 2px;
+}
+#footer ul.asideMenu li {
+	display: inline-block;
+	width: 50%;
+	text-align: center;
+}
+#footer ul.asideMenu li:last-child a {
+	border-left: #aaaaaa solid 1px;
+}
+#footer ul.asideMenu li a {
+	display: block;
+	padding: 7px 5px;
+        background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#eeeeee));
+	color: #333333;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+#footer div.subMenu {
+	text-align: center;
+}
+#footer div.subMenu ul {
+	margin-bottom: 13px;
+}
+#footer div.subMenu ul li {
+	display: inline-block;
+	padding: 0 4px 0 4px;
+	font-size: 14px;
+}
+#footer div.subMenu ul li a {
+	color: #333333;
+}
+#footer div.nav div.subMenu ul li:not(:last-child) {
+	border-right: 1px #333333 solid;
+}
+#footer div.bottomLine {
+	text-align: center;
+	font-size: 12px;
+	min-height: 25px;
+}
+#footer div.bottomLine ul.deviceChange {
+	display: inline-block;
+	margin-bottom: 10px;
+	border: #ffffff solid 1px;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ececec), to(#cfcfcf));
+	-webkit-box-shadow: 1px 1px 2px #aaaaaa;
+	line-height: 14px;
+}
+#footer div.bottomLine ul.deviceChange li {
+	display: inline-block;
+	padding: 2px 3px;
+	text-align: center;
+}
+#footer div.bottomLine ul.deviceChange li span{
+	display: none;
+}
+#footer div.bottomLine ul.deviceChange li:only-child span{
+	display: inline;
+}
+#footer div.bottomLine ul.deviceChange li.current {
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#999999), to(#777777));
+}
+#footer div.bottomLine ul.deviceChange li.current a {
+	color: #ffffff;
+	font-weight: bold;
+}
+#footer div.bottomLine ul.deviceChange li a {
+	text-decoration: none;
+	color: #333333;
+	padding: 0 6px;
+}
+#footer div.bottomLine ul.deviceChange li:not(:last-child) {
+	border-right: 1px #ffffff solid;
+}
+#footer small {
+	display: block;
+	text-align: center;
+	color: #696969;
+	font-size: 10px;
+}
+/* すすめるPF枠 */
+div.susumeru ul {
+	margin-bottom: 5px;
+	text-align: center;
+}
+div.susumeru ul li {
+	display: inline-block;
+}
+div.susumeru ul li span {
+	display: inline-block;
+	margin: 1px 5px;
+        padding-right:0px;
+}
+div.susumeru .iconTwitter div.susumeruServiceButton span {
+	width: 30px;
+	height: 30px;
+	background: url("https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/btn_sns.png") no-repeat;
+	background-position: -39px 0;
+	-webkit-background-size:108px 30px;
+}
+
+div.susumeru .iconFacebook_feed div.susumeruServiceButton span {
+	width: 30px;
+	height: 30px;
+	background: url("https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/btn_sns.png") no-repeat;
+	background-position: 0 0;
+	-webkit-background-size:108px 30px;
+}
+
+div.susumeru .iconMixi_check div.susumeruServiceButton span {
+	width: 30px;
+	height: 30px;
+	background: url("https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/btn_sns.png") no-repeat;
+	background-position: -78px 0;
+	-webkit-background-size:108px 30px;
+}
+
+/* カード選択枠 */
+dl.cardSelect {
+	position: relative;
+	margin:5px 5px 15px 5px;
+	border: 1px solid #aaa;
+	-webkit-border-radius:4px;
+}
+dl.cardSelect dt {
+	margin: 1px;
+	padding: 5px;
+	-webkit-border-radius:2px 2px 0 0;
+	min-height:22px;
+	background-color: #999;
+	color:#fff;
+}
+dl.cardSelect dd {
+	margin: 7px;
+}
+dl.cardSelect dd.card {
+	overflow: hidden;
+	padding-bottom:5px;
+}
+dl.cardSelect dd.card img {
+	float: left;
+	padding-right: 4px;
+}
+dl.cardSelect dd div.mycard span {
+	display: block;
+}
+dl.cardSelect dd div.mycard span.cardNumber {
+	display: block;
+	font-size: 12px;
+}
+dl.cardSelect dd.func {
+	overflow: hidden;
+	padding-top: 10px;
+	font-size: 14px;
+	border-top: 1px dashed #ccc;
+	font-size: 14px;
+}
+dl.cardSelect dd div img {
+	float: left;
+	margin-right:5px;
+}
+dl.cardSelect dd.card div.mycard {
+}
+dl.cardSelect dd.changeCard a {
+	position: absolute;
+	top: 5px;
+	right:5px;
+}
+dl.cardSelect dd.changeCard a.openDialog {
+	padding: 2px; 
+	font-size: 12px;
+}
+
+/* ご利用明細用タブ・SP用 */
+div.selectMonth {
+	overflow: hidden;
+}
+div.selectMonth ul.tab {
+	margin: 0 0 10px;
+	padding: 1px 0px 0px;
+	border-bottom: #bf0000 solid 2px;
+	zoom: 1; /* clearfix */
+	text-align: center;
+}
+div.selectMonth ul.tab li {
+	display: inline-block;
+	margin-right: 1%;
+	width: 23%;
+	border-left: 1px solid #c7c091;
+	border-right: 1px solid #c7c091;
+	border-top: 1px solid #c7c091;
+	-webkit-border-radius: 4px 4px 0 0;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ededed), to(#fefefe));
+	font-size: 12px;
+	font-weight: bold;
+}
+div.selectMonth ul.tab li.active {
+	display: inline-block;
+	position: relative;
+	margin-right: 1%;
+	width: 23%;
+	border-left: 1px solid #ac0000;
+	border-right: 1px solid #ac0000;
+	border-top: 1px solid #a00000;
+	-webkit-border-radius: 4px 4px 0 0;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fe0000), to(#bf0000));
+	font-size: 12px;
+	font-weight: bold;
+}
+div.selectMonth ul.tab a {
+	display: block;
+	padding: 10px 2px 5px;
+	text-decoration: none;
+	text-align: center;
+	color: #333333;
+}
+div.selectMonth ul.tab li.active a {
+	display: block;
+	padding: 10px 2px 5px;
+	text-decoration: none;
+	text-align: center;
+	color: #ffffff;
+}
+
+div.selectMonth ul.tab li.active a:after {
+	content: "";
+	position: absolute;
+	bottom: -20px;
+	left: 50%;
+	margin-left: -10px;
+	width: 0;
+	height: 0;
+	border-width: 10px 10px 10px 10px;
+	border-style: solid;
+	border-color: #bf0000 transparent transparent transparent;
+}
+
+div.touroku img {
+	max-width: 280px;
+}
+
+/* フォーム内ロゴマーク表示用 */
+td.companyLogo div {
+}
+td.companyLogo img {
+}
+
+/* ボタン（前へ／次へ）
+----------------------------------*/
+ul.choose {
+	overflow: hidden;
+	margin-top: 5px;
+	padding: 0 10px 10px;
+	text-align:center;
+}
+ul.choose li {
+	display: inline-block;
+}
+ul.choose li.buttons.go {
+	float: right;
+	-webkit-border-radius: 3px;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f20000), color-stop(50%,#dc0000), color-stop(51%,#990002), color-stop(100%,#ba0001));
+	background: -webkit-linear-gradient(top,  #f20000 0%,#dc0000 50%,#990002 51%,#ba0001 100%);
+}
+ul.choose li.buttons.back {
+	float: left;
+	background: #f4f3f1;
+	background:	-webkit-gradient(linear, left top, left bottom, color-stop(0%,#f4f3f1), color-stop(50%,#e1e1e1), color-stop(51%,#ececec), color-stop(100%,#f5f5f5));
+	background: -webkit-linear-gradient(top,  #f4f3f1 0%,#e1e1e1 50%,#ececec 51%,#f5f5f5 100%);
+}
+ul.choose li.buttons.go button {
+	max-width: 160px;
+}
+ul.choose li.buttons.back a {
+	width: 70px;
+	padding: 5px 0 5px 10px; 
+	border: 1px solid #a1a1a1;
+	color: #333333;
+}
+ul.choose li.back a.btn_back {
+	background: url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/btn_back.png) no-repeat;
+	background-position: 10px;
+	-webkit-background-size: 15px 15px;
+}
+
+/* revolving 画像リキッド表示用 */
+div.revoDescription {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+img.revoSetImg {
+	width: 100%;
+	max-width: 300px;
+}
+
+/* カードキャンセル用 */
+table.detail div.cardCancel {
+	overflow: hidden;
+	padding: 0 5px 5px;
+}
+table.detail div.cardCancel p {
+	padding: 5px 0 0 0;
+}
+/* デフォルト */
+table td input.price4 {
+	max-width: 50px;
+}
+
+/* ############################################################
+
+	CSS Popup dialog for smartphone
+
+############################################################ */
+
+/* Popup dialog
+------------------------------------*/
+div.dialogTarget {
+	display: none;
+}
+
+div#tpViewport {
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 290px;
+	height: auto;
+	margin: 15px 0 0 -145px;
+	z-index: 9999;
+}
+div#tpOverlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000000;
+	opacity: 0.7;
+	z-index: 9999;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+div#tpViewport.incoming {
+	-webkit-animation-duration: 250ms;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-out;
+	-webkit-animation-name: popin;
+}
+@-webkit-keyframes popin {
+	0% {
+		opacity: 0;
+		-webkit-transform: scale(0);
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform: scale(1);
+	}
+}
+div#tpViewport.outgoing {
+	-webkit-animation-duration: 250ms;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-in;
+	-webkit-animation-name: popout;
+}
+@-webkit-keyframes popout {
+	0% {
+		opacity: 1;
+		-webkit-transform: scale(1);
+	}
+	100% {
+		opacity: 0;
+		-webkit-transform: scale(0);
+	}
+}
+div#tpOverlay.incoming {
+	-webkit-animation-duration: 350ms;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-name: fadein;
+}
+@-webkit-keyframes fadein {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0.7;
+	}
+}
+div#tpOverlay.outgoing {
+	opacity: 0;
+	-webkit-animation-duration: 350ms;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-name: fadeout;
+}
+@-webkit-keyframes fadeout {
+	0% {
+		opacity: 0.7;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+div#startup {
+	display: none;
+}
+
+dl.startupPopup {
+	display: -webkit-box;
+	margin-bottom: 15px;
+}
+dl.startupPopup dt{
+	width: 57px;
+	margin-right: 10px;
+}
+dl.startupPopup dd {
+	padding-top: 10px;
+	-webkit-box-flex: 1;
+}
+a#startupLink {
+	display: none;
+}
+
+/* ポップアップ用Wrapper */
+div#popupWrapper{
+	padding-top: 10px;
+	padding-bottom: 15px;
+	background-color: #eeeeee;
+}
+
+/* ポップアップ外枠 */
+.popupBox{
+	margin: 0 5px 0;
+	border: 1px solid #cccccc;
+	-webkit-border-radius: 6px 6px;
+	background-color: #ffffff;
+}
+
+/* ポップアップヘッダータイトル */
+.popupBox .popupTitleHead {
+	margin-bottom: 10px;
+	border-bottom: 1px solid #cccccc;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	color: #000000;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ededed), to(#fefefe));
+	font-weight: bold;
+}
+.popupBox .popupTitleHead p.title {
+	position: relative;
+	padding: 10px 8px 5px 10px;
+	border-bottom: 2px solid #bf0000;
+}
+.popupBox .popupTitleHead p span {
+	display: block;
+	padding-right: 35px;
+}
+.popupBox .popupTitleHead p span.tpClose {
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	display: block;
+	width: 25px;
+	height: 25px;
+	padding: 0;
+	background: url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/icon_close_dialog.png) no-repeat 0 0;
+	-webkit-background-size: 100%;
+}
+
+/* Best Recommend Button */
+.popupBox .bestRecommend{
+	padding:5px;
+	margin-bottom: 10px;
+}
+.popupBox .bestRecommend p.lead {
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.popupBox .bestRecommend small {
+	color: #ff7700;
+}
+.popupBox .bestRecommendButton {
+	margin: 10px;
+	text-align:center;
+}
+
+.popupBox .bestRecommendButton button {
+	width: 90%;
+	padding:5px 0;
+	font-weight:bold;
+}
+
+.bestRecommendButton #popup_close {
+	border: 1px solid #a1a1a1;
+	color: #000000;
+	background: #f4f3f1;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f4f3f1), color-stop(50%,#e1e1e1), color-stop(51%,#ececec), color-stop(100%,#f5f5f5));
+	background: -webkit-linear-gradient(top, #f4f3f1 0%,#e1e1e1 50%,#ececec 51%,#f5f5f5 100%);
+	font-weight: bold;
+	text-decoration: none;
+	width: 90%;
+	margin: 0 auto;
+	padding: 5px 0;
+	-webkit-border-radius: 4px;
+	display: none;
+}
+
+/* ポップアップ内部 */
+.popup {
+	padding: 0 5px;
+	font-size: 16px;
+}
+
+.popup p.lead {
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+/* 楽天PointClubエリア */
+.popup .titlePointClub {
+	overflow: hidden;
+	padding: 8px;
+	color: #333333;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#eeeeee));
+    font-weight: bold;
+}
+.popup .titlePointClub p {
+	float: left;
+	margin-bottom: 8px;
+	padding-left: 15px;
+	border-left: 4px solid #bf0000;
+	color: #bf0000;
+	font-size: 18px;
+}
+.popup .titlePointClub p a {
+	border-bottom: 1px solid #bf0000;
+	color: #bf0000;
+	text-decoration: none;
+}
+.popup .essential2 {
+	margin-bottom: 10px;
+	padding: 0 10px 0;
+	color: #bf0000;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+/* 楽天PointClubエリア ポイントの詳細ボタン */
+.popup .history {
+	display: inline-block;
+	float: right;
+	padding: 0 4px 2px;
+	border: 1px solid #a1a1a1;
+	-webkit-border-radius: 5px;
+	background: #ffffff;
+	-webkit-box-shadow:inset 0px 0px 1px #e3e3e3;
+}
+.popup .history a {
+	display: block;
+	color: #000000;
+	padding: 4px 2px 2px 17px;
+	font-size: 12px;
+	text-decoration: none;
+	word-break: break-all;
+}
+.popup .history a.arrow_double {
+	background: url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/arrow_double.png) no-repeat;
+	background-position: 0 4px;
+	-webkit-background-size:15px 15px;
+}
+
+/* 楽天PointClubエリア 会員ポイント表示エリア */
+.popup .point {
+	overflow: hidden;
+	padding: 6px 9px 9px;
+}
+.popup .point .member {
+	padding-left: 40px;
+	font-weight: bold;
+	line-height: 40px;
+}
+
+/* 楽天PointClubエリア 会員ランク別背景 */
+/* ダイヤモンド会員 */
+.popup .pointBox.Diamond {
+	padding: none;
+	border: 1px solid #aa9bcb;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#9ea3f2), to(#f5f2fe), color-stop(.25,#f9f2ff));
+}
+.popup .pointBox.Diamond dt.member a {
+	border-bottom: 2px solid #000000;
+	color: #000000;
+	font-weight: bold;
+	text-decoration: none;
+}
+.popup .pointBox.Diamond dt.member {
+	background: url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/wappen_icon_diamond.png) no-repeat 5px 50%;
+	-webkit-background-size: 23px 30px ;
+}
+
+/* プラチナ会員 */
+.popup .pointBox.Platinum {
+	padding: none;
+	border: 1px solid #65c0e8;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#bae8fc), to(#eff9ff), color-stop(.25,#eff9ff));
+}
+.popup .pointBox.Platinum dt.member a {
+	border-bottom: 2px solid #00a1d6;
+	color: #00a1d6;
+	font-weight: bold;
+	text-decoration: none;
+}
+.popup .pointBox.Platinum dt.member {
+	background: url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/wappen_icon_platinum.png) no-repeat 5px 50%;
+	-webkit-background-size: 23px 30px ;
+}
+
+/* ゴールド会員 */
+.popup .pointBox.Gold {
+	padding: none;
+	border: 1px solid #caa644;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#caa644), to(#fdfad8), color-stop(.25,#e2cf79));
+}
+.popup .pointBox.Gold dt.member a {
+	border-bottom: 2px solid #a97522;
+	color: #a97522;
+	font-weight: bold;
+	text-decoration: none;
+}
+.popup .pointBox.Gold dt.member  {
+	background: url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/wappen_icon_gold.png) no-repeat 5px 50%;
+	-webkit-background-size: 23px 30px ;
+}
+
+/* シルバー会員 */
+.popup .pointBox.Silver {
+	padding: none;
+	border: 1px solid #b9b9b9;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#b9b9b9), to(#efefef), color-stop(.25,#d9d9d9));
+}
+.popup .pointBox.Silver dt.member a {
+	border-bottom: 2px solid #666666;
+	color: #666666;
+	font-weight: bold;
+	text-decoration: none;
+}
+.popup .pointBox.Silver dt.member  {
+	background: url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/wappen_icon_silver.png) no-repeat 5px 50%;
+	-webkit-background-size: 23px 30px ;
+}
+
+/* 通常会員 */
+.popup .pointBox.Regular {
+	padding: none;
+	border: 1px solid #cccccc;
+	background: #fafafa;
+}
+.popup .pointBox.Regular dt.member a {
+	border-bottom: 2px solid #333333;
+	color: #333333;
+	font-weight: bold;
+	text-decoration: none;
+}
+.popup .pointBox.Regular dt.member  {
+	background: url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/icon_normal.png) no-repeat 5px 5px;
+	-webkit-background-size: 23px 23px ;
+}
+
+/* 貯まってうれしいポイント */
+.popup .pointBox.tamaurePoint {
+	overflow: hidden;
+	padding: none;
+	border: 1px solid #cccccc;
+	background: #fafafa;
+}
+.popup .pointBox.tamaurePoint dt {
+	float: left;
+	padding-top: 2px;
+	padding-right: 4px;
+}
+
+/* 楽天PointClubエリア 総保有ポイント */
+.popup .point .all {
+	display: block;
+}
+.popup .point .all span {
+	color: #bf0000;
+}
+
+/* 楽天PointClubエリア 期間限定ポイント */
+.popup .point .limited {
+	/*float: left;*/
+	margin-right: 10px;
+	padding-left : 15px;
+	font-size: 14px;
+}
+.popup .point .limited.arrow_triangle{
+	background: url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/arrow_triangle.png) no-repeat;
+	background-position: 0 5px;
+	-webkit-background-size:15px 15px;
+}
+.popup .point .limited span {
+	color: #bf0000;
+}
+.popup .point .limited:after {
+	padding: 0 0 0 10px;
+}
+
+/* 楽天PointClubエリア 楽天キャッシュ */
+.popup .point .cash {
+	float: left;
+	margin-right: 10px;
+	padding-left: 15px;
+	font-size: 14px;
+}
+.popup .point .cash.arrow_triangle{
+	background: url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/arrow_triangle.png) no-repeat;
+	background-position: 0 5px;
+	-webkit-background-size:15px 15px;
+}
+.popup .point .cash span {
+	color: #000cff;
+}
+.popup .point .all span.emph,
+.popup .point .limited span.emph,
+.popup .point .cash span.emph {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+/* 会員カード種別 */
+ul.cardType {
+	overflow: hidden;
+	-webkit-border-radius: 5px;
+	background: #f2f2f2;
+}
+ul.cardType li {
+	overflow: hidden;
+	width: 100%;
+}
+ul.cardType li div.card {
+	overflow: hidden;
+	padding: 5px;
+}
+ul.cardType li div.card img {
+	float: left;
+	padding-right: 5px;
+}
+ul.cardType li div span {
+	display: block;
+}
+ul.cardType li div.card span {
+	padding-left: 110px;
+	color: #000000;
+	font-weight: bold;
+}
+ul.cardType li div.card span.cardNumber {
+	font-size: 14px;
+	font-weight: normal;
+}
+/* 付帯機能 */
+ul.cardType li div.func {
+	overflow: hidden;
+	padding: 5px;
+	border-top: 1px dashed #cccccc; 
+}
+ul.cardType li div.func img {
+	float: left;
+}
+ul.cardType li div.func span {
+	padding-left: 50px;
+	color: #000000;
+	font-size: 14px;
+}
+ul.cardType li div.func div.familyCard, dl.cardSelect dd.func .familyCard {
+	display: inline-block;
+	float: left;
+	vertical-align: top;
+	margin-right: 5px;
+	padding: 2px 3px;
+	color: #ffffff;
+	border: 1px solid #000066;
+	-webkit-border-radius: 3px;
+	background: #003399;
+	box-shadow: inset 1px 1px 1px #000066;
+	font-size: 10px;
+}
+
+/* 各カード切り替え種別用リスト */
+.popup .contentsList .title {
+	padding: 8px 8px 8px 15px;
+	color: #333333;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#eeeeee), to(#cccccc), color-stop(.7,#cccccc));
+	font-weight: bold;
+}
+.popup .contentsList ul li {
+	position: relative;
+	display: block;
+	padding: 0 1px 1px;
+	border-bottom: 1px solid #cccccc;
+}
+.popup .contentsList ul li:last-child {
+	border-bottom: none; 
+}
+.popup .contentsList ul li input[type="radio"] {
+	opacity: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.popup .contentsList ul li label {
+	overflow: hidden;
+	display: block;
+	padding: 10px 5px;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fefefe), to(#ededed));
+	color: #000000;
+        font-weight:bold;
+}
+
+.popup .contentsList ul li label.cardselected {
+    background:	-webkit-gradient(linear, 0% 0%, 0% 100%, from(#dedede), to(#dddddd));
+	color: #cf0000;
+}
+
+.popup .contentsList ul li input:checked + label {
+    background:	-webkit-gradient(linear, 0% 0%, 0% 100%, from(#dedede), to(#dddddd));
+	color: #cf0000;
+}
+
+.popup .contentsList ul li input:checked{
+    background:	-webkit-gradient(linear, 0% 0%, 0% 100%, from(#dedede), to(#dddddd));
+	color: #cf0000;
+}
+
+.popup .contentsList ul li label img {
+	float: left;
+	width: 50px;
+	padding: 0 10px 0 0 ;
+}
+.popup .contentsList ul li label mark.familyCard {
+	float: right;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 5px;
+	padding: 4px 5px;
+	color: #ffffff;
+	border: 1px solid #000066;
+	-webkit-border-radius: 3px;
+	background: #003399;
+	box-shadow: inset 1px 1px 1px #000066;
+	font-size: 10px;
+        font-weight:normal;
+}
+/* ダイアログ・カード切り替え不可用 */
+.popup .contentsList div.disable {
+	padding: 10px 0;
+	color: #999999;
+	font-size: 14px;
+	text-align: center; 
+}
+
+/* ######## 共通パーツ 枠 ######## */
+
+/* 上部角丸タイトル枠 */
+.popup .roundTitle {
+	margin: 10px 2px 0;
+	padding: 1px 1px 0 1px;
+	border: 1px solid #B3B3B3;
+	border-bottom: none;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+}
+/* 全部角丸枠 */
+.popup .roundCorner {
+	margin: 10px 2px;
+	padding: 1px;
+	border: 1px solid #B3B3B3;
+	-webkit-border-radius: 5px;
+}
+/* 上部角丸枠 */
+.popup .roundCornerTop {
+	margin: 10px 2px;
+	padding: 1px;
+	border: 1px solid #B3B3B3;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+}
+/* 下部角丸枠 */
+.popup .roundCornerBottom {
+	margin: 0 2px 10px;
+	padding: 1px;
+	-webkit-border-bottom-left-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+}
+/* 四角枠 */
+.popup .shapeCorner {
+	margin: 0 2px 10px;
+	border: 1px solid #B3B3B3;
+	border-top: none;
+}
+
+/* roundbox decoration */
+.popup .pointBox {
+	padding: none;
+	border: 1px solid #65c0e8;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#bae8fc), to(#eff9ff), color-stop(.25,#eff9ff));
+}
+
+/* ボタン枠 */
+.popupBox .button {
+	padding: 8px 0;
+	background: #eeeeee;
+	-webkit-border-bottom-right-radius: 6px;
+	-webkit-border-bottom-left-radius: 6px;
+}
+.popupBox .button p {
+	text-align:center;
+}
+.popupBox .button a {
+	display: block;
+	width: 50%;
+	margin: 0 auto;
+	padding: 5px 0;
+	-webkit-border-radius: 4px;
+}
+
+/* ボタン用装飾 */
+/* 閉じるボタン */
+.popupBox .close a {
+	border:1px solid #a1a1a1;
+	color:#000000;
+	background: #f4f3f1;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f4f3f1), color-stop(50%,#e1e1e1), color-stop(51%,#ececec), color-stop(100%,#f5f5f5));
+	background: -webkit-linear-gradient(top,  #f4f3f1 0%,#e1e1e1 50%,#ececec 51%,#f5f5f5 100%);
+	font-weight:bold;
+	text-decoration:none;
+}
+
+/* ログアウト用エリア
+----------------------------------*/
+.popupBox .btnLogout {
+	overflow: hidden;
+}
+.popupBox .btnLogout p {
+	float: left;
+	width: 50%;
+}
+.popupBox .btnLogout a {
+	width: 70%;
+	border:1px solid #a1a1a1;
+	color:#000000;
+	background: #f4f3f1;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f4f3f1), color-stop(50%,#e1e1e1), color-stop(51%,#ececec), color-stop(100%,#f5f5f5));
+	background: -webkit-linear-gradient(top,  #f4f3f1 0%,#e1e1e1 50%,#ececec 51%,#f5f5f5 100%);
+	font-weight:bold;
+	text-decoration:none;
+}
+
+
+/* 広告共通枠
+----------------------------------*/
+
+#footerAdbanner{
+border-bottom-left-radius: 6px 6px;
+border-bottom-right-radius: 6px 6px;
+border-top-left-radius: 6px 6px;
+border-top-right-radius: 6px 6px;
+clear: both;
+margin: 0px 5px;
+}
+
+#footerAdbanner .contentBox{
+	border-color:#FC6;
+	-webkit-box-shadow:none;
+	background-color: white;
+	margin: 10px 0px 0px 0px;
+}	
+
+#footerAdbanner .contentBox h3{
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFF9E4),to(#FFF5CA));
+}
+
+#footerAdbanner .contentBox .flipSmallWrap {
+    border: #bbbbbb solid 1px;
+    -webkit-border-radius: 4px;
+    -webkit-box-shadow: 1px 1px 3px #cccccc;
+    margin-bottom: 10px;
+}
+
+#footerAdbanner .contentBox #flipSmall {
+    position: relative;
+    padding: 20px 25px;
+    -webkit-border-radius: 4px;
+    -webkit-box-shadow: inset 0 0 15px #cfcfcf;
+    overflow: hidden;
+}
+
+#footerAdbanner .contentBox #flipSmall ul.flipsnapSmall {
+    overflow: hidden;
+    zoom: 1;
+    text-align: center;
+}
+
+#footerAdbanner .contentBox #flipSmall ul.flipsnapSmall li {
+    display: inline-block;
+    width: 127px;
+    margin-right: 2px;
+    vertical-align: top;
+}
+
+#footerAdbanner .contentBox #flipSmall ul.flipsnapSmall li a {
+    display: block;
+    padding: 0 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#footerAdbanner .contentBox #flipSmall ul.flipsnapSmall li a span {
+    display: block;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+#footerAdbanner .contentBox #flipSmall span#flipSmallNext {
+    position: absolute;
+    top: 0;
+    right: 0;
+    diaplay: block;
+    width: 20px;
+    height: 100%;
+    border-left: #cccccc solid 1px;
+    background: url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/icon_flip_next.png) no-repeat 3px 50%, #ffffff;
+    background-size: 14px 34px;
+    -webkit-background-size: 14px 34px;
+    z-index: 100;
+    -webkit-border-radius: 0 4px 4px 0;
+}
+
+#footerAdbanner .contentBox #flipSmall span#flipSmallPrev {
+    position: absolute;
+    top: 0;
+    left: 0;
+    diaplay: block;
+    width: 20px;
+    height: 100%;
+    border-right: #cccccc solid 1px;
+    background: url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/icon_flip_prev.png) no-repeat 2px 50%, #ffffff;
+    background-size: 14px 34px;
+    -webkit-background-size: 14px 34px;
+    z-index: 100;
+    -webkit-border-radius: 4px 0 0 4px;
+}
+
+#footerAdbanner .contentBox #flipSmall span#flipSmallNext.disabled {
+    background-image: none;
+    background: #ffffff;
+}
+
+#footerAdbanner .contentBox #flipSmall span#flipSmallPrev.disabled {
+    background-image: none;
+    background: #ffffff;
+}
+
+div.cashing {
+	margin: 15px 2px;
+	padding: 5px;
+	border: 1px solid #B3B3B3;
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+	-webkit-box-shadow: 0px 1px 2px #c9c9c9;
+	background: #fffcdd;
+}
+div.cashing p {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 14px;
+	font-weight: bold;
+}
+div.cashing p.accentMessage {
+	font-size: 12px;
+	font-weight: normal;
+}
+div.cashing p img {
+	float: left;
+	margin: 0 5px 10px 0;
+}
+div.cashing div.specific {
+	width: 80%;
+	margin: 15px auto;
+	border-radius: 0px;
+}
+div.cashing div.specific table th {
+	width: 50%;
+}
+div.cashing div.specific table td {
+	text-align: right;
+}
+div.cashing div.addedMessage {
+	text-align: center;
+}
+
+ul.btnSpecific {
+	overflow: hidden;
+	margin: 0 10px 10px;
+	border: 1px solid #ffd9d9;
+	-webkit-border-radius: 4px;
+	text-align: center;
+}
+ul.btnSpecific li {
+	display: block;
+	padding-right: 5px;
+	border-bottom: 1px solid #ffd9d9;
+	text-align: center;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f9f8f8), color-stop(50%, #ffe8e8), color-stop(51%, #ffcccc), color-stop(100%, #ffd9d9));
+	background: -webkit-linear-gradient(top, #f9f8f8 0%, #ffe8e8 50%, #ffcccc 51%, #ffd9d9 100%);
+}
+ul.btnSpecific li:first-child {
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+}
+ul.btnSpecific li:last-child {
+	border-bottom: none;
+	-webkit-border-bottom-left-radius: 4px;
+	-webkit-border-bottom-right-radius: 4px;
+}
+ul.btnSpecific a {
+	display: block;
+	padding: 10px 15px 10px 10px;
+	color: #000000;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
+ul.btnSpecific a.btn_next {
+	background: url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/btn_next.png) no-repeat;
+	background-position: right;
+	-webkit-background-size: 15px 15px;
+}
+
+div.net_accountdone_revo div.guideMerits {
+	margin-bottom: 15px;
+	border: 2px solid #F90;
+	-webkit-border-radius: 4px;
+	background:#FFFFE6;
+}
+div.net_accountdone_revo  div.guideMerits p.essential {
+	padding:5px 5px 5px 10px;
+	border-bottom:#cccccc 1px solid;
+	color:#ffffff;
+	font-size:16px;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffae53), color-stop(50%, #fd8a07), color-stop(51%, #fd8a07), color-stop(100%,#f55601));
+}
+div.net_accountdone_revo  div.guideMerits p.lead {
+	margin:0 0 5px 10px;
+	color: #333333;
+	font-size:12px;
+	font-weight:bold;
+}
+div.net_accountdone_revo  div.guideMerits ol {
+	margin:0 7px;
+	font-size:12px;
+	margin-top:7px;
+}
+div.net_accountdone_revo  div.guideMerits ol li{
+	color: #333;
+font-size: 16px;
+padding:0px 5px 7px 7px;
+color:#bf0000;
+font-weight:bold;
+text-decoration:underline;
+line-height:25px;
+}
+div.net_accountdone_revo  div.guideMerits ol li.icon_first {
+	background: url("https://image.card.jp.rakuten-static.com/r-enavi/WebImages/enavi/cash/smart/lst_num01.png") no-repeat 2px 0
+}
+div.net_accountdone_revo  div.guideMerits ol li.icon_second {
+	background: url("https://image.card.jp.rakuten-static.com/r-enavi/WebImages/enavi/cash/smart/lst_num02.png") no-repeat 2px 0
+}
+
+div.net_accountdone_revo  div.guideBox p {
+margin: 5px 10px;
+font-size: 14px;
+}
+
+div.net_accountdone_revo div.guideBox dl {
+font-size: 14px;
+}
+
+div.net_accountdone_revo .chartBox dt {
+font-weight: bold;
+}
+
+div.net_accountdone_revo .chartBox dd {
+font-size: 14px;
+}
+
+div.net_accountdone_revo .chartBox dt span {
+position: relative;
+display: block;
+padding-left: 1em;
+font-size: 14px;
+}
+
+div.net_accountdone_revo div.guideBox .notes {
+margin-bottom: 0px;
+padding-bottom: 0px;
+}
+
+div.net_accountdone_revo div.net_accountdone_revo  ul.notes li.disc {
+padding: 0 0 5px 12px;
+background: none;
+}
+
+div.net_accountdone_revo .largeImg img {
+width: 95%;
+height: auto;
+}
+
+div.net_accountdone_revo .chartBox .boxImg {
+text-align: center;
+margin-bottom: 10px;
+}
+
+span.number_icon{
+	background:#bf0000;
+	color:#fff;
+	padding:2px 7px;
+	border-radius:15px;
+
+
+	margin-right:3px;
+}
+
+/*家族カード追加申込みフォーム*/
+div.formBox.thSeparate table th{
+	width: 5%;
+}
+         	
+div.formBox.thSeparate table th+th{
+	width: 25%;
+}
+
+div.formBox.thSeparate tr.famMailSp{
+	border-top:none;
+}
+         	
+div.formBox.thSeparate tr.famMailSp th+th{
+	border-top:solid 1px #cccccc;
+}
+
+div.bgStyle01 {
+	background-color: #F0F0F0;
+	border-radius: 2px;
+	padding: 3px;
+}
+
+/*---家族カード追加申込改善---*/
+
+
+div.fam_campaign h3 span{
+	color: #bf0000;
+}
+
+div.fam_campaign dl.bannerInfo{
+	text-align:center;
+	padding:5px 0;
+}
+
+div.fam_campaign p{
+	text-align:center;
+	padding:5px 0;
+}
+
+
+div.fam_campaign dl.bannerInfo img{
+	width: 100%;
+	max-width:234px;
+}
+
+div.fam_campaign p img{
+	width: 100%;
+	max-width:234px;
+}
+
+div.formBox.fam_campaign h3{
+	font-size:80%;
+}
+
+div.formBox.fam_campaign.specific{
+	overflow: hidden;
+	margin-bottom: 5px;
+	border-color: #e3c361;
+}
+
+div.formBox.fam_campaign.specific h3{
+	margin-bottom: 12px;
+	overflow: hidden;
+	padding: 8px 8px 8px 10px;
+	border-bottom: 1px solid #e3c361;
+	color: #bf0000;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fffde7), color-stop(50%,#fffde7), color-stop(51%,#efebbc), color-stop(100%,#fefbdc));
+	background: -webkit-linear-gradient(top, #fffde7 0%,#fffde7 50%,#efebbc 51%,#fefbdc 100%);
+	font-weight: bold;
+}
+
+div.formBox.fam_campaign.specific+div.formBox.fam_campaign.specific h3{
+	color:#3a3a3a;
+}
+
+/* 顧客サポートPhase2 */
+#header div.gNaviSp li a.navGuide {
+	background-position: 5px -851px;
+}
+
+/* sp .sdbutton */
+ul.choose input.sdbutton {
+	width: 160px;
+}
+
+
+/*---▼クリッポ・ポイコレ新着表示▼---*/
+.clearfix:after {
+	display: block;
+	clear: both;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+	content: ".";
+	font-size: 0.1em;
+}
+
+div.article ul li a span.newService{
+	display: block;
+	color:#ffffff;
+	font-size:14px;
+	font-weight:bold;
+	float:right;
+	padding:5px 6px 3px;
+	margin:-3px 10px 0 0;
+	-webkit-box-shadow: 1px 1px 1px #bbbbbb;
+	-webkit-border-radius: 4px;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#bf0000), to(#fc0000));
+}
+
+div.article ul li a span.newService_s{
+	display:none;
+}
+
+/*---------------------------------------------------------*/
+/*------------------- mediaQuery 縦版 ---------------------*/
+/*---------------------------------------------------------*/
+
+@media screen and (orientation : portrait){
+div.article ul li a span.newService{
+	display:none;
+}
+
+div.article ul li a span.newService_s{
+	width:4px;
+	float:right;
+	display:block;
+	font-size:14px;
+	color:#ffffff;
+	padding:1px 7px;
+	line-height:1.1;
+	margin:-7px 5px 0 0;
+	font-weight:bold;
+	-webkit-border-radius: 3px;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#bf0000), to(#fc0000));
+}
+}/*-----------------*/
+
+/* VPC */
+#header div.gNaviSp li a.	 {
+background-position: 5px -630px;
+}
+
+
+
+
+
+
+
+/* 紹介者IDページ改善案件 */
+span.introducePoint{
+	font-size: 16px;
+	font-weight: bold;
+	background: #ffff00;
+	color: #bf0000;
+
+}
+
+dl.howtoIntrocard dt{
+	font-weight: bold;
+	margin: 0 3px 5px;
+}
+
+dl.howtoIntrocard dt span:first-child{
+	font-weight: bold;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#bf0000), to(#fa0000));
+	border: #9f0000;
+	color: #ffffff;
+	padding: 1px 2px;
+	margin-right: 3px;
+	-webkit-border-radius: 2px;
+}
+
+dl.howtoIntrocard dt span.numberDecoration{
+	font-weight: bold;
+	font-size: 22px;
+	color: #bf0000;
+}
+
+dl.howtoIntrocard dd{
+	margin:5px;
+	font-weight: bold;
+}
+
+dl.howtoIntrocard dd a{
+	display:block;
+	-webkit-border-radius: 5px;
+	text-decoration: none;
+	padding: 5px 0 5px 12px;
+	font-size: 15px;
+}
+
+dl.howtoIntrocard dd a img{
+	margin-right: 5px;
+	vertical-align:middle;
+}
+
+dl.howtoIntrocard dd.button_introId a{
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f4cacb), color-stop(5%,#f5cbcc), color-stop(15%,#fbd4d5), color-stop(25%,#fcdcdd), color-stop(35%,#fee0de), color-stop(55%,#fde1e0), color-stop(65%,#fde1e0), color-stop(85%,#fad3d4), color-stop(95%,#f4cbc9), color-stop(100%,#f4cacc));
+	border: solid 1px #d96767;
+	color: #ff0000;
+}
+
+dl.howtoIntrocard dd.button_introSocial a{
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f2dfd0), color-stop(5%,#f2e0d2), color-stop(15%,#f6e8dd), color-stop(30%,#f8efe8), color-stop(60%,#f9f0e9), color-stop(65%,#f9f0e9), color-stop(85%,#f5e7dc), color-stop(90%,#f3e3d4), color-stop(100%,#f2dfd0));
+	border: solid 1px #dfaf87;
+	color: #f96f07;
+}
+
+dl.howtoIntrocard dd p{
+	font-weight: bold;
+}
+
+div.entryBanner{
+	text-align: center;
+}
+
+div.entryBanner p{
+	margin-bottom: 10px;
+}
+
+div.entryBanner p img{
+	width:100%;
+	height: auto;
+	max-width: 234px;
+	
+}
+
+div.howUseId{
+	border:solid 1px #cf0000;
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+	-webkit-box-shadow: 0px 1px 2px #c9c9c9;
+	margin: 10px 2px 10px;
+	padding: 1px;
+}
+
+div.howUseId > p{
+	font-weight: bold;
+	padding:10px 3px;
+	text-align:center;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fde1e0), color-stop(100%,#f9c2c3));
+}
+
+div.howUseId dl{
+	padding:10px;
+}
+
+div.howUseId dl dt{
+	margin-bottom: 15px;
+}
+
+div.howUseId dl dd{
+	display: table;
+}
+
+div.howUseId dl dd span,
+div.howUseId dl dd p{
+	display: table-cell;
+}
+
+div.howUseId dl dd{
+	margin-bottom:10px;
+}
+
+div.howUseId dl dd p{
+	font-weight: bold;
+	font-size: 14px;
+	vertical-align: middle;
+}
+
+div.howUseId dl dd > span{
+	color: #ffffff;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#bf0000), to(#fa0000));
+border: #9f0000;
+	font-size: 14px;
+	padding: 2px;
+	width: 70px;
+	vertical-align: middle;
+	display: inline-block;
+	margin-right: 10px;
+	-webkit-border-radius: 6px;
+}
+
+div.howUseId dl dd > span > span{
+	border: solid 1px #ffffff;
+	display: block;
+	padding:2px;
+	-webkit-border-radius: 5px;
+	text-align:center;
+	font-size: 13px;
+}
+
+div.introducerID{
+	text-align: center;
+	margin: 10px 2px 10px;
+}
+
+div.introducerID h3{
+	font-size: 18px;
+}
+
+div.introducerID p{
+	font-size: 18px;
+	padding: 5px 0;
+}
+
+div.howUseSocial{
+	margin: 20px 2px 10px;
+	padding: 1px;
+	border: 1px solid #ffd47a;
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+	-webkit-box-shadow: 0px 1px 2px #c9c9c9;
+}
+
+div.howUseSocial > p{
+	font-weight: bold;
+	text-align: center;
+	padding:10px 3px;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(2%,#fffae4), color-stop(7%,#fff8e8), color-stop(13%,#fff7e2), color-stop(17%,#faf9dd), color-stop(22%,#fdfadb), color-stop(28%,#fff8de), color-stop(39%,#fff7d8), color-stop(50%,#fdf6da), color-stop(61%,#fbf7d4), color-stop(65%,#fdf7d7), color-stop(70%,#fcf7d1), color-stop(74%,#fff7d3), color-stop(89%,#fef5ce), color-stop(93%,#fbf5d3), color-stop(96%,#faf5cf), color-stop(98%,#fff8ce), color-stop(100%,#ffffff));
+}
+
+div.howUseSocial dl{
+	padding:10px;
+}
+
+div.howUseSocial dl dt{
+	margin-bottom: 15px;
+	word-break: break-all;
+}
+
+div.howUseSocial dl dd{
+	display: table;
+}
+
+div.howUseSocial dl dd span,
+div.howUseSocial dl dd p{
+	display: table-cell;
+}
+
+div.howUseSocial dl dd p{
+	font-weight: bold;
+	font-size: 14px;
+	vertical-align: middle;
+}
+
+div.howUseSocial dl dd{
+	margin-bottom:10px;
+}
+
+div.howUseSocial dl dd > span{
+	color: #ffffff;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#bf0000), to(#fa0000));
+border: #9f0000; 
+	font-size: 14px;
+	padding: 2px;
+	width: 70px;
+	vertical-align: middle;
+	display: inline-block;
+	margin-right: 10px;
+	-webkit-border-radius: 6px;
+}
+
+div.howUseSocial dl dd > span > span{
+	border: solid 1px #ffffff;
+	display: block;
+	padding:2px;
+	-webkit-border-radius: 5px;
+	text-align:center;
+	font-size: 13px;
+}
+
+div.howUseSocial div.contentWrapper ul li a{
+	padding: 2px 5px;
+}
+
+div.howUseSocial div.contentWrapper ul li a span{
+	padding: 2px 15px 2px 3px;
+	line-height: 2;
+}
+
+div.howUseSocial div.contentWrapper ul li a span img{
+	margin-right: 10px;
+}
+
+ul.howUseSocialAttention li {
+	padding: 0 0 5px 12px;
+	background: url("https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/icon_kome_red.gif") no-repeat 0 0.4em;
+	font-size: 14px;
+	color: #bf0000;
+}
+
+ul.attention li.redSquare{
+	color: #bf0000;
+	font-weight: bold;
+	padding: 0 0 5px 12px;
+	background: none;
+	position: relative;
+	
+}
+
+ul.attention li.redSquare span{
+	font-size: 18px;
+	position: absolute;
+	left: -1px;
+	top: -5px;
+}
+
+
+/* 各種お支払い */
+ul.paymentBtnLst {
+	overflow: hidden;
+	padding: 10px;
+	text-align: center;
+}
+
+ul.paymentBtnLst li {
+	display: block;
+	padding-right: 5px;
+	border: 1px solid #ffd9d9;
+	border-bottom: none;
+	text-align: center;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f9f8f8), color-stop(50%,#ffe8e8), color-stop(51%,#ffcccc), color-stop(100%,#ffd9d9));
+	background: -webkit-linear-gradient(top, #f9f8f8 0%,#ffe8e8 50%,#ffcccc 51%,#ffd9d9 100%);
+}
+
+ul.paymentBtnLst li:first-child {
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+}
+
+div.guideBox ul.paymentBtnLst li:last-child {
+border-bottom: 1px solid #ffd9d9;
+-webkit-border-bottom-left-radius: 4px;
+-webkit-border-bottom-right-radius: 4px;
+}
+
+ul.paymentBtnLst a.btn_next {
+	background: url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/btn_next.png) no-repeat;
+	background-position: right;
+	-webkit-background-size: 15px 15px;
+}
+
+ul.paymentBtnLst a {
+	display: block;
+	padding: 10px 15px 10px 10px;
+	color: #000000;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+/* 12/20 */
+/*VPC追加メニュー調整*/
+
+#header div.gNaviSp ul {
+	overflow: hidden;
+}
+
+#header div.gNaviSp li {
+	display: table;
+	width: 50%;
+	border-bottom: #cccccc solid 1px;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#eeeeee));
+	height: 45px;
+	float:left;
+}
+
+#header div.gNaviSp li a {
+	display: table-cell;
+	padding: 0 5px 0 35px;
+	height: 45px;
+	vertical-align: middle;
+}
+
+#header div.gNaviSp li:last-child:nth-child(odd) {
+	display: table;
+	width: 100%;
+}
+
+#header div.gNaviSp li:last-child:nth-child(odd) a{
+	display: table-cell;
+	width: 100%;
+}
+
+#header div.gNaviSp li a.navVpc {
+	background-position: 5px -630px;
+}
+
+/* ビジネスカード表示改善 */
+ul.cardType li div.func div.businessCard, dl.cardSelect dd.func .businessCard {
+	display: inline-block;
+	float: left;
+	vertical-align: top;
+	margin-right: 5px;
+	padding: 2px 3px;
+	color: #684906;
+	border: 1px solid #684906;
+	-webkit-border-radius: 3px;
+	background: #f4d37e;
+	font-size: 10px;
+}
+
+.popup .contentsList ul li label mark.businessCard {
+	float: right;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 5px;
+	padding: 4px 5px;
+	color: #684906;
+	border: 1px solid #684906;
+	-webkit-border-radius: 3px;
+	background: #f4d37e;
+	font-size: 10px;
+	font-weight: normal;
+}
+
+/* undelivered-items */
+
+.unTitle {
+padding: 10px;
+font-size: 16px;
+font-weight: bold;
+color: #ffffff;
+background: #002060;
+}
+
+.unStep {
+padding: 10px;
+margin-bottom: 10px;
+}
+
+.unStep dt {
+margin-bottom: 10px;
+}
+
+.unStep dd {
+font-size: 14px;
+margin-bottom: 10px;
+}
+
+.unImg {
+margin-bottom: 10px;
+text-align: center;
+}
+
+/* net ca complete */
+
+div.content700 {
+	text-align:center;
+	margin:0 auto 15px;
+}
+
+div.content700 > img{
+	width:100%;
+	max-width:700px;
+}
+
+div.content700 ul{
+	margin-top:10px;
+}
+
+div.content700 ul li {
+	display:inline;
+	text-align:center;
+}
+
+/* campaign present icon */
+.cpn {
+	margin: 10px 5px;
+}
+.cpn .presentIcn,
+.cpnCenter .presentIcn  {
+	display: table;
+	background: url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/icon_present.gif) no-repeat;
+	min-height: 32px;
+	padding: 0 0 0 37px;
+}
+
+.cpn .presentIcn:before,
+.cpnCenter .presentIcn:before{
+	display:block;
+	float:left;
+	height:32px;
+	content:"";
+}  
+
+.cpnCenter .presentIcn {
+	margin: 0 auto;
+}
+.cpn .presentIcn a,
+.cpnCenter .presentIcn a {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+/* etc form
+-------------------------------------------- */
+p.mainSp,
+p.etcSp {
+	text-align: center;
+	margin-bottom:6px;
+}
+
+p.mainSp img,
+p.etcSp img {
+	max-width:100%;
+	height:auto;
+	text-align: center;
+}
+
+p.etcText{
+	margin: 0 15px 10px;
+	font-size:13px;
+	color:#333333;
+}
+
+table.detail td span.red {
+	font-size: 14px;
+	color: #bf0000;
+}
+
+.sdbutton180 {
+	width: 250px;
+}
+
+/* familycardGuideCampaignBox
+-------------------------------------------- */
+.campaignBox{
+	margin: 15px 2px;
+	-webkit-border-radius: 5px;
+	-webkit-box-shadow: 0px 1px 2px #c9c9c9;
+	border: 2px solid #BF0000;
+	background: #FFEFEF;
+	text-align:center;
+	padding:10px;
+}
+.campaignBox p{
+	font-size: 100%;
+	font-weight:bold;
+	padding:3px 0 10px;
+}
+
+
+
+
+
+
+
+
+
+/* お支払方法 /* 
+
+
+
+/* ご利用明細・キャッシング枠 */
+div.cashing {
+	margin: 15px 2px;
+	padding: 5px;
+	border: 1px solid #B3B3B3;
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+	-webkit-box-shadow: 0px 1px 2px #c9c9c9;
+	background: #fffcdd;
+}
+div.cashing p{
+	display: block;
+	margin-bottom: 10px;
+	font-size: 14px;
+	font-weight: bold;
+}
+div.cashing p.accentMessage{
+	font-size: 12px;
+	font-weight: normal;
+}
+div.cashing p img{
+	float: left;
+	margin: 0 5px 10px 0;
+}
+div.cashing div.specific {
+	width: 80%;
+	margin: 15px auto;
+	border-radius: 0px;
+}
+div.cashing div.specific table th {
+	width: 50%;
+}
+div.cashing div.specific table td {
+	text-align: right;
+}
+div.cashing div.addedMessage {
+	text-align: center;
+}
+
+/* ご利用明細・キャッシング用ボタン（リスト版） */
+ul.btnSpecific {
+	overflow: hidden;
+	margin: 0 10px 10px;
+	border: 1px solid #ffd9d9;
+	-webkit-border-radius: 4px;
+	text-align: center;
+}
+ul.btnSpecific li {
+	display: block;
+	padding-right: 5px;
+	border-bottom: 1px solid #ffd9d9;
+	text-align: center;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f9f8f8), color-stop(50%,#ffe8e8), color-stop(51%,#ffcccc), color-stop(100%,#ffd9d9));
+	background: -webkit-linear-gradient(top,  #f9f8f8 0%,#ffe8e8 50%,#ffcccc 51%,#ffd9d9 100%);
+}
+ul.btnSpecific li:first-child {
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+}
+ul.btnSpecific li:last-child {
+	border-bottom: none;
+	-webkit-border-bottom-left-radius: 4px;
+	-webkit-border-bottom-right-radius: 4px;
+}
+ul.btnSpecific a {
+	display: block;
+	padding: 10px 15px 10px 10px;
+	color: #000000;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
+ul.btnSpecific a.btn_next{
+	background: url(//image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/btn_next.png) no-repeat ;
+	background-position: right;
+	-webkit-background-size: 15px 15px;
+}
+
+/* ご利用明細内テーブル用
+----------------------------------*/
+div.specific table.detail{
+	width: 100%;
+}
+div.specific table.detail thead th{
+	background: #fffcdd;
+	font-weight: bold;
+}
+div.specific table.detail th,
+div.specific table.detail td {
+	padding: 4px;
+	font-size: 14px;
+	word-break: break-all;
+}
+div.specific table.detail tr,
+div.specific table.detail td {
+	border: 1px solid #cccccc;
+}
+div.specific table.detail th {
+	border-right: 1px solid #cccccc;
+	text-align: left;
+	font-weight: normal;
+	background-color: #eeeeee;
+}
+div.specific table.detail td{
+	background: #FFFFFF;
+}
+div.specific table.detail span {
+	margin-right: 5px;
+	font-size: 12px;
+	color: #FF7700;
+}
+
+/* 請求金額明細用
+----------------------------------*/
+
+div.specific div.accordion div.itemBox{
+	padding: 0;
+	margin: 0;
+	border: none;
+}
+div.specific div.accordion p.trigger {
+	display: block;
+	margin-top: 1px;
+	padding: 8px 8px 8px 15px;
+	border:1px solid #B3B3B3;
+	border-radius: 0px;
+	color: #333333;
+	background: #f9f9f9;
+	font-weight: bold;
+}
+div.specific div.accordion p.trigger span {
+	display: block;
+	padding: 0 20px 0 0;
+	background: url(//image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/icon_openclose.png) no-repeat;
+	background-position: 99% 50%;
+	-webkit-background-size:15px 15px;
+}
+
+/* */
+div.specific div.accordion ul.detail {
+	padding: 0 10px;
+	text-align: right;
+}
+div.specific div.accordion ul.detail li.about span {
+	display: block;
+	font-weight: bold;
+	font-size: 16px;
+	text-align: left;
+        word-wrap: break-word;
+}
+div.specific div.accordion ul.detail dl {
+	display: inline-block;
+	margin-top: 10px;
+	font-size: 14px;
+	color: #666666;
+}
+div.specific div.accordion ul.detail dl dt{
+	font-weight: bold;
+}
+div.specific div.accordion ul.detail li:last-child {
+	margin-top: 10px;
+	padding-top: 5px;
+	border-top: 1px solid #aeaeae;
+	font-size: 16px;
+	color: #666666;
+}
+/* 利用者・支払い区分 */
+div.specific div.accordion ul.detail li.about dt {
+	float: left;
+	padding:0 0 0 10px;
+	text-align: right;
+}
+div.specific div.accordion ul.detail li.about dd {
+	float: left;
+	padding:0 0 0 5px;
+	text-align: right;
+}
+div.specific div.accordion ul.detail li.total {
+	font-weight: bold;
+	line-height: 25px;
+}
+div.specific div.accordion ul.detail li.total span {
+	font-size: 14px;
+	margin-right: 10px;
+}
+/* 利用金額・手数料・翌月繰越残高 */
+div.specific div.accordion ul.detail li.details dl {
+	overflow: hidden;
+	display: inline-block;
+	text-align:right;
+}
+div.specific div.accordion ul.detail li.details dt {
+	float: left;
+	text-align: right;
+}
+div.specific div.accordion ul.detail li.details dd {
+	float: left;
+	padding-left: 5px;
+	text-align: right;
+}
+/* 備考 */
+div.specific div.accordion ul.detail li.otherInfo {
+	margin-top: 5px;
+	border-top: 1px dashed #aeaeae;
+}
+div.specific div.accordion ul.detail li.otherInfo dt {
+	padding:0 0 0 10px;
+	text-align: right;
+}
+div.specific div.accordion ul.detail li.otherInfo dd {
+	padding:0 0 0 5px;
+	text-align: right;
+}
+/* 小計 */
+div.specific p.amount {
+	margin: 1px 0;
+	padding: 10px;
+	border: 1px solid #cccccc;
+	font-weight: bold;
+	text-align: right;
+}
+/* 請求金額明細・リボへの変更ボタン
+----------------------------------*/
+span.changeRevo a {
+	display: block;
+	padding: 2px 0;
+	-webkit-border-radius: 3px;
+	-webkit-box-shadow: 0px 1px 3px #c9c9c9;
+	font-weight: bold;
+	border: 2px solid #BF0000;
+	color: #FFFFFF;
+	background: #f20000;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f20000), color-stop(50%,#dc0000), color-stop(51%,#990002), color-stop(100%,#ba0001));
+	background: -webkit-linear-gradient(top,  #f20000 0%,#dc0000 50%,#990002 51%,#ba0001 100%);
+	background: linear-gradient(top,  #f20000 0%,#dc0000 50%,#990002 51%,#ba0001 100%);
+	text-decoration: none;
+	text-align: center;
+}
+div.accordion span.changeRevo {
+	display: block;
+	text-align: right;
+}
+div.accordion span.changeRevo a {
+	display: inline-block;
+	margin: 10px;
+	padding: 5px 15px;
+	font-size: 12px;
+}
+/* 請求金額明細・totoボタン
+----------------------------------*/
+div.specific div.accordion ul.detail li.about span.totoButton {
+	display:inline-block;
+	margin-left: 10px;
+	padding: 2px;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F9F8F8), color-stop(50%,#FFE8E8), color-stop(51%,#FCC), color-stop(100%,#FFD9D9));
+	background: -webkit-linear-gradient(top, #F9F8F8 0%,#FFE8E8 50%,#FCC 51%,#FFD9D9 100%);
+	border: 1px solid #FFB0CC;
+	-webkit-border-radius: 3px;
+}
+span.totoButton a {
+	padding: 1px 16px 1px 2px;
+	color: #000000;
+	background: url(//image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/icon_blank.png) no-repeat;
+	background-position: right;
+	-webkit-background-size: 15px 15px;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+/* 月毎請求金額
+----------------------------------*/
+div.specificMonthlyArea {
+	overflow: hidden;
+	width: 100%;
+}
+/* 請求金額 */
+div.specificMonthly {
+	/*width: 58%;*//* only tab */
+	/*float: left;*//* only tab */
+	/*border-radius: 0px;*/
+}
+div.specificMonthly div.contentBox {
+	margin-bottom: 5px;
+}
+
+/* 確定・未確定 */
+div.specificMonthly span.statusFix {
+	display: inline-block;
+	margin-right: 3px;
+	padding: 1px 3px;
+	background: #bf0000;
+	-webkit-border-radius: 2px;
+	color: #ffffff;
+	font-size: 14px;
+	vertical-align: middle;
+}
+div.specificMonthly span.statusUnFix {
+	display: inline-block;
+	margin-right: 3px;
+	padding: 1px 3px;
+	background: #ff6600;
+	-webkit-border-radius: 2px;
+	color: #ffffff;
+	font-size: 14px;
+	vertical-align: middle;
+}
+
+/* span font-color 打ち消し用 */
+div.specificMonthly table th {
+	background: #ffd9d9;
+	font-size: 14px;
+	font-weight: bold;
+	color: #333333;
+}
+div.specificMonthly table td {
+	font-size: 14px;
+	font-weight: bold;
+	color: #333333;
+}
+div.specificMonthly table th span,
+div.specificMonthly table td span {
+	padding-right: 5px;
+	font-size: 14px;
+/*	font-weight: bold;*/
+	color: #666666;
+}
+/* 請求金額・詳細 */
+div.specificMonthly table td.amount dl {
+	overflow: hidden;
+	margin-top: 0px;
+	font-size: 13px;
+	color: #666666;
+}
+div.specificMonthly table td.amount dl dt {
+	float: left;
+
+	min-width: 5em;
+	padding-right: 5px;
+}
+div.specificMonthly table td.amount dl dd {
+	display: inline-block;
+	padding-right: 5px;
+	text-align: left;
+	font-weight: normal;
+}
+div.specificMonthly table td.amount strong {
+	padding-right: 5px;
+	font-size: 18px;
+	color: #bf0000;
+}
+/* お支払い方法・詳細 */
+div.specificMonthly table td.account dl {
+	overflow: hidden;
+	width: 100%;
+	margin-top: 0px;
+	font-size: 13px;
+	color: #666666;
+}
+div.specificMonthly table td.account dl dt {
+/*	float: left;*/
+	padding-right: 5px;
+}
+div.specificMonthly table td.account dl dd {
+/*	float: left;*/
+	padding-right: 5px;
+	font-weight: normal;
+}
+/* ポイント・詳細 */
+div.specificMonthly table td.point {
+	font-weight: bold;
+}
+div.specificMonthly table td.point dl {
+	overflow: hidden;
+	margin-top: 10px;
+	font-size: 13px;
+	color: #666666;
+}
+div.specificMonthly table td.point dl dt {
+	width: 12em;
+	clear: both;
+}
+div.specificMonthly table td.point dl dd {
+	padding-right: 5px;
+	text-align: right;
+	font-weight: normal;
+}
+div.specificMonthly table td.point strong {
+	padding-right: 5px;
+	font-size: 18px;
+	color: #333333;
+}
+
+/* 詳細表示用ボタン */
+div.specificMonthly div.defaultOpen {
+	overflow: hidden;
+}
+div.specificMonthly span.detailOpenBtn {
+	display: block;/* tabでは none に指定 */
+	width: 50px;
+	margin: 3px 0 3px auto;
+	border:1px solid #d1d1d1;
+	-webkit-border-radius: 3px;
+	-webkit-box-shadow: 0px 1px 3px #c9c9c9;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f4f3f1), color-stop(50%,#e1e1e1), color-stop(51%,#ececec), color-stop(100%,#f5f5f5));
+	background: -webkit-linear-gradient(top,  #f4f3f1 0%,#e1e1e1 50%,#ececec 51%,#f5f5f5 100%);
+	text-align: center;
+}
+div.specificMonthly span.detailOpenBtn a {
+	display: block;
+	padding: 4px 10px 4px 4px;
+	background: url(//image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/icon_openclose.png) no-repeat;
+	background-position: 99% 50%;
+	-webkit-background-size:15px 15px;
+	color: #666666;
+	font-size: 12px;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+/* 明細詳細・初期非表示用（SP用）*/
+div.specificMonthly .detailClose {
+	display: none;
+}
+
+/* その他・テーブル表示用ボタン */
+div.specific span.detailOpenBtn {
+	display: block;
+	margin: -30px 0 0 0;
+	padding: 3px 24px 7px 0;
+	background: url(//image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/icon_openclose.png) no-repeat;
+	background-position: 99% 50%;
+	-webkit-background-size:15px 15px;
+	color: #666666;
+	text-decoration: none;
+	text-align: right;
+	font-weight: bold;
+}
+div.specific span.detailOpenBtn a {
+	text-indent: -9999px;
+}
+/* その他テーブル・初期非表示用（SP用）*/
+div.specific .detailClose {
+	display: none;
+}
+
+div.specific h3 {
+	overflow: hidden;
+	padding: 8px 8px 8px 10px;
+	color: #333333;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#eeeeee), to(#cccccc), color-stop(.7,#cccccc));
+	font-weight: bold;
+}
+
+/* ご案内 */
+div.specificMonthlyArea div.guide {
+	/*width: 40%;*//* only tab */
+	/*float: right;*//* only tab */
+}
+div.specificMonthlyArea div.information {
+	overflow: hidden;
+	margin-bottom: 5px;
+	border-color: #e3c361;
+}
+div.specificMonthlyArea div.information h3 {
+	overflow: hidden;
+	padding: 8px 8px 8px 10px;
+	border-bottom: 1px solid #e3c361;
+	color: #bf0000;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fffde7), color-stop(50%,#fffde7), color-stop(51%,#efebbc), color-stop(100%,#fefbdc));
+	background: -webkit-linear-gradient(top,  #fffde7 0%,#fffde7 50%,#efebbc 51%,#fefbdc 100%);
+	font-weight: bold;
+}
+div.specificMonthlyArea div.informationRevo {
+	overflow: hidden;
+	margin-bottom: 5px;
+}
+div.specificMonthlyArea div.information span.changeRevo {
+	float: left;
+	width: 40%;
+	padding: 5px;
+	font-size: 14px;
+}
+div.specificMonthlyArea div.information div.available {
+	float: right;
+	width: 50%;
+	padding: 5px;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: right;
+}
+div.specificMonthlyArea div.information div.available span {
+	padding-right: 5px;
+	font-size: 18px;
+}
+div.specificMonthlyArea div.information div.note {
+    margin-bottom: 10px;
+}
+/* 明細用注意コメント
+----------------------------------*/
+ul.attention.specific {
+	margin: 0;
+	padding: 5px 10px 0;
+	background: #ffffff;
+	font-size: 14px;
+	color: #666666;
+	text-align: left;
+}
+ul.attention.specific li {
+	padding: 0 0 5px 12px;
+	background: url("//image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/icon_kome.gif") no-repeat 0 0.4em;
+}
+ul.attention.specific li.title {
+	padding: 0 0 5px 12px;
+	background: none;
+}
+ul.attention.specific li.title::before {
+	content: "■";
+	display: inline-block;
+	margin-left: -13px;
+	padding-right: 5px;
+	font-size: 16px;
+}
+ul.attention.specific li.spacer {
+	margin-bottom: 10px;
+}
+
+/* 過去の請求用*/
+div.selectMonthForm {
+	overflow: hidden;
+/*	width: 400px;*/
+	margin: 10px;
+}
+div.selectMonthForm p{
+	float: left;
+	padding-right: 10px;
+	font-weight: bold;
+}
+div.selectMonthForm select{
+	width: 200px;
+	border-radius: 3px;
+	background: #fafafa;
+}
+
+div.contentBox.specific + ul.attention {
+	margin-top: -10px;
+}
+
+/* Cancel Specific Flame*/
+
+div.specificMonthly table td dt.returnPay,
+div.specificMonthly table td dd.returnPay,
+div.specificMonthly table td dd.returnPay span{
+	color:#bf0000;
+}
+
+div.specificMonthly table td.point .aquiredpoint_smallamnt{
+color:#F60;
+font-weight:bold;
+}
+
+div.specificMonthly table td.point .aquiredpoint_smallamnt span{
+font-weight:bold;
+}
+
+div.specificMonthly table td.point .aquiredpoint{
+padding:5px;
+border:1px solid #CCC;
+border-radius:5px;
+width:95%;
+margin:5px auto;
+}
+
+div.specificMonthly table td.point .aquiredpoint dl{
+margin-top:3px;
+}
+
+div.specificMonthly table td.point .aquiredpoint dl dt{
+float:none;
+text-align: left;
+font-weight:bold;
+width:14em;
+}
+
+div.specificMonthly table td.point .aquiredpoint dl dt.cancelpoint,
+div.specificMonthly table td.point .aquiredpoint dl dd.cancelpoint span{
+color:#bf0000;
+}
+
+div.specificMonthly table td.point .aquiredpoint dl dd{
+padding-right:10px;
+text-align:right;
+font-weight:bold;
+}
+
+/* 後から分割 */
+div.paymentSupport {
+	border-color: #FC6;
+	-webkit-box-shadow: none;
+	background-color: white;
+	overflow: hidden;
+}
+
+div.paymentSupport h3 {
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFF9E4),to(#FFF5CA));
+	border-bottom: 1px solid #FC6;
+}
+
+ul.paymentSupportList li a {
+	display: block;
+	position: relative;
+	text-decoration: none;
+	padding: 5px;
+}
+
+ul.paymentSupportList li div.paymentSupportImg {
+	display: table-cell;
+	vertical-align: middle;
+	padding-right: 5px;
+}
+
+ul.paymentSupportList li div.paymentSupportImgword {
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 11px;
+	color: #3a3a3a;
+	padding-right: 20px;
+}
+
+ul.paymentSupportList li div.paymentSupportImgword span {
+	font-weight: bold;
+	font-size: 13px;
+	color: #bf0000;
+}
+
+ul.paymentSupportList li a:before {
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 15px;
+	height: 15px;
+	margin: -5px 5px 0 0;
+	background: url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/icon_arrow_link_r.png) 0 no-repeat;
+	background-size: 15px 20px;
+	content: "";
+}
+
+ul.paymentSupportList li {
+	display: block;
+	border-bottom: 1px solid #cccccc;
+	background: #ffffff;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#efefef));
+	background: -webkit-linear-gradient(top, #ffffff 0%,#efefef 100%);
+	background: linear-gradient(top, #ffffff 0%,#efefef 100%);
+}
+
+.specific .specific .accordion span.triggerAll{
+background:none;
+pointer-events:none;
+
+}
+
+/* 明細表示改善 */
+div.contentWrapper div.specific span.detailOpenBtn.largeBtn {
+	margin: -60px 0 0 0;
+	height: 50px;
+}
+
+div.accordion.pinkBar {
+	border: 1px solid #f19ca7;
+}
+
+div.accordion.pinkBar h3 {
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fef4f4), to(#fdeff2), color-stop(.7,#fdeff2));
+}
+
+div.contentWrapper div.specific div.accordion.pinkBar p.trigger {
+	padding: 0 5px;
+}
+
+div.contentWrapper div.specific div.accordion p.trigger > span{
+	display: table;
+	padding: 3px 0;
+	width: 100%;
+}
+
+div.specific div.accordion p.trigger > span > span{
+	display: table-cell;
+	background: none;
+	vertical-align: middle;
+	padding: 0;
+}
+
+div.specific div.accordion p.trigger > span > span.paymentMethod {
+	text-align: center;
+	width: 20%;
+	padding: 0 5px 0 0;
+}
+
+div.specific div.accordion p.trigger > span > span.paymentMethod span{
+	border-radius: 5px;
+	background: #f2a0a1;
+	color: #fff;
+	font-size: 14px;
+	display: inline-block;
+	width: 50px;
+	padding: 3px 5px;
+}
+
+div.specific div.accordion p.trigger > span > span > span {
+	display: block;
+	width: 690px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	-moz-text-overflow: ellipsis;
+	white-space: nowrap;
+	background: none;
+	padding: 0;
+}
+
+@media screen and (max-width: 1023px) {
+	div.specific div.accordion p.trigger > span > span > span {
+		max-width: 500px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	div.specific div.accordion p.trigger > span > span > span {
+		width: 360px;
+	}
+}
+
+@media screen and (max-width: 599px) {
+	div.specific div.accordion p.trigger > span > span > span {
+		width: 270px;
+	}
+}
+
+@media screen and (max-width: 479px) {
+	div.specific div.accordion p.trigger > span > span > span {
+		width: 130px;
+	}
+}
+
+div.specific div.accordion p.trigger > span > span.tLeft {
+	text-align: left;
+	padding-left: 15px;
+}
+
+div.specific span.triggerAll,div.specific span.triggerAll01,div.specific span.triggerAll02 {
+	cursor:pointer;
+}
+
+/* 返済方法の記載に対する注意文言追加挿入 */
+table.detail td.noaccount {
+	background: #ff0000;
+	color: #fff;
+}
+
+table.detail td.noaccount a {
+	color: #fff;
+	font-weight: normal;
+}
+
+table.detail td.noaccount img {
+	margin: 6px 3px 0 0;
+}
+
+div.specificMonthly table td p.noticeBtn {
+	border: #4c4c4c solid 1px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	background: -webkit-gradient(linear,left top,left bottom,from(#fdfdfd),to(#e0e0e0));
+	background: -webkit-linear-gradient(top, #fdfdfd, #e0e0e0);
+	background: -moz-linear-gradient(top, #fdfdfd, #e0e0e0);
+	background: -o-linear-gradient(top, #fdfdfd, #e0e0e0);
+	background: linear-gradient(to bottom, #fdfdfd, #e0e0e0);
+	background-color: #fdfdfd;
+	-webkit-box-shadow: inset 0 0 1px 2px rgba(255,255,255,1);
+	box-shadow: inset 0 0 1px 2px rgba(255,255,255,1);
+	padding: 3px 10px;
+	font-weight: normal;
+	color: #333;
+	cursor: pointer;
+	font-size: 12px;
+	width: 120px;
+	overflow: hidden;
+}
+
+div.specificMonthly table td p.noticeBtn span {
+	float: right;
+	text-align: center;
+	font-size: 12px;
+}
+
+div.noticePayText {
+	background: #fefedd;
+	border: 2px solid #ff6600;
+	padding: 5px 7px;
+	margin: 0 5px 15px;
+	font-size: 14px;
+}
+
+div.noticePayText span {
+	display: block;
+	color: #bf0000;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+/* スマートバナー */
+.appBanner {
+	display: none;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+/* default ver */
+.appBanner a div.default {
+	background: #f9f9f9; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f9f9f9 0%, #f4f4f4 15%, #e5e5e5 60%, #ddd 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f9f9f9), color-stop(15%,#f4f4f4), color-stop(60%,#e5e5e5), color-stop(100%,#ddd)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f9f9f9 0%,#f4f4f4 15%,#e5e5e5 60%,#ddd 100%); /* Chrome10+,Safari5.1+ */
+	background: linear-gradient(to bottom,  #f9f9f9 0%,#f4f4f4 15%,#e5e5e5 60%,#ddd 100%); /* W3C */
+	padding: 5px 0;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #f4f4f4;
+	-webkit-box-shadow: 0 2px 4px #ccc;
+	color: #333;
+}
+
+.appBanner a[target="_blank"] .appLink span {
+	background : none;
+	margin: 0;
+}
+
+
+.appBanner .hideButton {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}
+
+.appBanner .appIcon,
+.appBanner .appText,
+.appBanner .appLink {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.appBanner .appText {
+	font-size: 82%;
+	margin-left: 5px;
+	max-width: 210px;
+}
+
+.appBanner .appLink {
+	margin-left: 5px;
+	font-size: 82%;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	box-shadow: 0 1px 1px #fff;
+}
+
+.appBanner .appLink span {
+	display: block;
+	padding: 2px 6px;
+	border-radius: 3px;
+	box-shadow: 0 1px 1px #fafafa inset;
+}
+
+.paym1504linetop{
+	border-top:solid 1px #ccc;
+	}
+
+.paym1504box {
+	font-size:13px;
+	display: block;
+	padding: 0px 0px 0px 10px;
+	margin-top:5px;
+	margin-bottom:10px;
+	background:url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/revolving/icon_arrow.gif); 
+	background-repeat:no-repeat;
+	background-position:5px 5px 5px 10px;
+	}
+	
+	/* sneakBanner
+-------------------------------------------- */
+#sneakBanner {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #fff;
+	font-size: 0;
+	overflow: hidden;
+	z-index: 1000;
+	-webkit-box-shadow: 0px -2px 2px 0px rgba(0,0,0,0.46);
+	-moz-box-shadow: 0px -2px 2px 0px rgba(0,0,0,0.46);
+	box-shadow: 0px -2px 2px 0px rgba(0,0,0,0.46);
+}
+#sneakBannerDummy {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	font-size: 0;
+	z-index: 999;
+}
+#sneakBannerImg img{
+	width: 100%;
+	height: auto;
+}
+#sneakBannerImg.spImage {
+    display:block;
+}
+#sneakBannerImg.tabImage {
+    display:none;
+}
+#sneakBannerBtn {
+	position: absolute;
+	top: 16.7%;
+	right: 3.1%;
+	width: 10%;
+	height: 100%;
+	background: url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/banner_btn_sp.png) no-repeat;
+	background-size: contain;
+	cursor: pointer;
+}
+
+/* amountBox_out
+--------------------------------------------- */
+.amountBox_out {
+	margin:10px;
+    padding :1px 1px 5px 1px;
+    border: #bbbbbb solid 1px;
+    -webkit-border-radius: 5px 5px 0 0;
+    background: #ffffff;
+}
+.amountBox_out h2 {
+    display: block;
+    min-height: 20px;
+    padding: 11px 0 11px 35px;
+    background: url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/icon_tab.png) no-repeat 3px -76px, -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ededed), to(#cccccc));
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+}
+.amountBox_out h2.campaign {
+    background: url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/icon_tab.png) no-repeat 4px -158px, -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ededed), to(#cccccc));
+}
+.amountBox_out .bannercampaign {
+	text-align: center;
+	margin: 10px 0 5px;
+}
+
+/* amountBox
+--------------------------------------------- */
+.amountBox {
+    padding :1px 1px 5px 1px;
+    border: #bbbbbb solid 1px;
+    -webkit-border-radius: 5px 5px 0 0;
+    background: #ffffff;
+}
+.amountBox h2 {
+    display: block;
+    min-height: 20px;
+    padding: 11px 0 11px 35px;
+    background: url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/icon_tab.png) no-repeat 3px -76px, -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ededed), to(#cccccc));
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+}
+#mainContent .amountBox h2.campaign {
+    background: url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/icon_tab.png) no-repeat 4px -158px, -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ededed), to(#cccccc));
+}
+.amountBox .bannercampaign {
+	text-align: center;
+	margin: 10px 0 5px;
+}
+
+/* gheadSp
+-------------------------------------------- */
+.gheadSp a,
+.gheadSp a:link,
+.gheadSp a:visited,
+.gheadSp--Navi a,
+.gheadSp--Navi a:link,
+.gheadSp--Navi a:visited,
+.gheadSp--headNavi a,
+.gheadSp--headNavi a:link,
+.gheadSp--headNavi a:visited {
+	color: #161616;
+}
+.gheadSp .errorMessage {
+	border-top: #bf0000 solid 2px;
+	border-bottom: #bf0000 solid 2px;
+	margin: 0 0 18px;
+	padding:5px;
+}
+.gheadSp--Top {
+	padding-bottom: 7px;
+	overflow: hidden; /* clearfix */
+	zoom: 1; /* clearfix */
+}
+.gheadSp--logo {
+	padding-top: 3px;
+	float: left;
+}
+.gheadSp--logo img {
+	width: 155px;
+	height: 40px;
+}
+/* gheadSp--headNavi */
+.gheadSp--headNavi {
+	float: right;
+	border-bottom: #ccc solid 1px;
+	border-left: #ccc solid 1px;
+	-webkit-border-bottom-left-radius: 4px;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#eaeaea));
+	overflow: hidden; /* clearfix */
+	zoom: 1; /* clearfix */
+}
+.gheadSp--headNavi a {
+	display:block;
+	float: left;
+	text-decoration: none;
+	font-size: 9px;
+	box-shadow: 1px 1px 2px #fafafa inset, -1px -1px 3px #cecece inset;
+	-webkit-box-shadow:1px 1px 2px #fafafa inset,-1px -1px 3px #cecece inset;
+	position:relative;
+	text-align: center;
+}
+.gheadSp--headNavi img {
+	display:block;
+}
+.gheadSp--headNavi .topWelcome {
+	padding:13px 3px 7px;
+	background:#FFF;
+	max-width: 83px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.gheadSp--headNavi .topWelcome span {
+	color:#bf0000;
+	font-weight:bold;
+	font-size:12px;
+}
+.gheadSp--headNavi .info {
+	padding: 4px 7px 3px 2px;
+	border-right: #ccc solid 1px;
+}
+.gheadSp--headNavi .info img {
+	margin: 5px auto 1px;
+	width: 24px;
+	height: 26px;
+}
+.gheadSp--headNavi .messageCnt {
+    position: absolute;
+    display: inline-block;
+    top: 1px;
+    right: 2px;
+    padding: 1px 5px;
+    border: #7a0000 solid 1px;
+    -webkit-border-radius: 10px;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#df0000), to(#b00000));
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: bold;
+    min-height: 10px;
+    text-align: center;
+    z-index: 20;
+}
+.gheadSp--headNavi .messageCnt:after {
+    position: absolute;
+    top: -1px;
+    left: 50%;
+    display: block;
+    content: "";
+    width: 80%;
+    height: 10px;
+    margin-left: -40%;
+    -webkit-border-radius: 8px;
+    -webkit-transform: scale(1, 0.8);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(255, 255, 255, 0.9)), to(rgba(255, 255, 255, 0)));
+    z-index: 21;
+}
+.gheadSp--headNavi .top {
+	padding: 10px 10px 3px;
+	border-right: #ccc solid 1px;
+}
+.gheadSp--headNavi .top img {
+	margin: 0 auto 2px;
+	width: 27px;
+}
+.gheadSp--headNavi .cardNavi {
+	padding: 9px 3px 4px;
+	border-right: #ccc solid 1px;
+}
+.gheadSp--headNavi .cardNavi img {
+	margin: 0 auto 1px;
+	width: 40px;
+}
+/* gheadSp--Navi */
+.gheadSp--Navi {
+	display: block;
+	position:relative;
+}
+.gheadSp--Navi > ul {
+	border-top: #bf0000 solid 2px;
+	border-bottom: #bf0000 solid 2px;
+	width: 100%;
+}
+.gheadSp--Navi ul > li {
+	width: 20%;
+	border-right: 1px solid #ccc;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#eee));
+	font-size: 9px;
+	font-weight: bold;
+    display:inline-block;
+	-webkit-box-sizing : border-box ;
+	-moz-box-sizing : border-box ;
+	box-sizing : border-box ;
+}
+.gheadSp--Navi ul > li:last-child {
+	margin-right: 0;
+	border-right: none;
+	border-bottom: none;
+}
+.gheadSp--Navi .active{
+	background:#fff;
+}
+.gheadSp--Navi .active a{
+	color:#bf0000;
+}
+.gheadSp--Navi ul > li a {
+	display:block;
+	padding: 30px 2px 5px;
+	background: url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/icon_tab.png) no-repeat 50% 0;
+	text-decoration: none;
+	text-align: center;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+
+}
+.gheadSp--Navi ul > li .navStatus {
+	background-position: 50% -80px;
+}
+.gheadSp--Navi ul > li .navCampaign {
+	background-position: 50% -160px;
+}
+.gheadSp--Navi ul > li .navPoint {
+	background-position: 50% -400px;
+}
+.gheadSp--Navi ul > li .navSupport {
+	background-position: 50% -859px;
+}
+.gheadSp--Navi ul > li.navService {
+	vertical-align: top;
+	text-align: center;
+}
+.gheadSp--Navi ul > li .navService--top {
+	background: url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/icon_tab.png) no-repeat 50% -1075px;
+	padding: 8px 0 27px;
+}
+.gheadSp--Navi ul > li .navService--top.open {
+	background: url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/icon_tab.png) no-repeat 50% -1138px;
+}
+.gheadSp--Navi ul > li .navService--bottom {
+	background: url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/icon_tab.png) no-repeat 50% -1154px;
+	padding: 30px 0 5px;
+}
+.gheadSp--Navi ul > li .navService--bottom.open {
+	background: url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/icon_tab.png) no-repeat 50% -1093px;
+}
+.gheadSp--Navi .icon {
+	position:relative;
+}
+.gheadSp--Navi .icon span {
+    display:block;
+}
+.gheadSp--Navi .icon .icon_new {
+	background: url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/icon_new.png) no-repeat;
+    background-size:29px;
+	position:absolute;
+	top: -14px;
+	left: 50%;
+	width:29px;
+	height:21px;
+    margin-left:7px;
+}
+/* toggleMenu */
+.gheadSp--Navi .toggleMenu {
+	display: none;
+	position:absolute;
+	margin:0 0 0 22px;
+	border:#cccccc 1px solid;
+	z-index:100;
+	background:#ffffff;
+	-webkit-box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+	box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+	padding:0;
+}
+.gheadSp--Navi .toggleMenu--top {
+	top:49px;
+	right:0;
+}
+.gheadSp--Navi .toggleMenu--bottom {
+	bottom:51px;
+	right:0;
+}
+.gheadSp--Navi .toggleMenu ul:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+.gheadSp--Navi .toggleMenu li {
+    float:left;
+	-webkit-box-sizing : border-box;
+	-moz-box-sizing : border-box;
+	box-sizing : border-box;
+	width: 50%;
+	border-bottom: #ccc solid 1px;
+	border-right: none;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#eee));
+	background: -moz-linear-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#eee));
+	background: linear-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#eee));
+}
+.gheadSp--Navi .toggleMenu li a {
+	display: block;
+	padding: 0 0 0 35px;
+	background: url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/icon_tab.png) no-repeat 5px 5px;
+	text-decoration: none;
+	font-size: 12px;
+	text-align:left;
+}
+.gheadSp--Navi .toggleMenu li a span {
+	display: table-cell;
+	height:45px;
+	vertical-align: middle;
+}
+.gheadSp--Navi .toggleMenu li:nth-child(2n+1) {
+	border-right: #ccc solid 1px;
+}
+.gheadSp--Navi .toggleMenu li:last-child {
+	border-bottom: #ccc solid 1px;
+}
+.gheadSp--Navi .toggleMenu .navUsage {
+	background-position: 5px -75px;
+}
+.gheadSp--Navi .toggleMenu .navRevo{
+	background-position: 5px -234px;
+}
+.gheadSp--Navi .toggleMenu .navCash {
+	background-position: 5px -315px;
+}
+.gheadSp--Navi .toggleMenu .navConf {
+	background-position: 5px -475px;
+}
+.gheadSp--Navi .toggleMenu .navApplication {
+	background-position: 5px -553px;
+}
+.gheadSp--Navi .toggleMenu .navFamily {
+	background-position: 5px -707px;
+}
+.gheadSp--Navi .toggleMenu .navEdy {
+	background-position: 5px -630px;
+}
+.gheadSp--Navi .toggleMenu .navVpc {
+	background-position: 5px -630px;
+}
+.gheadSp--Navi .toggleMenu .navCardloan {
+	background-position: 5px -930px;
+}
+
+.gheadSp--Navi .toggleMenu .navCommon {
+	background-position: 5px -630px;
+}
+
+.gheadSp--Navi .toggleMenu .navOther {
+	background-position: 5px -1011px;
+}
+/* logoutBtn */
+.logoutBtn {
+	margin:20px 30px 30px;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#eeeeee));
+	border-radius: 6px;
+	border: 1px solid #9C9C9C;
+        box-shadow: 0 1px 3px 0 #d8ddde;
+}
+.logoutBtn a {
+	padding: 8px 0;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	font-size: 80%;
+}
+.logoutBtn a:link {
+	color:#000000;
+}
+
+.logoutBtn a:visited {
+	color:#000000;
+}
+/* page-top */
+#js-pageTop{
+	display:none;
+}
+.page-top{
+	height: 42px;
+	width: 50px;
+	background: #f8f8f8;
+	position: fixed;
+	bottom: 64px;
+	right: 10px;
+	z-index: 1000;
+	-webkit-box-shadow: 0px 0 3px rgba(0,0,0,0.6);
+	box-shadow: 0px 0 3px rgba(0,0,0,0.6);
+	border-radius: 5px;
+	color: #181818;
+	border: solid 1px #666;
+	text-align: center;
+	font-size: 100%;
+	padding-top: 8px;
+}
+#footer {
+	border-top: none;
+}
+
+/* is-appView off */
+.is-appView.off{display:none !important;}
+
+/* Rak_Card_SP_eNavi_Top_Mbanner
+   Rak_Card_SP_eNavi_All_Rect
+--------------------------------------------- */
+/* Rak_Card_SP_eNavi_Top_Mbanner
+   Rak_Card_SP_eNavi_All_Rect
+--------------------------------------------- */
+#Rak_Card_SP_eNavi_Top_Mbanner{
+    margin:5px auto 4px !important;
+    width:300px;
+    height:100px;
+}
+#Rak_Card_SP_eNavi_All_Rect{
+    margin: 3px auto !important;
+    width:300px;
+    height:250px;
+}
+
+/* contentBox__ADBanner
+--------------------------------------------- */
+.contentBox__ADBanner {
+    margin: 10px 0;
+    padding: 1px;
+    border: 1px solid #B3B3B3;
+    -webkit-border-top-left-radius: 4px;
+    -webkit-border-top-right-radius: 4px;
+    -webkit-box-shadow: 0px 1px 2px #c9c9c9;
+    background:#fff;
+}
+.contentBox__ADBanner--lower {
+    margin: 10px 5px 0;
+}
+.contentBox__ADBanner__title {
+    padding: 9px 9px 9px 10px;
+    font-weight: bold;
+    font-size:16px;
+    text-align:left;
+    border-bottom: 1px solid #E2E2E2;
+}
+
+/* ad_liquid_lideshow styles */
+.adSlideshowContainer,.adSlideshowContainer *{padding:0;border:0;outline:0;vertical-align:baseline;}
+.adSlideshowContainer{font-family:'HiraKakuProN-W3',sans-serif;font-size:80%;line-height:1.4;-webkit-text-size-adjust:none;-webkit-tap-highlight-color:rgba(0,0,0,0.3);text-size-adjust:none;tap-highlight-color:rgba(0,0,0,0.3);text-align:left;background:transparent;}
+.adSlideshowContainer section{display:block;}
+.adSlideshowContainer ul,.adSlideshowContainer li{list-style:outside none;}
+.adSlideshowContainer a:link,.adSlideshowContainer a:visited,.adSlideshowContainer a:active,.adSlideshowContainer a:hover{vertical-align:baseline;text-decoration:none;color:#1D54A7;border:none;}
+.adSlideshowContainer a:focus{outline:thin dotted;}
+.adSlideshowContainer img{vertical-align:bottom;overflow:hidden;}
+.adSlideshowContainer .topCntsTtlWrap{background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#fff),color-stop(100%,#eee));background:-webkit-linear-gradient(top,#fff 0%,#eee 100%);background:linear-gradient(to bottom,#fff 0%,#eee 100%);border-top:2px solid #bf0000;border-bottom:1px solid #e2e2e2;padding:7px 10px;font-weight:700;color:#333;}
+.adSlideshowContainer .topCntsTtlWrap>h1{font-size:100%;font-weight:700;color:#bf0000;}
+.adSlideshowContainer .btn-back,.adSlideshowContainer .btn-next{background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#fff),color-stop(100%,#dedede));background:-webkit-linear-gradient(top,#fff 0%,#dedede 100%);background:linear-gradient(to bottom,#fff 0%,#dedede 100%);width:60px;padding:5px;text-align:center;border-radius:7px;-webkit-box-shadow:0 0 4px #666;box-shadow:0 0 4px #666;font-weight:700;color:#bf0000;}
+.adSlideshowContainer .riMaB10{margin-bottom:10px;}
+.adSlideshowContainer .boxPJAC{display:-webkit-box!important;display:box!important;-webkit-box-pack:justify!important;box-pack:justify!important;-webkit-box-align:center!important;box-align:center!important;}
+.adSlideshowContainer .slBtnArea{padding:2px 10px 0;display:-webkit-box!important;display:box!important;-webkit-box-align:center!important;box-align:center!important;}
+.adSlideshowContainer .slPeger{-webkit-box-align:center!important;box-align:center!important;-webkit-box-pack:center;box-pack:center;-webkit-box-flex:1;min-width:90px;text-align:center;display:-webkit-box!important;display:box!important;}
+.adSlideshowContainer .lamper{width:10px;height:10px;background:#ffffff;border:solid 1px #fff;-webkit-box-shadow:0 0 3px #666;box-shadow:0 0 3px #666;margin:8px 3px 0;}
+.adSlideshowContainer .cur{background:#bf0000;}
+
+.adSlideshowContainer .adItemsDisplay{overflow:hidden;position:relative;height:200px;margin:10px auto 5px;}
+.adSlideshowContainer ul{position:absolute;top:0;left:0;}
+.adSlideshowContainer li.adItem{float:left;display:block;width:92px;margin:10px 6px 3px;}
+.adSlideshowContainer li.adItem a{width:92px;height:180px;font-size:100%;display:block;}
+.adSlideshowContainer li.adItem .adThumb{display:block;text-align:center;width:92px;height:92px;}
+.adSlideshowContainer .lazyLoadingSize{max-width:90px;max-height:90px;}
+.adSlideshowContainer .lazyLoading{background:url(http://a.ichiba.jp.rakuten-static.com/com/img/rms/storefront/pc/page/smart/loading_icon2.gif) no-repeat center center;}
+.adSlideshowContainer li.adItem .adThumb img{border:solid 1px #999;}
+.adSlideshowContainer li.adItem .adItemname{display:block;text-align:left;margin:4px 0px 0;word-break:break-all;}
+.adSlideshowContainer li.adItem .adItemprice{color:#bf0000;line-height:1em;text-align:right;font-weight:700;font-size:120%;padding:4px 0px 0;}
+.adSlideshowContainer li.adItem .adItemoption{text-align:left;font-size:70%;padding:8px 0px 0;}
+.adSlideshowContainer li.adItem .adItempostage{color:#666;}
+.adSlideshowContainer li.adItem .adItempoint{color:#bf0000;}
+.adSlideshowContainer li.adItem .adItemreview{line-height:14px;text-align:left;font-size:70%;color:#000;margin:2px 0 0;}
+.adSlideshowContainer li.adItem .adItemshop{font-size:75%;padding:8px 0px 0;}
+.adSlideshowContainer li.adItem .adItemasurakudeli img{margin:2px 2px 0px 0px;}
+.adSlideshowContainer li.adItem .adItemreviewave{color:#fe7f00;line-height:1.5em;}
+.adSlideshowContainer li.adItem .adItemreviewave img{vertical-align:baseline;}
+.adSlideshowContainer li.adItem .adItemother{font-size:75%;line-height:1.5em;color:#000;}
+
+/* 20150611 BTA border */
+.adExistItemDisplay{
+    border: #bbbbbb solid 1px;
+    -webkit-border-radius: 4px;
+    -webkit-box-shadow: 1px 1px 3px #cccccc;
+    margin-bottom: 10px;
+}
+
+/* ikisute */
+.boxStyle01 {
+    margin: 0 5px 15px;
+    padding: 10px;
+    border: 1px solid #B3B3B3;
+    background: #fcfce2;
+    -webkit-border-radius:4px;
+}
+
+.contentBoxStyle01 {
+    border-bottom:#B3B3B3 1px solid;
+    border-right:#B3B3B3 1px solid;
+    border-left:#B3B3B3 1px solid;
+    margin: 0 5px 10px;
+    -webkit-border-radius:4px;
+    background:#fff;
+}
+
+.contentBoxStyle01 dt {
+    text-align:center;
+    background:#f2f2f2;
+    border-top:#B3B3B3 1px solid;
+    border-bottom:#B3B3B3 1px solid;
+    padding:5px;
+}
+
+.contentBoxStyle01 dd {
+    padding:10px;
+}
+
+.contentBoxStyle01--radius {
+    -webkit-border-top-left-radius:4px;
+    -webkit-border-top-right-radius:4px;
+}
+
+
+
+/* CA中トップ改修 */
+.ca1508linetop{
+	border-top:solid 1px #ccc;
+	}
+	
+
+.ca1508box {
+	font-size:13px;
+	display: block;
+	padding: 0px 0px 0px 10px;
+	margin-top:5px;
+	margin-bottom:10px;
+	background:url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/cash-advance/icon_arrow.gif); 
+	background-repeat:no-repeat;
+	background-position:5px 5px 5px 10px;
+	}
+
+ul.paymentSupportList li {
+	border: 1px #ededed solid;
+}
+ul.paymentSupportList li div.paymentSupportImgword span {
+	font-size: 16px;
+}
+div.leadSentence {
+	background: url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/cash-advance/point.png) no-repeat 6px 6px;
+	background-size: 50px;
+	font-size: 13px;
+	padding: 8px; 
+	height: 50px;
+}
+div.leadSentence p {
+	margin-left: 50px;
+	vertical-align: middle;
+}
+
+/* Personalization of Cashing Top page
+-------------------------------------------- */
+.yourCashBox__inner {
+  margin: 0 auto;
+  margin-bottom: 5px;
+  padding: 1px;
+  width: 95%;
+  border: #cccccc 1px solid;
+  -webkit-border-radius: 4px;
+}
+
+/* Blue
+--------------------------------------------- */
+.arrowstyle__down{
+    margin: 15px auto 0;
+    width: 80px;
+    height: 15px;
+    position: relative;
+}
+.arrowstyle__down:after{ 
+    border-style: solid;
+    border-width: 15px 40px 0 40px;
+    border-color: #bf0000 transparent transparent transparent;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -40px;
+}
+.attentionstyle01__title{
+	margin-left:5px;
+	color:#bf0000;
+	font-weight:bold;
+	font-size: 14px;
+}
+.attentionstyle01__inner{ 
+    margin: 0 5px 10px;
+    padding: 10px;
+    border: 2px solid #BF0000;
+    background: #FFEFEF;
+    -webkit-border-radius: 4px 4px;
+	font-size: 14px;
+}
+.coursechangeImage01{
+	width: 100%;
+	max-width:640px;
+	height: auto;
+}
+
+/* revo UI improvement
+-------------------------------------------- */
+.changePeriod{
+    margin-bottom:20px;
+}
+.changePeriod dl{
+    margin-bottom:10px;
+    border:2px solid #c10000;
+    border-top:none;
+    text-align:center;
+}
+.changePeriod dl dt{
+    padding:3px 0;
+    background-color:#c10000;
+    font-size:15px;
+    color:#fff;
+}
+.changePeriod dl dd{
+    padding:3px 0;
+    font-size:17px;
+}
+.changePeriod p{
+    font-size:13px;
+    font-weight:bold;
+}
+
+/* credit-limit
+--------------------------------------------- */
+.article--listBlock {
+	margin: 0 2px 10px;
+	padding: 1px;
+	border: 1px solid #B3B3B3;
+	-webkit-border-radius: 4px;
+}
+.contentBox__linkList > li {
+	border-bottom:1px solid #ccc;
+}
+.contentBox__linkList > li:last-child {
+	border-bottom:none;
+}
+.contentBox__linkList__Block {
+	display: block;
+	position: relative;
+	text-decoration: none;
+}
+.contentBox__linkList__wrap {
+	display: block;
+	border-bottom: 1px solid #ededed;
+	background: #ffffff;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#efefef));
+	background: -webkit-linear-gradient(top, #ffffff 0%,#efefef 100%);
+	background: linear-gradient(top, #ffffff 0%,#efefef 100%);
+	padding: 5px;
+}
+.contentBox__linkList__wrap:before {
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 15px;
+	height: 15px;
+	margin: -5px 5px 0 0;
+	background: url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/icon_arrow_link_r.png) 0 no-repeat;
+	background-size: 15px 20px;
+	content: "";
+}
+.contentBox__linkList__wrap__inner {
+	display:table;
+}
+.contentBox__linkList__icon {
+	display: table-cell;
+	vertical-align: middle;
+	border:1px solid #ccc;
+}
+.contentBox__linkList__titleArea {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 11px;
+    color: #3a3a3a;
+    padding: 0 20px 0 5px;
+}
+.contentBox__linkList__title  {
+	display:block;
+	font-weight: bold;
+	font-size: 16px;
+	color: #bf0000;
+}
+.contentBox__linkList__lead {
+	display:block;
+	font-size: 11px;
+}
+.contentBox__linkList__text {
+	display: block;
+	font-size:13px;
+	padding-left: 10px;
+	margin: 10px;
+	background:url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/images/sp/revolving/icon_arrow.gif) no-repeat #fff; 
+	background-position:5px 5px 5px 10px;
+}
+
+/* Online bank account registration
+--------------------------------------------- */
+.bankRegistSelectedBank {
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 10px;
+}
+.bankRegistSelectedBank__Logo {
+    border: 2px solid #cccccc;
+}
+
+/* Changing the slide method of CA revo payment course
+--------------------------------------------- */
+.checkboxBlock {
+    position: relative;
+	margin: 20px 7px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+    background: -moz-linear-gradient(top, #fff 0%, #f1f1f1 100%);
+    background: -webkit-linear-gradient(top, #fff 0% , #f1f1f1 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fff), color-stop(100%,#f1f1f1));
+}
+.checkboxBlock__label {
+	display: block;
+	cursor: pointer;
+	padding:16px 0 13px 32px;
+}
+.checkboxBlock__icon {
+    position: absolute;
+    top: 14px;
+	left:7px;
+}
+
+/* Recommended CPN Banner on top of the page
+--------------------------------------------- */
+.RecommendedCpnBanner {
+    padding: 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+}

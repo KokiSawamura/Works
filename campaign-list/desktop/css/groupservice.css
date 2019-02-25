@@ -1,0 +1,414 @@
+@charset "UTF-8";
+/* グループサービスページ改修 */
+
+div.groupTab {
+  overflow: hidden;
+}
+div.groupWrap ul.panel li.tabcont {
+  border: 1px solid #cccccc;
+  padding: 5px;
+}
+div.groupTab li {
+  float: left;
+  width: 192px;
+  height: 27px;
+}
+div.groupTab li a {
+  display: block;
+  width: 192px;
+  height: 27px;
+}
+#tab li a.tabFirst {
+  background: url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/enavi/groupservice/tab_group_service_top_off.gif) no-repeat;
+}
+#tab li a.tabSecond {
+  background: url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/enavi/groupservice/tab_group_service_cpn_off.gif) no-repeat;
+}
+#tab li a.selected.tabFirst {
+  background: url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/enavi/groupservice/tab_group_service_top_on.gif) no-repeat;
+}
+#tab li a.selected.tabSecond {
+  background: url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/enavi/groupservice/tab_group_service_cpn_on.gif) no-repeat;
+}
+div.groupBox {
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+div.specialtyGroupService {
+  width: 350px;
+  height: 240px;
+  float: left;
+  padding: 5px;
+  border: 1px solid #ffbf7f;
+  background: lightyellow;
+  position: relative;
+}
+div.specialtyGroupService + div.specialtyGroupService {
+  float: right;
+}
+div.specialtyGroupService dl {
+  overflow: hidden;
+}
+div.specialtyGroupService dl dt {
+  font-weight: bold;
+}
+div.specialtyGroupService dl dd {
+  width: 162px;
+  height: 114px;
+  float: left;
+}
+div.specialtyGroupService dl dd + dd {
+  height: auto;
+  margin-left: 5px;
+}
+ul.groupLinkText li {
+  background: url("https://image.card.jp.rakuten-static.com/r-enavi/WebImages/enavi/common/arrow_02.gif") no-repeat scroll 0 0.2em transparent;
+  padding-left: 17px;
+  margin: 0 0 6px 0;
+}
+div.specialtyGroupService ul.groupLinkText + p {
+  position: absolute;
+  right: 5px;
+  bottom: 0px;
+}
+div.specialtyGroupService p span {
+  background: url("https://image.card.jp.rakuten-static.com/r-enavi/WebImages/enavi/groupservice/icon_allow_group.gif") no-repeat scroll 0 0.2em transparent;
+  padding-left: 15px;
+}
+div.borderBox {
+  border: 1px solid #bbbbbb;
+  padding: 5px;
+}
+div.groupSlider1 ul li,
+div.groupSlider2 ul li {
+  width: 173px;
+}
+#tab1 div.groupSlider2 ul li dl {
+  margin: 0 0 0 26px;
+}
+#top div.groupSlider1 ul li p,
+#mainCol div.groupSlider1 ul li p,
+#mainCol div.groupSlider2 ul li p {
+  margin: 0 auto;
+}
+#top div.groupSlider1 ul li > p,
+#mainCol div.groupSlider1 ul li > p,
+#mainCol div.groupSlider2 ul li > p {
+  width: 173px;
+}
+#top div.groupSlider1 ul li p + p,
+div.groupSlider1 ul li p + p,
+div.groupSlider2 ul li p + p {
+  width: 162px;
+}
+div.groupSlider1 div.bx-wrapper {
+  margin: 0 auto;
+  height: 104px;
+}
+div.groupSlider2 div.bx-wrapper {
+  margin: 0 auto;
+  height: 179px;
+}
+div.groupSlider1 a.bx-prev {
+  position: absolute;
+  top: 0;
+  left: -37px;
+  width: 15px;
+  height: 104px;
+  background: url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/enavi/groupservice/leftArrow_s.gif);
+}
+div.groupSlider1 a.bx-next {
+  position: absolute;
+  top: 0;
+  right: -38px;
+  width: 15px;
+  height: 104px;
+  background: url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/enavi/groupservice/rightArrow_s.gif);
+}
+div.groupSlider2 a.bx-prev {
+  position: absolute;
+  top: 0;
+  left: -37px;
+  width: 15px;
+  height: 179px;
+  background: url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/enavi/groupservice/leftArrow_l.gif);
+}
+div.groupSlider2 a.bx-next {
+  position: absolute;
+  top: 0;
+  right: -38px;
+  width: 15px;
+  height: 179px;
+  background: url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/enavi/groupservice/rightArrow_l.gif);
+}
+/*
+#tab2 div.groupSlider1 ul li {
+	width: 208px;
+	height: 99px;
+	border: 1px solid #ccc;
+	float: left;
+	padding: 10px;
+	margin: 5px;
+}
+
+#tab2 div.groupSlider1 ul li p {
+	margin: 0 auto;
+}
+
+#tab2 div.groupSlider1 ul li p + p {
+	width: 162px;
+}
+*/
+
+#tab2 div.groupSlider1 ul li {
+  width: 709px;
+  float: left;
+  clear: both;
+  border: 1px solid #bbbbbb;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+#tab2 div.groupSlider1 ul li p {
+  float: left;
+  width: auto;
+}
+#tab2 div.groupSlider1 ul li p + p {
+  margin: 10px 0 0 10px;
+}
+#tab2 div.groupSlider1 ul li span {
+  display: block;
+}
+#tab1 div.groupSlider1 ul li span,
+#memberService div.groupSlider1 ul li span {
+  display: none;
+}
+p.groupBtn01 {
+  display: none;
+}
+#tab1 .groupBtn02,
+#memberService .groupBtn02 {
+  display: none;
+}
+#tab1 .groupBtn01,
+#memberService .groupBtn01 {
+  display: block;
+}
+div.grpLargeBnr {
+  width: 733px;
+  height: 165px;
+  margin: 0 auto 10px;
+}
+#tab2 div.grpLargeBnr {
+  display: none;
+}
+#memberService div.grpLargeBnr {
+  display: none;
+}
+/* 最近チェックした商品 */
+
+#ashiatoWrap {
+  margin-right: -484px;
+  width: 100%;
+  float: left;
+  display: inline;
+  overflow: hidden;
+  zoom: 1;
+  text-align: left;
+  font-size: 100%;
+}
+/* parts style */
+
+div#ashiatoPrevButton {
+  float: left;
+  width: 20px;
+}
+div#ashiatoNextButton {
+  float: left;
+  width: 20px;
+}
+.riAshiatoBlock {
+  margin-right: -36px;
+  /*Width of left+right -1px*/
+  margin-left: -5px;
+  width: 100%;
+  float: left;
+  display: inline;
+  overflow: hidden;
+  height: 175px;
+  _zoom: 1;
+}
+.riAshiatoBlock .riAshiatodisplay {
+  position: relative;
+  margin-left: 0px;
+  margin-right: 36px;
+  /*Width of left+right -1px*/
+
+}
+/* IE hack */
+
+* html .riAshiatoBlock .riAshiatodisplay {
+  width: 93%;
+}
+* html .riAshiatoBlock {
+  margin-left: 0px;
+}
+.riAshiatoName a,
+#riAshiatoColumn a {
+  color: #1d54a7;
+  text-decoration: none;
+}
+.riAshiatoName a:hover,
+#riAshiatoColumn a:hover {
+  color: #c00000;
+  text-decoration: underline;
+}
+#riAshiatoColumn {
+  position: relative;
+  zoom: 1;
+  width: 100%;
+}
+#riAshiatoColumn .riAshiatoCont {
+  clear: both;
+  overflow: hidden;
+  _zoom: 1;
+  position: relative;
+}
+#riAshiatoColumn .riAshiatoCont .overbg {
+  position: absolute;
+  top: 0;
+  left: 15px;
+  width: 5px;
+  z-index: 3;
+}
+#riAshiatoColumn .riAshiatoCont .apiBtLeft {
+  width: 15px;
+  padding: 10px 7px 0 0;
+  float: left;
+  display: inline;
+  position: relative;
+  z-index: 100;
+}
+#riAshiatoColumn .riAshiatoCont .apiBtLeft a {
+  outline: none;
+}
+/* IE hack */
+
+* html #riAshiatoColumn .riAshiatoCont .apiBtLeft {
+  padding: 45px 0 0 0;
+}
+#riAshiatoColumn .riAshiatoCont .apiBtRight {
+  width: 15px;
+  padding: 10px 0 0 0;
+  float: right;
+  position: absolute;
+  right: 0;
+  top: 7px;
+  display: inline;
+}
+#riAshiatoColumn .riAshiatoCont ul {
+  padding: 15px 12px;
+  display: block;
+  position: relative;
+  height: 138px;
+}
+#riAshiatoColumn .riAshiatoCont ul li {
+  line-height: 1.2em;
+}
+#riAshiatoColumn .riAshiatoCont ul li.riAshiatoName {
+  width: 80px;
+  margin: 0 auto;
+}
+#riAshiatoColumn .riAshiatoCont .riAshiatoThumb {
+  width: 80px;
+  height: 80px;
+  padding-bottom: 10px;
+  text-align: center;
+  margin: 0 auto;
+}
+.riAshiatoContSpr {
+  background: url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/enavi/groupservice/dot2.gif) repeat-y left top;
+  height: 175px;
+}
+.riAshiatoContSpr a {
+  color: #1d54a7;
+  text-decoration: none;
+}
+.riAshiatoContSpr a:hover {
+  color: #c00000;
+  text-decoration: underline;
+}
+/* delete button */
+
+.gadgetCross {
+  width: 13px;
+  height: 14px;
+  position: absolute;
+  bottom: 0px;
+  right: 3px;
+}
+.gadgetCross a {
+  background: url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/enavi/groupservice/icon_reco_a01.gif) no-repeat 0 0;
+  display: block;
+  height: 13px;
+  width: 13px;
+}
+.gadgetCross a:hover {
+  background: url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/enavi/groupservice/icon_reco_a02.gif) no-repeat 0 0;
+  display: block;
+  height: 13px;
+  width: 13px;
+}
+/* title area */
+
+#ashiatoWrap .centerTitle {
+  border-bottom: solid 1px #dbdbdb;
+  clear: both;
+  overflow: hidden;
+  _zoom: 1;
+}
+#ashiatoWrap .next {
+  float: right;
+  display: inline;
+}
+#ashiatoWrap .next a {
+  color: #1d54a7;
+  text-decoration: none;
+}
+.carouselWrapper {
+  margin: 0 auto;
+  width: 645px;
+  height: 104px;
+  text-align: left;
+  position: relative;
+}
+.carouselPrev,
+.carouselNext {
+  top: 0;
+  width: 15px;
+  height: 104px;
+  background: black;
+  cursor: pointer;
+  position: absolute;
+}
+.carouselPrev {
+  left: -37px;
+  background: transparent url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/enavi/groupservice/leftArrow_s.gif) no-repeat top left;
+}
+.carouselNext {
+  right: -38px;
+  background: transparent url(https://image.card.jp.rakuten-static.com/r-enavi/WebImages/enavi/groupservice/rightArrow_s.gif) no-repeat top left;
+}
+.carouselWrapper ul li {
+  width: 215px;
+  float: left;
+  display: inline;
+  margin-bottom: 5px;
+}
+.carouselWrapper ul li p {
+  width: 162px;
+  margin: 0 auto;
+  font-size: 13px;
+}
+.carouselInner {
+  overflow: hidden;
+}
