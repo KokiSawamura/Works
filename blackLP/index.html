@@ -1,0 +1,741 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <meta http-equiv="Content-Language" content="ja" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate, max-age=0, post-check=0, pre-check=0" />
+    <meta http-equiv="Expires" content="Sat, 01 Jan 2000 00:00:01 GMT" />
+    <meta http-equiv="Last-Modified" content="Wed, 18 May 2016 04:00:13 GMT" />
+    <meta http-equiv="X-Frame-Options" content="SAMEORIGIN" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="Japanese" />
+    <meta name="author" content="楽天カード株式会社" />
+    <meta name="pragma" content="no-cache" />
+    <meta name="cache-control" content="no-store, no-cache, must-revalidate, max-age=0, post-check=0, pre-check=0" />
+    <meta name="expires" content="Sat, 01 Jan 2000 00:00:01 GMT" />
+    <meta name="copyright" content="© Rakuten Card Co., Ltd." lang="en" xml:lang="en" />
+    <link rel="stylesheet" type="text/css" media="screen,print" href="https://static.card.jp.rakuten-static.com/r-enavi/css/import.css?22" />
+    <link rel="stylesheet" type="text/css" media="print" href="https://static.card.jp.rakuten-static.com/r-enavi/css/import_print.css?22" />
+    <script type="text/javascript" src="/e-navi/javax.faces.resource/jsf.js.xhtml?ln=javax.faces"></script>
+    <script type="text/javascript" src="https://static.card.jp.rakuten-static.com/r-enavi/js/jquery-1.12.3.min.js?24"></script>
+    <script src="https://static.card.jp.rakuten-static.com/r-enavi/js/jquery.js?47"></script>
+    <script type="text/javascript" src="https://static.card.jp.rakuten-static.com/r-enavi/js/jquery-migrate-1.2.1.min.js?24"></script>
+    <script type="text/javascript" src="https://static.card.jp.rakuten-static.com/r-enavi/js/enavi.js?24"></script>
+    <script type="text/javascript" src="https://static.card.jp.rakuten-static.com/r-enavi/js/mbox.js?24"></script>
+    <title>楽天e-NAVI: 楽天バーチャルプリペイドカード</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/tab.js"></script>
+    <script src="./js/smoothScroll.js"></script>
+</head>
+
+<body id="payment">
+    <div class="wrapper">
+        <div class="header">
+            <p class="nav_ttl fF01">
+                JCB会員様専用特典
+            </p>
+            <ul class="nav l-container clearfix js-tab-nav">
+                <li class="js-tab--current"><a href="#">プラチナ・<br />コンシェルジュ<br />サービス</a></li>
+                <li><a href="#">JCB<br />プレミアム<br />ステイプラン</a></li>
+                <li><a href="#">海外<br />ラグジュアリー<br />ホテルプラン</a></li>
+                <li><a href="#">ダイニング30</a></li>
+                <li><a href="#">手荷物無料<br />宅配券(片道)<br />サービス</a></li>
+                <li><a href="#">JCB<br />空港ラウンジ<br />サービス</a></li>
+                <li class="nav_list--last"><a href="#">Gold<br />Basic<br />Service</a></li>
+            </ul>
+        </div>
+        <div class="js-tab-content">
+            <div class="main-block main-block--01 clearfix">
+                <div class="l-container clearfix">
+                    <div class="main-block_txt-block--01">
+                        <p class="main-block_ttl fF01">プラチナ・<br />コンシェルジュ<br />サービス</p>
+                        <p class="main-block_txt">
+                            プラチナ会員様の皆様専用デスクとして、24時間365日利用できます。<br />旅の手配・予約、ゴルフ場やレストランのご案内、<br />様々なご相談などを、責任スタッフが可能な限り承ります。
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="l-container">
+                <div class="example">
+                    <p class="example_ttl fF01">例えばこんなとき、お電話ください</p>
+                    <ul>
+                        <li class="example_list clearfix">
+                            <p>
+                                パリでオペラを鑑賞して、あのホテルに泊まりたい。<br />
+                                ホテルの近くのおすすめのレストランも教えてほしい。
+                            </p>
+                            <p class="taR">
+                                ご希望をうかがい、オーダーメイドの旅を手配。<br />
+                                おすすめのホテル・レストランの情報などをご案内します。
+                            </p>
+                        </li>
+                        <li class="example_list">
+                            <p>
+                                銀座界隈で、和食のおいしい個室のあるお店を探してほしい。
+                            </p>
+                            <p class="taR">
+                                日本国内はもちろん、海外のレストランも、<br />ご要望にそったお店をご案内します。
+                            </p>
+                        </li>
+                        <li class="example_list">
+                            <p>
+                                時間のとれる深夜に、家族旅行について相談したい。
+                            </p>
+                            <p class="taR">
+                                思いたったとき、いつでもお電話ください。<br />
+                                旅先でのアクティビティー、レンタカーなど、<br />
+                                ご希望のお時間にご相談を承ります。
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="phone_ttl-block">
+                        <p class="phone_ttl">TEL</p>
+                    </div>
+                    <p class="phone_number">0120-123-740</p>
+                    <p class="phone_date">24時間・年中無休</p>
+                    <div class="phone_detail">
+                        <p class="mb30">
+                            海外からお電話される場合は、81-3-6907-9275へコレクトコールでおかけください。<br />
+                            (最初の"81"は日本の国番号です。)
+                        </p>
+                        <ul class="phone_detail_lists">
+                            <li>
+                                ※海外からでもコレクトコールでプラチナ・コンシェルジュデスクへかけられます。現地オペレーターの呼出し番号は、国・地域によって異なります。<br />
+                                詳しくはご出発前にプラチナ・コンシェルジュデスクへお問い合わせください。
+                            </li>
+                            <li>
+                                ※一部の電話機からはご利用になれない場合があります。詳しくはご出発前に各電話会社へお問い合わせください。
+                            </li>
+                            <li>
+                                ※ホテルからご利用の場合は、最初に外線番号をダイヤルしてください。
+                            </li>
+                            <li>
+                                ※ホテルや携帯電話からおかけの場合、通話料が有料になる場合があります。
+                            </li>
+                            <li>
+                                ※電話番号は、お間違いのないようおかけください。
+                            </li>
+                            <li>
+                                ※プラチナ･コンシェルジュデスクからお送りする各種郵便物の送付元は株式会社ジェーシービー、もしくは株式会社JCBトラベルとなる場合がございます
+                            </li>
+                            <li>
+                                ※楽天ブラックカードに関するお問い合わせは、0120-21-6910または092-474-9198にて承ります。<br />
+                                ＜サービス提供会社＞株式会社ジェーシービー(業務提携会社：株式会社JCBトラベル)
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="js-tab-content">
+            <div class="main-block main-block--02 clearfix">
+                <div class="l-container clearfix">
+                    <div class="main-block_txt-block--02">
+                        <p class="main-block_ttl fF01">
+                            JCB<br />プレミアム<br />ステイプラン
+                        </p>
+                        <p class="main-block_txt">
+                            JCBプレミアムステイプランは、<br />日本各地のホテル・旅館に宿泊できるJCBの特別な宿泊プランです。<br />
+                            ホテル編と旅館編をご用意していますので、<br />プライベートでのご旅行やビジネスでのご滞在にぜひご活用ください。
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="l-container">
+                <ul class="stay-nav clearfix">
+                    <li class="stay-nav_list stay-nav_list--left"><a class="btn01 js-smoothScroll" href="#hotel-part">JCBプレミアムステイプラン
+                            ホテル編</a></li>
+                    <li class="stay-nav_list stay-nav_list--right"><a class="btn01 js-smoothScroll" href="#ryokan-part">JCBプレミアムステイプラン
+                            旅館編</a></li>
+                </ul>
+                <div class="mb50">
+                    <p class="ttl02 fF01 mb10">
+                        対象者
+                    </p>
+                    <p>
+                        楽天ブラックカード本会員または家族会員を含む1名様以上
+                    </p>
+                </div>
+                <div class="mb50">
+                    <p class="ttl02 fF01 mb10">
+                        ご利用期間
+                    </p>
+                    <p>
+                        2016年4月1日(金)～2017年3月31日(金)のご宿泊分<br />
+                        ※ホテル・旅館により除外日があります。詳しくは、下の料金表をご覧ください。
+                    </p>
+                </div>
+            </div>
+            <div id="hotel-part" class="ttl-block ttl-block--01">
+                <p class="ttl01 l-container">
+                    JCBプレミアムステイプラン<br />
+                    <span class="fF01 fz36">ホテル編</span>
+                </p>
+            </div>
+            <div class="l-container">
+                <div class="mb50">
+                    <p class="ttl02 fF01 mb10">
+                        概要
+                    </p>
+                    <div>
+                        <p class="fwB fz18">スペシャルプライスプラン</p>
+                        JCBが選んだ上質なホテルを、ご用意しています。<br />
+                        ご予約の際、お電話で手配可能な宿泊プランのなかから、JCBならではのお値打ち価格をご案内。<br />
+                        会員の皆様だけの限定特典をご用意しているホテルもあります。<br />
+                        詳細は、プラチナ・コンシェルジュデスクへお問い合わせください。
+                    </div>
+                </div>
+                <div class="mb50">
+                    <p class="ttl02 fF01 mb10">
+                        ご利用方法
+                    </p>
+                    <div class="mb30">
+                        <p class="mb5">
+                            プラチナ・コンシェルジュデスクへお電話にてお問い合わせください。
+                        </p>
+                        <ul class="mb10">
+                            <li>※一部のホテルを除いて、ホテルへ直接予約することも可能です。</li>
+                        </ul>
+                        <p class="fwB mb10">プラチナ・コンシェルジュデスクでの手配</p>
+                        <ul class="conciergeDesk-step clearfix">
+                            <li class="conciergeDesk-step_list conciergeDesk-step_list--01">
+                                プラチナ・コンシェルジュデスクにご予約を希望されるホテルと日程、人数、部屋タイプを お申し出ください。
+                            </li>
+                            <li class="conciergeDesk-step_list conciergeDesk-step_list--02">
+                                プラチナ・コンシェルジュデスクにてご希望のホテルをお取りします。
+                            </li>
+                            <li class="conciergeDesk-step_list conciergeDesk-step_list--03">
+                                プラチナ・コンシェルジュデスクから会員の方に 予約結果を連絡します。
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                ※ご予約の際は「JCBプレミアムステイプランスペシャルプライスプラン」 ご利用のむねを必ずお申し出ください。
+                            </li>
+                            <li>
+                                ※各ホテルの電話番号は下のPDF内にてご確認ください。
+                            </li>
+                        </ul>
+                        <p class="fwB mb10">ご希望のホテルへ直接ご予約</p>
+                        <p class="mb5">ご希望のホテルへお電話でご予約ください。</p>
+                        <ul class="mb30">
+                            <li>
+                                ※ご予約の際は「JCBプレミアムステイプランスペシャルプライスプラン」 ご利用のむねを必ずお申し出ください。
+                            </li>
+                            <li>
+                                ※各ホテルの電話番号は下のPDF内にてご確認ください。
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mb50">
+                    <p class="ttl02 fF01 mb10">
+                        お支払い方法
+                    </p>
+                    <p class="mb5">チェックアウトの際、現地にて〇〇〇カードでお支払いください。</p>
+                    <ul>
+                        <li>※〇〇〇カードでお支払いの場合のみ、本プランの対象となります。</li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="ttl02 fF01 mb10">
+                        2016年度版
+                    </p>
+                    <p class="mb10">
+                        (ご利用期間：2016年4月1日(金)～2017年3月31日(金)のご宿泊分)
+                    </p>
+                    <p class="fwB mb10">
+                        スペシャルプライスプラン
+                    </p>
+                    <ul class="mb5">
+                        <li><a href="#">ご利用方法(ホテル)／INDEX(スペシャルプライスプラン)　(P1～5)</a></li>
+                        <li><a href="#">北海道・東北／関東／中部　(P6～21)</a></li>
+                        <li><a href="#">関西／中国・四国／九州・沖縄　(P22～34)</a></li>
+                    </ul>
+                    <ul class="mb10">
+                        <li>
+                            ※PDFの内容は、2016年1月現在の情報です。
+                        </li>
+                        <li>
+                            ※本プランのご利用については、必ずPDFに記載の「サービスのご利用方法」ならびにご旅行条件書」をご確認ください。
+                        </li>
+                        <li>
+                            ※東京都内での宿泊プランをご利用の場合、PDFに記載の「東京都宿泊税について）」をご確認ください。
+                        </li>
+                    </ul>
+                    <p class="fwB mb10">
+                        Plice List～料金表～
+                    </p>
+                    <ul>
+                        <li><a href="#">料金表(ホテル全エリア) (P3～26)</a></li>
+                        <li><a href="#">ご旅行条件書 (P65～66)</a></li>
+                    </ul>
+                    <ul class="mb40">
+                        <li>※PDFの内容は、2016年1月現在の情報です。</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="ryokan-part" class="ttl-block ttl-block--02">
+                <p class="ttl01 l-container">
+                    JCBプレミアムステイプラン<br />
+                    <span class="fF01 fz36">旅館編</span>
+                </p>
+            </div>
+            <div class="l-container">
+                <p class="ttl02 fF01 mb10">
+                    概要
+                </p>
+                <p class="fwB mb10">
+                    厳選の宿
+                </p>
+                <p class="mb50">
+                    人気の高い高級旅館をご用意。宿からのおもてなしに加え、会員の皆様だけの特典も付いた特別プランです。<br />
+                    ゆったりとした優雅な時間をお過ごしください。
+                </p>
+                <p class="ttl02 fF01 mb10">
+                    ご利用方法
+                </p>
+                <div class="mb30">
+                    <p class="mb5">
+                        プラチナ・コンシェルジュデスクへお問い合わせください。
+                    </p>
+                    <ul class="mb10">
+                        <li>※宿泊施設へ直接予約はできません。</li>
+                    </ul>
+                    <p class="fwB mb10">プラチナ・コンシェルジュデスクでの手配</p>
+                    <ul class="conciergeDesk-step clearfix">
+                        <li class="conciergeDesk-step_list conciergeDesk-step_list--01">
+                            プラチナ・コンシェルジュデスクにご予約を希望される旅館と日程、人数、部屋タイプをお申し出ください。
+                        </li>
+                        <li class="conciergeDesk-step_list conciergeDesk-step_list--02">
+                            プラチナ・コンシェルジュデスクにてご希望の旅館をお取りします。
+                        </li>
+                        <li class="conciergeDesk-step_list conciergeDesk-step_list--03">
+                            プラチナ・コンシェルジュデスクから会員の方に予約結果を連絡します。
+                        </li>
+                    </ul>
+                    <ul class="mb50">
+                        <li>
+                            ※旅館の予約状況によっては、ご希望にそえない場合もあります。
+                        </li>
+                        <li>
+                            ※本プランと他の特典や企画商品との併用はできません。
+                        </li>
+                    </ul>
+                </div>
+                <div class="mb50">
+                    <p class="ttl02 fF01 mb10">
+                        お支払い方法
+                    </p>
+                    <p class="mb10">
+                        ご予約時に〇〇〇カードにてお支払いください。
+                    </p>
+                    <ul>
+                        <li>※〇〇〇カードでお支払いの場合のみ、本プランの対象となります。</li>
+                        <li>※宿泊料金は、宿泊予約確認証発行日をカードのご利用日として、カードご利用代金と同様に自動振替となります。</li>
+                    </ul>
+                </div>
+                <div class="mb50">
+                    <p class="ttl02 fF01 mb10">
+                        2016年度版
+                    </p>
+                    <p class="mb10">
+                        (ご利用期間：2016年4月1日(金)～2017年3月31日(金)のご宿泊分)
+                    </p>
+                    <p class="fwB mb10">
+                        厳選の宿
+                    </p>
+                    <ul class="mb5">
+                        <li><a href="#">ご利用方法（旅館）／INDEX　(P35～39)</a></li>
+                        <li><a href="#">厳選の宿 北海道・東北／関東　(P40～55)</a></li>
+                        <li><a href="#">厳選の宿 中部・北陸　(P56～74)</a></li>
+                        <li><a href="#">厳選の宿 関西／中国・四国／九州　(P74～92)</a></li>
+                    </ul>
+                    <ul class="mb10">
+                        <li>※PDFの内容は、2016年1月現在の情報です。</li>
+                        <li>※本プランのご利用については、必ずPDFに記載の「サービスのご利用方法」ならびにご旅行条件書）」をご確認ください。</li>
+                    </ul>
+                    <p class="fwB mb10">
+                        Plice List～料金表～
+                    </p>
+                    <ul>
+                        <li><a href="#">料金表(旅館全エリア)　(P27～64)</a></li>
+                        <li><a href="#">ご旅行条件書 (P65～66)</a></li>
+                    </ul>
+                    <ul>
+                        <li>※JCBプレミアムステイプラン 旅館編の料金は、2016年4月1日（金）～2016年9月30日（金）のご宿泊分を掲載しています。<br />2016年10月1日（土）～2017年3月31日（金）のご宿泊分については、9月下旬にご案内します。</li>
+                        <li>※PDFの内容は、2016年1月現在の情報です。</li>
+                    </ul>
+                </div>
+                <div class="mb50">
+                    <p class="fwB mb10">
+                        お申し込み・お問い合わせ
+                    </p>
+                    <p class="mb5">
+                        プラチナ・コンシェルジュデスクまでご連絡ください。
+                    </p>
+                    <p><span class="fwB">TEL<span class="fz31 pr10 pl10">0120-123-740</span></span>24時間・年中無休</p>
+                </div>
+                <dl>
+                    <dt class="attention_ttl">注意事項</dt>
+                    <dd class="phone_detail">
+                        <p class="mb30">海外からお電話される場合は、81-3-6907-9275へコレクトコールでおかけください。<br />
+                            (最初の"81"は日本の国番号です。)</p>
+                        <ul class="phone_detail_lists">
+                            <li>※海外からでもコレクトコールでプラチナ・コンシェルジュデスクへかけられます。現地オペレーターの呼出し番号は、国・地域によって異なります。<br />
+                                詳しくはご出発前にプラチナ・コンシェルジュデスクへお問い合わせください。</li>
+                            <li>※一部の電話機からはご利用になれない場合があります。詳しくはご出発前に各電話会社へお問い合わせください。</li>
+                            <li>※ホテルからご利用の場合は、最初に外線番号をダイヤルしてください。</li>
+                            <li>※ホテルや携帯電話からおかけの場合、通話料が有料になる場合があります。</li>
+                            <li>※電話番号は、お間違いのないようおかけください。</li>
+                            <li>※プラチナ･コンシェルジュデスクからお送りする各種郵便物の送付元は株式会社ジェーシービー、もしくは株式会社JCBトラベルとなる場合がございます</li>
+                            <li>※楽天ブラックカードに関するお問い合わせは、0120-21-6910または092-474-9198にて承ります。
+                                ＜サービス提供会社＞株式会社ジェーシービー(業務提携会社：株式会社JCBトラベル)</li>
+                        </ul>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+        <div class="js-tab-content">
+            <div class="main-block main-block--03 clearfix">
+                <div class="l-container clearfix">
+                    <div class="main-block_txt-block--03">
+                        <p class="main-block_ttl fF01">
+                            海外ラグジュアリー・<br />ホテル・プラン
+                        </p>
+                        <p class="main-block_txt">
+                            世界各地のラグジュアリーなホテルに、<br />さまざな特典つきで宿泊できるサービスです。<br />海外に旅行される際にはぜひご利用ください。
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="l-container">
+                <div class="mb50">
+                    <p class="ttl02 fF01 mb10">
+                        サービス対象者
+                    </p>
+                    <p class="mb5">
+                        ○○○カード本会員様の方、または家族会員の方1名様以上を含むご宿泊
+                    </p>
+                    <ul class="mb50">
+                        <li>※ホテルによって、本会員様の方からのお申し込みが必要な場合があります。</li>
+                    </ul>
+                </div>
+                <div class="mb50">
+                    <p class="ttl02 fF01 mb10">
+                        ご利用方法
+                    </p>
+                    <p class="mb5">
+                        プラチナ・コンシェルズデスクで手配を承ります。<br />
+                        ご予約の際は「海外ラグジュアリー・ホテル・プラン」
+                    </p>
+                    <ul class="mb50">
+                        <li>※お部屋のタイプや料金については、プラチナ・コンシェルジュデスクへお問い合わせください。</li>
+                        <li>※対象ホテル・優待内容はこちらよりご確認ください。</li>
+                    </ul>
+                </div>
+                <div class="mb50">
+                    <p class="ttl02 fF01 mb10">
+                        ご注意事項
+                    </p>
+                    <ul class="mb50 listStyle">
+                        <li>ホテルにより特典の内容は異なります。</li>
+                        <li>ホテルにより除外日の設定があります。</li>
+                        <li>ご利用になれる客室数には限りがあります。</li>
+                        <li>本プランと他の特典や企画商品との併用はできません。</li>
+                        <li>掲載のホテル・施設情報・特典などは予告なく変更となる場合があります。</li>
+                        <li>ご予約を取り消される場合、また不泊の場合は、ホテルなどの約款により所定の取消料をお支払いください。<br />ご予約の際にご確認ください。</li>
+                    </ul>
+                </div>
+                <div class="mb50">
+                    <p class="fwB mb10">
+                        お申し込み・お問い合わせ
+                    </p>
+                    <p class="mb5">
+                        プラチナ・コンシェルジュデスクまでご連絡ください。
+                    </p>
+                    <p><span class="fwB">TEL<span class="fz31 pr10 pl10">0120-123-740</span></span>24時間・年中無休</p>
+                </div>
+                <dl>
+                    <dt class="attention_ttl">注意事項</dt>
+                    <dd class="phone_detail">
+                        <p class="mb30">海外からお電話される場合は、81-3-6907-9275へコレクトコールでおかけください。<br />
+                            (最初の"81"は日本の国番号です。)</p>
+                        <ul class="phone_detail_lists">
+                            <li>※海外からでもコレクトコールでプラチナ・コンシェルジュデスクへかけられます。現地オペレーターの呼出し番号は、国・地域によって異なります。<br />
+                                詳しくはご出発前にプラチナ・コンシェルジュデスクへお問い合わせください。</li>
+                            <li>※一部の電話機からはご利用になれない場合があります。詳しくはご出発前に各電話会社へお問い合わせください。</li>
+                            <li>※ホテルからご利用の場合は、最初に外線番号をダイヤルしてください。</li>
+                            <li>※ホテルや携帯電話からおかけの場合、通話料が有料になる場合があります。</li>
+                            <li>※電話番号は、お間違いのないようおかけください。</li>
+                            <li>※プラチナ･コンシェルジュデスクからお送りする各種郵便物の送付元は株式会社ジェーシービー、もしくは株式会社JCBトラベルとなる場合がございます</li>
+                            <li>※楽天ブラックカードに関するお問い合わせは、0120-21-6910または092-474-9198にて承ります。
+                                ＜サービス提供会社＞株式会社ジェーシービー(業務提携会社：株式会社JCBトラベル)</li>
+                        </ul>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+        <div class="js-tab-content">
+            <div class="main-block main-block--04 clearfix">
+                <div class="l-container clearfix">
+                    <div class="main-block_txt-block--04">
+                        <p class="main-block_ttl fF01">
+                            ダイニング30
+                        </p>
+                        <p class="main-block_txt">
+                            全国の対象店舗にて、事前のご予約、専用クーポンを提示のうえ、<br />
+                            楽天ブラックカードでお支払いになると、<br />
+                            ご利用合計金額またはコース代金より30％引きになるサービスです。<br />
+                            ご家族やご夫婦での特別なディナー、ビジネスでのご会食など<br />
+                            さまざまなシーンでご活用いただき、上質なひとときをお楽しみください。
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="l-container">
+                <div class="mb50">
+                    <p class="ttl02 fF01 mb10">
+                        ダイニングラウンジご利用方法について
+                    </p>
+                    <ul class="conciergeDesk-step clearfix">
+                        <li class="conciergeDesk-step_list conciergeDesk-step_list--01">
+                            会員の方（家族会員の方含む）ご自身で、ご希望の店舗に電話で直接ご連絡ください。
+                            <ul>
+                                <li>※ご予約の際は、必ず「ダイニング３０（サーティー）」ご利用のむねをお申し出ください。</li>
+                            </ul>
+                        </li>
+                        <li class="conciergeDesk-step_list conciergeDesk-step_list--02">
+                            特典をご利用の際には、必ずWEBサイトからプリントアウトしたクーポンを持参のうえ、入店時にスタッフへお渡しください。
+                            <ul>
+                                <li>※スマートフォン専用サイト上のクーポン画面のご提示による利用も可能です。<br />また、冊子巻末のクーポンを持参することも可能です。冊子については、一部ご提供を行っていないカード発行会社もございます。</li>
+                            </ul>
+                        </li>
+                        <li class="conciergeDesk-step_list conciergeDesk-step_list--03">
+                            飲食代金をJCBクラス、プラチナ、ゴールド、ザ・プレミアムにてお支払いください。
+                        </li>
+                    </ul>
+                </div>
+                <div class="mb50">
+                    <a class="btn02 taC" href="#">
+                        <span>ダイニング30の詳細はこちら</span>
+                    </a>
+                </div>
+                <div class="mb50">
+                    <p class="ttl02 fF01 mb10">
+                        お申し込み・お問い合わせ
+                    </p>
+                    <p class="mb5">
+                        プラチナ・コンシェルジュデスクまでご連絡ください。
+                    </p>
+                    <p><span class="fwB">TEL<span class="fz31 pr10 pl10">0120-123-740</span></span>24時間・年中無休</p>
+                </div>
+                <dl>
+                    <dt class="attention_ttl">注意事項</dt>
+                    <dd class="phone_detail">
+                        <p class="mb30">海外からお電話される場合は、81-3-6907-9275へコレクトコールでおかけください。<br />
+                            (最初の"81"は日本の国番号です。)</p>
+                        <ul class="phone_detail_lists">
+                            <li>※海外からでもコレクトコールでプラチナ・コンシェルジュデスクへかけられます。現地オペレーターの呼出し番号は、国・地域によって異なります。<br />
+                                詳しくはご出発前にプラチナ・コンシェルジュデスクへお問い合わせください。</li>
+                            <li>※一部の電話機からはご利用になれない場合があります。詳しくはご出発前に各電話会社へお問い合わせください。</li>
+                            <li>※ホテルからご利用の場合は、最初に外線番号をダイヤルしてください。</li>
+                            <li>※ホテルや携帯電話からおかけの場合、通話料が有料になる場合があります。</li>
+                            <li>※電話番号は、お間違いのないようおかけください。</li>
+                            <li>※プラチナ･コンシェルジュデスクからお送りする各種郵便物の送付元は株式会社ジェーシービー、もしくは株式会社JCBトラベルとなる場合がございます</li>
+                            <li>※楽天ブラックカードに関するお問い合わせは、0120-21-6910または092-474-9198にて承ります。
+                                ＜サービス提供会社＞株式会社ジェーシービー(業務提携会社：株式会社JCBトラベル)</li>
+                        </ul>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+        <div class="js-tab-content">
+            <div class="main-block main-block--05 clearfix">
+                <div class="l-container clearfix">
+                    <div class="main-block_txt-block--05">
+                        <p class="main-block_ttl fF01">
+                            ダイニング30
+                        </p>
+                        <p class="main-block_txt">
+                            全国の対象店舗にて、事前のご予約、専用クーポンを提示のうえ、<br />
+                            楽天ブラックカードでお支払いになると、<br />
+                            ご利用合計金額またはコース代金より30％引きになるサービスです。<br />
+                            ご家族やご夫婦での特別なディナー、ビジネスでのご会食など<br />
+                            さまざまなシーンでご活用いただき、上質なひとときをお楽しみください。
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="l-container">
+                <div class="mb50">
+                    <p class="ttl02 fF01 mb10">
+                        適用条件
+                    </p>
+                    <p class="mb5">
+                        JCBトラベルにて海外パッケージツアーをお申し込みのうえ、〇〇〇カードで旅行代金を お支払いください。
+                    </p>
+                    <ul>
+                        <li>
+                            ※1組の基本旅行代金総額が50,000円以上の海外パッケージツアーをご利用の場合が対象となります。
+                        </li>
+                    </ul>
+                </div>
+                <div class="mb50">
+                    <p class="ttl02 fF01 mb10">
+                        特典内容
+                    </p>
+                    <p class="mb5">
+                        手荷物無料宅配券片道分（空港からご自宅）を1組につき1枚プレゼント。<br />ご帰国後の到着空港から日本国内のご自宅までスーツケース1個をお届けいたします。
+                    </p>
+                </div>
+                <div class="mb50">
+                    <p class="ttl02 fF01 mb10">
+                        対象空港
+                    </p>
+                    <p class="mb5">
+                        成田国際空港・東京国際空港（羽田/国際線）・中部国際空港・関西国際空港
+                    </p>
+                </div>
+                <div class="mb50">
+                    <p class="ttl02 fF01 mb10">
+                        ご利用方法
+                    </p>
+                    <p class="mb20">
+                        JCBトラベルデスクへお電話いただくか、メールでお申し込みください。
+                    </p>
+                    <ul class="step-lists01 mb20 clearfix">
+                        <li>
+                            <div class="step-lists01_ttl step-lists01_ttl--01 fF01">
+                                <p>旅行を選ぶ</p>
+                            </div>
+                            <p>ご希望の海外パッケージツアーをお選びください。<br />また、JCBトラベルでは、お電話にてご希望のパンフレットの送付も承っています。</p>
+                        </li>
+                        <li class="step-lists01_list--even">
+                            <div class="step-lists01_ttl step-lists01_ttl--02 fF01">
+                                <p>旅行を申し込む</p>
+                            </div>
+                            <p>ご希望の海外パッケージツアーをお選びください。<br />また、JCBトラベルでは、お電話にてご希望のパンフレットの送付も承っています。</p>
+                        </li>
+                    </ul>
+                    <ul class="step-lists01 mb30 clearfix">
+                        <li>
+                            <div class="step-lists01_ttl step-lists01_ttl--03 fF01">
+                                <p>旅行代金を<br />〇〇〇カードで支払う</p>
+                            </div>
+                            <p>お電話でカード番号を伝えるだけでお支払い可能。<br />お申し込み金や振り込み不要で便利です。</p>
+                        </li>
+                        <li class="step-lists01_list--even">
+                            <div class="step-lists01_ttl step-lists01_ttl--04 fF01">
+                                <p>旅行へ出発</p>
+                            </div>
+                            <p>ご予約内容確認書と手荷物無料宅配券、最終日程表はご自宅へお届けします。</p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>※ご帰国時の到着空港から日本国内のご自宅までスーツケース1個をお届けします。</li>
+                        <li>※本特典対象の手荷物は、3辺の和が120cmかつ重量が20kg以内の手荷物となります。<br />(スーツケース・ゴルフバック及びスキー1セットはサイズのみ120cm以内とみなします。)</li>
+                        <li>
+                            ※下記お取扱できないものがございます。
+                            <ul class="listStyle">
+                                <li>貴重品、危険物、破損品、荷造り梱包の不完全な物</li>
+                                <li>腐敗、変質しやすい物及び30万円を超える高価格品等(貴金属、宝石、パスポート、紙幣、有価証券、美術品、骨董品等)</li>
+                            </ul>
+                        </li>
+                        <li>※一部、申込金が必要な場合があります。</li>
+                    </ul>
+                </div>
+                <div class="mb50">
+                    <p class="ttl02 fF01 mb10">
+                        旅行のお申し込み・お問い合わせ
+                    </p>
+                </div>
+                <a class="btn02 taC pb50" href="#">
+                    <span>JCBトラベルデスク</span>
+                </a>
+            </div>
+        </div>
+        <div class="js-tab-content">
+            <div class="main-block main-block--06 clearfix">
+                <div class="l-container clearfix">
+                    <div class="main-block_txt-block--06">
+                        <p class="main-block_ttl fF01">JCB空港ラウンジサービス</p>
+                        <p class="main-block_txt">
+                            空港ラウンジは、楽天ブラックカード会員(家族会員の方も含みます)の皆様に、<br />ご出発前のひとときをゆったりとおくつろぎいただくためのサービスです。<br />無料でご利用になれますので、ぜひお気軽にお立ち寄りください。
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="l-container">
+                <div class="mb50">
+                    <p class="ttl02 fF01 mb10">
+                        ご利用方法について
+                    </p>
+                    <div class="mb30">
+                        お持ちのJCBカードおよび当日の搭乗券または航空券（到着後ご利用の際は半券）をご提示ください。<br />
+                        ご同伴の方も、当日の搭乗券をご提示ください。<br />
+                        ご同伴の方も、ご利用の空港ラウンジが定める同伴者料金にて利用できます。<br />
+                        ICチェックインサービス対応の空港、または航空券不要のサービスをご利用の場合は、航空券の代わりにご搭乗の便名と行先をご申告ください。<br />
+                        一部のラウンジでは携帯電話・パソコンなどに表示される内容確認画面等、当日のご搭乗が確認できるものをご提示いただく場合があります。<br />
+                        当日、カードなどのお忘れによりご提示いただけない場合は、ご利用になれません。
+                    </div>
+                    <a class="btn02 taC" href="#">
+                        <span>JCBトラベルデスク</span>
+                    </a>
+                </div>
+                <div class="mb50">
+                    <p class="ttl02 fF01 mb10">
+                        お申し込み・お問い合わせ
+                    </p>
+                    <p class="mb5">
+                        プラチナ・コンシェルジュデスクまでご連絡ください。
+                    </p>
+                    <p><span class="fwB">TEL<span class="fz31 pr10 pl10">0120-123-740</span></span>24時間・年中無休</p>
+                </div>
+                <dl>
+                    <dt class="attention_ttl">注意事項</dt>
+                    <dd class="phone_detail">
+                        <p class="mb30">海外からお電話される場合は、81-3-6907-9275へコレクトコールでおかけください。<br>
+                            (最初の"81"は日本の国番号です。)</p>
+                        <ul class="phone_detail_lists">
+                            <li>※海外からでもコレクトコールでプラチナ・コンシェルジュデスクへかけられます。現地オペレーターの呼出し番号は、国・地域によって異なります。<br>
+                                詳しくはご出発前にプラチナ・コンシェルジュデスクへお問い合わせください。</li>
+                            <li>※一部の電話機からはご利用になれない場合があります。詳しくはご出発前に各電話会社へお問い合わせください。</li>
+                            <li>※ホテルからご利用の場合は、最初に外線番号をダイヤルしてください。</li>
+                            <li>※ホテルや携帯電話からおかけの場合、通話料が有料になる場合があります。</li>
+                            <li>※電話番号は、お間違いのないようおかけください。</li>
+                            <li>※プラチナ･コンシェルジュデスクからお送りする各種郵便物の送付元は株式会社ジェーシービー、もしくは株式会社JCBトラベルとなる場合がございます</li>
+                            <li>※楽天ブラックカードに関するお問い合わせは、0120-21-6910または092-474-9198にて承ります。
+                                ＜サービス提供会社＞株式会社ジェーシービー(業務提携会社：株式会社JCBトラベル)</li>
+                        </ul>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+        <div class="js-tab-content">
+            <div class="main-block main-block--07 clearfix">
+                <div class="l-container clearfix">
+                    <div class="main-block_txt-block--07">
+                        <p class="main-block_ttl fF01">GOLD Basic Service</p>
+                        <p class="main-block_txt">
+                            さまざまな場面にあわせて、多彩なサービスをご用意していますので、ぜひご利用ください。
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="l-container">
+                <a class="btn02 taC" href="#">
+                    <span>ジェーシービーゴールドサービスの<br />詳細はこちら</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

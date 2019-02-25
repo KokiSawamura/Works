@@ -1,0 +1,393 @@
+
+/* default */
+* {
+    line-height: 1.5;
+}
+/* wrapper */
+.wrapper {
+    text-align: left;
+}
+/* header */
+.header {
+    color: white;
+    background: #333;
+}
+/* js-tab */
+.js-tab {
+    &--current {
+        background: #4A4A4A;
+    }
+    &-content {
+        display: none;
+        &--current {
+            display: block;
+        }
+    }
+}
+/* nav */
+.nav {
+    & li {
+        display: table;
+        float: left;
+        width: 130px;
+        height: 80px;
+        font-size: 14px;
+        border-left: 1px solid #585858;
+        & a {
+            display: table-cell;
+            padding: 0 20px;
+            vertical-align: middle;
+            color: #C5C5C5;
+            text-decoration: none;
+        }
+    }
+    &_list {
+        &--last {
+            border-right: 1px solid #585858;
+        }
+    }
+    &-block {
+        
+    }
+    &_ttl {
+        padding: 30px 0;
+        font-size: 32px;
+        text-align: center;
+        border-bottom: 1px solid #585858;
+    }
+}
+/* main-block */
+.main-block {
+    padding: 100px 0;
+    margin: 0 0 50px;
+    color: white;
+    &--01 {
+        background: url(../img/1.jpg) 100% 0 no-repeat;
+        background-position: center;
+    }
+    &--02 {
+        background: url(../img/2.jpg) 100% 0 no-repeat;
+        background-position: center;
+    }
+    &--03 {
+        background: url(../img/3.jpg) 100% 0 no-repeat;
+        background-position: center;
+    }
+    &--04 {
+        background: url(../img/4.jpg) 100% 0 no-repeat;
+        background-position: center;
+    }
+    &--05 {
+        background: url(../img/5.jpg) 100% 0 no-repeat;
+        background-position: center;
+    }
+    &--06 {
+        background: url(../img/6.jpg) 100% 0 no-repeat;
+        background-position: center;
+    }
+    &--07 {
+        background: url(../img/7.jpg) 100% 0 no-repeat;
+        background-position: center;
+    }
+    &_txt-block {
+        &--01 {
+            display: inline-block;
+            padding: 10px 30px 10px 0;
+            border-right: 2px solid white;
+        }
+        &--02 {
+            display: inline-block;
+            padding: 10px 30px 10px 0;
+            float: right;
+            text-align: right;
+            border-right: 2px solid white;
+        }
+        &--03 {
+            display: inline-block;
+            padding: 10px 30px 10px 0;
+            float: right;
+            text-align: right;
+            border-right: 2px solid white;
+        }
+        &--04 {
+            display: inline-block;
+            padding: 10px 0 10px 30px;
+            border-left: 2px solid white;
+        }
+        &--05 {
+            display: inline-block;
+            padding: 10px 30px 10px 0;
+            float: right;
+            text-align: right;
+            border-right: 2px solid white;
+        }
+        &--06 {
+            display: inline-block;
+            padding: 10px 30px 10px 0;
+            float: right;
+            text-align: right;
+            border-right: 2px solid white;
+        }
+        &--07 {
+            display: inline-block;
+            padding: 10px 0 10px 30px;
+            border-left: 2px solid white;
+        }
+    }
+    &_ttl {
+        margin: 0 0 20px;
+        font-size: 32px;
+    }
+}
+/* example */
+.example {
+    margin: 0 0 70px;
+    &_ttl {
+        margin: 0 0 20px;
+        padding: 5px 0 5px 10px;
+        font-size: 21px;
+        border-left: 2px solid #323232;
+    }
+    &_list {
+        padding: 20px 30px;
+        background: url(../img/Q.jpg) left top no-repeat, url(../img/A.jpg) right bottom no-repeat;
+        background-size: auto 80%;
+    }
+}
+/* stay-nav */
+.stay-nav {
+    margin-bottom: 50px;
+    &_list {
+        &--left {
+            float: left;
+        }
+        &--right {
+            float: right;
+        }
+    }
+
+}
+/* phone */
+.phone {
+    &_ttl {
+        display: inline-block;
+        padding: 0 10px;
+        margin: 0 0 20px;
+        font-size: 31px;
+        border-bottom: 2px solid black;
+        &-block {
+            text-align: center;
+        }
+    }
+    &_number {
+        margin: 0 0 20px;
+        text-align: center;
+        font-size: 60px;
+    }
+    &_date {
+        margin: 0 0 70px;
+        text-align: center;
+    }
+    &_detail {
+        padding: 50px;
+        border: 1px solid black;
+        &_lists li {
+            margin: 0 0 5px;
+            text-indent: -1em;
+            padding-left: 1em;
+        }
+    }
+}
+.ttl-block {
+    padding: 100px 0;
+    margin: 0 0 50px;
+    &--01 {
+    background: url(../img/36719048-tea-cup-set-on-classic-bed-with-pillows-at-home-Stock-Photo.jpg) center no-repeat;
+    }
+    &--02 {
+    background: url(../img/21393848-onsen-in-japan-Stock-Photo.jpg) center no-repeat;
+    }
+}
+/* conciergeDesk-step */
+.conciergeDesk-step {
+    margin: 0 0 10px;
+    & li {
+    float: left;
+    width: 206px;
+    }
+    &_list {
+        padding: 50px 0 0 60px;
+        margin-right: 50px;
+        &--01 {
+            background: url(../img/01.jpg) no-repeat;
+            background-size: auto 120px;
+        }
+        &--02 {
+            background: url(../img/02.jpg) no-repeat;
+            background-size: auto 120px;
+        }
+        &--03 {
+            background: url(../img/03.jpg) no-repeat;
+            background-size: auto 120px;
+        }
+    }
+}
+/* attention */
+.attention {
+    &_ttl {
+        padding: 20px 0;
+        text-align: center;
+        font-size: 21px;
+        border-top: 1px solid black;
+        border-right: 1px solid black;
+        border-left: 1px solid black;
+    }
+}
+/* module */
+.l-container {
+    width: 950px;
+    margin: 0 auto;
+}
+.ttl01 {
+    padding: 5px 0 5px 10px;
+    border-left: 2px solid black;
+    font-size: 21px;
+}
+.ttl02 {
+    font-size: 21px;
+    border-left: 2px solid black;
+    padding: 5px 0 5px 10px;
+}
+a.btn01 {
+    display: block;
+    padding: 0 40px;
+    line-height: 60px;
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    &:before {
+        height: 60px;
+        width: 32px;
+        float: right;
+        margin-left: 30px;
+        display: block;
+        content: "";
+        background: url(../img/arrow.png) center right no-repeat;
+    }
+}
+a.btn02 {
+    display: table;
+    margin: 0 auto;
+    padding: 0 120px;
+    height: 70px;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    & > span {
+        display: table-cell;
+        vertical-align: middle;
+    }
+    &:after {
+        height: 70px;
+        width: 15px;
+        float: right;
+        margin-left: 30px;
+        display: block;
+        content: "";
+        background: url(../img/arrow02.jpg) center right no-repeat;
+    }
+}
+.step-lists01 {
+    & li {
+        float: left;
+        width: 48%;
+        margin-right: 4%;
+    }
+    li&_list--even {
+        margin-right: 0;
+    }
+    &_ttl {
+        display: table;
+        margin: 0 auto;
+        height: 138px;
+        font-size: 31px;
+        & > p {
+           display: table-cell;
+           vertical-align: middle;
+        }
+        &--01 {
+            background: url(../img/01.jpg) center no-repeat;
+        }
+        &--02 {
+            background: url(../img/02.jpg) center no-repeat;
+        }
+        &--03 {
+            background: url(../img/03.jpg) center no-repeat;
+        }
+        &--04 {
+            background: url(../img/04.jpg) center no-repeat;
+        }
+    }
+}
+/* helper */
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block; }
+.isBlock {
+    display: block !important;
+}
+.isNone {
+    display: none !important;
+}
+.pr10 {
+    padding-right: 10px !important;
+}
+.pl10 {
+    padding-left: 10px !important;
+}
+.pb50 {
+    padding-bottom: 5px !important;
+}
+.mb5 {
+    margin-bottom: 5px !important;
+}
+.mb10 {
+    margin-bottom: 10px !important;
+}
+.mb30 {
+    margin-bottom: 30px !important;
+}
+.mb40 {
+    margin-bottom: 40px !important;
+}
+.mb50 {
+    margin-bottom: 50px !important;
+}
+.taC {
+    text-align: center;
+}
+.listStyle {
+    padding-left: 1em !important;
+    & li {
+        list-style: disc !important;
+    }
+}
+.fF01 {
+    font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+.fz18 {
+    font-size: 18px;
+}
+.fz31 {
+    font-size: 31px;
+}
+.fz36 {
+    font-size: 36px;
+}
+.taR {
+    text-align: right !important;
+}
+.fwB {
+    font-weight: bold;
+}
