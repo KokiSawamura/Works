@@ -1,0 +1,176 @@
+@charset "utf-8";
+body {
+  font-family: "Noto Sans Japanese", Roboto, Arial, "Hiragino Sans", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", Osaka, Meiryo, "メイリオ", "MS PGothic", "MS Pゴシック", "Hiragino Sans GB", "Helvetica Neue", HelveticaNeue, Helvetica, "Arial Unicode MS", sans-serif;
+}
+.btn {
+  font-weight: 400;
+}
+.btn-primary.btn-outline.focus, .btn-primary.btn-outline.hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:hover {
+  font-weight: 400;
+}
+.jumbotron {
+  background: url(../images/jumbotron.png) center no-repeat;
+  background-size: cover;
+}
+
+.data-table {
+  [class^="label"] {
+    line-height: 1;
+  }
+  
+  .fixed {
+    white-space: nowrap;
+    width: 1px;
+  }
+  
+  .label {
+    width: 100px;
+    padding: 4px;
+    text-align: center;
+  }
+  &__link {
+    display: block;
+    position: relative;
+    &:after {
+      content: "\F127";
+      position: absolute;
+      top: calc(50% + 1px);
+      right: 0;
+      transform: translateY(-50%);
+      line-height: 1;
+      font-family: rex-icon;
+    }
+  }
+}
+
+.label--gold {
+  color: white;
+  background-color: #CFAE55;
+}
+
+.label--light-blue {
+  color: white;
+  background-color: #04B6E6;
+}
+
+.koikoi-hawaii {
+  &__pickup {
+    position: relative;
+    height: 878px;
+    margin-left: -24px;
+    margin-right: -24px;
+    background-image: url(../images/bg_koikoihawaii--left.png), url(../images/bg_koikoihawaii--right.png);
+    background-repeat: repeat-y;
+    background-position: top left, top right;
+    .small {
+      line-height: 1.2;
+    }
+    &__item, &__ttl, &__text {
+      position: absolute;
+    }
+    &__ttl {
+      color: white;
+    }
+    &__text {
+      text-align: center;
+    }
+    &--steak {
+      top: 25px;
+      left: 86px;
+      width: 451px;
+      height: 292px;
+      background: url(../images/thumbnail_steak.png) no-repeat;
+      @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+        background-image: url(../images/thumbnail_steak@2x.png);
+        background-size: contain;
+      }
+      .koikoi-hawaii__pickup__ttl {
+        top: 36px;
+        left: 18px;
+      }
+      .koikoi-hawaii__pickup__text {
+        top: 76px;
+        left: 40px;
+      }
+    }
+    &--fashion {
+      top: 10px;
+      right: 72px;
+      width: 428px;
+      height: 409px;
+      background: url(../images/thumbnail_fashion.png) no-repeat;
+      @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+        background-image: url(../images/thumbnail_fashion@2x.png);
+        background-size: contain;
+      }
+      .koikoi-hawaii__pickup__ttl {
+        top: 23px;
+        right: 93px;
+      }
+      .koikoi-hawaii__pickup__text {
+        top: 67px;
+        right: 32px;
+      }
+    }
+    &--locomoco {
+      top: 354px;
+      left: 86px;
+      width: 445px;
+      height: 243px;
+      background: url(../images/thumbnail_locomoco.png) no-repeat;
+      @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+        background-image: url(../images/thumbnail_locomoco@2x.png);
+        background-size: contain;
+      }
+      .koikoi-hawaii__pickup__ttl {
+        top: 25px;
+        left: 18px;
+      }
+      .koikoi-hawaii__pickup__text {
+        top: 65px;
+        left: 23px;
+      }
+    }
+    &--pancake {
+      top: 477px;
+      right: 57px;
+      width: 453px;
+      height: 374px;
+      background: url(../images/thumbnail_pancake.png) no-repeat;
+      @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+        background-image: url(../images/thumbnail_pancake@2x.png);
+        background-size: contain;
+      }
+      .koikoi-hawaii__pickup__ttl {
+        bottom: 144px;
+        right: 143px;
+      }
+      .koikoi-hawaii__pickup__text {
+        bottom: 48px;
+        right: 49px;
+      }
+    }
+    &--pizza {
+      top: 622px;
+      left: 63px;
+      width: 432px;
+      height: 232px;
+      background: url(../images/thumbnail_pizza.png) no-repeat;
+      @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+        background-image: url(../images/thumbnail_pizza@2x.png);
+        background-size: contain;
+      }
+      .koikoi-hawaii__pickup__ttl {
+        top: 46px;
+        left: 18px;
+      }
+      .koikoi-hawaii__pickup__text {
+        top: 80px;
+        left: 23px;
+      }
+    }
+  }
+  &--blue {
+    color: #00c8c1;
+  }
+}
