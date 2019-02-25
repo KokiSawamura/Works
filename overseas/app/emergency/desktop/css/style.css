@@ -1,0 +1,40 @@
+.contact-center {
+  padding: 24px 32px;
+  font-size: 14px;
+  border: 2px solid #ebebeb;
+}
+
+.contact-center_heading {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.contact-center_business-hour {
+  margin-bottom: 16px;
+  text-align: center;
+  background-color: #f7f7f7;
+}
+
+.contact-center_phone-number {
+  margin-bottom: 8px;
+  font-size: 32px;
+}
+
+.contact-center_phone-number:last-child {
+  margin-bottom: 0;
+}
+
+.contact-center_phone-number > a {
+  color: #bf0000;
+  text-decoration: none;
+}
+
+.contact-center_phone-number > .rex-icon {
+  font-size: 24px;
+  margin-right: 8px;
+}
+
+.contact-center_phone-number > small {
+  font-size: 16px;
+}

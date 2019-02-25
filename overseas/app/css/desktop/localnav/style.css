@@ -1,0 +1,63 @@
+/*@font-face {
+  font-family: Noto Sans Japanese;
+  font-style: normal;
+  font-weight: 400;
+  src: url(//static.card.jp.rakuten-static.com/card_corp/font/NotoSansJP-Regular.woff2) format("woff2"), url(//static.card.jp.rakuten-static.com/card_corp/font/NotoSansJP-Regular.woff) format("woff"), url(//static.card.jp.rakuten-static.com/card_corp/font/NotoSansJP-Regular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: Noto Sans Japanese;
+  font-style: normal;
+  font-weight: 700;
+  src: url(//static.card.jp.rakuten-static.com/card_corp/font/NotoSansJP-Bold.woff2) format("woff2"), url(//static.card.jp.rakuten-static.com/card_corp/font/NotoSansJP-Bold.woff) format("woff"), url(//static.card.jp.rakuten-static.com/card_corp/font/NotoSansJP-Bold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: Noto Sans Japanese;
+  font-style: normal;
+  font-weight: 100;
+  src: url(//static.card.jp.rakuten-static.com/card_corp/font/NotoSansJP-Light.woff2) format("woff2"), url(//static.card.jp.rakuten-static.com/card_corp/font/NotoSansJP-Light.woff) format("woff"), url(//static.card.jp.rakuten-static.com/card_corp/font/NotoSansJP-Light.otf) format("opentype");
+}*/
+@font-face {
+  font-family: Noto Sans Japanese;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../font/NotoSansJP-Regular.woff2) format("woff2");
+}
+
+.local-nav {
+  background-color: #ebebeb;
+  font-family: "Noto Sans Japanese", Arial, sans-serif;
+}
+
+.local-nav .ln-main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.local-nav .ln-main > a {
+  display: flex;
+  align-items: center;
+  padding: 16px 32px;
+  line-height: 1.2;
+  text-align: center;
+  color: inherit;
+  font-size: 14px;
+  transition: color .25s;
+}
+
+.local-nav .ln-main > a:hover, .local-nav .ln-main > a:focus {
+  text-decoration: none;
+  color: #bf0000;
+}
+
+.local-nav a.ln-active {
+  color: #bf0000;
+}
+
+/* breadcrumb */
+.breadcrumbs {
+  margin-top: 16px;
+}

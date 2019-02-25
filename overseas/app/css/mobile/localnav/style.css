@@ -1,0 +1,192 @@
+/*@font-face {
+  font-family: Noto Sans Japanese;
+  font-style: normal;
+  font-weight: 400;
+  src: url(//static.card.jp.rakuten-static.com/card_corp/font/NotoSansJP-Regular.woff2) format("woff2"), url(//static.card.jp.rakuten-static.com/card_corp/font/NotoSansJP-Regular.woff) format("woff"), url(//static.card.jp.rakuten-static.com/card_corp/font/NotoSansJP-Regular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: Noto Sans Japanese;
+  font-style: normal;
+  font-weight: 700;
+  src: url(//static.card.jp.rakuten-static.com/card_corp/font/NotoSansJP-Bold.woff2) format("woff2"), url(//static.card.jp.rakuten-static.com/card_corp/font/NotoSansJP-Bold.woff) format("woff"), url(//static.card.jp.rakuten-static.com/card_corp/font/NotoSansJP-Bold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: Noto Sans Japanese;
+  font-style: normal;
+  font-weight: 100;
+  src: url(//static.card.jp.rakuten-static.com/card_corp/font/NotoSansJP-Light.woff2) format("woff2"), url(//static.card.jp.rakuten-static.com/card_corp/font/NotoSansJP-Light.woff) format("woff"), url(//static.card.jp.rakuten-static.com/card_corp/font/NotoSansJP-Light.otf) format("opentype");
+}*/
+@font-face {
+  font-family: "Noto Sans Japanese";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../font/NotoSansJP-Regular.woff2) format("woff2");
+}
+
+header {
+  z-index: 10000;
+}
+
+.local-nav-wrapper {
+  position: relative;
+}
+
+.local-nav-content {
+  position: relative;
+  background-color: white;
+  z-index: 10000;
+  font-size: 14px;
+  font-family: "Noto Sans Japanese", Arial, sans-serif;
+}
+
+.local-nav-content dl {
+  margin: 0;
+}
+
+.local-nav-content dl > dt {
+  position: relative;
+  margin: 0;
+  padding: 16px;
+  font-weight: 400;
+  color: #bf0000;
+  border-bottom: 1px solid #bf0000;
+}
+
+.local-nav-content dl > dd {
+  display: none;
+  position: absolute;
+  top: auto;
+  left: 0;
+  width: 100%;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: white;
+}
+
+.local-nav-content dl > dd > a {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 16px 16px calc(16px + 4px);
+  color: #9c9c9c;
+}
+
+.local-nav-content dl > dd > a:hover, .local-nav-content dl > dd > a:focus {
+  text-decoration: none;
+}
+
+.local-nav-content dl > dd > a.local-nav-current {
+  color: #bf0000;
+  background-color: #f7f7f7;
+}
+
+.local-nav-content dl > dd > a.local-nav-current .local-nav-text:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: calc(-1 * (16px + 4px));
+  display: block;
+  height: 100%;
+  width: 2px;
+  background-color: #bf0000;
+}
+
+.local-nav-content dl > dd > a.local-nav-current .local-nav-icon {
+  display: none;
+}
+
+.local-nav-text {
+  display: block;
+  position: relative;
+}
+
+.local-nav-mask {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5000;
+  opacity: 0;
+  visibility: hidden;
+  transition: visibility 0s linear 0.4s, opacity 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translateZ(0);
+}
+
+.local-nav-mask-visible {
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0s;
+}
+
+.local-nav-disable-scroll {
+  overflow: hidden;
+}
+
+.local-nav-disable-scroll body {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.local-nav-icon-arrow {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  width: 14px;
+  height: 14px;
+}
+
+.local-nav-icon-arrow_left, .local-nav-icon-arrow_right {
+  top: 6px;
+  position: absolute;
+  width: 9px;
+  height: 2px;
+  background-color: #bf0000;
+  display: inline-block;
+  transition: all .25s ease;
+}
+
+.local-nav-icon-arrow_left {
+  left: 0;
+  transform: rotate(45deg);
+}
+
+.local-nav-icon-arrow_right {
+  right: 0;
+  transform: rotate(-45deg);
+}
+
+.js-local-nav-expanded .local-nav-icon-arrow_left {
+  transform: rotate(-45deg);
+}
+
+.js-local-nav-expanded .local-nav-icon-arrow_right {
+  transform: rotate(45deg);
+}
+
+@font-face {
+  font-family: 'local-nav-icon';
+  src: url("data:application/font-woff;base64,d09GRgABAAAAAASAAAsAAAAABDQAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABPUy8yAAABCAAAAGAAAABgDxIFKmNtYXAAAAFoAAAAVAAAAFQXVtKHZ2FzcAAAAbwAAAAIAAAACAAAABBnbHlmAAABxAAAAGwAAABsao+tR2hlYWQAAAIwAAAANgAAADYShVGbaGhlYQAAAmgAAAAkAAAAJAavA8ZobXR4AAACjAAAABQAAAAUCgABIGxvY2EAAAKgAAAADAAAAAwAKABKbWF4cAAAAqwAAAAgAAAAIAAHAAluYW1lAAACzAAAAZIAAAGS3J1c/nBvc3QAAARgAAAAIAAAACAAAwAAAAMDAAGQAAUAAAKZAswAAACPApkCzAAAAesAMwEJAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAAAAAAAAAAAAAQAAA6QADwP/AAEADwABAAAAAAQAAAAAAAAAAAAAAIAAAAAAAAwAAAAMAAAAcAAEAAwAAABwAAwABAAAAHAAEADgAAAAKAAgAAgACAAEAIOkA//3//wAAAAAAIOkA//3//wAB/+MXBAADAAEAAAAAAAAAAAAAAAEAAf//AA8AAQAAAAAAAAAAAAIAADc5AQAAAAABAAAAAAAAAAAAAgAANzkBAAAAAAEAAAAAAAAAAAACAAA3OQEAAAAAAQEgACAC7QNgAAYAAAEHCQEXCQEBTS0Bc/6NLQGg/mADYC3+jf6NLQGgAaAAAAAAAQAAAAEAABw9rjtfDzz1AAsEAAAAAADYPQafAAAAANg9Bp8AAAAAAu0DYAAAAAgAAgAAAAAAAAABAAADwP/AAAAEAAAAAAAC7QABAAAAAAAAAAAAAAAAAAAABQQAAAAAAAAAAAAAAAIAAAAEAAEgAAAAAAAKABQAHgA2AAEAAAAFAAcAAQAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAOAK4AAQAAAAAAAQAIAAAAAQAAAAAAAgAHAGkAAQAAAAAAAwAIADkAAQAAAAAABAAIAH4AAQAAAAAABQALABgAAQAAAAAABgAIAFEAAQAAAAAACgAaAJYAAwABBAkAAQAQAAgAAwABBAkAAgAOAHAAAwABBAkAAwAQAEEAAwABBAkABAAQAIYAAwABBAkABQAWACMAAwABBAkABgAQAFkAAwABBAkACgA0ALByZXgtaWNvbgByAGUAeAAtAGkAYwBvAG5WZXJzaW9uIDEuMABWAGUAcgBzAGkAbwBuACAAMQAuADByZXgtaWNvbgByAGUAeAAtAGkAYwBvAG5yZXgtaWNvbgByAGUAeAAtAGkAYwBvAG5SZWd1bGFyAFIAZQBnAHUAbABhAHJyZXgtaWNvbgByAGUAeAAtAGkAYwBvAG5Gb250IGdlbmVyYXRlZCBieSBJY29Nb29uLgBGAG8AbgB0ACAAZwBlAG4AZQByAGEAdABlAGQAIABiAHkAIABJAGMAbwBNAG8AbwBuAC4AAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.local-nav-icon {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font: normal 16px/1 local-nav-icon;
+}
+
+.local-nav-icon.chevron-right:before {
+  content: "\e900";
+}

@@ -1,0 +1,24 @@
+.jumbotron {
+  background: url(../images/jumbotron.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.brand-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 1px solid #ebebeb;
+}
+
+.brand-item:last-child {
+  border: none;
+}
+
+.brand-img {
+  margin-top: auto;
+  margin-bottom: 16px;
+}
+
+.brand-btn {
+  margin-top: auto;
+}

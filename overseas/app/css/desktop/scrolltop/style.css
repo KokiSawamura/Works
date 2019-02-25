@@ -1,0 +1,44 @@
+@font-face {
+  font-family: Noto Sans Japanese;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../font/NotoSansJP-Regular.woff2) format("woff2");
+}
+
+#scroll-top {
+  display: none;
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  width: 80px;
+  height: 80px;
+  padding: 8px;
+  text-align: center;
+  line-height: 1.2;
+  background-color: white;
+  border: 1px solid #bf0000;
+  border-radius: 50%;
+  font-size: 14px;
+  color: #bf0000;
+  transition: background-color .2s ease-out,box-shadow .1s ease-out;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12);
+  outline: none;
+}
+
+#scroll-top .rex-icon {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+#scroll-top:hover, #scroll-top:focus {
+  border-color: #ff1212;
+  color: white;
+  background-color: #ff1212;
+  text-decoration: none;
+}
+
+#scroll-top:active {
+  border: 1px solid #960000;
+  color: white;
+  background-color: #960000;
+}

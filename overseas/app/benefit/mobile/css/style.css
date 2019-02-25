@@ -1,0 +1,20 @@
+.jumbotron {
+  background: url(../images/jumbotron.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.brand-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand-img {
+  margin-top: auto;
+  margin-bottom: 16px;
+}
+
+.brand-btn {
+  margin-top: auto;
+}

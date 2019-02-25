@@ -1,0 +1,33 @@
+.contact-center {
+  padding: 24px 32px;
+  font-size: 14px;
+  border: 2px solid #ebebeb;
+  &_heading {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  &_business-hour {
+    margin-bottom: 16px;
+    text-align: center;
+    background-color: #f7f7f7;
+  }
+  &_phone-number {
+    margin-bottom: 8px;
+    font-size: 32px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    & > a {
+      color: #bf0000;
+      text-decoration: none;
+    }
+    & > .rex-icon {
+      font-size: 24px;
+      margin-right: 8px;
+    }
+    & > small {
+      font-size: 16px;
+    }
+  }
+}
