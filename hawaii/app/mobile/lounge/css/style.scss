@@ -1,0 +1,1570 @@
+@charset "UTF-8";
+
+body {
+  margin: 0;
+  font-size: 15px;
+  line-height: 160%;
+  color: #333;
+  background: #fff;
+  font-family: "ヒラギノ角ゴ Pro W3", Hiragino Kaku Gothic Pro, "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  -webkit-font-smoothing: antialiased
+}
+
+img {
+  max-width: none
+}
+
+.clearfix {
+  overflow: hidden
+}
+
+* html .clearfix {
+  height: 1%;
+  overflow: visible
+}
+
+#hawaiiContainer a {
+  color: #04b6e6;
+  -webkit-transition-property: color;
+  -webkit-transition-duration: .2s;
+  -webkit-transition-timing-function: linear;
+  text-decoration: none
+}
+
+#hawaiiContainer a:hover {
+  color: #027ec6
+}
+
+img {
+  -webkit-transition-property: opacity;
+  -webkit-transition-duration: .2s;
+  -webkit-transition-timing-function: linear;
+  border: 0;
+  vertical-align: bottom;
+  width: 100%;
+  height: auto
+}
+
+a img:hover {
+  opacity: .8
+}
+
+p {
+  padding: 0;
+  margin: 0 0 10px 0
+}
+
+h1,
+h3,
+h4,
+h5 {
+  padding: 0;
+  margin: 0;
+  line-height: 140%
+}
+
+#hawaiiContainer h2 {
+  font-size: 20px;
+  line-height: 2.6;
+  color: #fff;
+  margin-bottom: 0;
+  padding: 0;
+  border-bottom: 0;
+  margin: 0
+}
+
+header,
+footer,
+section,
+aside,
+article,
+nav,
+div,
+ul,
+li,
+dl,
+dt,
+dd,
+p,
+span,
+img,
+h1,
+h2,
+h3,
+h4,
+h5,
+a {
+  box-sizing: border-box
+}
+
+#hawaiiContainer {
+  max-width: 640px;
+  margin: 0 auto
+}
+
+section {
+  width: 94%;
+  margin: 0 auto 0 auto
+}
+
+#btn-area section {
+  width: 94.4%
+}
+
+#aprica h4 {
+  font-size: 16px
+}
+
+.f-weight-n {
+  font-weight: normal
+}
+
+.clear {
+  clear: both
+}
+
+#top-coupon {
+  /*margin-top: 1.43%*/
+}
+
+.couponPDF {
+  width: 94%;
+  margin: -1.56% auto 0;
+  /*display: flex;*/
+  /*align-items: center;*/
+  /*justify-content: center;*/
+  /*flex-wrap: wrap;*/
+}
+
+.coupondesc {
+  /*	width: 54.59%;
+  margin-left: 4.84%*/
+  display: inline-block;
+  width: 68.5%;
+}
+
+.couponbook {
+  /*	position: absolute;
+  top: 44.3%;
+  width: 27.65%;
+  right: 3.9%*/
+  display: inline-block;
+  width: 27.29%;
+}
+
+.couponsub {
+  margin-top: 2%
+    /*	margin: 2.39% 5% 0*/
+}
+
+.couponPDF img {
+  max-width: 100%
+}
+
+table {
+  border-collapse: collapse
+}
+
+th {
+  border-collapse: collapse
+}
+
+td {
+  border-collapse: collapse
+}
+
+.font_navy {
+  color: #069
+}
+
+.font_darkred {
+  color: #900
+}
+
+.font_red {
+  color: #f00
+}
+
+.font_green {
+  color: #690
+}
+
+.font_pink {
+  color: #f69
+}
+
+.font_yellow {
+  color: #FF0
+}
+
+.font_lightgray {
+  color: #ccc
+}
+
+.font_lightblue {
+  color: #3fa9f5
+}
+
+.font_lightgreen {
+  color: #009844
+}
+
+.font_nomalbold {
+  font-weight: normal
+}
+
+.font_bold {
+  font-weight: bold
+}
+
+.font_small {
+  font-size: 80%
+}
+
+.font_middle {
+  font-size: 90%
+}
+
+.font_big {
+  font-size: 110%
+}
+
+.line_center {
+  text-align: center
+}
+
+.line_right {
+  text-align: right
+}
+
+.line_left {
+  text-align: left !important
+}
+
+.mar0 {
+  margin-bottom: 0 !important;
+  margin-top: 0 !important
+}
+
+.mar5px {
+  margin-bottom: 5px !important;
+  margin-top: 5px !important
+}
+
+.mar10px {
+  margin-bottom: 10px !important;
+  margin-top: 10px !important
+}
+
+.mar15px {
+  margin-bottom: 15px !important;
+  margin-top: 15px !important
+}
+
+.mar20px {
+  margin-bottom: 20px !important;
+  margin-top: 20px !important
+}
+
+.mar25px {
+  margin-bottom: 25px !important;
+  margin-top: 25px !important
+}
+
+.mar30px {
+  margin-bottom: 30px !important;
+  margin-top: 30px !important
+}
+
+.mar35px {
+  margin-bottom: 35px !important;
+  margin-top: 35px !important
+}
+
+.mar40px {
+  margin-bottom: 40px !important;
+  margin-top: 40px !important
+}
+
+.mar45px {
+  margin-bottom: 45px !important;
+  margin-top: 45px !important
+}
+
+.mar50px {
+  margin-bottom: 50px !important;
+  margin-top: 50px !important
+}
+
+.mar60px {
+  margin-bottom: 60px !important;
+  margin-top: 60px !important
+}
+
+.mar70px {
+  margin-bottom: 70px !important;
+  margin-top: 70px !important
+}
+
+.mar80px {
+  margin-bottom: 80px !important;
+  margin-top: 80px !important
+}
+
+.mar90px {
+  margin-bottom: 90px !important;
+  margin-top: 90px !important
+}
+
+.mar100px {
+  margin-bottom: 100px !important
+}
+
+.mar110px {
+  margin-bottom: 110px !important
+}
+
+.mar120px {
+  margin-bottom: 120px !important
+}
+
+.mar130px {
+  margin-bottom: 130px !important
+}
+
+.mar140px {
+  margin-bottom: 140px !important
+}
+
+.mar150px {
+  margin-bottom: 150px !important
+}
+
+.mar-top15 {
+  margin-top: 15px
+}
+
+.mar-top20 {
+  margin-top: 20px
+}
+
+.mar-top30 {
+  margin-top: 30px
+}
+
+.mar-top40 {
+  margin-top: 40px
+}
+
+.mar-top50 {
+  margin-top: 50px
+}
+
+.mar-top60 {
+  margin-top: 60px
+}
+
+.mar-bottom5 {
+  margin-bottom: 5px
+}
+
+.mar-bottom10 {
+  margin-bottom: 10px
+}
+
+.mar-bottom15 {
+  margin-bottom: 15px
+}
+
+.mar-bottom20 {
+  margin-bottom: 20px
+}
+
+.mar-bottom25 {
+  margin-bottom: 25px
+}
+
+.mar-bottom30 {
+  margin-bottom: 30px
+}
+
+.mar-bottom40 {
+  margin-bottom: 40px
+}
+
+.mar-bottom50 {
+  margin-bottom: 50px
+}
+
+.mar-bottom60 {
+  margin-bottom: 60px
+}
+
+.pad0px {
+  padding: 0
+}
+
+.pad10px {
+  padding: 10px
+}
+
+.pad20px {
+  padding: 20px
+}
+
+.pad30px {
+  padding: 30px
+}
+
+.pad-bottom30px {
+  padding-bottom: 30px
+}
+
+.minus-mar20px {
+  margin-top: -20px
+}
+
+.minus-mar15px {
+  margin-top: -15px
+}
+
+.minus-mar10px {
+  margin-top: -10px
+}
+
+.font75 {
+  font-size: 75% !important
+}
+
+.font80 {
+  font-size: 80% !important
+}
+
+.font85 {
+  font-size: 85% !important
+}
+
+.font90 {
+  font-size: 90% !important
+}
+
+.font95 {
+  font-size: 95% !important
+}
+
+.font100 {
+  font-size: 100% !important
+}
+
+.font105 {
+  font-size: 105% !important
+}
+
+.font110 {
+  font-size: 110% !important
+}
+
+.font115 {
+  font-size: 115% !important
+}
+
+.font120 {
+  font-size: 120% !important
+}
+
+.font125 {
+  font-size: 125% !important
+}
+
+.font130 {
+  font-size: 130% !important
+}
+
+.font140 {
+  font-size: 140% !important
+}
+
+.font150 {
+  font-size: 150% !important
+}
+
+.font160 {
+  font-size: 160% !important
+}
+
+.font170 {
+  font-size: 170% !important
+}
+
+.font180 {
+  font-size: 180% !important
+}
+
+.font190 {
+  font-size: 190% !important
+}
+
+.font200 {
+  font-size: 200% !important
+}
+
+a {
+  -webkit-transition-property: color;
+  -webkit-transition-duration: .2s;
+  -webkit-transition-timing-function: linear
+}
+
+.display-block {
+  display: block
+}
+
+.div98 {
+  width: 98%
+}
+
+.div96 {
+  width: 96%
+}
+
+.div94 {
+  width: 94%
+}
+
+.div92 {
+  width: 92%
+}
+
+.div90 {
+  width: 90%
+}
+
+.div85 {
+  width: 85%
+}
+
+.div80 {
+  width: 80%
+}
+
+.div0 {
+  width: 70%
+}
+
+.div98,
+.div96,
+.div94,
+.div92,
+.div90,
+.div85,
+.div80,
+.div70 {
+  margin-left: auto;
+  margin-right: auto
+}
+
+.div70 img {
+  max-width: 100%;
+  width: auto
+}
+
+.fb_iframe_widget {
+  top: -6px
+}
+
+span.line {
+  position: relative;
+  top: -7px
+}
+
+.wpcf7-not-valid-tip {
+  display: block;
+  color: #F00
+}
+
+.wpcf7-validation-errors {
+  text-align: center;
+  color: #F00
+}
+
+.sp {
+  display: none
+}
+
+.t-size22 {
+  font-size: 22px
+}
+
+.t-size24 {
+  font-size: 24px
+}
+
+.t-size20 {
+  font-size: 20px
+}
+
+.t-size16 {
+  font-size: 16px
+}
+
+.t-size17 {
+  font-size: 17px
+}
+
+.t-size18 {
+  font-size: 18px
+}
+
+.t-size15 {
+  font-size: 15px
+}
+
+.t-size14 {
+  font-size: 14px
+}
+
+.t-size13 {
+  font-size: 13px
+}
+
+.t-size12 {
+  font-size: 12px
+}
+
+.t-tel {
+  font-size: 32px;
+  font-weight: bold
+}
+
+.t-blue {
+  color: #027ec6
+}
+
+.t-navy {
+  color: #305072
+}
+
+.t-555 {
+  color: #555
+}
+
+.t-999 {
+  color: #999
+}
+
+.l-height-12 {
+  line-height: 1.2
+}
+
+.mar-top5 {
+  margin-top: 5px
+}
+
+.mar-top0 {
+  margin-top: 0 !important
+}
+
+.mar-top10 {
+  margin-top: 10px
+}
+
+#top {
+  position: relative;
+  background: url(//image.card.jp.rakuten-static.com/card_corp/smart/contents/service/rakuten-card-lounge/hawaii/bg.jpg) no-repeat;
+  background-size: 100% auto;
+  text-align: center;
+  padding-top: 6.25%;
+}
+
+.topTitle {
+  width: 95.62%;
+  margin: 0 auto;
+  padding-top: 4.68%;
+  background: url(//image.card.jp.rakuten-static.com/card_corp/smart/contents/service/rakuten-card-lounge/hawaii/top_bg.png) no-repeat;
+  background-size: 100% auto;
+  background-position: top left;
+  font-size: 0;
+  text-align: left;
+}
+
+.topTitle h1 {
+  line-height: 0
+}
+
+.topimage {
+  background: 0
+}
+
+.topimage img {
+  width: 100%;
+  max-width: 612px;
+}
+
+.topimage_sub img {
+  width: 100%;
+  max-width: 612px;
+}
+
+#aprica {
+  background: url(//image.card.jp.rakuten-static.com/card_corp/smart/contents/service/rakuten-card-lounge/hawaii/stripe-bg.jpg);
+  width: 94%;
+  margin: 0 auto;
+  position: relative
+}
+
+#conditions {
+  position: relative;
+  background: url(//image.card.jp.rakuten-static.com/card_corp/smart/contents/service/rakuten-card-lounge/hawaii/conditions-bg.png)top right no-repeat;
+  background-size: cover;
+  height: 350px
+}
+
+#coupon-title {
+  position: relative
+}
+
+#icon-sum .ico-ul {
+  text-align: center;
+  margin: 10px auto
+}
+
+#icon-sum .ico {
+  width: 32%;
+  text-align: center;
+  margin: 0 auto;
+  display: inline-block
+}
+
+#icon-sum .ico img {
+  display: block;
+  width: auto;
+  margin: auto
+}
+
+#icon-sum .ico p {
+  text-align: center
+}
+
+.bk-50 {
+  background: rgba(0, 0, 0, 0.5)
+}
+
+.pd-15 {
+  padding: 15px
+}
+
+.pd-7 {
+  padding: 7px
+}
+
+.text-white {
+  color: #fff
+}
+
+.t-center {
+  text-align: center
+}
+
+.t-left {
+  text-align: left
+}
+
+.t-right {
+  text-align: right
+}
+
+.title {
+  position: absolute;
+  top: 70px;
+  right: 7%
+}
+
+.coupon {
+  position: absolute;
+  right: 0;
+  bottom: 50px
+}
+
+.bg-white {
+  background: #fff
+}
+
+.l-mar5px {
+  margin-left: 5px
+}
+
+.l-mar10px {
+  margin-left: 10px
+}
+
+.l-mar15px {
+  margin-left: 15px
+}
+
+.l-mar20px {
+  margin-left: 20px
+}
+
+.l-mar25px {
+  margin-left: 25px
+}
+
+.r-mar5px {
+  margin-right: 5px
+}
+
+.r-mar10px {
+  margin-right: 10px
+}
+
+.r-mar20px {
+  margin-right: 20px
+}
+
+.pd-top5 {
+  padding-top: 5px
+}
+
+.pd-top7 {
+  padding-top: 7px
+}
+
+.pd-top10 {
+  padding-top: 10px
+}
+
+.pd-bottom5 {
+  padding-bottom: 5px
+}
+
+.pd-bottom7 {
+  padding-bottom: 7px
+}
+
+.pd-bottom10 {
+  padding-bottom: 10px
+}
+
+.pd-bottom15 {
+  padding-bottom: 15px
+}
+
+.pd-bottom20 {
+  padding-bottom: 20px
+}
+
+.pd-bottom25 {
+  padding-bottom: 25px
+}
+
+.pd-bottom30 {
+  padding-bottom: 30px
+}
+
+.l-height-1 {
+  line-height: 1
+}
+
+.l-height-9 {
+  line-height: .9
+}
+
+.img-auto {
+  width: auto !important
+}
+
+.img-res {
+  max-width: 100%
+}
+
+.img-mail {
+  max-width: 320px
+}
+
+.shop-img {
+  text-align: center
+}
+
+.flex-container {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: flex;
+  width: 100%
+}
+
+.flex-container90 {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: space-around
+}
+
+.item {
+  margin: 5px auto
+}
+
+.item img {
+  width: 100%;
+  max-width: auto
+}
+
+.flex-container-wrap {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  padding-top: 30px
+}
+
+.item4 {
+  flex-grow: 1;
+  width: 20%;
+  margin: 2.5%
+}
+
+.item3 {
+  flex-grow: 1;
+  width: 23.3%;
+  margin: 0 5%
+}
+
+.item2 {
+  flex-grow: 1;
+  width: 46%;
+  margin: 0 2%
+}
+
+.item2:last-child {
+  margin-bottom: 50px
+}
+
+.item2-desk {
+  flex-grow: 1;
+  width: 46%;
+  margin: 0 .5% 0 0
+}
+
+.flex-container-icon {
+  width: 100%;
+  margin: 5px 0;
+  letter-spacing: -0.5em
+}
+
+.item-icon {
+  display: inline-block;
+  width: 25%;
+  margin-right: 1%;
+  vertical-align: middle
+}
+
+.item-comment {
+  display: inline-block;
+  width: 74%;
+  letter-spacing: 0;
+  vertical-align: middle
+}
+
+.item-icon-desk {
+  display: inline-block;
+  width: 40%;
+  margin-right: 1%;
+  vertical-align: middle
+}
+
+.item-comment-desk {
+  display: inline-block;
+  width: 59%;
+  letter-spacing: 0;
+  vertical-align: middle
+}
+
+.item-left350 {
+  flex-grow: 1;
+  width: 350px;
+  margin-right: 20px
+}
+
+.item-right {
+  flex-grow: 1;
+  width: 580px
+}
+
+.bg-bluegray {
+  background: #eef3f5
+}
+
+.blue-back {
+  background: #0191e3;
+  background: -moz-linear-gradient(-45deg, #0191e3 0, #33b8e4 60%, #0191e3 100%);
+  background: -webkit-linear-gradient(-45deg, #0191e3 0, #33b8e4 60%, #0191e3 100%);
+  background: linear-gradient(135deg, #0191e3 0, #33b8e4 60%, #0191e3 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0191e3', endColorstr='#0191e3', GradientType=1);
+  padding: 5px 0
+}
+
+#hawaiiContainer .red-back {
+  background: #bf0000;
+  padding: 20px;
+  text-align: center;
+  line-height: 0
+}
+
+#hawaiiContainer .red-back img {
+  max-width: 100%;
+  width: auto;
+  vertical-align: bottom
+}
+
+.m-rigth10 {
+  margin-right: 10px
+}
+
+.blue-border {
+  border: 1px solid #027ec6
+}
+
+.cyan-border {
+  border: 1px solid #04b6e6
+}
+
+.navy-border {
+  border: 1px solid #305072
+}
+
+.blue-ul {
+  border-bottom: 1px solid #027ec6;
+  padding-bottom: 3px
+}
+
+.navy-ul {
+  border-bottom: 1px solid #305072;
+  padding-bottom: 3px
+}
+
+.gold-ul {
+  border-bottom: 1px solid #dab757;
+  padding-bottom: 3px
+}
+
+.l-height2 {
+  line-height: 2
+}
+
+.l-height15 {
+  line-height: 1.5
+}
+
+.l-height23 {
+  line-height: 2.3
+}
+
+.pd-bottom40 {
+  padding-bottom: 40px
+}
+
+.lt01 {
+  position: absolute;
+  left: -10px;
+  top: -60px
+}
+
+.lt02 {
+  position: absolute;
+  left: -7px;
+  top: 110px
+}
+
+.lt03 {
+  position: absolute;
+  left: -25px;
+  top: 230px
+}
+
+.lb {
+  position: absolute;
+  left: -20px;
+  bottom: -30px
+}
+
+.rt01 {
+  position: absolute;
+  right: -30px;
+  top: -80px
+}
+
+.rt02 {
+  position: absolute;
+  right: -15px;
+  top: 70px
+}
+
+.rt03 {
+  position: absolute;
+  right: -15px;
+  top: 210px
+}
+
+.rb {
+  position: absolute;
+  right: -20px;
+  bottom: -30px
+}
+
+.img-50 img {
+  margin-top: 3px
+}
+
+.arrow_box {
+  position: relative;
+  background: #fff;
+  border: 1px solid #04b6e6;
+  padding: 5px;
+  border-radius: 30px;
+  width: 98%;
+  margin: 0 auto;
+  text-align: center
+}
+
+.arrow_box:after,
+.arrow_box:before {
+  top: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none
+}
+
+.arrow_box:after {
+  border-color: rgba(255, 255, 255, 0);
+  border-top-color: #fff;
+  border-width: 20px;
+  margin-left: -20px
+}
+
+.arrow_box:before {
+  border-color: rgba(4, 182, 230, 0);
+  border-top-color: #04b6e6;
+  border-width: 21px;
+  margin-left: -21px
+}
+
+.aprica-ul {
+  position: relative;
+  width: 95%;
+  margin: 20px auto 0 -10px;
+  padding-left: 40px;
+  font-size: 14px;
+  list-style-type: disc
+}
+
+#hawaiiContainer section li {
+  margin-bottom: 2px;
+  padding: 0;
+  font-size: 14px
+}
+
+.p-relative {
+  position: relative
+}
+
+.dis-inline-b {
+  display: inline-block
+}
+
+.index99 {
+  z-index: 99
+}
+
+.mar-0 {
+  margin: 0
+}
+
+#coupon ul {
+  margin: 1em 0 1em -35px;
+  padding-left: 40px;
+  list-style: none
+}
+
+#coupon ul li {
+  line-height: 1.7;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  border-bottom: 1px solid #dab757;
+  margin-bottom: 3px
+}
+
+#hawaiiContainer section li.store {
+  background: url(//image.card.jp.rakuten-static.com/card_corp/smart/contents/service/rakuten-card-lounge/hawaii/coupon-store.png)no-repeat top left;
+  padding-left: 30px
+}
+
+#hawaiiContainer section li.address {
+  background: url(//image.card.jp.rakuten-static.com/card_corp/smart/contents/service/rakuten-card-lounge/hawaii/shop-data_icon01-address.png) no-repeat top left;
+  padding-left: 30px
+}
+
+#hawaiiContainer section li.phone {
+  background: url(//image.card.jp.rakuten-static.com/card_corp/smart/contents/service/rakuten-card-lounge/hawaii/shop-data_icon02-phone.png) no-repeat top left;
+  padding-left: 30px
+}
+
+#hawaiiContainer section li.clock {
+  background: url(//image.card.jp.rakuten-static.com/card_corp/smart/contents/service/rakuten-card-lounge/hawaii/shop-data_icon03-clock.png) no-repeat top left;
+  padding-left: 30px
+}
+
+#hawaiiContainer section li.holiday {
+  background: url(//image.card.jp.rakuten-static.com/card_corp/smart/contents/service/rakuten-card-lounge/hawaii/shop-data_icon04-holiday.png) no-repeat top left;
+  padding-left: 30px
+}
+
+.mincho {
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  font-size: 19px;
+  color: #fff;
+  background: #dab757;
+  display: inline-block;
+  padding: 7px;
+  width: 100%
+}
+
+.tokuten {
+  border: 2px solid #dab757
+}
+
+.tokuten-comment {
+  display: inline-block;
+  width: 85%;
+  padding: 10px
+}
+
+.right-icon {
+  position: absolute;
+  right: 0;
+  top: -40px
+}
+
+.right-icon img {
+  vertical-align: middle;
+  margin-left: 3px;
+  margin-bottom: 3px;
+  width: 30px;
+  height: 30px
+}
+
+.gold-border {
+  border: 1px solid #dab757
+}
+
+.cookies {
+  background: url(//image.card.jp.rakuten-static.com/card_corp/smart/contents/service/rakuten-card-lounge/hawaii/cookies.png) top left no-repeat;
+  padding-left: 45px;
+  padding-top: 12px
+}
+
+.omusubi {
+  background: url(//image.card.jp.rakuten-static.com/card_corp/smart/contents/service/rakuten-card-lounge/hawaii/rice-ball.png) top left no-repeat;
+  padding-left: 45px;
+  padding-top: 12px
+}
+
+.dinner {
+  background: url(//image.card.jp.rakuten-static.com/card_corp/smart/contents/service/rakuten-card-lounge/hawaii/dinner.png) top left no-repeat;
+  padding-left: 45px;
+  padding-top: 12px
+}
+
+.lawson {
+  background: url(//image.card.jp.rakuten-static.com/card_corp/smart/contents/service/rakuten-card-lounge/hawaii/lawson.png) top left no-repeat;
+  padding-left: 45px;
+  padding-top: 12px
+}
+
+.pancake {
+  background: url(//image.card.jp.rakuten-static.com/card_corp/smart/contents/service/rakuten-card-lounge/hawaii/pancakes.png) top left no-repeat;
+  padding-left: 45px;
+  padding-top: 12px
+}
+
+.shoppingbag {
+  background: url(//image.card.jp.rakuten-static.com/card_corp/smart/contents/service/rakuten-card-lounge/hawaii/shopping-bag.png) top left no-repeat;
+  padding-left: 45px;
+  padding-top: 12px
+}
+
+.sushi {
+  background: url(//image.card.jp.rakuten-static.com/card_corp/smart/contents/service/rakuten-card-lounge/hawaii/sushi.png) top left no-repeat;
+  padding-left: 45px;
+  padding-top: 12px
+}
+
+.spa {
+  background: url(//image.card.jp.rakuten-static.com/card_corp/smart/contents/service/rakuten-card-lounge/hawaii/spa.png) top left no-repeat;
+  padding-left: 45px;
+  padding-top: 12px
+}
+
+.cafe {
+  background: url(//image.card.jp.rakuten-static.com/card_corp/smart/contents/service/rakuten-card-lounge/hawaii/cafe.png) top left no-repeat;
+  padding-left: 45px;
+  padding-top: 12px
+}
+
+.to-top {
+  position: fixed;
+  bottom: 5%;
+  right: 1%;
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: #04b6e6;
+  text-align: center;
+  outline: 0;
+  text-decoration: none;
+  z-index: 9999;
+  border-radius: 50%;
+  color: #FFF;
+  font-size: 120%;
+  line-height: 50px;
+  box-shadow: 0 0 3px #008fb6
+}
+
+.imgsize-natural {
+  width: auto;
+  max-width: 100%
+}
+
+@media only screen and (min-width:1px) and (max-width:320px) {
+  .flex-container-wrap {
+    display: block
+  }
+
+  .item2 {
+    width: 90%
+  }
+
+  .item-icon {
+    width: 15%
+  }
+
+  .item-comment {
+    width: 84%
+  }
+
+  #coupon .t-size17 {
+    font-size: 15px
+  }
+
+  #coupon .t-size15 {
+    font-size: 13px
+  }
+
+  #coupon p {
+    font-size: 14px
+  }
+}
+
+.storeName {
+  font-size: 16px
+}
+
+.storeName_sub {
+  font-size: 12px
+}
+
+.banner_special_contents {
+  text-align: center;
+  padding: 10px;
+}
+
+.banner_special_contents--img {
+  width: 100%;
+  max-width: 550px;
+}
+
+.couponCategory {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.couponCategory-link {
+  box-sizing: border-box;
+  width: calc(50% - 5px);
+  border: solid 1px #04b6e6;
+  padding: 5px;
+  color: #04b6e6;
+  display: flex;
+  align-items: center;
+}
+
+.couponCategory-link a {
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+@font-face {
+  font-family: 'rex-icon';
+  src:  url('data:application/font-woff;base64,d09GRgABAAAAAAR4AAsAAAAABCwAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABPUy8yAAABCAAAAGAAAABgDxIMbWNtYXAAAAFoAAAAVAAAAFQPL+LVZ2FzcAAAAbwAAAAIAAAACAAAABBnbHlmAAABxAAAAGQAAABkfDTKMGhlYWQAAAIoAAAANgAAADYRZyXbaGhlYQAAAmAAAAAkAAAAJAX6A8ZobXR4AAAChAAAABQAAAAUCDgAAGxvY2EAAAKYAAAADAAAAAwAKABGbWF4cAAAAqQAAAAgAAAAIAAHAAhuYW1lAAACxAAAAZIAAAGS3J1c/nBvc3QAAARYAAAAIAAAACAAAwAAAAMCHAGQAAUAAAKZAswAAACPApkCzAAAAesAMwEJAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAAAAAAAAAAAAAQAAA8ScDwP/AAEADwABAAAAAAQAAAAAAAAAAAAAAIAAAAAAAAwAAAAMAAAAcAAEAAwAAABwAAwABAAAAHAAEADgAAAAKAAgAAgACAAEAIPEn//3//wAAAAAAIPEn//3//wAB/+MO3QADAAEAAAAAAAAAAAAAAAEAAf//AA8AAQAAAAAAAAAAAAIAADc5AQAAAAABAAAAAAAAAAAAAgAANzkBAAAAAAEAAAAAAAAAAAACAAA3OQEAAAAAAQAA/8ACOAPAAAUAABMHCQEXATg4Acj+ODgCAAPAOP44/jg4AgAAAAEAAAABAAAQd59RXw889QALBAAAAAAA2AfwrwAAAADYB/CvAAD/wAI4A8AAAAAIAAIAAAAAAAAAAQAAA8D/wAAABAAAAAAAAjgAAQAAAAAAAAAAAAAAAAAAAAUEAAAAAAAAAAAAAAACAAAAAjgAAAAAAAAACgAUAB4AMgABAAAABQAGAAEAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAADgCuAAEAAAAAAAEACAAAAAEAAAAAAAIABwBpAAEAAAAAAAMACAA5AAEAAAAAAAQACAB+AAEAAAAAAAUACwAYAAEAAAAAAAYACABRAAEAAAAAAAoAGgCWAAMAAQQJAAEAEAAIAAMAAQQJAAIADgBwAAMAAQQJAAMAEABBAAMAAQQJAAQAEACGAAMAAQQJAAUAFgAjAAMAAQQJAAYAEABZAAMAAQQJAAoANACwcmV4LWljb24AcgBlAHgALQBpAGMAbwBuVmVyc2lvbiAxLjAAVgBlAHIAcwBpAG8AbgAgADEALgAwcmV4LWljb24AcgBlAHgALQBpAGMAbwBucmV4LWljb24AcgBlAHgALQBpAGMAbwBuUmVndWxhcgBSAGUAZwB1AGwAYQBycmV4LWljb24AcgBlAHgALQBpAGMAbwBuRm9udCBnZW5lcmF0ZWQgYnkgSWNvTW9vbi4ARgBvAG4AdAAgAGcAZQBuAGUAcgBhAHQAZQBkACAAYgB5ACAASQBjAG8ATQBvAG8AbgAuAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+#new-information {
+  margin-bottom: 32px;
+  font-size: 14px;
+  .h2,
+  h2 {
+    margin-top: 0;
+    margin-bottom: 14px;
+    line-height: 1.5;
+    color: #333;
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 21px;
+    border-collapse: collapse;
+    border-spacing: 0;
+
+    tr {
+      border: none;
+    }
+    td, th {
+      border: none;
+      color: rgba(0,0,0,.59);
+    }
+  }
+
+  .table > tbody > tr > td,
+  .table > tbody > tr > th,
+  .table > tfoot > tr > td,
+  .table > tfoot > tr > th,
+  .table > thead > tr > td,
+  .table > thead > tr > th {
+    padding: 18px;
+    line-height: 1.5;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(221, 221, 221);
+  }
+
+  .mb-0,
+  .my-0 {
+    margin-bottom: 0 !important;
+  }
+
+  .mb-4,
+  .my-4 {
+    margin-bottom: 28px !important;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+  .new-information {
+    &__link {
+      display: block;
+      padding-right: 14px;
+      position: relative;
+
+      &:hover,
+      &:focus {
+        text-decoration: none;
+      }
+
+      &:after {
+        content: "\F127";
+        position: absolute;
+        top: calc(50% + 1px);
+        right: 0;
+        transform: translateY(-50%);
+        line-height: 1;
+        font-family: rex-icon;
+      }
+    }
+
+    &__item-heading {
+      display: flex;
+      align-items: center;
+      margin-bottom: 7px;
+    }
+
+    &__date {
+      margin-right: 7px;
+      color: #4d4d4d;
+      font-weight: 700;
+    }
+    [class^="label"] {
+      line-height: 1;
+    }
+
+    .label {
+      width: 100px;
+      padding: 4px;
+      text-align: center;
+      display: inline-block;
+      border-radius: 3px;
+      font-size: 12px;
+      font-weight: 700;
+      color: white;
+      background-color: #bf0000;
+      border: 1px solid transparent;
+      word-break: break-all;
+      &--gold {
+        color: white;
+        background-color: #CFAE55;
+      }
+
+      &--light-blue {
+        color: white;
+        background-color: #04B6E6;
+      }
+    }
+  }
+  [class^="rexicon-"], [class*=" rexicon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'rex-icon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .rexicon-chevron-right:before {
+    content: "\f127";
+  }
+}
+
+.shop_new_data {
+  color: #be0000;
+}
+
+.shop_new_mark {
+  display: inline-block;
+  color: #ffffff;
+  background: #be0000;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: .8rem;
+  padding: 5px 8px;
+  line-height: 1;
+}
